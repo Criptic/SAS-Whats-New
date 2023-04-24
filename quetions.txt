@@ -1,5 +1,0 @@
-VTA
-CLAUS_N Operator - what type of clauses are supported?
-apposition clause
-infinitive clause
-relative clause
