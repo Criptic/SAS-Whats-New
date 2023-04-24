@@ -67,13 +67,15 @@
     <select name="products" id="product" onchange="dropdownFilter(this)">
       <option value="NONE">Select a Product...</option>
     </select>
-    <label for="longUpdate">Search Long Update:</label>
+    <label for="longUpdate">Search Short & Long Update:</label>
     <input
       type="text"
       id="longUpdate"
       onkeyup="inputFilter(this)"
       placeholder="Enter text.."
     />
+    <br />
+    <br />
     <table id="myTable"></table>
     <script>
       function buildTable(tableRootElement, tableHeader, tableBody) {
@@ -704,9 +706,9 @@
       }
 
       const CATEGORYDROPDOWN = document.getElementById('category');
-      const UNIQUECATEGORIES = CATEGORIES.filter(onlyUnique);
+      const UNIQUECATEGORIES = CATEGORIES.filter(onlyUnique).sort((a, b) => a.localeCompare(b));
       const PRODUCTDROPDOWN = document.getElementById('product');
-      const UNIQUEPRODCUTS = PRODUCTS.filter(onlyUnique);
+      const UNIQUEPRODCUTS = PRODUCTS.filter(onlyUnique).sort((a, b) => a.localeCompare(b));
       const RELEASEDROPDOWN = document.getElementById('release');
       const UNIQUERELEASES = RELEASES.filter(onlyUnique);
 
