@@ -101,12 +101,17 @@
               tmpBodyCol.appendChild(tmpDocLink);
             } else if (j == 6) {
               if (tableBody[i][j] != '-') {
-                let tmpExpLink = document.createElement('a');
-                tmpExpLink.href = tableBody[i][j];
-                tmpExpLink.innerText = 'Direct Link to Example';
-                tmpExpLink.setAttribute('target', '_blank');
-                tmpExpLink.setAttribute('rel', 'noopener noreferrer');
-                tmpBodyCol.appendChild(tmpExpLink);
+                if(tableBody[i][j] != 'See the documentation link') {
+                  let tmpExpLink = document.createElement('a');
+                  tmpExpLink.href = tableBody[i][j];
+                  tmpExpLink.innerText = 'Direct Link to Example';
+                  tmpExpLink.setAttribute('target', '_blank');
+                  tmpExpLink.setAttribute('rel', 'noopener noreferrer');
+                  tmpBodyCol.appendChild(tmpExpLink);
+                } else {
+                  tmpBodyCol.innerText = 'See the documentation link';
+                }
+
               } else {
                 tmpBodyCol.innerText = '-';
               }
@@ -669,6 +674,14 @@
           'https://go.documentation.sas.com/doc/en/wfscdc/v_026/wfsag/p0zdfqjgbk43xon1p30k8hb6n9tp.htm',
           'See the documentation link',
         ],
+        [
+          202304,
+          'DataOps',
+          'SAS Data Quality',
+          '%DQSURVR AUTOCALL Autocall Macro added for Entity Resolution Survivorship',
+          'Performs Entity Resolution Survivorship as an autocall macro and extracts the surviving record from clustered data based on user-specified criteria.',
+          'https://go.documentation.sas.com/doc/en/pgmsascdc/v_038/dqclref/p1i32jjeybfcb7n19tzfasbzdcb9.htm',
+          'See the documentation link']
       ];
 
       const TABLEHEADERS = [
