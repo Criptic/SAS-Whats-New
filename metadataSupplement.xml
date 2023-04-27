@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadataSupplement>
+    <tables>
+        <table dataLocale="en_US" dataSources="ds7" resourceIdentifier="'cas-shared-default','CASUSER','RELEASENOTES','en_US'" tableModifiedTimeStamp="2023-04-27T15:19:28.515Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="Release" xref="Release"/>
+                <column dataType="string" label="Category" xref="Category"/>
+                <column dataType="string" label="Product" xref="Product"/>
+                <column dataType="string" label="Short Update" xref="Short Update"/>
+                <column dataType="string" label="Long Update" xref="Long Update"/>
+                <column dataType="string" label="Document Link" xref="Document Link"/>
+                <column dataType="string" label="Example Link" xref="Example Link"/>
+            </columns>
+        </table>
+    </tables>
+    <version>2</version>
+</metadataSupplement>

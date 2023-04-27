@@ -1,0 +1,32 @@
+{
+  "version" : 1,
+  "attributes" : {
+    "maxRowsLookup.treeMap" : 1500,
+    "maxRowsLookup.graphDefault" : 3000,
+    "maxRowsLookup.heatmap" : 3000,
+    "maxRowsLookup.dropdown" : 500,
+    "maxRowsLookup.geoPie" : 25000,
+    "maxRowsLookup.timeSeries" : 10000,
+    "maxRowsLookup.bubble" : 25000,
+    "iframeSandbox" : "allow-forms allow-presentation allow-same-origin allow-scripts",
+    "maxRowsLookup.listTable" : 40000,
+    "maxRowsLookup.geoBubble" : 25000,
+    "maxRowsLookup.keyValue" : 100,
+    "maxRowsLookup.geoScatter" : 40000,
+    "maxRowsLookup.heatbox" : 800,
+    "maxRowsLookup.buttonBar" : 100,
+    "maxRowsLookup.dualAxisTimeSeries" : 10000,
+    "maxRowsLookup.crosstab" : 40000,
+    "maxRowsLookup.geoHeatmap" : 25000,
+    "maxRowsLookup.geoLine" : 10000,
+    "maxRowsLookup.geoRegion" : 5000,
+    "maxRowsLookup.list" : 50000,
+    "maxRowsLookup.scatter" : 40000,
+    "comparisonEpsilon" : "1e-12",
+    "maxRowsLookup.textInput" : 40000,
+    "maxRowsLookup.kpi" : 10,
+    "maxRowsLookup.wordCloud" : 100,
+    "maxRowsLookup.customContent" : 40000,
+    "maxRowsLookup.geoContour" : 40000
+  }
+}

@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.29.0" label="Releases Notes" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2023-04-27T15:41:00Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="80">
+	<Results>
+		<Result ref="dd21" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-04-27T15:19:28.515Z">
+			<Variables>
+				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="min" label="Release" ref="bi23" varname="bi23" column="c0"/>
+				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="max" label="Release" ref="bi24" varname="bi24" column="c1"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="1" contentKey="CPOF7BAR2OP4GZEYHYXHM7DCAH3LWLU4" size="18" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[202304.0,202304.0
+]]></Data>
+		</Result>
+		<Result ref="dd29" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-04-27T15:19:28.515Z">
+			<Variables>
+				<StringVariable label="Category" ref="bi31" varname="bi31" column="c0"/>
+				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="Release" ref="bi13" varname="bi13" column="c1"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+			</Columns>
+			<DefinedSortItems>
+				<DefinedSortItem variable="bi31" sortDirection="ascending"/>
+			</DefinedSortItems>
+			<Data isIndexed="true" availableRowCount="67" contentKey="HAPOUYO5LWMTKAIJHHS3MEEDDHIMDOHI" size="737" format="CSV" rowCount="67" grandTotal="false" dataLayout="detail"><![CDATA[0,202304.0
+0,202304.0
+0,202304.0
+0,202304.0
+0,202304.0
+0,202304.0
+0,202304.0
+0,202304.0
+0,202304.0
+1,202304.0
+1,202304.0
+1,202304.0
+1,202304.0
+1,202304.0
+1,202304.0
+1,202304.0
+1,202304.0
+1,202304.0
+1,202304.0
+1,202304.0
+1,202304.0
+1,202304.0
+1,202304.0
+1,202304.0
+1,202304.0
+1,202304.0
+1,202304.0
+1,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+2,202304.0
+3,202304.0
+3,202304.0
+4,202304.0
+4,202304.0
+4,202304.0
+4,202304.0
+4,202304.0
+4,202304.0
+4,202304.0
+4,202304.0
+4,202304.0
+4,202304.0
+5,202304.0
+5,202304.0
+5,202304.0
+5,202304.0
+5,202304.0
+5,202304.0
+]]></Data>
+			<StringTable contentKey="7AUP7ARW3NU54VHVMF6L4XHD37QYXSAL" size="85" format="CSV" rowCount="6"><![CDATA["Administration"
+"Analytics"
+"Data Management"
+"Decisioning"
+"ModelOps"
+"Operations"
+]]></StringTable>
+		</Result>
+		<Result ref="dd36" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-04-27T15:19:28.515Z">
+			<Variables>
+				<StringVariable label="Product" ref="bi38" varname="bi38" column="c0"/>
+				<StringVariable label="Category" ref="bi79" varname="bi79" column="c1"/>
+				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="Release" ref="bi13" varname="bi13" column="c2"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="2" colname="c0" encoding="text"/>
+				<StringColumn maxLength="1" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+			</Columns>
+			<DefinedSortItems>
+				<DefinedSortItem variable="bi38" sortDirection="ascending"/>
+			</DefinedSortItems>
+			<Data isIndexed="true" availableRowCount="67" contentKey="YMV7MZZCKSCVOB5CJY34RECDDF2YPXAO" size="930" format="CSV" rowCount="67" grandTotal="false" dataLayout="detail"><![CDATA[4,2,202304.0
+7,2,202304.0
+7,2,202304.0
+8,5,202304.0
+8,5,202304.0
+8,5,202304.0
+8,5,202304.0
+9,1,202304.0
+10,2,202304.0
+11,2,202304.0
+12,1,202304.0
+12,1,202304.0
+13,0,202304.0
+13,0,202304.0
+13,0,202304.0
+13,0,202304.0
+13,0,202304.0
+14,1,202304.0
+14,2,202304.0
+14,2,202304.0
+14,2,202304.0
+14,2,202304.0
+14,1,202304.0
+15,2,202304.0
+16,1,202304.0
+17,5,202304.0
+18,2,202304.0
+18,2,202304.0
+19,3,202304.0
+19,3,202304.0
+20,5,202304.0
+20,5,202304.0
+20,5,202304.0
+21,5,202304.0
+22,1,202304.0
+23,1,202304.0
+24,2,202304.0
+24,2,202304.0
+24,2,202304.0
+25,1,202304.0
+25,1,202304.0
+25,1,202304.0
+26,1,202304.0
+27,1,202304.0
+27,1,202304.0
+27,1,202304.0
+27,1,202304.0
+28,6,202304.0
+28,6,202304.0
+28,6,202304.0
+28,6,202304.0
+28,6,202304.0
+28,6,202304.0
+28,0,202304.0
+29,2,202304.0
+30,0,202304.0
+31,2,202304.0
+31,2,202304.0
+31,2,202304.0
+31,2,202304.0
+31,2,202304.0
+32,1,202304.0
+32,1,202304.0
+32,1,202304.0
+33,5,202304.0
+34,0,202304.0
+35,0,202304.0
+]]></Data>
+			<StringTable contentKey="LFSF2JPX72ZRRXQVNHSNX3ZCMWHKJ5TF" size="663" format="CSV" rowCount="36"><![CDATA["Administration"
+"Analytics"
+"Data Management"
+"Decisioning"
+"DS2"
+"ModelOps"
+"Operations"
+"SAS Base"
+"SAS Container Runtime"
+"SAS Conversation Desginer"
+"SAS Data Connector"
+"SAS Data Quality"
+"SAS Econometrics"
+"SAS Enterprise Session Monitor"
+"SAS Event Stream Processing"
+"SAS FedSQL"
+"SAS IML"
+"SAS In-Database"
+"SAS Information Catalog"
+"SAS Intelligent Decisioning"
+"SAS Micro Analytic Service"
+"SAS Model Manager"
+"SAS Optimization"
+"SAS Risk Modeling"
+"SAS Studio"
+"SAS Visual Forecasting"
+"SAS Visual Machine Learning"
+"SAS Visual Text Analytics"
+"SAS Viya"
+"SAS VS Code Extension"
+"SAS Workflow Manager"
+"SAS/ACCESS"
+"SAS/STAT"
+"SASCTL"
+"SASPy"
+"SWAT"
+]]></StringTable>
+		</Result>
+		<Result ref="dd45" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-04-27T15:19:28.515Z">
+			<Variables>
+				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="Release" ref="bi52" varname="bi52" column="c0"/>
+				<StringVariable label="Category" ref="bi53" varname="bi53" column="c1"/>
+				<StringVariable label="Product" ref="bi54" varname="bi54" column="c2"/>
+				<StringVariable label="Short Update" ref="bi56" varname="bi56" column="c3"/>
+				<StringVariable label="Long Update" ref="bi55" varname="bi55" column="c4"/>
+				<StringVariable label="Document Link" ref="bi77" varname="bi77" column="c5"/>
+				<StringVariable label="Example Link" ref="bi78" varname="bi78" column="c6"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+				<StringColumn maxLength="3" colname="c1" encoding="text"/>
+				<StringColumn maxLength="3" colname="c2" encoding="text"/>
+				<StringColumn maxLength="3" colname="c3" encoding="text"/>
+				<StringColumn maxLength="3" colname="c4" encoding="text"/>
+				<StringColumn maxLength="3" colname="c5" encoding="text"/>
+				<StringColumn maxLength="3" colname="c6" encoding="text"/>
+			</Columns>
+			<DefinedSortItems>
+				<DefinedSortItem variable="bi52" sortDirection="descending"/>
+			</DefinedSortItems>
+			<DataFile contentKey="5OCWXED65SJ5P32DLI4XSVH2AXBAADHG" size="1986" format="CSV" rowCount="67" grandTotal="false" dataLayout="detail" file="dd45.csv" isIndexed="true" availableRowCount="67"/>
+			<StringTableFile contentKey="W2FNRDPRBVDZBHX6PBAYV555VUV5S5JG" size="26101" format="CSV" rowCount="250" file="dd45index.csv"/>
+		</Result>
+	</Results>
+	<DataDefinitions>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd19">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi23" base="bi13" usage="quantitative" aggregation="min"/>
+				<RelationalDataItem binOption="formatBin" name="bi24" base="bi13" usage="quantitative" aggregation="max"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds7" type="relational" name="dd20">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi23"/>
+							<BusinessItem ref="bi24"/>
+						</Axis>
+					</Axes>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd21"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd27">
+			<BusinessItems>
+				<RelationalDataItem name="bi31" base="bi8"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds7" type="relational" name="dd28">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi31"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi31" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="list" maxRowsBehavior="truncate" name="dd29"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd34">
+			<BusinessItems>
+				<RelationalDataItem name="bi38" base="bi12"/>
+				<RelationalDataItem name="bi79" base="bi8"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds7" type="relational" name="dd35">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi38"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi38" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="dropdown" maxRowsBehavior="truncate" name="dd36"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd43">
+			<BusinessItems>
+				<RelationalDataItem name="bi52" base="bi13"/>
+				<RelationalDataItem name="bi53" base="bi8"/>
+				<RelationalDataItem name="bi54" base="bi12"/>
+				<RelationalDataItem name="bi55" base="bi11"/>
+				<RelationalDataItem name="bi56" base="bi14"/>
+				<RelationalDataItem name="bi77" base="bi9"/>
+				<RelationalDataItem name="bi78" base="bi10"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds7" type="relational" name="dd44">
+				<RelationalQuery omitTotalItems="bi52 bi53 bi54 bi56 bi55 bi77 bi78" detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi52"/>
+							<BusinessItem ref="bi53"/>
+							<BusinessItem ref="bi54"/>
+							<BusinessItem ref="bi56"/>
+							<BusinessItem ref="bi55"/>
+							<BusinessItem ref="bi77"/>
+							<BusinessItem ref="bi78"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi52" sortDirection="descending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="listTable" maxRowsBehavior="truncate" name="dd45"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters/>
+		</ParentDataDefinition>
+	</DataDefinitions>
+	<DataSources>
+		<DataSource label="RELEASENOTES" type="relational" name="ds7">
+			<CasResource server="cas-shared-default" library="CASUSER" table="RELEASENOTES" locale="en_US"/>
+			<BusinessItemFolder>
+				<DataItem name="bi8" xref="Category"/>
+				<DataItem name="bi9" xref="Document Link"/>
+				<DataItem name="bi10" xref="Example Link"/>
+				<DataItem name="bi11" xref="Long Update"/>
+				<DataItem name="bi12" xref="Product"/>
+				<DataItem name="bi13" xref="Release" usage="quantitative"/>
+				<DataItem name="bi14" xref="Short Update"/>
+				<PredefinedDataItem calculation="totalCount" name="bi15" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi16" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+			</BusinessItemFolder>
+		</DataSource>
+	</DataSources>
+	<VisualElements>
+		<Prompt ref="pr22" interactOnAggregateData="false" name="ve18" label="Slider - Release 1" selectionDisabled="true" applyDynamicBrushes="no" sourceInteractionVariables="bi23">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<DualSlider/>
+		</Prompt>
+		<Prompt ref="pr30" name="ve26" label="List - Category 1" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi31">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<Title auto="false"><P><Span>Select a Category:</Span></P></Title>
+			<CheckBoxList searchable="false" selectAllEnabled="false"/>
+		</Prompt>
+		<Prompt ref="pr37" name="ve33" label="Drop-down list - Product 1" selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi38">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="addedInteractionQueryDataItems">bi79</Property>
+			</EditorProperties>
+			<Title auto="false"><P><Span>Select a Product:</Span></P></Title>
+			<ComboBox/>
+		</Prompt>
+		<Table columnSizing="autoFill" resultDefinitions="dd45" name="ve42" data="dd43" label="List table - Release 1" action="ac63" applyDynamicBrushes="yes" sourceInteractionVariables="bi53 bi54 bi55 bi56 bi77 bi78">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<RowNumbers visible="true" headerVisible="false"/>
+			<Columns>
+				<Column variable="bi52" isVisible="true" compactFormat="false"/>
+				<Column variable="bi53" isVisible="true"/>
+				<Column variable="bi54" isVisible="true"/>
+				<Column variable="bi56" isVisible="true"/>
+				<Column variable="bi55" isVisible="true"/>
+				<Column variable="bi77" isVisible="false"/>
+				<Column variable="bi78" isVisible="false"/>
+			</Columns>
+		</Table>
+		<VisualContainer containerType="layout" name="ve47" label="Layout Container 2" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="visualType">LAYOUT_CONTAINER</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<VisualContainer containerType="scrolling" name="ve51" label="Scrolling container 1" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+		</VisualContainer>
+	</VisualElements>
+	<PromptDefinitions>
+		<PromptDefinition data="dd19" labelVariable="bi23" resultDefinitions="dd21" minVariable="bi23" maxVariable="bi24" name="pr22">
+			<DefaultValue>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="202304.0" max="202304.0"/>
+			</DefaultValue>
+			<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
+		</PromptDefinition>
+		<PromptDefinition data="dd27" labelVariable="bi31" valueVariable="bi31" resultDefinitions="dd29" name="pr30">
+			<StringConstraint/>
+		</PromptDefinition>
+		<PromptDefinition data="dd34" labelVariable="bi38" valueVariable="bi38" resultDefinitions="dd36" name="pr37">
+			<StringConstraint/>
+		</PromptDefinition>
+		<PromptDefinition label="keyWord" isParameter="true" name="pr75">
+			<StringConstraint/>
+		</PromptDefinition>
+	</PromptDefinitions>
+	<View>
+		<Section name="vi6" label="Releases">
+			<Header location="top">
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve18" name="vi17">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Container ref="ve47" name="vi46">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+						<ResponsiveLayout orientation="vertical" overflow="grow"/>
+						<Container ref="ve51" name="vi50">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="15.29%" flexibility="shrinkable"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+							<ResponsiveLayout orientation="vertical" overflow="scroll">
+								<Weights mediaTarget="mt5" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt4" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt3" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+							</ResponsiveLayout>
+							<Visual ref="ve26" name="vi25">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="100%" flexibility="shrinkable"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="33.16%" flexibility="shrinkable"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+							</Visual>
+							<Visual ref="ve33" name="vi32">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="87.5%" flexibility="shrinkable"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+							</Visual>
+						</Container>
+						<Visual ref="ve42" name="vi41">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="84.71%" flexibility="shrinkable"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="100%" flexibility="shrinkable"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+						</Visual>
+					</Container>
+				</MediaContainer>
+			</Body>
+		</Section>
+	</View>
+	<Actions>
+		<CompositeAction name="ac63">
+			<NavigationAction type="url" value="${pk80}" label="Documentation Link" name="ac60">
+				<Parameters>
+					<Parameter key="pk80" method="substitute">
+						<Value variable="bi77" sendAs="formatted"/>
+					</Parameter>
+				</Parameters>
+			</NavigationAction>
+			<NavigationAction type="url" value="${pk81}" label="Link to Example" name="ac62">
+				<Parameters>
+					<Parameter key="pk81" method="substitute">
+						<Value variable="bi78" sendAs="formatted"/>
+					</Parameter>
+				</Parameters>
+			</NavigationAction>
+		</CompositeAction>
+	</Actions>
+	<Interactions>
+		<Interaction name="ia64" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve26" variable="bi31"/>
+			<InteractionElementReference purpose="target" ref="ve33" variable="bi79"/>
+		</Interaction>
+		<Interaction name="ia65" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve26" variable="bi31"/>
+			<InteractionElementReference purpose="target" ref="ve42" variable="bi53"/>
+		</Interaction>
+		<Interaction name="ia66" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve33" variable="bi38"/>
+			<InteractionElementReference purpose="target" ref="ve42" variable="bi54"/>
+		</Interaction>
+	</Interactions>
+	<MediaSchemes>
+		<MediaScheme name="ms1">
+			<BaseStylesheetResource file="basems1.css" theme="opal"/>
+			<Stylesheet><![CDATA[]]></Stylesheet>
+		</MediaScheme>
+	</MediaSchemes>
+	<MediaTargets>
+		<MediaTarget windowSize="default" scheme="ms1" name="mt2"/>
+		<MediaTarget windowSize="small" scheme="ms1" name="mt3"/>
+		<MediaTarget windowSize="medium" scheme="ms1" name="mt4"/>
+		<MediaTarget windowSize="large" scheme="ms1" name="mt5"/>
+	</MediaTargets>
+	<Properties>
+		<Property key="displayDataSource">ds7</Property>
+		<Property key="ReportPackagesServiceVersion">2020.1.4</Property>
+		<Property key="ReportDataServiceVersion">2020.1.4</Property>
+	</Properties>
+	<ExportProperties>
+		<Export destination="pdf">
+			<Property key="showCoverPage" value="true"></Property>
+			<Property key="showPageNumbers" value="true"></Property>
+		</Export>
+	</ExportProperties>
+	<History>
+	<Versions>
+		<Version key="4.29.0" lastDate="2023-04-27T00:00:00Z"/>
+	</Versions>
+	<Editors>
+		<Editor applicationName="VA">
+			<Revision editorVersion="2023.04" lastDate="2023-04-27T15:41:00.723Z"/>
+		</Editor>
+	</Editors>
+</History>
+	<SASReportState date="2023-04-27T15:36:10Z">
+		<View/>
+	</SASReportState>
+</SASReport>
