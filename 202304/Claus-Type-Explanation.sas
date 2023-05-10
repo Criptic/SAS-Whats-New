@@ -44,9 +44,9 @@ proc cas;
 
    * Compile the text concepts;
     textRuleDevelop.compileConcept /
-        casOut = {name = 'compiled_concepts_1', replace = True} 
+        casOut = {name = 'compiled_concepts', replace = True} 
         config = 'config'
-        table = {name = 'liti_concepts_1'};
+        table = {name = 'liti_concepts'};
     run;
 
     * Apply the text concepts;
