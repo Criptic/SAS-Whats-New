@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAS Whats New</title>
     <script
       async
       src="https://cdn.developer.sas.com/packages/va-report-components/latest/dist/umd/va-report-components.js"
     ></script>
-    <title>SAS Whats New</title>
     <style>
       body {
         margin: 0px;
@@ -17,56 +17,176 @@
       sas-report,
       sas-report-page,
       sas-report-object {
-        width: 100vw;
+        width: 95vw;
         height: 100vh;
+      }
+
+      .main-text {
+        align-content: center;
+        margin: 2% 10% 0% 5%;
+      }
+
+      #controlContainer {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .controlItems {
+        height: 10vh;
+      }
+
+      #releaseSlider {
+        width: 40vh;
+      }
+
+      #categoryButtons {
+        width: 70vh;
+      }
+
+      #productDropDown {
+        width: 30vh;
       }
     </style>
   </head>
   <body>
-    <h1>Unofficial SAS What's New</h1>
-    <p>
-      This small site tries to make all of the SAS Viya updates easier to search
-      and filter and unite all upates in one place. All content displayed here
-      is based on the What's New section of the SAS documentation and
-      <a href="https://release-notes.sas.com/?locale=en"
-        >Release Notes application</a
-      >.
-    </p>
-    <p>
-      The source code for this application including all examples can be found
-      <a href="https://github.com/Criptic/SAS-Whats-New">in this Repository</a>.
-    </p>
-    <p>
-      Some of the Example do not link to documentation, but rather links to
-      files directly that are stored in the source repository.
-    </p>
-    <p>
-      This page is meant as a compliment to my YouTube series
-      <a
-        href="https://www.youtube.com/playlist?list=PLncvHGGelzhX1hMwfEHA2eBQOFgV1FfSZ"
-        >Into the Viya Verse</a
-      >
-      which tackles only the highlights.
-    </p>
-    <h2>What this document covers</h2>
-    <p>
-      As there are many SAS products and solutions, I have chosen to concentrate
-      on SAS Viya Enterprise. Sometimes I will also make note of SAS Solution
-      specific release highlights, but only if I happen across that feature.
-    </p>
-    <p>
-      This application was started with SAS Viya 2023.04, it does not contain
-      any information on prior releases.
-    </p>
-    <p>Please note that not all entries contain links to examples.</p>
+    <div class="main-text">
+      <h1>Unofficial SAS What's New</h1>
+      <p>
+        This small site tries to make all of the SAS Viya updates easier to
+        search and filter and unite all upates in one place. All content
+        displayed here is based on the What's New section of the SAS
+        documentation and
+        <a href="https://release-notes.sas.com/?locale=en"
+          >Release Notes application</a
+        >.
+      </p>
+      <p>
+        The source code for this application including all examples can be found
+        <a href="https://github.com/Criptic/SAS-Whats-New">in this Repository</a
+        >.
+      </p>
+      <p>
+        Some of the Example do not link to documentation, but rather links to
+        files directly that are stored in the source repository.
+      </p>
+      <p>
+        This page is meant as a compliment to my YouTube series
+        <a
+          href="https://www.youtube.com/playlist?list=PLncvHGGelzhX1hMwfEHA2eBQOFgV1FfSZ"
+          >Into the Viya Verse</a
+        >
+        which tackles only the highlights.
+      </p>
+      <h2>What this document covers</h2>
+      <p>
+        As there are many SAS products and solutions, I have chosen to
+        concentrate on SAS Viya Enterprise. Sometimes I will also make note of
+        SAS Solution specific release highlights, but only if I happen across
+        that feature.
+      </p>
+      <p>
+        This application was started with SAS Viya 2023.04, it does not contain
+        any information on prior releases.
+      </p>
+      <p>
+        You can access <b>examples</b> and <b>documentation</b> deep links by
+        double clicking entries. Please note that not all entries contain links
+        to examples. You can also sort the document by either clicking the
+        column headers or by right clicking the table and selecting sort.
+      </p>
+    </div>
     <br />
     <br />
-    <sas-report-page packageUri="." pageName="vi6"></sas-report-page>
-    <script>
-      window.addEventListener('vaReportComponents.loaded', () => {
-        vaReportComponents.setLocale('en_US');
-        vaReportComponents.setFormatterLocale('en_US');
-      });
-    </script>
+    <div id="controlContainer">
+      <sas-report-object
+        packageUri="."
+        objectName="ve18"
+        id="releaseSlider"
+        class="controlItems"
+      ></sas-report-object>
+      <sas-report-object
+        packageUri="."
+        objectName="ve26"
+        id="categoryButtons"
+        class="controlItems"
+      ></sas-report-object>
+      <sas-report-object
+        packageUri="."
+        objectName="ve33"
+        id="productDropDown"
+        class="controlItems"
+      ></sas-report-object>
+    </div>
+    <sas-report-object
+      packageUri="."
+      objectName="ve42"
+      id="mainTable"
+    ></sas-report-object>
+    <div id="tableDiv"></div>
   </body>
+  <script>
+    function createTable(dataSet) {
+      const tableDiv = document.getElementById('tableDiv');
+      const table = document.createElement('table');
+
+      const headingRow = document.createElement('tr');
+      table.appendChild(headingRow);
+
+      // Processing column names
+      for (const column of dataSet.columns) {
+        const heading = document.createElement('th');
+        // Use the column label as the heading
+        heading.appendChild(document.createTextNode(column.label));
+        headingRow.appendChild(heading);
+      }
+
+      // Processing each row of data
+      for (const dataRow of dataSet.data) {
+        const row = document.createElement('tr');
+        table.appendChild(row);
+
+        // Processing each data value in the row
+        for (const dataValue of dataRow) {
+          const cell = document.createElement('td');
+          cell.appendChild(document.createTextNode(dataValue));
+          row.appendChild(cell);
+        }
+      }
+
+      // Place the table in the div
+      tableDiv.appendChild(table);
+    }
+
+    window.addEventListener('vaReportComponents.loaded', async () => {
+      vaReportComponents.setLocale('en_US');
+      vaReportComponents.setFormatterLocale('en_US');
+
+      const reportObject = document.getElementById('mainTable');
+      const objectHandle = await reportObject.getObjectHandle();
+
+      const selectionChangedListener = () => {
+        // Retrieve the new selected data
+        const selectedData = objectHandle.getSelectedData({
+          formatData: true,
+        });
+
+        // Reset the table since the data has changed
+        const tableDiv = document.getElementById('tableDiv');
+        tableDiv.innerHTML = '';
+
+        for (const dataSet of selectedData) {
+          // Process the data and display a table of currently selected data
+          createTable(dataSet);
+        }
+      };
+
+      /*
+      // Call the listener when user selections change
+      objectHandle.addEventListener(
+        'selectionChanged',
+        selectionChangedListener
+      );
+      */
+    });
+  </script>
 </html>
