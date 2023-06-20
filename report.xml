@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.30.0" label="Releases Notes" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2023-06-20T11:08:55Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="287">
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.30.0" label="Releases Notes" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2023-06-20T13:26:34Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="294">
 	<Results>
 		<Result ref="dd36" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-06-20T11:08:10.318Z">
 			<Variables>
@@ -119,8 +119,8 @@
 		</Result>
 		<Result ref="dd21" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-06-20T11:08:10.318Z">
 			<Variables>
-				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="min" label="Release" ref="bi23" varname="bi23" column="c0"/>
-				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="max" label="Release" ref="bi24" varname="bi24" column="c1"/>
+				<NumericVariable format="F8." usage="quantitative" definedAggregation="min" label="Release" ref="bi23" varname="bi23" column="c0"/>
+				<NumericVariable format="F8." usage="quantitative" definedAggregation="max" label="Release" ref="bi24" varname="bi24" column="c1"/>
 			</Variables>
 			<Columns>
 				<NumericColumn dataType="double" colname="c0" encoding="text"/>
@@ -131,7 +131,7 @@
 		</Result>
 		<Result ref="dd45" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-06-20T11:08:10.318Z">
 			<Variables>
-				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="Release" ref="bi52" varname="bi52" column="c0"/>
+				<NumericVariable format="F8." usage="quantitative" definedAggregation="sum" label="Release" ref="bi52" varname="bi52" column="c0"/>
 				<StringVariable label="Category" ref="bi53" varname="bi53" column="c1"/>
 				<StringVariable label="Product" ref="bi54" varname="bi54" column="c2"/>
 				<StringVariable label="Short Update" ref="bi56" varname="bi56" column="c3"/>
@@ -151,7 +151,7 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi52" sortDirection="descending"/>
 			</DefinedSortItems>
-			<DataFile contentKey="65KGGLQ2WBEDXCFYYQPT3MDMZFVCUPXS" size="6338" format="CSV" rowCount="200" grandTotal="false" dataLayout="detail" file="dd45.csv" isIndexed="true" availableRowCount="200"/>
+			<DataFile contentKey="22IRZ7LKK3DOVPY6MME7RL4UXHMEMGYU" size="6338" format="CSV" rowCount="200" grandTotal="false" dataLayout="detail" file="dd45.csv" isIndexed="true" availableRowCount="200"/>
 			<StringTableFile contentKey="W65Z5CB2I6ADBQRMTURGF353WIIPDC3A" size="70751" format="CSV" rowCount="629" file="dd45index.csv"/>
 		</Result>
 	</Results>
@@ -270,7 +270,7 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd98">
 			<BusinessItems>
 				<RelationalDataItem name="bi97" base="bi12"/>
-				<RelationalDataItem name="bi285" base="bi8"/>
+				<RelationalDataItem name="bi292" base="bi8"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="relational" name="dd99">
 				<RelationalQuery detail="false">
@@ -413,7 +413,7 @@
 				<DataItem name="bi10" xref="Example Link"/>
 				<DataItem name="bi11" xref="Long Update"/>
 				<DataItem name="bi12" xref="Product"/>
-				<DataItem name="bi13" xref="Release" usage="quantitative"/>
+				<DataItem name="bi13" xref="Release" usage="quantitative" format="F8."/>
 				<DataItem name="bi14" xref="Short Update"/>
 				<PredefinedDataItem calculation="totalCount" name="bi15" label="Count" usage="quantitative" format="COMMA12."/>
 				<PredefinedDataItem calculation="totalCountPercent" name="bi16" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
@@ -494,7 +494,7 @@
 			<EditorProperties>
 				<Property key="autoChartCategory">CONTROL</Property>
 				<Property key="isAutoLabel">true</Property>
-				<Property key="addedInteractionQueryDataItems">bi285</Property>
+				<Property key="addedInteractionQueryDataItems">bi292</Property>
 			</EditorProperties>
 			<Title auto="false"><P><Span>Select a Product:</Span></P></Title>
 			<ComboBox/>
@@ -1028,7 +1028,7 @@
 	<Interactions>
 		<Interaction name="ia124" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve94" variable="bi90"/>
-			<InteractionElementReference purpose="target" ref="ve101" variable="bi285"/>
+			<InteractionElementReference purpose="target" ref="ve101" variable="bi292"/>
 		</Interaction>
 		<Interaction name="ia125" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve94" variable="bi90"/>
@@ -1046,7 +1046,7 @@
 			<InteractionElementReference purpose="source" ref="ve132"/>
 			<InteractionElementReference purpose="target" ref="ve119"/>
 		</Interaction>
-		<Interaction name="ia286" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia293" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve132" variable="pr75"/>
 			<InteractionElementReference purpose="target" ref="ve119" variable="pr75"/>
 		</Interaction>
@@ -1117,7 +1117,7 @@
 	<Editors>
 		<Editor applicationName="VA">
 			<Revision editorVersion="2023.04" lastDate="2023-05-18T08:09:05.551Z"/>
-			<Revision editorVersion="2023.06" lastDate="2023-06-20T11:08:55.393Z"/>
+			<Revision editorVersion="2023.06" lastDate="2023-06-20T13:26:34.428Z"/>
 		</Editor>
 	</Editors>
 </History>
