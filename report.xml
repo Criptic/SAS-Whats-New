@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.29.0" label="Releases Notes" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2023-05-21T20:10:57Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="294">
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.30.0" label="Releases Notes" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2023-06-20T11:08:55Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="287">
 	<Results>
-		<Result ref="dd36" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-05-25T10:09:27.625Z">
+		<Result ref="dd36" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-06-20T11:08:10.318Z">
 			<Variables>
 				<StringVariable label="Product" ref="bi38" varname="bi38" column="c0"/>
 			</Variables>
@@ -11,7 +11,7 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi38" sortDirection="ascending"/>
 			</DefinedSortItems>
-			<Data isIndexed="true" availableRowCount="34" contentKey="CABK24JEDQ6BHZBCSO4QXJMXALRDZHG6" size="92" format="CSV" rowCount="34" grandTotal="false" dataLayout="minimal"><![CDATA[0
+			<Data isIndexed="true" availableRowCount="39" contentKey="FA3TZIHVSMCN3LN4TZ6FR5TH3ZNTMDOS" size="107" format="CSV" rowCount="39" grandTotal="false" dataLayout="minimal"><![CDATA[0
 1
 2
 3
@@ -45,8 +45,14 @@
 31
 32
 33
+34
+35
+36
+37
+38
 ]]></Data>
-			<StringTable contentKey="V3D6NYKL3ATPU5UXRRESYVDJN7ZW4PJ3" size="649" format="CSV" rowCount="34"><![CDATA["SAS Base"
+			<StringTable contentKey="E7DRQUB5LTHBSBIF2K7NYYM6XKI7BGQI" size="749" format="CSV" rowCount="39"><![CDATA["SAS Airflow Operator"
+"SAS Base"
 "SAS CAS"
 "SAS Container Runtime"
 "SAS Conversation Designer"
@@ -57,6 +63,7 @@
 "SAS Enterprise Session Monitor"
 "SAS Event Stream Processing"
 "SAS FedSQL"
+"SAS for Microsoft 365"
 "SAS IML"
 "SAS In-Database"
 "SAS Information Catalog"
@@ -67,8 +74,10 @@
 "SAS Optimization"
 "SAS Risk Modeling"
 "SAS Studio"
+"SAS Visual Analytics"
 "SAS Visual Forecasting"
 "SAS Visual Machine Learning"
+"SAS Visual Statistics"
 "SAS Visual Text Analytics"
 "SAS Viya"
 "SAS Viya CLI"
@@ -79,10 +88,11 @@
 "SAS/STAT"
 "SASCTL"
 "SASPy"
+"SDK"
 "SWAT"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd269" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-05-25T10:09:27.625Z">
+		<Result ref="dd269" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-06-20T11:08:10.318Z">
 			<Variables>
 				<StringVariable label="Category" ref="bi31" varname="bi31" column="c0"/>
 			</Variables>
@@ -107,7 +117,7 @@
 "Operations"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd21" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-05-25T10:09:27.625Z">
+		<Result ref="dd21" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-06-20T11:08:10.318Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="min" label="Release" ref="bi23" varname="bi23" column="c0"/>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="max" label="Release" ref="bi24" varname="bi24" column="c1"/>
@@ -116,10 +126,10 @@
 				<NumericColumn dataType="double" colname="c0" encoding="text"/>
 				<NumericColumn dataType="double" colname="c1" encoding="text"/>
 			</Columns>
-			<Data isIndexed="false" availableRowCount="1" contentKey="B44BOUH43REVANHOVF4Y6X22OJOSKVO6" size="18" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[202304.0,202305.0
+			<Data isIndexed="false" availableRowCount="1" contentKey="V4SPQ2YEAHRJBC3LYAKXDSNEZ2LJG4OI" size="18" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[202304.0,202306.0
 ]]></Data>
 		</Result>
-		<Result ref="dd45" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-05-25T10:09:27.625Z">
+		<Result ref="dd45" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-06-20T11:08:10.318Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="Release" ref="bi52" varname="bi52" column="c0"/>
 				<StringVariable label="Category" ref="bi53" varname="bi53" column="c1"/>
@@ -141,8 +151,8 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi52" sortDirection="descending"/>
 			</DefinedSortItems>
-			<DataFile contentKey="IT6IRB33FJ27T7EB6SQRWGAJ4V2MKFOF" size="3848" format="CSV" rowCount="123" grandTotal="false" dataLayout="detail" file="dd45.csv" isIndexed="true" availableRowCount="123"/>
-			<StringTableFile contentKey="67PKQMRDNNB3W5IQCRYYVFVWUS3EGGL2" size="47159" format="CSV" rowCount="420" file="dd45index.csv"/>
+			<DataFile contentKey="65KGGLQ2WBEDXCFYYQPT3MDMZFVCUPXS" size="6338" format="CSV" rowCount="200" grandTotal="false" dataLayout="detail" file="dd45.csv" isIndexed="true" availableRowCount="200"/>
+			<StringTableFile contentKey="W65Z5CB2I6ADBQRMTURGF353WIIPDC3A" size="70751" format="CSV" rowCount="629" file="dd45index.csv"/>
 		</Result>
 	</Results>
 	<DataDefinitions>
@@ -260,7 +270,7 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd98">
 			<BusinessItems>
 				<RelationalDataItem name="bi97" base="bi12"/>
-				<RelationalDataItem name="bi292" base="bi8"/>
+				<RelationalDataItem name="bi285" base="bi8"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="relational" name="dd99">
 				<RelationalQuery detail="false">
@@ -321,23 +331,50 @@
 				</DetailFilters>
 			</AppliedFilters>
 		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd225">
+			<BusinessItems>
+				<MultidimensionalDataItem name="bi205" base="bi194"/>
+				<RelationalDataItem name="bi207" base="bi15"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds7" type="multidimensional" name="dd226">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi205"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi207"/>
+						</Axis>
+					</Axes>
+					<ColumnSortItems>
+						<MeasureSortItem ref="bi207" sortDirection="descending"/>
+						<SortItem ref="bi205" sortDirection="ascending"/>
+					</ColumnSortItems>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="graphDefault" maxRowsBehavior="truncate" name="dd227"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd242">
 			<BusinessItems>
 				<RelationalDataItem name="bi246" base="bi8"/>
 				<RelationalDataItem name="bi247" base="bi15"/>
+				<RelationalDataItem name="bi277" base="bi193"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="multidimensional" name="dd243">
 				<MultidimensionalQuery detail="false">
 					<Axes>
 						<Axis type="column">
 							<BusinessItem ref="bi246"/>
+							<BusinessItem ref="bi277"/>
 						</Axis>
 						<Axis type="row">
 							<BusinessItem ref="bi247"/>
 						</Axis>
 					</Axes>
 					<ColumnSortItems>
-						<MeasureSortItem ref="bi247" sortDirection="descending"/>
+						<SortItem ref="bi277" sortDirection="ascending"/>
 						<SortItem ref="bi246" sortDirection="ascending"/>
 					</ColumnSortItems>
 				</MultidimensionalQuery>
@@ -366,38 +403,10 @@
 				</ResultDefinitions>
 			</DataDefinition>
 		</ParentDataDefinition>
-		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd225">
-			<BusinessItems>
-				<MultidimensionalDataItem name="bi205" base="bi194"/>
-				<RelationalDataItem name="bi207" base="bi15"/>
-			</BusinessItems>
-			<NavigationSteps>
-				<Step>drill(${bi205,binned},[202304])</Step>
-			</NavigationSteps>
-			<DataDefinition dataSource="ds7" type="multidimensional" name="dd226">
-				<MultidimensionalQuery detail="false">
-					<Axes>
-						<Axis type="column">
-							<BusinessItem ref="bi205"/>
-						</Axis>
-						<Axis type="row">
-							<BusinessItem ref="bi207"/>
-						</Axis>
-					</Axes>
-					<ColumnSortItems>
-						<MeasureSortItem ref="bi207" sortDirection="descending"/>
-						<SortItem ref="bi205" sortDirection="ascending"/>
-					</ColumnSortItems>
-				</MultidimensionalQuery>
-				<ResultDefinitions>
-					<ResultDefinition purpose="primary" maxRowsLookup="graphDefault" maxRowsBehavior="truncate" name="dd227"/>
-				</ResultDefinitions>
-			</DataDefinition>
-		</ParentDataDefinition>
 	</DataDefinitions>
 	<DataSources>
 		<DataSource label="REALSE-NOTES" type="relational" name="ds7">
-			<CasResource server="cas-shared-default" library="CASUSER" table="REALSE-NOTES" locale="en_US"/>
+			<CasResource server="cas-shared-default" library="CASUSER(gerdaw)" table="REALSE-NOTES" locale="en_US"/>
 			<BusinessItemFolder>
 				<DataItem name="bi8" xref="Category"/>
 				<DataItem name="bi9" xref="Document Link"/>
@@ -485,7 +494,7 @@
 			<EditorProperties>
 				<Property key="autoChartCategory">CONTROL</Property>
 				<Property key="isAutoLabel">true</Property>
-				<Property key="addedInteractionQueryDataItems">bi292</Property>
+				<Property key="addedInteractionQueryDataItems">bi285</Property>
 			</EditorProperties>
 			<Title auto="false"><P><Span>Select a Product:</Span></P></Title>
 			<ComboBox/>
@@ -520,76 +529,6 @@
 			</EditorProperties>
 			<Title auto="false"><P><Span>Search Update Text:</Span></P></Title>
 			<TextField/>
-		</Prompt>
-		<Graph graphType="pie" supplementalVisuals="ve245" resultDefinitions="dd244" name="ve241" data="dd242" label="Features by Release &amp; Category" applyDynamicBrushes="yes" sourceInteractionVariables="bi246">
-			<EditorProperties>
-				<Property key="isAutoLabel">false</Property>
-				<Property key="autoFrequencyQueryDataItemName">bi247</Property>
-			</EditorProperties>
-<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
-    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
-    <Meta>
-        <DynVars>
-            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="true" assignedType="character" type="character">
-                <DefaultValues>
-                    <Value>dd244.bi246</Value>
-                </DefaultValues>
-            </DynVar>
-            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="numeric" type="numeric" multiplesAllowed="true">
-                <DefaultValues>
-                    <Value>dd244.bi247</Value>
-                </DefaultValues>
-            </DynVar>
-            <DynVar name="GROUP" description="SUBGROUP_VAR" required="false" assignedType="character" type="character"/>
-            <DynVar name="COLUMN" description="HORIZONTAL_SERIES_VAR" required="false" type="character" multiplesAllowed="true"/>
-            <DynVar name="ROW" description="VERTICAL_SERIES_VAR" required="false" type="character" multiplesAllowed="true"/>
-            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="character" type="any" multiplesAllowed="true">
-                <DefaultValues>
-                    <Value>dd244.bi246</Value>
-                    <Value>dd244.bi247</Value>
-                </DefaultValues>
-            </DynVar>
-            <DynVar name="KEY_FRAME" description="ANIMATION" required="false" type="time" multiplesAllowed="false"/>
-            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
-        </DynVars>
-    </Meta>
-    <LayoutDataMatrix cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true" rowVars="ROW" columnVars="COLUMN">
-        <LayoutPrototypeRegion>
-            <PieChart name="PieChart" tipListPolicy="replace" _stmt="piechart" compactLabelFormats="true" otherSlice="false" categoryDirection="clockwise" categoryOrder="data" display="NOPIEHEADER" start="90" stat="none" groupOrder="ascending" dataLabelContent="CATEGORY PERCENT" includeMissingGroup="true" groupDisplay="cluster" tip="TIP" category="CATEGORY" responseVars="RESPONSE" group="GROUP">
-                <DonutOpts holeContent="VALUE"/>
-            </PieChart>
-        </LayoutPrototypeRegion>
-    </LayoutDataMatrix>
-    <LayoutGlobalLegend hAlign="left" vAlign="center" legendTitlePosition="top" position="left" allowCollapsed="true">
-        <AutoLegend>
-            <GraphNames>
-                <Value>PieChart</Value>
-            </GraphNames>
-        </AutoLegend>
-    </LayoutGlobalLegend>
-    <Animation keyFrameSortOrder="ascending_unformatted" keyFrame="KEY_FRAME"/>
-</StatGraph>
-]]>
-		</Graph>
-		<VisualContainer containerType="stacking" name="ve250" label="Stacking container 1" selectionDisabled="true">
-			<EditorProperties>
-				<Property key="isAutoLabel">true</Property>
-			</EditorProperties>
-			<StackNavigationControl horizontalPosition="left" verticalPosition="top" buttonDirection="horizontal" buttonType="tab"/>
-		</VisualContainer>
-		<Table columnSizing="autoFill" resultDefinitions="dd244" name="ve245" data="dd242" applyDynamicBrushes="yes" sourceInteractionVariables="bi246">
-			<Columns>
-				<Column variable="bi246"/>
-				<Column variable="bi247"/>
-			</Columns>
-		</Table>
-		<Prompt ref="pr270" name="ve26" label="Button bar - Category 1" selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi31">
-			<EditorProperties>
-				<Property key="isAutoLabel">true</Property>
-				<Property key="autoChartCategory">CONTROL</Property>
-			</EditorProperties>
-			<Title auto="false"><P><Span>Select a Category:</Span></P></Title>
-			<LinkBar/>
 		</Prompt>
 		<Graph graphType="bar" supplementalVisuals="ve229" resultDefinitions="dd227" name="ve185" data="dd225" label="Features by Release, Category &amp; Product" applyDynamicBrushes="yes" sourceInteractionVariables="bi205">
 			<EditorProperties>
@@ -663,8 +602,7 @@
     </LayoutGlobalLegend>
     <Animation keyFrameSortOrder="ascending_unformatted" keyFrame="KEY_FRAME"/>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd227" name="ve229" data="dd225" applyDynamicBrushes="yes" sourceInteractionVariables="bi205">
 			<Columns>
@@ -672,11 +610,86 @@
 				<Column variable="bi207"/>
 			</Columns>
 		</Table>
+		<Graph graphType="pie" supplementalVisuals="ve245" resultDefinitions="dd244" name="ve241" data="dd242" label="Features by Release &amp; Category" applyDynamicBrushes="yes" sourceInteractionVariables="bi246 bi277">
+			<EditorProperties>
+				<Property key="isAutoLabel">false</Property>
+				<Property key="autoFrequencyQueryDataItemName">bi247</Property>
+			</EditorProperties>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="true" assignedType="character" type="character">
+                <DefaultValues>
+                    <Value>dd244.bi246</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="numeric" type="numeric" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd244.bi247</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="GROUP" description="SUBGROUP_VAR" required="false" assignedType="character" type="character"/>
+            <DynVar name="COLUMN" description="HORIZONTAL_SERIES_VAR" required="false" assignedType="character" type="character" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd244.bi277</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="ROW" description="VERTICAL_SERIES_VAR" required="false" type="character" multiplesAllowed="true"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="character" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd244.bi246</Value>
+                    <Value>dd244.bi247</Value>
+                    <Value>dd244.bi277</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="KEY_FRAME" description="ANIMATION" required="false" type="time" multiplesAllowed="false"/>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+    </Meta>
+    <LayoutDataMatrix cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true" headerLabelAppearance="auto" rowVars="ROW" columnVars="COLUMN" columnVarsSortOrder="ascending_unformatted">
+        <LayoutPrototypeRegion>
+            <PieChart name="PieChart" tipListPolicy="replace" _stmt="piechart" compactLabelFormats="true" otherSlice="false" categoryDirection="clockwise" categoryOrder="data" display="NOPIEHEADER" start="90" stat="none" groupOrder="ascending" dataLabelContent="CATEGORY PERCENT" includeMissingGroup="true" groupDisplay="cluster" tip="TIP" category="CATEGORY" responseVars="RESPONSE" group="GROUP">
+                <DonutOpts holeContent="VALUE"/>
+            </PieChart>
+        </LayoutPrototypeRegion>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend hAlign="left" vAlign="center" legendTitlePosition="top" position="left" allowCollapsed="true">
+        <AutoLegend>
+            <GraphNames>
+                <Value>PieChart</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <Animation keyFrameSortOrder="ascending_unformatted" keyFrame="KEY_FRAME"/>
+</StatGraph>]]>
+		</Graph>
+		<VisualContainer containerType="stacking" name="ve250" label="Stacking container 1" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<StackNavigationControl horizontalPosition="left" verticalPosition="top" buttonDirection="horizontal" buttonType="tab"/>
+		</VisualContainer>
+		<Prompt ref="pr270" name="ve26" label="Button bar - Category 1" selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi31">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="autoChartCategory">CONTROL</Property>
+			</EditorProperties>
+			<Title auto="false"><P><Span>Select a Category:</Span></P></Title>
+			<LinkBar/>
+		</Prompt>
+		<Table columnSizing="autoFill" resultDefinitions="dd244" name="ve245" data="dd242" applyDynamicBrushes="yes" sourceInteractionVariables="bi246 bi277">
+			<Columns>
+				<Column variable="bi246"/>
+				<Column variable="bi247"/>
+				<Column variable="bi277"/>
+			</Columns>
+		</Table>
 	</VisualElements>
 	<PromptDefinitions>
 		<PromptDefinition data="dd19" labelVariable="bi23" resultDefinitions="dd21" minVariable="bi23" maxVariable="bi24" name="pr22">
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="202304.0" max="202305.0"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="202304.0" max="202306.0"/>
 			</DefaultValue>
 			<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
 		</PromptDefinition>
@@ -684,14 +697,11 @@
 			<StringConstraint/>
 		</PromptDefinition>
 		<PromptDefinition label="keyWord" isParameter="true" name="pr75">
-			<DefaultValue>
-				<String>session</String>
-			</DefaultValue>
 			<StringConstraint/>
 		</PromptDefinition>
 		<PromptDefinition data="dd84" labelVariable="bi82" resultDefinitions="dd81" minVariable="bi82" maxVariable="bi83" name="pr86">
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="202304.0" max="202305.0"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="202304.0" max="202304.0"/>
 			</DefaultValue>
 			<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
 		</PromptDefinition>
@@ -868,7 +878,7 @@
 										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="100%" flexibility="shrinkable"/>
 									</WidthConstraint>
 									<HeightConstraint>
-										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="33.16%" flexibility="shrinkable"/>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="39.07%" flexibility="shrinkable"/>
 									</HeightConstraint>
 								</ResponsiveConstraint>
 							</Visual>
@@ -1018,7 +1028,7 @@
 	<Interactions>
 		<Interaction name="ia124" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve94" variable="bi90"/>
-			<InteractionElementReference purpose="target" ref="ve101" variable="bi292"/>
+			<InteractionElementReference purpose="target" ref="ve101" variable="bi285"/>
 		</Interaction>
 		<Interaction name="ia125" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve94" variable="bi90"/>
@@ -1036,7 +1046,7 @@
 			<InteractionElementReference purpose="source" ref="ve132"/>
 			<InteractionElementReference purpose="target" ref="ve119"/>
 		</Interaction>
-		<Interaction name="ia293" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia286" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve132" variable="pr75"/>
 			<InteractionElementReference purpose="target" ref="ve119" variable="pr75"/>
 		</Interaction>
@@ -1099,21 +1109,19 @@
 	<History>
 	<Versions>
 		<Version key="4.29.0" lastDate="2023-04-27T00:00:00Z"/>
+		<Version key="4.30.0" lastDate="2023-06-16T00:00:00Z"/>
 	</Versions>
+	<Conversions>
+		<Conversion startVersion="4.29.0" finalVersion="4.30.0" date="2023-06-16T00:00:00Z"/>
+	</Conversions>
 	<Editors>
 		<Editor applicationName="VA">
-			<Revision editorVersion="2023.04" lastDate="2023-05-22T13:10:42.885Z"/>
+			<Revision editorVersion="2023.04" lastDate="2023-05-18T08:09:05.551Z"/>
+			<Revision editorVersion="2023.06" lastDate="2023-06-20T11:08:55.393Z"/>
 		</Editor>
 	</Editors>
 </History>
-	<SASReportState date="2023-05-25T10:10:15Z">
-		<VisualElements>
-			<TableState element="ve119">
-				<Selections>
-					<Selection resultDefinition="dd110">and(eq(${bi112},&apos;Data Management&apos;),eq(${bi113},&apos;SAS CAS&apos;),eq(${bi115},&apos;DEFAULTTABLEREPLICATION= specifies the default replication factor for new tables for a session. 0 means no replication, default is 1&apos;),eq(${bi114},&apos;DEFAULTTABLEREPLICATION= specifies the default replication factor for new tables for a session.&apos;),eq(${bi105},&apos;https://go.documentation.sas.com/doc/en/pgmsascdc/v_039/casref/p06133u3qlca7dn1vd1wsi545fsp.htm&apos;),eq(${bi106},&apos;https://github.com/Criptic/SAS-Whats-New/tree/main/202305/CAS-Sessions-Options.sas&apos;))</Selection>
-				</Selections>
-			</TableState>
-		</VisualElements>
+	<SASReportState date="2023-04-27T15:36:10Z">
 		<View/>
 	</SASReportState>
 </SASReport>
