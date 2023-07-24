@@ -1,123 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.30.0" label="Releases Notes" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2023-06-20T13:26:34Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="294">
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.31.0" label="Releases Notes" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2023-07-24T12:44:05Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="305">
 	<Results>
-		<Result ref="dd36" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-06-20T11:08:10.318Z">
-			<Variables>
-				<StringVariable label="Product" ref="bi38" varname="bi38" column="c0"/>
-			</Variables>
-			<Columns>
-				<StringColumn maxLength="2" colname="c0" encoding="text"/>
-			</Columns>
-			<DefinedSortItems>
-				<DefinedSortItem variable="bi38" sortDirection="ascending"/>
-			</DefinedSortItems>
-			<Data isIndexed="true" availableRowCount="39" contentKey="FA3TZIHVSMCN3LN4TZ6FR5TH3ZNTMDOS" size="107" format="CSV" rowCount="39" grandTotal="false" dataLayout="minimal"><![CDATA[0
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-]]></Data>
-			<StringTable contentKey="E7DRQUB5LTHBSBIF2K7NYYM6XKI7BGQI" size="749" format="CSV" rowCount="39"><![CDATA["SAS Airflow Operator"
-"SAS Base"
-"SAS CAS"
-"SAS Container Runtime"
-"SAS Conversation Designer"
-"SAS Data Connector"
-"SAS Data Quality"
-"SAS DS2"
-"SAS Econometrics"
-"SAS Enterprise Session Monitor"
-"SAS Event Stream Processing"
-"SAS FedSQL"
-"SAS for Microsoft 365"
-"SAS IML"
-"SAS In-Database"
-"SAS Information Catalog"
-"SAS Intelligent Decisioning"
-"SAS Lineage"
-"SAS Micro Analytic Service"
-"SAS Model Manager"
-"SAS Optimization"
-"SAS Risk Modeling"
-"SAS Studio"
-"SAS Visual Analytics"
-"SAS Visual Forecasting"
-"SAS Visual Machine Learning"
-"SAS Visual Statistics"
-"SAS Visual Text Analytics"
-"SAS Viya"
-"SAS Viya CLI"
-"SAS VS Code Extension"
-"SAS Workflow Manager"
-"SAS Workload Orchestrator"
-"SAS/ACCESS"
-"SAS/STAT"
-"SASCTL"
-"SASPy"
-"SDK"
-"SWAT"
-]]></StringTable>
-		</Result>
-		<Result ref="dd269" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-06-20T11:08:10.318Z">
-			<Variables>
-				<StringVariable label="Category" ref="bi31" varname="bi31" column="c0"/>
-			</Variables>
-			<Columns>
-				<StringColumn maxLength="1" colname="c0" encoding="text"/>
-			</Columns>
-			<DefinedSortItems>
-				<DefinedSortItem variable="bi31" sortDirection="ascending"/>
-			</DefinedSortItems>
-			<Data isIndexed="true" availableRowCount="6" contentKey="PK5NU2HEB2OS2GVEP74ZKC2TAPWWPCW7" size="12" format="CSV" rowCount="6" grandTotal="false" dataLayout="minimal"><![CDATA[0
-1
-2
-3
-4
-5
-]]></Data>
-			<StringTable contentKey="7AUP7ARW3NU54VHVMF6L4XHD37QYXSAL" size="85" format="CSV" rowCount="6"><![CDATA["Administration"
-"Analytics"
-"Data Management"
-"Decisioning"
-"ModelOps"
-"Operations"
-]]></StringTable>
-		</Result>
-		<Result ref="dd21" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-06-20T11:08:10.318Z">
+		<Result ref="dd21" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-07-24T12:43:03.070Z">
 			<Variables>
 				<NumericVariable format="F8." usage="quantitative" definedAggregation="min" label="Release" ref="bi23" varname="bi23" column="c0"/>
 				<NumericVariable format="F8." usage="quantitative" definedAggregation="max" label="Release" ref="bi24" varname="bi24" column="c1"/>
@@ -126,10 +10,42 @@
 				<NumericColumn dataType="double" colname="c0" encoding="text"/>
 				<NumericColumn dataType="double" colname="c1" encoding="text"/>
 			</Columns>
-			<Data isIndexed="false" availableRowCount="1" contentKey="V4SPQ2YEAHRJBC3LYAKXDSNEZ2LJG4OI" size="18" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[202304.0,202306.0
+			<Data isIndexed="false" availableRowCount="1" contentKey="AVDSFXDCICFUQTOCNDRD2LVESH2IPTC5" size="18" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[202304.0,202307.0
 ]]></Data>
 		</Result>
-		<Result ref="dd45" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-06-20T11:08:10.318Z">
+		<Result ref="dd269" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-07-24T12:43:03.070Z">
+			<Variables>
+				<StringVariable label="Category" ref="bi31" varname="bi31" column="c0"/>
+				<NumericVariable format="F8." usage="quantitative" definedAggregation="sum" label="Release" ref="bi304" varname="bi304" column="c1"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+			</Columns>
+			<DefinedSortItems>
+				<DefinedSortItem variable="bi31" sortDirection="ascending"/>
+			</DefinedSortItems>
+			<DataFile contentKey="RLYYIF6724R6EARRC7WFYAUHSM53QRZY" size="2860" format="CSV" rowCount="260" grandTotal="false" dataLayout="detail" file="dd269.csv" isIndexed="true" availableRowCount="260"/>
+			<StringTableFile contentKey="7AUP7ARW3NU54VHVMF6L4XHD37QYXSAL" size="85" format="CSV" rowCount="6" file="dd269index.csv"/>
+		</Result>
+		<Result ref="dd36" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-07-24T12:43:03.070Z">
+			<Variables>
+				<StringVariable label="Product" ref="bi38" varname="bi38" column="c0"/>
+				<NumericVariable format="F8." usage="quantitative" definedAggregation="sum" label="Release" ref="bi300" varname="bi300" column="c1"/>
+				<StringVariable label="Category" ref="bi301" varname="bi301" column="c2"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="2" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<StringColumn maxLength="1" colname="c2" encoding="text"/>
+			</Columns>
+			<DefinedSortItems>
+				<DefinedSortItem variable="bi38" sortDirection="ascending"/>
+			</DefinedSortItems>
+			<DataFile contentKey="COUMW3DO5EIN4O4XHYHMAFV6QNJ2R35C" size="3623" format="CSV" rowCount="260" grandTotal="false" dataLayout="detail" file="dd36.csv" isIndexed="true" availableRowCount="260"/>
+			<StringTableFile contentKey="R57UT63TRY534NYEA3UZTPQ2VRQRUAXB" size="860" format="CSV" rowCount="46" file="dd36index.csv"/>
+		</Result>
+		<Result ref="dd45" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-07-24T12:43:03.070Z">
 			<Variables>
 				<NumericVariable format="F8." usage="quantitative" definedAggregation="sum" label="Release" ref="bi52" varname="bi52" column="c0"/>
 				<StringVariable label="Category" ref="bi53" varname="bi53" column="c1"/>
@@ -151,8 +67,8 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi52" sortDirection="descending"/>
 			</DefinedSortItems>
-			<DataFile contentKey="22IRZ7LKK3DOVPY6MME7RL4UXHMEMGYU" size="6338" format="CSV" rowCount="200" grandTotal="false" dataLayout="detail" file="dd45.csv" isIndexed="true" availableRowCount="200"/>
-			<StringTableFile contentKey="W65Z5CB2I6ADBQRMTURGF353WIIPDC3A" size="70751" format="CSV" rowCount="629" file="dd45index.csv"/>
+			<DataFile contentKey="F4IDFLK7K5C5RPVVIYWRJZSC755V4PFY" size="8262" format="CSV" rowCount="260" grandTotal="false" dataLayout="detail" file="dd45.csv" isIndexed="true" availableRowCount="260"/>
+			<StringTableFile contentKey="Y2KTT5L53WHCEUMCZT5UJABXLKK73AB7" size="91849" format="CSV" rowCount="795" file="dd45index.csv"/>
 		</Result>
 	</Results>
 	<DataDefinitions>
@@ -178,6 +94,8 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd34">
 			<BusinessItems>
 				<RelationalDataItem name="bi38" base="bi12"/>
+				<RelationalDataItem name="bi300" base="bi13"/>
+				<RelationalDataItem name="bi301" base="bi8"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="relational" name="dd35">
 				<RelationalQuery detail="false">
@@ -270,7 +188,7 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd98">
 			<BusinessItems>
 				<RelationalDataItem name="bi97" base="bi12"/>
-				<RelationalDataItem name="bi292" base="bi8"/>
+				<RelationalDataItem name="bi302" base="bi8"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="relational" name="dd99">
 				<RelationalQuery detail="false">
@@ -386,6 +304,7 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd267">
 			<BusinessItems>
 				<RelationalDataItem name="bi31" base="bi8"/>
+				<RelationalDataItem name="bi304" base="bi13"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="relational" name="dd268">
 				<RelationalQuery detail="false">
@@ -438,6 +357,7 @@
 			<EditorProperties>
 				<Property key="autoChartCategory">CONTROL</Property>
 				<Property key="isAutoLabel">true</Property>
+				<Property key="addedInteractionQueryDataItems">bi300,bi301</Property>
 			</EditorProperties>
 			<Title auto="false"><P><Span>Select a Product:</Span></P></Title>
 			<ComboBox/>
@@ -494,7 +414,7 @@
 			<EditorProperties>
 				<Property key="autoChartCategory">CONTROL</Property>
 				<Property key="isAutoLabel">true</Property>
-				<Property key="addedInteractionQueryDataItems">bi292</Property>
+				<Property key="addedInteractionQueryDataItems">bi302</Property>
 			</EditorProperties>
 			<Title auto="false"><P><Span>Select a Product:</Span></P></Title>
 			<ComboBox/>
@@ -674,6 +594,7 @@
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
 				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="addedInteractionQueryDataItems">bi304</Property>
 			</EditorProperties>
 			<Title auto="false"><P><Span>Select a Category:</Span></P></Title>
 			<LinkBar/>
@@ -689,7 +610,7 @@
 	<PromptDefinitions>
 		<PromptDefinition data="dd19" labelVariable="bi23" resultDefinitions="dd21" minVariable="bi23" maxVariable="bi24" name="pr22">
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="202304.0" max="202306.0"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="202304.0" max="202307.0"/>
 			</DefaultValue>
 			<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
 		</PromptDefinition>
@@ -1028,7 +949,7 @@
 	<Interactions>
 		<Interaction name="ia124" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve94" variable="bi90"/>
-			<InteractionElementReference purpose="target" ref="ve101" variable="bi292"/>
+			<InteractionElementReference purpose="target" ref="ve101" variable="bi302"/>
 		</Interaction>
 		<Interaction name="ia125" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve94" variable="bi90"/>
@@ -1046,7 +967,19 @@
 			<InteractionElementReference purpose="source" ref="ve132"/>
 			<InteractionElementReference purpose="target" ref="ve119"/>
 		</Interaction>
-		<Interaction name="ia293" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia297" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve18" variable="bi23"/>
+			<InteractionElementReference purpose="target" ref="ve26" variable="bi304"/>
+		</Interaction>
+		<Interaction name="ia298" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve18" variable="bi23"/>
+			<InteractionElementReference purpose="target" ref="ve33" variable="bi300"/>
+		</Interaction>
+		<Interaction name="ia299" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve26" variable="bi31"/>
+			<InteractionElementReference purpose="target" ref="ve33" variable="bi301"/>
+		</Interaction>
+		<Interaction name="ia303" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve132" variable="pr75"/>
 			<InteractionElementReference purpose="target" ref="ve119" variable="pr75"/>
 		</Interaction>
@@ -1097,8 +1030,8 @@
 	</MediaTargets>
 	<Properties>
 		<Property key="displayDataSource">ds7</Property>
-		<Property key="ReportPackagesServiceVersion">2020.1.4</Property>
-		<Property key="ReportDataServiceVersion">2020.1.4</Property>
+		<Property key="ReportPackagesServiceVersion">Viya4 2023.07</Property>
+		<Property key="ReportDataServiceVersion">Viya4 2023.07</Property>
 	</Properties>
 	<ExportProperties>
 		<Export destination="pdf">
@@ -1110,14 +1043,17 @@
 	<Versions>
 		<Version key="4.29.0" lastDate="2023-04-27T00:00:00Z"/>
 		<Version key="4.30.0" lastDate="2023-06-16T00:00:00Z"/>
+		<Version key="4.31.0" lastDate="2023-07-24T00:00:00Z"/>
 	</Versions>
 	<Conversions>
 		<Conversion startVersion="4.29.0" finalVersion="4.30.0" date="2023-06-16T00:00:00Z"/>
+		<Conversion startVersion="4.30.0" finalVersion="4.31.0" date="2023-07-24T00:00:00Z"/>
 	</Conversions>
 	<Editors>
 		<Editor applicationName="VA">
 			<Revision editorVersion="2023.04" lastDate="2023-05-18T08:09:05.551Z"/>
 			<Revision editorVersion="2023.06" lastDate="2023-06-20T13:26:34.428Z"/>
+			<Revision editorVersion="2023.07" lastDate="2023-07-24T12:44:05.836Z"/>
 		</Editor>
 	</Editors>
 </History>

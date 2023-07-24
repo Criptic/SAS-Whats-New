@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script async src='https://cdn.developer.sas.com/packages/va-report-components/latest/dist/umd/va-report-components.js'></script>
+    <!--
+    Uncomment the stylesheet link below to access the fonts in the SAS Viya deployment.
+       Risk: This change requires a live connection to SAS Viya.
+       Reward: This change enables access to the fonts that were used to design the report.
+    <link rel='stylesheet' type='text/css' href='css/viyafonts.css' />
+    -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter');
+      @import url('https://fonts.googleapis.com/css2?family=Inconsolata');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto');
+      @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+      body {
+        padding: 0;
+        margin: 0;
+        background-color: #ffffff;
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+      .side-panel {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+        height: 100%;
+        background-color: #f0f1f4;
+      }
+      .side-panel div {
+        flex-grow: 1;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: #f0f1f4;
+        padding: 20px 0 0 20px;
+      }
+      .side-panel div+div {
+        width: 100%;
+        height: 60px;
+        padding: 0 0 20px 20px;
+        background-color: #f0f1f4;
+        overflow: hidden;
+      }
+      .main-content {
+        margin-left: 380px;
+      }
+      h1 {
+        font-size: 2.25rem;
+        font-weight: 600;
+        font-family: Inter;
+        margin: 8px 0px;
+      }
+      h2 {
+        font-size: 1.246rem;
+        font-weight: 400;
+        font-family: Inter;
+        margin: 4px 0px;
+      }
+      h3 {
+        font-size: .984rem;
+        font-weight: 400;
+        font-family: Inter;
+        margin: 2px 0px;
+      }
+      h4 {
+        font-size: 0.75rem;
+        font-weight: 400;
+        font-family: Inter;
+        margin: 2px 0px;
+      }
+      hr {
+        border-top: 1px solid #CED2D9;
+        width:100%;
+        text-align:left;
+        margin-left: 0
+      }
+      .container {
+        display: flex;
+        align-items: stretch;
+        background-color: #ffffff;
+        height: 30rem;
+        margin: 2rem 0 2rem 0;
+        overflow: hidden;
+      }
+      .flex-report {
+        width: 100%;
+        height: 30rem;
+        margin-right: 1rem;
+      }
+      .flex-report sas-report {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      .flex-code  {
+        background-color: #f0f1f4;
+        width: 100%;
+        height: 15rem;
+        margin-left: 1rem; 
+        text-align: left;
+        flex: 0 0 350px;
+      }
+      .code-bar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #FFFFFF;
+      }
+      .code-snippet {
+        font-size: 1rem;
+        font-weight: 900;
+        font-family: Inter;
+        float: left;
+        display: block;
+        color: black;
+        text-align: left;
+        padding: 0 0 0 0;
+        text-decoration: none;
+      }
+      .code-btn {
+        float: right;
+        display: block;
+        color: black;
+        text-align: left;
+        padding: 0 0 0 0;
+        text-decoration: none;
+      }
+      .code {
+        font-size: 1.1rem;
+        font-weight: 400;
+        font-family: Inconsolata;
+      }
+      .code-green {
+        color: #26883e;
+      }
+      .code-blue {
+        color: #001aff;
+      }
+      .code-brown {
+        color: #7a641c;;
+      }
+      .copy {
+        background: #ffffff;
+        border: none; 
+      }
+      .material-icons {
+        font-family: 'Material Icons';
+        font-size: 16px;
+        padding: 0 0 0 0;
+        cursor: pointer;
+      }
+      ul {
+        font-size: .984rem;
+        font-weight: 400;
+        font-family: Inter;
+        margin: 2px 0px;
+        list-style-type: disc;
+      }
+      li {
+        font-size: .984rem;
+        font-weight: 400;
+        font-family: Inter;
+      }
+      .link {
+        color: #001aff;
+        cursor: pointer;
+      }
+      a {
+        font-size: .984rem;
+        font-weight: 400;
+        font-family: Inter;
+        color: #001aff;
+        cursor: pointer;
+      }
+      .side-content {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      .side-content div {
+        flex-grow: 1;
+        margin: 0 8px;
+        width: 400px;
+        background-color: #f0f1f4;
+        flex: 0 0 15rem;
+        overflow: hidden;
+      }
+      .side-content div+div {
+        margin-top: 8px;
+        background-color: #fff0f0;
+        overflow-y:  auto;
+        overflow-x:  hidden;
+      }
+      .status-link {
+        color: #001aff;
+        cursor: pointer;
+      }
+      .status-entry,
+      .status-entries {
+        display: flex;
+        white-space: pre-wrap;
+        background-color: #fff0f0;
+        margin: 0px;
+        padding: 0px;
+        justify-content: space-between;
+        flex-direction: column;
+        font-size: .984rem;
+        font-weight: 400;
+        font-family: Inter;
+      }
+      .status-entries {
+        background-color: #f0f1f4;
+        word-break: break-all;
+      }
+      .link-pad {
+        padding: 0;
+      }
+      .flex-container {
+        display: flex;
+        height: 80vh;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        overflow-y: auto;
+      }
+      sas-report,
+      sas-report-page {height: 30rem;}
+      sas-report-object {height: 30rem;}
+    </style>
+  </head>
+  <body>
+    <div class="side-panel">
+    <div>
+      <ul class="link-pad">
+      <li>Releases Notes</li>
+    <ul>
+      <li class="link" data-type="sas-report-page" data-element="vi6">Releases</li>
+      <ul>
+      <li class="link" data-type="sas-report-object" data-element="ve18">Slider - Release 1</li>
+      <li class="link" data-type="sas-report-object" data-element="ve26">Button bar - Category 1</li>
+      <li class="link" data-type="sas-report-object" data-element="ve33">Drop-down list - Product 1</li>
+      <li class="link" data-type="sas-report-object" data-element="ve42">List table - Release 1</li>
+      </ul>
+    </ul>
+      </ul>
+    </div>
+    <div>
+      <hr>
+      <a id="side-panel-status">Status Report</a>
+    </div>
+    </div>
+    <div id="status" class="main-content">
+      <h1>Status Report</h1>
+      <h3>Review the issues found that are impacting your report's performance. Visit SAS&reg;Visual Analytics to resolve</h3>
+      <br>
+      <hr>
+      <br>
+      <div id="status-page" class="flex-container">
+      </div>
+    </div>
+    <div id="report-container" class="main-content">
+    <h1>Releases Notes</h1>
+    <h3>View exported content and code reference to customize your webpage. See the <a target='_blank' href='https://github.com/sassoftware/sas-viya-sdk-js/tree/main/sdk/va-report-components/examples'>examples</a> on GitHub</h3>
+    <h3>Exported from SAS&reg;Visual Analytics on July 24, 2023 at 12:44 PM UTC</h3>
+    <br>
+    <hr>
+    <h3 id="reportlabel"></h3>
+    <div class='container'>
+      <div id="report" class='flex-report'>
+        <div></div>
+      </div>
+      <div class="side-content">
+      <div class='flex-code'>
+       <section>
+          <ul class='code-bar'>
+            <li class='code-snippet'>Code Snippet</li>
+            <li class='code-btn'><button id='code-btn-copy' class='copy'>
+                <i class='material-icons'>content_copy</i></button>
+            </li>
+          </ul>
+          <p id='code-content' class='code'>
+            <span id=code1 class='code-green'></span>
+            <br><br>
+            &lt;<span id=code2 class='code-blue'></span>
+            <span class='code-brown'>packageUri</span>=<span class='code-green'>'.'</span><span id=code4
+              class='code-brown'></span><span id='code5'>=</span><span id=code6 class='code-green'></span>
+            &gt;&lt;/<span id=code3 class='code-blue'></span>&gt;
+          </p>
+        </section>
+        </div>
+        <div id="status-content" class="status-entry">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <h3>Powered by SAS&reg;Viya&reg;</h3>
+    <script>
+    const reportNode = document.getElementById("report");
+    const report = document.createElement("sas-report");
+    report.setAttribute("packageUri",".");
+    const reportPage = document.createElement("sas-report-page")
+    reportPage.setAttribute("packageUri", ".");
+    const reportObject = document.createElement("sas-report-object");
+    reportObject.setAttribute("packageUri", ".");
+    const reportContainer = document.getElementById("report-container");
+    const status = document.getElementById("status");
+    const statusContent = document.getElementById("status-content")
+    const reportStatus = null;
+    const liItems = document.querySelectorAll("li[data-type]");
+    if (liItems.length) {
+       setView(liItems[0].innerText, liItems[0].getAttribute("data-type"), liItems[0].getAttribute("data-element"));
+    }
+    for (let i = 0; i < liItems.length; i++) {
+       liItems[i].addEventListener("click", function (e) {
+           setView(e.target.innerText, e.target.dataset.type, e.target.dataset.element);
+       }, true)
+    }
+    const codeContent = document.getElementById('code-content');
+    document.getElementById('code-btn-copy').addEventListener('click', function () {
+       navigator.clipboard.writeText(codeContent.innerText);
+    });
+    setFullStatus();
+    const liStatusItems = document.querySelectorAll(".status-link");
+    for (let i = 0; i < liStatusItems.length; i++) {
+    liStatusItems[i].addEventListener("click", function (e) {
+      for (let i = 0; i < liItems.length; i++) {
+        if (liItems[i].innerText === e.target.innerText) {
+          setView(liItems[i].innerText, liItems[i].dataset.type, liItems[i].dataset.element);
+          return;
+        }
+      }
+    }, true)
+    }
+    document.getElementById('side-panel-status').addEventListener('click', function () {
+      if (status.style.display === "none") {
+        status.style.display = "block";
+        reportContainer.style.display = "none";
+      } else {
+        status.style.display = "none";
+        reportContainer.style.display = "block";
+      }
+    });
+    function setViewStatus(label) {
+      status.style.display = "none";
+      reportContainer.style.display = "block";
+      var innerHTML = null;
+      for (let i = 0; reportStatus && i < reportStatus.length; i++) {
+        if (reportStatus[i].label == label) {
+            innerHTML = label + "<br><br>" + reportStatus[i].msgs.join("<br>");
+            break;
+        }
+      }
+      if (innerHTML) {
+        statusContent.style.display = "block"
+        statusContent.innerHTML = innerHTML
+      } else {
+        statusContent.style.display = "none"
+      }
+    }
+    function setFullStatus() {
+      const statusPage = document.getElementById("status-page");
+      if (reportStatus) {
+        for (let i = 0; i < reportStatus.length; i++) {
+          label = reportStatus[i].label;
+          label = (label === "Package Warnings") ? label + "<br>" : "<a class=\"status-link\">" + label + "</a>";
+          innerHTML = label + "<br>" + reportStatus[i].msgs.join("<br>")
+          div = document.createElement("div");
+          br = document.createElement("br")
+          div.setAttribute("class", "status-entries");
+          div.innerHTML = innerHTML;
+          statusPage.appendChild(div);
+          statusPage.appendChild(br);
+          }
+      } else {
+        div = document.createElement("div");
+        div.innerHTML = "<h3>No issues found for this Report<h3>";
+        statusPage.appendChild(div);
+      }
+    }
+    function setView(label, type, element) {
+       reportlabel.innerText=label;
+       switch (type) {
+           case "sas-report-object":
+               reportChildNode = reportObject;
+               reportObject.setAttribute("objectName", element);
+               code4.innerText = " objectName";
+               code5.innerText = "="
+               code6.innerText = "'" + element + "'";
+               break;
+           case "sas-report-page":
+               reportChildNode = reportPage;
+               reportPage.setAttribute("pageName", element);
+               code4.innerText = " pageName";
+               code5.innerText = "="
+               code6.innerText = "'" + element + "'";
+               break;
+           default:
+               reportChildNode = report;
+               code4.innerText = code5.innerText = code6.innerText = "";
+       }
+       code1.innerText = "<!-- " + label + " -->";
+       code2.innerText = type;
+       code3.innerText = type;
+       setViewStatus(label);
+
+       reportNode.replaceChild(reportChildNode, reportNode.childNodes[0]);
+       }
+    window.addEventListener('vaReportComponents.loaded', () => {
+       vaReportComponents.setLocale('en_US');
+       vaReportComponents.setFormatterLocale('en_US');
+    });
+    </script>
+  </body>
+</html>
