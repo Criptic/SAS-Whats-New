@@ -12,6 +12,12 @@ Inside of the calculated items editor when you select one of the aggregation fun
 
 ![Aggregated Calculations Pop Up](./SAS-VA-Aggregate-Pop-Up.png)
 
+# Choosing the Thumbnail for your SAS Visual Analytics Report
+
+When you go to the *Options* pane of a Report and select the Report itself (top most item). In the Section *General* you will find the ability to select any Graph created within your Report to be set as the Thumbnail that is displayed for example in SAS Drive or in the SAS Visual Analytics homepage.
+
+![Select Thumbnail Object](./SAS-VA-Choose-Thumbnail-Object.png)
+
 # Changing the SAS Visual Analytics Settings from the Home page
 
 You can access the SAS Visual Analytics Settings (Left click on your profile icon in the top right > Settings) to change the SAS Visual Analytics settings directly, without having to open up a report first:
