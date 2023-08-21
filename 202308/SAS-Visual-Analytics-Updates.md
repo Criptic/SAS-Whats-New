@@ -2,6 +2,8 @@
 
 You can now add Block (multiline) and Single line comments to the expression of a calculated item inside of SAS Visual Analytics. For multiline comments use the /* your comment goes here */ and fore single line comments use //.
 
+You can use the keyboard shortcut *CTRL + /* to comment out a single line and you can use *ALT + SHIFT + A* to comment out a lot of lines at once.
+
 ![Comments in Calculated Comments](./SAS-VA-Calculated-Items-Comments.png)
 
 
