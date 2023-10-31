@@ -1,2 +1,2 @@
-%let hello =  from the autoexec;
+%let hello =  from the autoexec!;
 %put &=hello;
