@@ -1,0 +1,28 @@
+
+
+#ve27 .infoBarTextTitle {
+  font-style: italic;
+}
+#ve1001 .span1 {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+}
+#ve27 .infoBarTextUnderline {
+  text-decoration: underline;
+}
+#ve999 .Table {
+  wrap-text: normal;
+  display-opts: retainnewline;
+}
+#ve1001 .span2 {
+  font-weight: bold;
+}
+#ve27 .infoBarTextBold {
+  font-weight: bold;
+}
+#ve1001 .span3 {
+  font-style: italic;
+}
+
+			

@@ -1,0 +1,2627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.35.0" label="Visual Statistic 2023.11 - Odds Ratio Plot" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en_US" createdVersion="4.35.0" dateCreated="2023-11-24T12:24:01Z" dateModified="2023-11-24T12:24:02Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="1006">
+	<Results>
+		<Result ref="dd736" type="relational" status="success" dataLevel="baseline" label="Lift" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<NumericVariable format="F10.2" usage="quantitative" label="Percentile" ref="bi249" varname="bi249" column="c0"/>
+				<NumericVariable format="COMMA20." usage="quantitative" label="Observations" ref="bi250" varname="bi250" column="c1"/>
+				<NumericVariable format="COMMA20." usage="quantitative" label="Events" ref="bi251" varname="bi251" column="c2"/>
+				<NumericVariable format="F10.4" usage="quantitative" label="Model" ref="bi252" varname="bi252" column="c3"/>
+				<NumericVariable format="F10.4" usage="quantitative" label="Best" ref="bi253" varname="bi253" column="c4"/>
+				<NumericVariable format="F10.4" usage="quantitative" label="Model" ref="bi254" varname="bi254" column="c5">
+					<Presentations>
+						<Presentation mode="modeTable" label="Cumulative Model"/>
+					</Presentations>
+				</NumericVariable>
+				<NumericVariable format="F10.4" usage="quantitative" label="Best" ref="bi255" varname="bi255" column="c6">
+					<Presentations>
+						<Presentation mode="modeTable" label="Cumulative Best"/>
+					</Presentations>
+				</NumericVariable>
+				<StringVariable label="Partition" ref="bi256" varname="bi256" column="c7"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+				<NumericColumn dataType="double" colname="c5" encoding="text"/>
+				<NumericColumn dataType="double" colname="c6" encoding="text"/>
+				<StringColumn maxLength="0" colname="c7" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="20" contentKey="YISDBDNL56LJCMNEGJXHURXF2E6KO47V" size="1545" format="CSV" rowCount="20" grandTotal="false" dataLayout="minimal"><![CDATA[5.0,203.0,113.0,5.994694960212201,10.769230769230768,5.994694960212201,10.769230769230768," "
+10.0,203.0,45.0,2.3872679045092835,9.23076923076923,4.190981432360743,10.0," "
+15.0,203.0,38.0,2.0159151193633953,0.0,3.465959328028293,6.666666666666666," "
+20.0,203.0,21.0,1.1140583554376657,0.0,2.8779840848806364,5.0," "
+25.0,203.0,22.0,1.1671087533156497,0.0,2.5358090185676394,4.0," "
+30.0,203.0,23.0,1.2201591511936338,0.0,2.316534040671972,3.3333333333333335," "
+35.0,203.0,11.0,0.5835543766578248,0.0,2.0689655172413794,2.857142857142857," "
+40.0,203.0,11.0,0.5835543766578248,0.0,1.8832891246684351,2.5000000000000004," "
+45.0,203.0,12.0,0.636604774535809,0.0,1.7447686413203658,2.2222222222222223," "
+50.0,203.0,11.0,0.5835543766578248,0.0,1.6286472148541116,2.0000000000000004," "
+55.0,203.0,12.0,0.636604774535809,0.0,1.5384615384615388,1.8181818181818186," "
+60.0,203.0,7.0,0.37135278514588854,0.0,1.4412024756852346,1.666666666666667," "
+65.0,203.0,8.0,0.42440318302387264,0.0,1.3629871454805145,1.5384615384615388," "
+70.0,203.0,9.0,0.47745358090185674,0.0,1.2997347480106103,1.4285714285714286," "
+75.0,203.0,3.0,0.15915119363395225,0.0,1.2236958443854995,1.3333333333333333," "
+80.0,203.0,7.0,0.37135278514588854,0.0,1.1704244031830238,1.25," "
+85.0,203.0,7.0,0.37135278514588854,0.0,1.1234201903573098,1.176470588235294," "
+90.0,203.0,5.0,0.2652519893899204,0.0,1.075744179192455,1.111111111111111," "
+95.0,203.0,6.0,0.3183023872679045,0.0,1.0358788217227417,1.0526315789473681," "
+100.0,194.0,6.0,0.3183023872679045,0.0,1.0,1.0," "
+]]></Data>
+		</Result>
+		<Result ref="dd737" type="relational" status="success" dataLevel="baseline" label="Misclassification" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Response" ref="bi258" varname="bi258" column="c0"/>
+				<StringVariable label="Event" ref="bi259" varname="bi259" column="c1"/>
+				<StringVariable label="Value" ref="bi260" varname="bi260" column="c2"/>
+				<NumericVariable format="COMMA20." usage="quantitative" label="Observations" ref="bi261" varname="bi261" column="c3"/>
+				<StringVariable label="Partition" ref="bi262" varname="bi262" column="c4"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<StringColumn maxLength="1" colname="c1" encoding="text"/>
+				<StringColumn maxLength="1" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<StringColumn maxLength="0" colname="c4" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="4" contentKey="ANDZIEPHQBMWXBEJIFJD4AWNB4CN2ZZV" size="59" format="CSV" rowCount="4" grandTotal="false" dataLayout="minimal"><![CDATA[2,1,7,79.0,-1
+5,1,3,298.0,-1
+2,0,6,3649.0,-1
+5,0,4,25.0,-1
+]]></Data>
+			<StringTable contentKey="CI3UY4V5ESZSGKXJPFGEQSPWHWEOSXGK" size="96" format="CSV" rowCount="8"><![CDATA["0"
+"1"
+"Correct"
+"False Negative"
+"False Positive"
+"Incorrect"
+"True Negative"
+"True Positive"
+]]></StringTable>
+		</Result>
+		<Result ref="dd738" type="relational" status="success" dataLevel="baseline" label="ROC" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Presentations>
+				<Presentation mode="cutoffStatistics" label="Cutoff Statistics"/>
+			</Presentations>
+			<Variables>
+				<NumericVariable format="F10.2" usage="quantitative" label="Cutoff" ref="bi264" varname="bi264" column="c0"/>
+				<NumericVariable format="F10.4" usage="quantitative" label="Sensitivity" ref="bi265" varname="bi265" column="c1"/>
+				<NumericVariable format="F10.3" usage="quantitative" label="1 - Specificity" ref="bi266" varname="bi266" column="c2"/>
+				<StringVariable label="KS (Youden)" ref="bi516" varname="bi516" column="c3"/>
+				<StringVariable label="Partition" ref="bi276" varname="bi276" column="c4"/>
+				<StringVariable label="" ref="bi515" varname="bi515" column="c5"/>
+				<NumericVariable format="F10.4" usage="quantitative" label="Specificity" ref="bi267" varname="bi267" column="c6"/>
+				<NumericVariable format="F10.4" usage="quantitative" label="False Positive Rate" ref="bi268" varname="bi268" column="c7"/>
+				<NumericVariable format="F10.4" usage="quantitative" label="False Negative Rate" ref="bi269" varname="bi269" column="c8"/>
+				<NumericVariable format="F10.4" usage="quantitative" label="Accuracy" ref="bi271" varname="bi271" column="c9"/>
+				<NumericVariable format="F10.4" usage="quantitative" label="Kolmogorov-Smirnov (KS)" ref="bi270" varname="bi270" column="c10"/>
+				<NumericVariable format="F10.4" usage="quantitative" label="F0.5 Score" ref="bi274" varname="bi274" column="c11"/>
+				<NumericVariable format="F10.4" usage="quantitative" label="False Discovery Rate" ref="bi272" varname="bi272" column="c12"/>
+				<NumericVariable format="F10.4" usage="quantitative" label="F1 Score" ref="bi273" varname="bi273" column="c13"/>
+				<NumericVariable format="F10.4" usage="quantitative" label="Misclassification Rate (Event)" ref="bi275" varname="bi275" column="c14"/>
+				<NumericVariable format="F10.4" usage="quantitative" label="Accuracy" ref="bi514" varname="bi514" column="c15"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<StringColumn maxLength="1" colname="c3" encoding="text"/>
+				<StringColumn maxLength="0" colname="c4" encoding="text"/>
+				<StringColumn maxLength="0" colname="c5" encoding="text"/>
+				<NumericColumn dataType="double" colname="c6" encoding="text"/>
+				<NumericColumn dataType="double" colname="c7" encoding="text"/>
+				<NumericColumn dataType="double" colname="c8" encoding="text"/>
+				<NumericColumn dataType="double" colname="c9" encoding="text"/>
+				<NumericColumn dataType="double" colname="c10" encoding="text"/>
+				<NumericColumn dataType="double" colname="c11" encoding="text"/>
+				<NumericColumn dataType="double" colname="c12" encoding="text"/>
+				<NumericColumn dataType="double" colname="c13" encoding="text"/>
+				<NumericColumn dataType="double" colname="c14" encoding="text"/>
+				<NumericColumn dataType="double" colname="c15" encoding="text"/>
+			</Columns>
+			<DataFile contentKey="OXUEQHIRPIQCOTHBLZUKADOQFCZH5E64" size="22417" format="CSV" rowCount="100" grandTotal="false" dataLayout="minimal" file="dd738.csv" isIndexed="true" availableRowCount="100"/>
+			<StringTableFile contentKey="TR2YHDVPBAOAV2IQMCRXG6T5WLJOOT5K" size="6" format="CSV" rowCount="1" file="dd738index.csv"/>
+		</Result>
+		<Result ref="dd739" type="relational" status="success" dataLevel="baseline" label="KS (Youden)" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<NumericVariable format="F10.4" usage="quantitative" label="Sensitivity" ref="bi279" varname="bi279" column="c0"/>
+				<NumericVariable format="F10.3" usage="quantitative" label="1 - Specificity" ref="bi280" varname="bi280" column="c1"/>
+				<NumericVariable format="F10.4" usage="quantitative" label="Separation (KS (Youden))" ref="bi278" varname="bi278" column="c2"/>
+				<NumericVariable format="F10.2" usage="quantitative" label="Cutoff" ref="bi281" varname="bi281" column="c3"/>
+				<StringVariable label="Partition" ref="bi282" varname="bi282" column="c4"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<StringColumn maxLength="0" colname="c4" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="2" contentKey="46ZUTKWGSUKYAQXRR3YEH63YNCMR4USO" size="167" format="CSV" rowCount="2" grandTotal="false" dataLayout="minimal"><![CDATA[0.6153846153846154,0.19243331518780615,0.42295130019680927,0.09999999999999999," "
+0.19243331518780615,0.19243331518780615,0.42295130019680927,0.09999999999999999," "
+]]></Data>
+		</Result>
+		<Result ref="dd740" type="relational" status="success" dataLevel="baseline" label="Assessment Statistics" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Misclassification Rate (Event)" ref="bi344" varname="bi344" column="c0"/>
+				<StringVariable label="Misclassification Rate" ref="bi346" varname="bi346" column="c1"/>
+				<StringVariable label="Validation Misclassification Rate (Event)" ref="bi353" varname="bi353" column="c2"/>
+				<StringVariable label="Validation Misclassification Rate" ref="bi355" varname="bi355" column="c3"/>
+				<StringVariable label="Test Misclassification Rate (Event)" ref="bi362" varname="bi362" column="c4"/>
+				<StringVariable label="Test Misclassification Rate" ref="bi364" varname="bi364" column="c5"/>
+				<StringVariable label="Misclassification Rate (Event)" ref="bi345" varname="bi345" column="c6"/>
+				<StringVariable label="Misclassification Rate" ref="bi347" varname="bi347" column="c7"/>
+				<StringVariable label="Validation Misclassification Rate (Event)" ref="bi354" varname="bi354" column="c8"/>
+				<StringVariable label="Validation Misclassification Rate" ref="bi356" varname="bi356" column="c9"/>
+				<StringVariable label="Test Misclassification Rate (Event)" ref="bi363" varname="bi363" column="c10"/>
+				<StringVariable label="Test Misclassification Rate" ref="bi365" varname="bi365" column="c11"/>
+				<StringVariable label="KS (Youden)" ref="bi342" varname="bi342" column="c12"/>
+				<StringVariable label="Validation KS (Youden)" ref="bi351" varname="bi351" column="c13"/>
+				<StringVariable label="Test KS (Youden)" ref="bi360" varname="bi360" column="c14"/>
+				<StringVariable label="KS (Youden)" ref="bi343" varname="bi343" column="c15"/>
+				<StringVariable label="Validation KS (Youden)" ref="bi352" varname="bi352" column="c16"/>
+				<StringVariable label="Test KS (Youden)" ref="bi361" varname="bi361" column="c17"/>
+				<StringVariable label="Lift" ref="bi617" varname="bi617" column="c18"/>
+				<StringVariable label="Lift" ref="bi618" varname="bi618" column="c19"/>
+				<StringVariable label="Validation Lift" ref="bi663" varname="bi663" column="c20"/>
+				<StringVariable label="Validation Lift" ref="bi664" varname="bi664" column="c21"/>
+				<StringVariable label="Test Lift" ref="bi693" varname="bi693" column="c22"/>
+				<StringVariable label="Test Lift" ref="bi694" varname="bi694" column="c23"/>
+				<StringVariable label="Cumulative Lift" ref="bi619" varname="bi619" column="c24"/>
+				<StringVariable label="Cumulative Lift" ref="bi620" varname="bi620" column="c25"/>
+				<StringVariable label="Validation Cumulative Lift" ref="bi665" varname="bi665" column="c26"/>
+				<StringVariable label="Validation Cumulative Lift" ref="bi666" varname="bi666" column="c27"/>
+				<StringVariable label="Test Cumulative Lift" ref="bi695" varname="bi695" column="c28"/>
+				<StringVariable label="Test Cumulative Lift" ref="bi696" varname="bi696" column="c29"/>
+				<StringVariable label="Cumulative % Events" ref="bi621" varname="bi621" column="c30"/>
+				<StringVariable label="Cumulative % Events" ref="bi622" varname="bi622" column="c31"/>
+				<StringVariable label="Validation Cumulative % Events" ref="bi667" varname="bi667" column="c32"/>
+				<StringVariable label="Validation Cumulative % Events" ref="bi668" varname="bi668" column="c33"/>
+				<StringVariable label="Test Cumulative % Events" ref="bi697" varname="bi697" column="c34"/>
+				<StringVariable label="Test Cumulative % Events" ref="bi698" varname="bi698" column="c35"/>
+				<StringVariable label="Cumulative % Captured" ref="bi623" varname="bi623" column="c36"/>
+				<StringVariable label="Cumulative % Captured" ref="bi624" varname="bi624" column="c37"/>
+				<StringVariable label="Validation Cumulative % Captured" ref="bi669" varname="bi669" column="c38"/>
+				<StringVariable label="Validation Cumulative % Captured" ref="bi670" varname="bi670" column="c39"/>
+				<StringVariable label="Test Cumulative % Captured" ref="bi699" varname="bi699" column="c40"/>
+				<StringVariable label="Test Cumulative % Captured" ref="bi700" varname="bi700" column="c41"/>
+				<StringVariable label="Gain" ref="bi625" varname="bi625" column="c42"/>
+				<StringVariable label="Gain" ref="bi626" varname="bi626" column="c43"/>
+				<StringVariable label="Validation Gain" ref="bi671" varname="bi671" column="c44"/>
+				<StringVariable label="Validation Gain" ref="bi672" varname="bi672" column="c45"/>
+				<StringVariable label="Test Gain" ref="bi701" varname="bi701" column="c46"/>
+				<StringVariable label="Test Gain" ref="bi702" varname="bi702" column="c47"/>
+				<StringVariable label="C Statistic" ref="bi609" varname="bi609" column="c48"/>
+				<StringVariable label="C Statistic" ref="bi610" varname="bi610" column="c49"/>
+				<StringVariable label="Validation C Statistic" ref="bi655" varname="bi655" column="c50"/>
+				<StringVariable label="Validation C Statistic" ref="bi656" varname="bi656" column="c51"/>
+				<StringVariable label="Test C Statistic" ref="bi685" varname="bi685" column="c52"/>
+				<StringVariable label="Test C Statistic" ref="bi686" varname="bi686" column="c53"/>
+				<StringVariable label="F1 Score" ref="bi615" varname="bi615" column="c54"/>
+				<StringVariable label="F1 Score" ref="bi616" varname="bi616" column="c55"/>
+				<StringVariable label="Validation F1 Score" ref="bi661" varname="bi661" column="c56"/>
+				<StringVariable label="Validation F1 Score" ref="bi662" varname="bi662" column="c57"/>
+				<StringVariable label="Test F1 Score" ref="bi691" varname="bi691" column="c58"/>
+				<StringVariable label="Test F1 Score" ref="bi692" varname="bi692" column="c59"/>
+				<StringVariable label="False Positive Rate" ref="bi611" varname="bi611" column="c60"/>
+				<StringVariable label="False Positive Rate" ref="bi612" varname="bi612" column="c61"/>
+				<StringVariable label="Validation False Positive Rate" ref="bi657" varname="bi657" column="c62"/>
+				<StringVariable label="Validation False Positive Rate" ref="bi658" varname="bi658" column="c63"/>
+				<StringVariable label="Test False Positive Rate" ref="bi687" varname="bi687" column="c64"/>
+				<StringVariable label="Test False Positive Rate" ref="bi688" varname="bi688" column="c65"/>
+				<StringVariable label="False Discovery Rate" ref="bi613" varname="bi613" column="c66"/>
+				<StringVariable label="False Discovery Rate" ref="bi614" varname="bi614" column="c67"/>
+				<StringVariable label="Validation False Discovery Rate" ref="bi659" varname="bi659" column="c68"/>
+				<StringVariable label="Validation False Discovery Rate" ref="bi660" varname="bi660" column="c69"/>
+				<StringVariable label="Test False Discovery Rate" ref="bi689" varname="bi689" column="c70"/>
+				<StringVariable label="Test False Discovery Rate" ref="bi690" varname="bi690" column="c71"/>
+				<StringVariable label="Gini" ref="bi627" varname="bi627" column="c72"/>
+				<StringVariable label="Gini" ref="bi628" varname="bi628" column="c73"/>
+				<StringVariable label="Validation Gini" ref="bi673" varname="bi673" column="c74"/>
+				<StringVariable label="Validation Gini" ref="bi674" varname="bi674" column="c75"/>
+				<StringVariable label="Test Gini" ref="bi703" varname="bi703" column="c76"/>
+				<StringVariable label="Test Gini" ref="bi704" varname="bi704" column="c77"/>
+				<StringVariable label="Gamma" ref="bi629" varname="bi629" column="c78"/>
+				<StringVariable label="Gamma" ref="bi630" varname="bi630" column="c79"/>
+				<StringVariable label="Validation Gamma" ref="bi675" varname="bi675" column="c80"/>
+				<StringVariable label="Validation Gamma" ref="bi676" varname="bi676" column="c81"/>
+				<StringVariable label="Test Gamma" ref="bi705" varname="bi705" column="c82"/>
+				<StringVariable label="Test Gamma" ref="bi706" varname="bi706" column="c83"/>
+				<StringVariable label="Tau" ref="bi631" varname="bi631" column="c84"/>
+				<StringVariable label="Tau" ref="bi632" varname="bi632" column="c85"/>
+				<StringVariable label="Validation Tau" ref="bi677" varname="bi677" column="c86"/>
+				<StringVariable label="Validation Tau" ref="bi678" varname="bi678" column="c87"/>
+				<StringVariable label="Test Tau" ref="bi707" varname="bi707" column="c88"/>
+				<StringVariable label="Test Tau" ref="bi708" varname="bi708" column="c89"/>
+				<NumericVariable format="COMMA20.4" usage="quantitative" label="Accuracy" ref="bi368" varname="bi368" column="c90"/>
+				<NumericVariable format="COMMA20.4" usage="quantitative" label="Validate Accuracy" ref="bi369" varname="bi369" column="c91"/>
+				<NumericVariable format="COMMA20.4" usage="quantitative" label="Test Accuracy" ref="bi370" varname="bi370" column="c92"/>
+				<StringVariable label="Dependent Variable" ref="bi366" varname="bi366" column="c93"/>
+				<StringVariable label="Event Raw Value" ref="bi367" varname="bi367" column="c94"/>
+				<StringVariable label="Observations:" ref="bi380" varname="bi380" column="c95"/>
+				<StringVariable label="Event Formatted" ref="bi375" varname="bi375" column="c96"/>
+				<StringVariable label="Observations:" ref="bi371" varname="bi371" column="c97"/>
+				<StringVariable label="Observations:" ref="bi381" varname="bi381" column="c98"/>
+				<StringVariable label="Observations:" ref="bi372" varname="bi372" column="c99"/>
+				<StringVariable label="Observations:" ref="bi382" varname="bi382" column="c100"/>
+				<StringVariable label="Observations:" ref="bi373" varname="bi373" column="c101"/>
+				<StringVariable label="Observations:" ref="bi383" varname="bi383" column="c102"/>
+				<StringVariable label="Observations:" ref="bi374" varname="bi374" column="c103"/>
+				<StringVariable label="Observations:" ref="bi384" varname="bi384" column="c104"/>
+				<StringVariable label="R-Square" ref="bi723" varname="bi723" column="c105"/>
+				<StringVariable label="R-Square" ref="bi724" varname="bi724" column="c106"/>
+				<StringVariable label="AIC" ref="bi712" varname="bi712" column="c107"/>
+				<StringVariable label="AIC" ref="bi714" varname="bi714" column="c108"/>
+				<StringVariable label="AIC" ref="bi713" varname="bi713" column="c109"/>
+				<StringVariable label="AICC" ref="bi715" varname="bi715" column="c110"/>
+				<StringVariable label="AICC" ref="bi717" varname="bi717" column="c111"/>
+				<StringVariable label="AICC" ref="bi716" varname="bi716" column="c112"/>
+				<StringVariable label="-2 Log Likelihood" ref="bi709" varname="bi709" column="c113"/>
+				<StringVariable label="-2 Log Likelihood" ref="bi711" varname="bi711" column="c114"/>
+				<StringVariable label="-2 Log Likelihood" ref="bi710" varname="bi710" column="c115"/>
+				<StringVariable label="BIC" ref="bi718" varname="bi718" column="c116"/>
+				<StringVariable label="BIC" ref="bi720" varname="bi720" column="c117"/>
+				<StringVariable label="BIC" ref="bi719" varname="bi719" column="c118"/>
+				<StringVariable label="Max-rescaled R-Square" ref="bi721" varname="bi721" column="c119"/>
+				<StringVariable label="Max-rescaled R-Square" ref="bi722" varname="bi722" column="c120"/>
+				<StringVariable label="Fit:" ref="bi378" varname="bi378" column="c121"/>
+				<StringVariable label="Event:" ref="bi377" varname="bi377" column="c122"/>
+				<StringVariable label="Model:" ref="bi376" varname="bi376" column="c123"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="8" colname="c0" encoding="text"/>
+				<StringColumn maxLength="8" colname="c1" encoding="text"/>
+				<StringColumn maxLength="3" colname="c2" encoding="text"/>
+				<StringColumn maxLength="3" colname="c3" encoding="text"/>
+				<StringColumn maxLength="3" colname="c4" encoding="text"/>
+				<StringColumn maxLength="3" colname="c5" encoding="text"/>
+				<StringColumn maxLength="32" colname="c6" encoding="text"/>
+				<StringColumn maxLength="24" colname="c7" encoding="text"/>
+				<StringColumn maxLength="43" colname="c8" encoding="text"/>
+				<StringColumn maxLength="35" colname="c9" encoding="text"/>
+				<StringColumn maxLength="37" colname="c10" encoding="text"/>
+				<StringColumn maxLength="29" colname="c11" encoding="text"/>
+				<StringColumn maxLength="8" colname="c12" encoding="text"/>
+				<StringColumn maxLength="3" colname="c13" encoding="text"/>
+				<StringColumn maxLength="3" colname="c14" encoding="text"/>
+				<StringColumn maxLength="13" colname="c15" encoding="text"/>
+				<StringColumn maxLength="24" colname="c16" encoding="text"/>
+				<StringColumn maxLength="18" colname="c17" encoding="text"/>
+				<StringColumn maxLength="7" colname="c18" encoding="text"/>
+				<StringColumn maxLength="6" colname="c19" encoding="text"/>
+				<StringColumn maxLength="3" colname="c20" encoding="text"/>
+				<StringColumn maxLength="17" colname="c21" encoding="text"/>
+				<StringColumn maxLength="3" colname="c22" encoding="text"/>
+				<StringColumn maxLength="11" colname="c23" encoding="text"/>
+				<StringColumn maxLength="7" colname="c24" encoding="text"/>
+				<StringColumn maxLength="17" colname="c25" encoding="text"/>
+				<StringColumn maxLength="3" colname="c26" encoding="text"/>
+				<StringColumn maxLength="28" colname="c27" encoding="text"/>
+				<StringColumn maxLength="3" colname="c28" encoding="text"/>
+				<StringColumn maxLength="22" colname="c29" encoding="text"/>
+				<StringColumn maxLength="8" colname="c30" encoding="text"/>
+				<StringColumn maxLength="21" colname="c31" encoding="text"/>
+				<StringColumn maxLength="3" colname="c32" encoding="text"/>
+				<StringColumn maxLength="32" colname="c33" encoding="text"/>
+				<StringColumn maxLength="3" colname="c34" encoding="text"/>
+				<StringColumn maxLength="26" colname="c35" encoding="text"/>
+				<StringColumn maxLength="8" colname="c36" encoding="text"/>
+				<StringColumn maxLength="23" colname="c37" encoding="text"/>
+				<StringColumn maxLength="3" colname="c38" encoding="text"/>
+				<StringColumn maxLength="34" colname="c39" encoding="text"/>
+				<StringColumn maxLength="3" colname="c40" encoding="text"/>
+				<StringColumn maxLength="28" colname="c41" encoding="text"/>
+				<StringColumn maxLength="7" colname="c42" encoding="text"/>
+				<StringColumn maxLength="6" colname="c43" encoding="text"/>
+				<StringColumn maxLength="3" colname="c44" encoding="text"/>
+				<StringColumn maxLength="17" colname="c45" encoding="text"/>
+				<StringColumn maxLength="3" colname="c46" encoding="text"/>
+				<StringColumn maxLength="11" colname="c47" encoding="text"/>
+				<StringColumn maxLength="7" colname="c48" encoding="text"/>
+				<StringColumn maxLength="13" colname="c49" encoding="text"/>
+				<StringColumn maxLength="3" colname="c50" encoding="text"/>
+				<StringColumn maxLength="24" colname="c51" encoding="text"/>
+				<StringColumn maxLength="3" colname="c52" encoding="text"/>
+				<StringColumn maxLength="18" colname="c53" encoding="text"/>
+				<StringColumn maxLength="7" colname="c54" encoding="text"/>
+				<StringColumn maxLength="10" colname="c55" encoding="text"/>
+				<StringColumn maxLength="3" colname="c56" encoding="text"/>
+				<StringColumn maxLength="21" colname="c57" encoding="text"/>
+				<StringColumn maxLength="3" colname="c58" encoding="text"/>
+				<StringColumn maxLength="15" colname="c59" encoding="text"/>
+				<StringColumn maxLength="7" colname="c60" encoding="text"/>
+				<StringColumn maxLength="21" colname="c61" encoding="text"/>
+				<StringColumn maxLength="3" colname="c62" encoding="text"/>
+				<StringColumn maxLength="32" colname="c63" encoding="text"/>
+				<StringColumn maxLength="3" colname="c64" encoding="text"/>
+				<StringColumn maxLength="26" colname="c65" encoding="text"/>
+				<StringColumn maxLength="7" colname="c66" encoding="text"/>
+				<StringColumn maxLength="22" colname="c67" encoding="text"/>
+				<StringColumn maxLength="3" colname="c68" encoding="text"/>
+				<StringColumn maxLength="33" colname="c69" encoding="text"/>
+				<StringColumn maxLength="3" colname="c70" encoding="text"/>
+				<StringColumn maxLength="27" colname="c71" encoding="text"/>
+				<StringColumn maxLength="7" colname="c72" encoding="text"/>
+				<StringColumn maxLength="6" colname="c73" encoding="text"/>
+				<StringColumn maxLength="3" colname="c74" encoding="text"/>
+				<StringColumn maxLength="17" colname="c75" encoding="text"/>
+				<StringColumn maxLength="3" colname="c76" encoding="text"/>
+				<StringColumn maxLength="11" colname="c77" encoding="text"/>
+				<StringColumn maxLength="7" colname="c78" encoding="text"/>
+				<StringColumn maxLength="7" colname="c79" encoding="text"/>
+				<StringColumn maxLength="3" colname="c80" encoding="text"/>
+				<StringColumn maxLength="18" colname="c81" encoding="text"/>
+				<StringColumn maxLength="3" colname="c82" encoding="text"/>
+				<StringColumn maxLength="12" colname="c83" encoding="text"/>
+				<StringColumn maxLength="7" colname="c84" encoding="text"/>
+				<StringColumn maxLength="5" colname="c85" encoding="text"/>
+				<StringColumn maxLength="3" colname="c86" encoding="text"/>
+				<StringColumn maxLength="16" colname="c87" encoding="text"/>
+				<StringColumn maxLength="3" colname="c88" encoding="text"/>
+				<StringColumn maxLength="10" colname="c89" encoding="text"/>
+				<NumericColumn dataType="double" colname="c90" encoding="text"/>
+				<NumericColumn dataType="double" colname="c91" encoding="text"/>
+				<NumericColumn dataType="double" colname="c92" encoding="text"/>
+				<StringColumn maxLength="5" colname="c93" encoding="text"/>
+				<StringColumn maxLength="3" colname="c94" encoding="text"/>
+				<StringColumn maxLength="15" colname="c95" encoding="text"/>
+				<StringColumn maxLength="3" colname="c96" encoding="text"/>
+				<StringColumn maxLength="12" colname="c97" encoding="text"/>
+				<StringColumn maxLength="16" colname="c98" encoding="text"/>
+				<StringColumn maxLength="14" colname="c99" encoding="text"/>
+				<StringColumn maxLength="15" colname="c100" encoding="text"/>
+				<StringColumn maxLength="11" colname="c101" encoding="text"/>
+				<StringColumn maxLength="13" colname="c102" encoding="text"/>
+				<StringColumn maxLength="9" colname="c103" encoding="text"/>
+				<StringColumn maxLength="13" colname="c104" encoding="text"/>
+				<StringColumn maxLength="8" colname="c105" encoding="text"/>
+				<StringColumn maxLength="10" colname="c106" encoding="text"/>
+				<StringColumn maxLength="4" colname="c107" encoding="text"/>
+				<StringColumn maxLength="10" colname="c108" encoding="text"/>
+				<StringColumn maxLength="5" colname="c109" encoding="text"/>
+				<StringColumn maxLength="4" colname="c110" encoding="text"/>
+				<StringColumn maxLength="10" colname="c111" encoding="text"/>
+				<StringColumn maxLength="6" colname="c112" encoding="text"/>
+				<StringColumn maxLength="4" colname="c113" encoding="text"/>
+				<StringColumn maxLength="12" colname="c114" encoding="text"/>
+				<StringColumn maxLength="19" colname="c115" encoding="text"/>
+				<StringColumn maxLength="6" colname="c116" encoding="text"/>
+				<StringColumn maxLength="10" colname="c117" encoding="text"/>
+				<StringColumn maxLength="5" colname="c118" encoding="text"/>
+				<StringColumn maxLength="8" colname="c119" encoding="text"/>
+				<StringColumn maxLength="23" colname="c120" encoding="text"/>
+				<StringColumn maxLength="6" colname="c121" encoding="text"/>
+				<StringColumn maxLength="8" colname="c122" encoding="text"/>
+				<StringColumn maxLength="21" colname="c123" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="1" contentKey="VJU3PSUS3CA54YAHC2ZIFXAWNB5DJDFD" size="1570" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["0.0797","0.0797",".",".",".",".","Misclassification Rate (Event)","Misclassification Rate","Validation Misclassification Rate (Event)","Validation Misclassification Rate","Test Misclassification Rate (Event)","Test Misclassification Rate","0.4230",".",".","KS (Youden)","Validation KS (Youden)","Test KS (Youden)","5.995","Lift",".","Validation Lift",".","Test Lift","5.995","Cumulative Lift",".","Validation Cumulative Lift",".","Test Cumulative Lift","55.665","Cumulative % Events",".","Validation Cumulative % Events",".","Test Cumulative % Events","29.973","Cumulative % Captured",".","Validation Cumulative % Captured",".","Test Cumulative % Captured","4.995","Gain",".","Validation Gain",".","Test Gain","0.776","C Statistic",".","Validation C Statistic",".","Test C Statistic","0.328","F1 Score",".","Validation F1 Score",".","Test F1 Score","0.007","False Positive Rate",".","Validation False Positive Rate",".","Test False Positive Rate","0.240","False Discovery Rate",".","Validation False Discovery Rate",".","Test False Discovery Rate","0.551","Gini",".","Validation Gini",".","Test Gini","0.572","Gamma",".","Validation Gamma",".","Test Gamma","0.093","Tau",".","Validation Tau",".","Test Tau",0.9202666008392989,.,.,"BAD","1","Observations:","1","4.1K of 6K","4,051 of 5,960","4.1K (68.0%)","4,051 (68.0%)","4.1K:1.9K","4,051:1,909","4.1K/6K","4,051/5,960","0.1170","R-Square","2K","2,026.12","AIC","2K","2,026.18","AICC","2K","2,004.1177","-2 Log Likelihood","2.1K","2,095.49","BIC","0.2534","Max-rescaled R-Square","Fit:","Event:","Logistic Regression"
+]]></Data>
+		</Result>
+		<Result ref="dd741" type="relational" status="success" dataLevel="baseline" label="Assessment Statistics" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Partition" ref="bi386" varname="bi386" column="c0"/>
+				<NumericVariable format="COMMA20.4" usage="quantitative" label="Misclassification Rate (Event)" ref="bi390" varname="bi390" column="c1"/>
+				<NumericVariable format="COMMA20.4" usage="quantitative" label="Misclassification Rate" ref="bi389" varname="bi389" column="c2"/>
+				<NumericVariable format="COMMA20.4" usage="quantitative" label="Accuracy" ref="bi393" varname="bi393" column="c3"/>
+				<NumericVariable format="COMMA20.4" usage="quantitative" label="KS (Youden)" ref="bi388" varname="bi388" column="c4"/>
+				<NumericVariable format="COMMA20.3" usage="quantitative" label="Lift" ref="bi641" varname="bi641" column="c5"/>
+				<NumericVariable format="COMMA20.3" usage="quantitative" label="Cumulative Lift" ref="bi642" varname="bi642" column="c6"/>
+				<NumericVariable format="COMMA20.3" usage="quantitative" label="Cumulative % Events" ref="bi643" varname="bi643" column="c7"/>
+				<NumericVariable format="COMMA20.3" usage="quantitative" label="Cumulative % Captured" ref="bi644" varname="bi644" column="c8"/>
+				<NumericVariable format="COMMA20.3" usage="quantitative" label="Gain" ref="bi645" varname="bi645" column="c9"/>
+				<NumericVariable format="COMMA20.3" usage="quantitative" label="C Statistic" ref="bi637" varname="bi637" column="c10"/>
+				<NumericVariable format="COMMA20.3" usage="quantitative" label="F1 Score" ref="bi640" varname="bi640" column="c11"/>
+				<NumericVariable format="COMMA20.3" usage="quantitative" label="False Positive Rate" ref="bi638" varname="bi638" column="c12"/>
+				<NumericVariable format="COMMA20.3" usage="quantitative" label="False Discovery Rate" ref="bi639" varname="bi639" column="c13"/>
+				<NumericVariable format="COMMA20.3" usage="quantitative" label="Gini" ref="bi646" varname="bi646" column="c14"/>
+				<NumericVariable format="COMMA20.3" usage="quantitative" label="Gamma" ref="bi647" varname="bi647" column="c15"/>
+				<NumericVariable format="COMMA20.3" usage="quantitative" label="Tau" ref="bi648" varname="bi648" column="c16"/>
+				<NumericVariable format="COMMA20." usage="quantitative" label="Observations Used" ref="bi391" varname="bi391" column="c17"/>
+				<NumericVariable format="COMMA20." usage="quantitative" label="Unused" ref="bi392" varname="bi392" column="c18"/>
+				<NumericVariable format="COMMA20.4" usage="quantitative" label="R-Square" ref="bi730" varname="bi730" column="c19"/>
+				<NumericVariable format="COMMA20.2" usage="quantitative" label="AIC" ref="bi726" varname="bi726" column="c20"/>
+				<NumericVariable format="COMMA20.2" usage="quantitative" label="AICC" ref="bi727" varname="bi727" column="c21"/>
+				<NumericVariable format="COMMA20.4" usage="quantitative" label="-2 Log Likelihood" ref="bi725" varname="bi725" column="c22"/>
+				<NumericVariable format="COMMA20.2" usage="quantitative" label="BIC" ref="bi728" varname="bi728" column="c23"/>
+				<NumericVariable format="COMMA20.4" usage="quantitative" label="Max-rescaled R-Square" ref="bi729" varname="bi729" column="c24"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="0" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+				<NumericColumn dataType="double" colname="c5" encoding="text"/>
+				<NumericColumn dataType="double" colname="c6" encoding="text"/>
+				<NumericColumn dataType="double" colname="c7" encoding="text"/>
+				<NumericColumn dataType="double" colname="c8" encoding="text"/>
+				<NumericColumn dataType="double" colname="c9" encoding="text"/>
+				<NumericColumn dataType="double" colname="c10" encoding="text"/>
+				<NumericColumn dataType="double" colname="c11" encoding="text"/>
+				<NumericColumn dataType="double" colname="c12" encoding="text"/>
+				<NumericColumn dataType="double" colname="c13" encoding="text"/>
+				<NumericColumn dataType="double" colname="c14" encoding="text"/>
+				<NumericColumn dataType="double" colname="c15" encoding="text"/>
+				<NumericColumn dataType="double" colname="c16" encoding="text"/>
+				<NumericColumn dataType="double" colname="c17" encoding="text"/>
+				<NumericColumn dataType="double" colname="c18" encoding="text"/>
+				<NumericColumn dataType="double" colname="c19" encoding="text"/>
+				<NumericColumn dataType="double" colname="c20" encoding="text"/>
+				<NumericColumn dataType="double" colname="c21" encoding="text"/>
+				<NumericColumn dataType="double" colname="c22" encoding="text"/>
+				<NumericColumn dataType="double" colname="c23" encoding="text"/>
+				<NumericColumn dataType="double" colname="c24" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="1" contentKey="MESYP5EEXVUUJCPKMYUKLH6AJK365IUV" size="438" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[" ",0.07973339916070106,0.07973339916070106,0.9202666008392989,0.42295130019680927,5.994694960212201,5.994694960212201,55.66502463054187,29.973474801061005,4.994694960212201,0.7756563073515376,0.3284823284823285,0.006804572672836184,0.2403846153846154,0.5513126147030751,0.5721677910883463,0.09308745592461547,4051.0,1909.0,0.1169874436396997,2026.1176935377607,2026.1830562513037,2004.1176935377607,2095.4916030129903,0.2534437091033627
+]]></Data>
+		</Result>
+		<Result ref="dd744" type="relational" status="success" dataLevel="baseline" label="Events" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Event Raw Value" ref="bi732" varname="bi732" column="c0"/>
+				<StringVariable label="Event Formatted" ref="bi733" varname="bi733" column="c1"/>
+				<NumericVariable format="PERCENT8.2" usage="quantitative" label="Percent" ref="bi735" varname="bi735" column="c2"/>
+				<NumericVariable format="COMMA20." usage="quantitative" label="Count" ref="bi734" varname="bi734" column="c3"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<StringColumn maxLength="1" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="2" contentKey="QSSMYHXOII64ZWEQIRUFQA74XKSLKTXG" size="59" format="CSV" rowCount="2" grandTotal="false" dataLayout="minimal"><![CDATA[0,0,0.906936558874352,3674.0
+1,1,0.09306344112564799,377.0
+]]></Data>
+			<StringTable contentKey="JYZFRW4KHIVQ3RH3QXUF33QOAGRK6GHL" size="8" format="CSV" rowCount="2"><![CDATA["0"
+"1"
+]]></StringTable>
+		</Result>
+		<Result ref="dd745" type="relational" status="success" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Data Source Name" ref="bi583" varname="bi583" column="c0"/>
+				<StringVariable label="Variable" ref="bi581" varname="bi581" column="c1"/>
+				<StringVariable label="Variable" ref="bi582" varname="bi582" column="c2"/>
+				<NumericVariable format="COMMA20.4" usage="quantitative" label="Importance" ref="bi584" varname="bi584" column="c3"/>
+				<NumericVariable format="COMMA20.4" usage="quantitative" label="Standard Deviation" ref="bi585" varname="bi585" column="c4"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<StringColumn maxLength="2" colname="c1" encoding="text"/>
+				<StringColumn maxLength="2" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="6" contentKey="H2IPI4XM44O527MFE4NTV3FTFFHC3ZMQ" size="169" format="CSV" rowCount="6" grandTotal="false" dataLayout="minimal"><![CDATA[2,8,8,1.0,0.0
+3,9,9,0.47908822541485047,0.0
+1,7,7,0.46044497718043464,0.0
+0,6,6,0.05829818141285017,0.0
+5,11,11,0.033575591649967255,0.0
+4,10,10,0.01572851046047218,0.0
+]]></Data>
+			<StringTable contentKey="QLJFZPJRAXXMLSHJGYC6B33UTH662BNM" size="89" format="CSV" rowCount="12"><![CDATA["bi10"
+"bi11"
+"bi12"
+"bi13"
+"bi14"
+"bi15"
+"CLNO"
+"DEBTINC"
+"DELINQ"
+"DEROG"
+"JOB"
+"LOAN"
+]]></StringTable>
+		</Result>
+		<Result ref="dd742" type="relational" status="success" dataLevel="baseline" label="Confusion Matrix" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Predicted" ref="bi284" varname="bi284" column="c0"/>
+				<StringVariable label="Observed" ref="bi285" varname="bi285" column="c1"/>
+				<NumericVariable format="COMMA20." usage="quantitative" label="Observations" ref="bi286" varname="bi286" column="c2"/>
+				<NumericVariable format="PERCENT8.2" usage="quantitative" label="Percentage" ref="bi287" varname="bi287" column="c3"/>
+				<NumericVariable format="COMMA20." usage="quantitative" label="Outline" ref="bi288" varname="bi288" column="c4"/>
+				<StringVariable label="Partition" ref="bi289" varname="bi289" column="c5"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<StringColumn maxLength="1" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+				<StringColumn maxLength="0" colname="c5" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="4" contentKey="DU22ABBLS5M4S4G75KZYDAJW2CQLSJ64" size="142" format="CSV" rowCount="4" grandTotal="false" dataLayout="minimal"><![CDATA[0,0,3649.0,0.9931954273271638,0.0,-1
+1,0,25.0,0.006804572672836146,.,-1
+0,1,298.0,0.7904509283819628,.,-1
+1,1,79.0,0.20954907161803712,0.0,-1
+]]></Data>
+			<StringTable contentKey="JYZFRW4KHIVQ3RH3QXUF33QOAGRK6GHL" size="8" format="CSV" rowCount="2"><![CDATA["0"
+"1"
+]]></StringTable>
+		</Result>
+		<Result ref="dd743" type="relational" status="success" dataLevel="baseline" label="Confusion Matrix" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Predicted" ref="bi572" varname="bi572" column="c0"/>
+				<StringVariable label="Observed" ref="bi573" varname="bi573" column="c1"/>
+				<NumericVariable format="COMMA20." usage="quantitative" label="Observations" ref="bi574" varname="bi574" column="c2"/>
+				<NumericVariable format="PERCENT8.2" usage="quantitative" label="Percentage" ref="bi575" varname="bi575" column="c3"/>
+				<NumericVariable format="COMMA20." usage="quantitative" label="Validation Observations" ref="bi576" varname="bi576" column="c4"/>
+				<NumericVariable format="PERCENT8.2" usage="quantitative" label="Validation Percentage" ref="bi577" varname="bi577" column="c5"/>
+				<NumericVariable format="COMMA20." usage="quantitative" label="Test Observations" ref="bi578" varname="bi578" column="c6"/>
+				<NumericVariable format="PERCENT8.2" usage="quantitative" label="Test Percentage" ref="bi579" varname="bi579" column="c7"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<StringColumn maxLength="1" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+				<NumericColumn dataType="double" colname="c5" encoding="text"/>
+				<NumericColumn dataType="double" colname="c6" encoding="text"/>
+				<NumericColumn dataType="double" colname="c7" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="4" contentKey="RHFWBZNFRQNAJLXGTTCQLEXOTR27SWV4" size="150" format="CSV" rowCount="4" grandTotal="false" dataLayout="minimal"><![CDATA[0,0,3649.0,0.9931954273271638,.,.,.,.
+1,0,25.0,0.006804572672836146,.,.,.,.
+0,1,298.0,0.7904509283819628,.,.,.,.
+1,1,79.0,0.20954907161803712,.,.,.,.
+]]></Data>
+			<StringTable contentKey="JYZFRW4KHIVQ3RH3QXUF33QOAGRK6GHL" size="8" format="CSV" rowCount="2"><![CDATA["0"
+"1"
+]]></StringTable>
+		</Result>
+		<Result ref="dd746" type="relational" status="success" dataLevel="baseline" label="Assessment Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Plot" ref="bi595" varname="bi595" column="c0"/>
+				<StringVariable label="Summary" ref="bi596" varname="bi596" column="c1"/>
+				<StringVariable label="Assessment Summary Constant" ref="bi597" varname="bi597" column="c2"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="2" colname="c0" encoding="text"/>
+				<StringColumn maxLength="2" colname="c1" encoding="text"/>
+				<StringColumn maxLength="2" colname="c2" encoding="text"/>
+			</Columns>
+			<DataFile contentKey="KVROBGVPVVWDGMLWOT4C24DSDSTP22UM" size="44" format="CSV" rowCount="6" grandTotal="false" dataLayout="minimal" file="dd746.csv" isIndexed="true" availableRowCount="6"/>
+			<StringTableFile contentKey="4Q2D64KK3PUNKWISZUO53NWK6NKPEOWF" size="3904" format="CSV" rowCount="18" file="dd746index.csv"/>
+		</Result>
+		<Result ref="dd747" type="relational" status="success" dataLevel="baseline" label="Assessment Summary Row" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Assessment" ref="bi587" varname="bi587" column="c0"/>
+				<StringVariable label="ROC" ref="bi590" varname="bi590" column="c1"/>
+				<StringVariable label="Cutoff" ref="bi593" varname="bi593" column="c2"/>
+				<StringVariable label="Lift" ref="bi589" varname="bi589" column="c3"/>
+				<StringVariable label="Cumulative Lift" ref="bi588" varname="bi588" column="c4"/>
+				<StringVariable label="Misclassification" ref="bi591" varname="bi591" column="c5"/>
+				<StringVariable label="Confusion Matrix" ref="bi592" varname="bi592" column="c6"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="0" colname="c0" encoding="text"/>
+				<StringColumn maxLength="1021" colname="c1" encoding="text"/>
+				<StringColumn maxLength="580" colname="c2" encoding="text"/>
+				<StringColumn maxLength="272" colname="c3" encoding="text"/>
+				<StringColumn maxLength="448" colname="c4" encoding="text"/>
+				<StringColumn maxLength="981" colname="c5" encoding="text"/>
+				<StringColumn maxLength="338" colname="c6" encoding="text"/>
+			</Columns>
+			<DataFile contentKey="PIUTHJJKD5WODCD56AJ7JP2SVPCEZGPK" size="3650" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal" file="dd747.csv" isIndexed="false" availableRowCount="1"/>
+		</Result>
+		<Result ref="dd186" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Dependent Variable" ref="bi45" varname="bi45" column="c0"/>
+				<StringVariable label="Observations Used" ref="bi39" varname="bi39" column="c1"/>
+				<StringVariable label="Observations Used" ref="bi41" varname="bi41" column="c2"/>
+				<StringVariable label="Unused" ref="bi42" varname="bi42" column="c3"/>
+				<StringVariable label="Unused" ref="bi43" varname="bi43" column="c4"/>
+				<StringVariable label="Excluded by Exclusion Filters" ref="bi44" varname="bi44" column="c5"/>
+				<StringVariable label="Selected statistic value" ref="bi46" varname="bi46" column="c6"/>
+				<StringVariable label="Selected statistic label" ref="bi47" varname="bi47" column="c7"/>
+				<StringVariable label="(event={0})" ref="bi48" varname="bi48" column="c8"/>
+				<StringVariable label="Event" ref="bi49" varname="bi49" column="c9"/>
+				<StringVariable label="Largest Observations Used" ref="bi40" varname="bi40" column="c10"/>
+				<NumericVariable format="COMMA20." usage="categorical" label="Target is Binary" ref="bi50" varname="bi50" column="c11"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="5" colname="c0" encoding="text"/>
+				<StringColumn maxLength="7" colname="c1" encoding="text"/>
+				<StringColumn maxLength="19" colname="c2" encoding="text"/>
+				<StringColumn maxLength="7" colname="c3" encoding="text"/>
+				<StringColumn maxLength="8" colname="c4" encoding="text"/>
+				<StringColumn maxLength="0" colname="c5" encoding="text"/>
+				<StringColumn maxLength="8" colname="c6" encoding="text"/>
+				<StringColumn maxLength="10" colname="c7" encoding="text"/>
+				<StringColumn maxLength="11" colname="c8" encoding="text"/>
+				<StringColumn maxLength="3" colname="c9" encoding="text"/>
+				<StringColumn maxLength="7" colname="c10" encoding="text"/>
+				<NumericColumn dataType="double" colname="c11" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="1" contentKey="6DF5EKURVDUANFCSXJ7WS7FZ73LP7WDB" size="101" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["BAD","4,051","Observations Used","1,909","Unused"," ","0.1170","R-Square","(event=1)","1","4,051",1
+]]></Data>
+		</Result>
+		<Result ref="dd187" type="relational" status="success" dataLevel="baseline" label="p-value Effects" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Effect" ref="bi52" varname="bi52" column="c0"/>
+				<StringVariable label="Effect" ref="bi53" varname="bi53" column="c1"/>
+				<NumericVariable format="NLPVALUE10.5" usage="quantitative" label="p-value" ref="bi55" varname="bi55" column="c2"/>
+				<StringVariable label="p-value" ref="bi56" varname="bi56" column="c3"/>
+				<NumericVariable format="NILPVALUE10.5" usage="quantitative" label="p-value" ref="bi57" varname="bi57" column="c4"/>
+				<StringVariable label="-log(p-value)" ref="bi58" varname="bi58" column="c5"/>
+				<StringVariable label="Data Source Name" ref="bi54" varname="bi54" column="c6"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="2" colname="c0" encoding="text"/>
+				<StringColumn maxLength="2" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<StringColumn maxLength="1" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+				<StringColumn maxLength="1" colname="c5" encoding="text"/>
+				<StringColumn maxLength="2" colname="c6" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="6" contentKey="JI3PBCUQ474RODGCS7R754KTEF4TIDZ3" size="273" format="CSV" rowCount="6" grandTotal="false" dataLayout="minimal"><![CDATA[14,14,9.999976974175576E-6,0,5.000001,1,8
+13,13,9.999976974175576E-6,0,5.000001,1,7
+15,15,9.999976974175576E-6,0,5.000001,1,9
+12,12,9.999976974175576E-6,0,5.000001,1,6
+16,16,3.0792945312818523E-4,2,3.511548769299831,5,10
+17,17,0.34202544028603254,3,0.4659415893680514,4,11
+]]></Data>
+			<StringTable contentKey="WSR47NXIN5R4BKYAK4HVPEG4QX4T3WI3" size="145" format="CSV" rowCount="18"><![CDATA["<0.00001"
+">5"
+"0.00031"
+"0.34203"
+"0.46594"
+"3.51155"
+"bi10"
+"bi11"
+"bi12"
+"bi13"
+"bi14"
+"bi15"
+"CLNO"
+"DEBTINC"
+"DELINQ"
+"DEROG"
+"JOB"
+"LOAN"
+]]></StringTable>
+		</Result>
+		<Result ref="dd188" type="relational" status="success" dataLevel="baseline" label="p-value Histogram" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<NumericVariable format="COMMA12.0" usage="quantitative" label="Observations" ref="bi60" varname="bi60" column="c0"/>
+				<NumericVariable format="PERCENT8.2" usage="quantitative" label="Percent" ref="bi61" varname="bi61" column="c1"/>
+				<NumericVariable format="NILPVALUE10.5" usage="quantitative" label="p-value" ref="bi62" varname="bi62" column="c2"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="10" contentKey="4EIJPKWZKGYRU4TI7ZX7LDQLBACEG3AY" size="177" format="CSV" rowCount="10" grandTotal="false" dataLayout="minimal"><![CDATA[1.0,0.16666666666666666,0.25
+0.0,0.0,0.75
+0.0,0.0,1.25
+0.0,0.0,1.75
+0.0,0.0,2.25
+0.0,0.0,2.75
+0.0,0.0,3.25
+1.0,0.16666666666666666,3.75
+0.0,0.0,4.25
+4.0,0.6666666666666666,4.75
+]]></Data>
+		</Result>
+		<Result ref="dd194" type="relational" status="success" dataLevel="baseline" label="Dimensions" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Description" ref="bi156" varname="bi156" column="c0"/>
+				<StringVariable label="Value" ref="bi157" varname="bi157" column="c1"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="2" colname="c0" encoding="text"/>
+				<StringColumn maxLength="1" colname="c1" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="6" contentKey="KL63EB47P5BQWXGS7XKAXVMAGA5NQIXN" size="26" format="CSV" rowCount="6" grandTotal="false" dataLayout="minimal"><![CDATA[8,5
+6,0
+7,2
+11,1
+9,4
+10,3
+]]></Data>
+			<StringTable contentKey="ABFXYSCIWQIA5VB7HTGNVSYRIC4G47OB" size="191" format="CSV" rowCount="12"><![CDATA["1"
+"11"
+"12"
+"4,051"
+"5,960"
+"7"
+"Number of Classification Effects"
+"Number of Columns in X"
+"Number of Model Effects"
+"Observations Read"
+"Observations Used"
+"Rank of Cross-product Matrix"
+]]></StringTable>
+		</Result>
+		<Result ref="dd200" type="relational" status="success" dataLevel="baseline" label="Model Information" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Description" ref="bi182" varname="bi182" column="c0"/>
+				<StringVariable label="Value" ref="bi183" varname="bi183" column="c1"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="2" colname="c0" encoding="text"/>
+				<StringColumn maxLength="2" colname="c1" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="6" contentKey="ZCU5HQTSY2SWHTYFVFE7TGPC27XQK7KX" size="26" format="CSV" rowCount="6" grandTotal="false" dataLayout="minimal"><![CDATA[2,10
+11,0
+3,1
+5,6
+8,7
+9,4
+]]></Data>
+			<StringTable contentKey="N6TCFTEHEEIO7RG62Y2EOMX2JKHUUMRK" size="192" format="CSV" rowCount="12"><![CDATA["BAD"
+"Binary"
+"Data Source"
+"Distribution"
+"I_BAD"
+"Link Function"
+"Logit"
+"Newton-Raphson with Ridging"
+"Optimization Technique"
+"Predicted Response Level"
+"Public.HMEQ"
+"Response Variable"
+]]></StringTable>
+		</Result>
+		<Result ref="dd197" type="relational" status="success" dataLevel="baseline" label="Fit Statistics" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Statistic" ref="bi168" varname="bi168" column="c0"/>
+				<StringVariable label="Value" ref="bi169" varname="bi169" column="c1"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="2" colname="c0" encoding="text"/>
+				<StringColumn maxLength="1" colname="c1" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="6" contentKey="YKXWZKNN6MBU2R7YIQ4SX7GOYNCODKCI" size="26" format="CSV" rowCount="6" grandTotal="false" dataLayout="minimal"><![CDATA[0,3
+7,4
+8,5
+9,6
+10,2
+11,1
+]]></Data>
+			<StringTable contentKey="7BCMWWCJBO63PAOLNWZHNCYSQKFI2ZI4" size="140" format="CSV" rowCount="12"><![CDATA["-2 Log Likelihood"
+"0.116987"
+"0.253444"
+"2004.118"
+"2026.118"
+"2026.183"
+"2095.492"
+"AIC"
+"AICC"
+"BIC"
+"Max-rescaled R-Square"
+"R-Square"
+]]></StringTable>
+		</Result>
+		<Result ref="dd198" type="relational" status="success" dataLevel="baseline" label="Type III Test" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Effect" ref="bi171" varname="bi171" column="c0"/>
+				<NumericVariable format="COMMA12.0" usage="quantitative" label="DF" ref="bi172" varname="bi172" column="c1"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Chi-Square" ref="bi173" varname="bi173" column="c2"/>
+				<NumericVariable format="NLPVALUE14.5" usage="quantitative" label="Pr &gt; ChiSq" ref="bi174" varname="bi174" column="c3"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="6" contentKey="3NG5CCZAQ2XQJDHH3ZDJTTSA5EKKRCMN" size="273" format="CSV" rowCount="6" grandTotal="false" dataLayout="minimal"><![CDATA[4,5.0,23.208637350429527,3.0792945312818523E-4
+0,1.0,22.94459914626243,9.999976974175576E-6
+1,1.0,116.68834195844339,9.999976974175576E-6
+2,1.0,166.5714421667164,9.999976974175576E-6
+3,1.0,69.36314634828778,9.999976974175576E-6
+5,1.0,0.9028246718568106,0.34202544028603254
+]]></Data>
+			<StringTable contentKey="USPNNKRQMCON5TFAYIDDXTIUE5TVRF4V" size="47" format="CSV" rowCount="6"><![CDATA["CLNO"
+"DEBTINC"
+"DELINQ"
+"DEROG"
+"JOB"
+"LOAN"
+]]></StringTable>
+		</Result>
+		<Result ref="dd199" type="relational" status="success" dataLevel="baseline" label="Parameter Estimates" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Parameter" ref="bi176" varname="bi176" column="c0"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Estimate" ref="bi177" varname="bi177" column="c1"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Standard Error" ref="bi178" varname="bi178" column="c2"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Chi-Square" ref="bi179" varname="bi179" column="c3"/>
+				<NumericVariable format="NLPVALUE14.5" usage="quantitative" label="Pr &gt; ChiSq" ref="bi180" varname="bi180" column="c4"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="2" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="12" contentKey="FJMNHSQYRFI4NUVNGDO3NMYTV7BQSQJW" size="907" format="CSV" rowCount="12" grandTotal="false" dataLayout="minimal"><![CDATA[4,-4.974072332094298,0.48570854813253667,104.87517516038335,1.3007747041735878E-24
+5,-0.3320596071439118,0.34987030768976,0.9007783213097562,0.3425731003160255
+6,-1.131466525718506,0.3621052763782462,9.763683966165457,0.0017799288204298075
+7,-0.3862759787303857,0.32649847458792997,1.3996939648809958,0.2367748176018245
+8,-0.4734618553967837,0.3434696809753827,1.9001731537327666,0.16805893890559953
+9,0.4028402639201371,0.47459210376508465,0.7204846412647075,0.39598498404440496
+10,0.0,.,.,.
+0,-0.031951576738677996,0.006670402754260127,22.944599146262433,1.6673801219617353E-6
+1,0.09548855089749858,0.008839700853920185,116.68834195844339,3.359151151379401E-27
+2,0.8189190827167624,0.06345132833795668,166.57144216671637,4.149936616605682E-38
+3,0.6813731865826387,0.0818126851658056,69.3631463482878,8.19048702722374E-17
+11,-5.32390707119799E-6,5.603104946465519E-6,0.9028246718568105,0.34202544028603266
+]]></Data>
+			<StringTable contentKey="XVWWX4GU5HC3TKGIBQFU3KMA5HEDPNKP" size="125" format="CSV" rowCount="12"><![CDATA["CLNO"
+"DEBTINC"
+"DELINQ"
+"DEROG"
+"Intercept"
+"JOB Mgr"
+"JOB Office"
+"JOB Other"
+"JOB ProfExe"
+"JOB Sales"
+"JOB Self"
+"LOAN"
+]]></StringTable>
+		</Result>
+		<Result ref="dd190" type="relational" status="success" dataLevel="baseline" label="Score Code" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Score Code" ref="bi79" varname="bi79" column="c0"/>
+				<StringVariable label="Export Code Prepend" ref="bi80" varname="bi80" column="c1"/>
+				<StringVariable label="Export Code Append" ref="bi81" varname="bi81" column="c2"/>
+				<StringVariable label="Derived Code Prepend" ref="bi82" varname="bi82" column="c3"/>
+				<StringVariable label="Derived Code Append" ref="bi83" varname="bi83" column="c4"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="2729" colname="c0" encoding="text"/>
+				<StringColumn maxLength="555" colname="c1" encoding="text"/>
+				<StringColumn maxLength="253" colname="c2" encoding="text"/>
+				<StringColumn maxLength="555" colname="c3" encoding="text"/>
+				<StringColumn maxLength="322" colname="c4" encoding="text"/>
+			</Columns>
+			<DataFile contentKey="7FUZCOVLID2RJZCW4FXFF4MC6DEITPFL" size="4419" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal" file="dd190.csv" isIndexed="false" availableRowCount="1"/>
+		</Result>
+		<Result ref="dd191" type="relational" status="success" dataLevel="baseline" label="New Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Purpose" ref="bi85" varname="bi85" column="c0"/>
+				<StringVariable label="XRef" ref="bi86" varname="bi86" column="c1"/>
+				<StringVariable label="Usage" ref="bi87" varname="bi87" column="c2"/>
+				<NumericVariable format="COMMA20." usage="quantitative" label="String Length" ref="bi88" varname="bi88" column="c3"/>
+				<StringVariable label="Level" ref="bi89" varname="bi89" column="c4"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<StringColumn maxLength="1" colname="c1" encoding="text"/>
+				<StringColumn maxLength="1" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<StringColumn maxLength="1" colname="c4" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="3" contentKey="AQULKV6AEW3FDFZWQ66QQMOCGP3OZFT7" size="38" format="CSV" rowCount="3" grandTotal="false" dataLayout="minimal"><![CDATA[6,3,2,32.0,-1
+7,5,8,0.0,1
+7,4,8,0.0,0
+]]></Data>
+			<StringTable contentKey="KWDFH4FN7RK7J5HB4XAPPRMPZCB4M4QO" size="114" format="CSV" rowCount="9"><![CDATA["0"
+"1"
+"categorical"
+"I_BAD_37"
+"P_BAD0_37"
+"P_BAD1_37"
+"predictedResponse"
+"probabilityResponse"
+"quantitative"
+]]></StringTable>
+		</Result>
+		<Result ref="dd192" type="relational" status="success" dataLevel="baseline" label="External Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Column" ref="bi91" varname="bi91" column="c0"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="7" contentKey="MHIS6D5PCCBNIFE5SJHPWDNQY4TBVQP3" size="14" format="CSV" rowCount="7" grandTotal="false" dataLayout="minimal"><![CDATA[0
+5
+1
+2
+3
+4
+6
+]]></Data>
+			<StringTable contentKey="SLQSSENLTIR7EPTXMWZGSJYUTAXOJ3BR" size="53" format="CSV" rowCount="7"><![CDATA["BAD"
+"CLNO"
+"DEBTINC"
+"DELINQ"
+"DEROG"
+"JOB"
+"LOAN"
+]]></StringTable>
+		</Result>
+		<Result ref="dd189" type="relational" status="success" dataLevel="baseline" label="Generated Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Purpose" ref="bi75" varname="bi75" column="c0"/>
+				<StringVariable label="XRef" ref="bi76" varname="bi76" column="c1"/>
+				<StringVariable label="Usage" ref="bi77" varname="bi77" column="c2"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="2" colname="c0" encoding="text"/>
+				<StringColumn maxLength="2" colname="c1" encoding="text"/>
+				<StringColumn maxLength="2" colname="c2" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="13" contentKey="3GHVKVFFAEGWT7X4K2HSL7QQHD647NRN" size="107" format="CSV" rowCount="13" grandTotal="false" dataLayout="minimal"><![CDATA[23,9,24
+20,6,13
+27,12,13
+25,10,24
+21,7,24
+22,8,24
+15,1,24
+26,11,24
+14,0,24
+17,3,24
+16,2,24
+19,5,24
+18,4,13
+]]></Data>
+			<StringTable contentKey="SUGPGDWH6TTCFKIFSINFVM3BV6J7XHHT" size="319" format="CSV" rowCount="28"><![CDATA["_CBAR_"
+"_DEVRESID_"
+"_DIFCHISQ_"
+"_DIFDEV_"
+"_FITROLE_"
+"_ILINKLOG_"
+"_INTOLOG_"
+"_LIKEDIST_"
+"_PEARSON_"
+"_PREDLOG_"
+"_RESID_"
+"_STDRESCHI_"
+"_TARGETLOG_"
+"categorical"
+"cbar"
+"devresid"
+"difchisq"
+"difdev"
+"fitrole"
+"ilinklog"
+"intolog"
+"likedist"
+"pearson"
+"predlog"
+"quantitative"
+"resid"
+"stdreschi"
+"targetlog"
+]]></StringTable>
+		</Result>
+		<Result ref="dd195" type="relational" status="success" dataLevel="baseline" label="Iteration History" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<NumericVariable format="BEST8." usage="quantitative" label="Iteration" ref="bi159" varname="bi159" column="c0"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Evaluations" ref="bi160" varname="bi160" column="c1"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Objective" ref="bi161" varname="bi161" column="c2"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Change" ref="bi162" varname="bi162" column="c3"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Max Gradient" ref="bi163" varname="bi163" column="c4"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="5" contentKey="ACTEX6S7BNCV73VRBFQOB32UE7EF5E32" size="321" format="CSV" rowCount="5" grandTotal="false" dataLayout="minimal"><![CDATA[0.0,4.0,0.25755578659199746,.,280.3625250738724
+1.0,2.0,0.24815543751686683,0.009400349075130626,67.64111245726068
+2.0,2.0,0.24736824119829326,7.871963185735742E-4,7.3262737245211005
+3.0,2.0,0.24736086155499842,7.379643294835869E-6,0.08110551678086349
+4.0,2.0,0.2473608607180648,8.36933633507897E-10,9.632010059247276E-6
+]]></Data>
+		</Result>
+		<Result ref="dd196" type="relational" status="success" dataLevel="baseline" label="Convergence" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Reason" ref="bi165" varname="bi165" column="c0"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Status" ref="bi166" varname="bi166" column="c1"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="47" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="1" contentKey="3N2EELQ6ZQIS6WFBW3QLW5RES6757PHY" size="52" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["Convergence criterion (GCONV=1E-6) satisfied.",0.0
+]]></Data>
+		</Result>
+		<Result ref="dd193" type="relational" status="success" dataLevel="baseline" label="Response Profile" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Ordered Value" ref="bi93" varname="bi93" column="c0"/>
+				<StringVariable label="BAD" ref="bi95" varname="bi95" column="c1"/>
+				<StringVariable label="BAD" ref="bi96" varname="bi96" column="c2"/>
+				<NumericVariable format="BEST." usage="quantitative" label="Count" ref="bi94" varname="bi94" column="c3"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<StringColumn maxLength="1" colname="c1" encoding="text"/>
+				<StringColumn maxLength="1" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="2" contentKey="W5KLSZSAH6XSJLZDYDIOAKM6PGBWSAGY" size="26" format="CSV" rowCount="2" grandTotal="false" dataLayout="minimal"><![CDATA[1,1,1,377.0
+2,0,-1,3674.0
+]]></Data>
+			<StringTable contentKey="PPES5WZKFYI5GKQOB6RJ4E4G6K7CZFN4" size="12" format="CSV" rowCount="3"><![CDATA["0"
+"1"
+"2"
+]]></StringTable>
+		</Result>
+		<Result ref="dd207" type="relational" status="success" dataLevel="baseline" label="Odds Ratio" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Group Value" ref="bi152" varname="bi152" column="c0"/>
+				<StringVariable label="Description" ref="bi144" varname="bi144" column="c1"/>
+				<StringVariable label="Unique Description" ref="bi145" varname="bi145" column="c2"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Odds Ratio Estimate" ref="bi146" varname="bi146" column="c3"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Lower Confidence Level (95%)" ref="bi147" varname="bi147" column="c4"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Upper Confidence Level (95%)" ref="bi148" varname="bi148" column="c5"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Lower Confidence Level (95%) Value" ref="bi149" varname="bi149" column="c6"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Upper Confidence Level (95%) Value" ref="bi150" varname="bi150" column="c7"/>
+				<NumericVariable format="NLPVALUE14.5" usage="quantitative" label="p-value" ref="bi151" varname="bi151" column="c8"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="0" colname="c0" encoding="text"/>
+				<StringColumn maxLength="1" colname="c1" encoding="text"/>
+				<StringColumn maxLength="1" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+				<NumericColumn dataType="double" colname="c5" encoding="text"/>
+				<NumericColumn dataType="double" colname="c6" encoding="text"/>
+				<NumericColumn dataType="double" colname="c7" encoding="text"/>
+				<NumericColumn dataType="double" colname="c8" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="10" contentKey="OE57X7U4RDB6ZQLUXOQYQAOMBMNG2I6L" size="1222" format="CSV" rowCount="10" grandTotal="false" dataLayout="minimal"><![CDATA[-1,0,0,0.968553481462015,0.9559732706436302,0.9812992426248446,0.9559732706436302,0.9812992426248446,1.667380121961696E-6
+-1,1,1,1.1001962257024673,1.0812989561354913,1.119423752498548,1.0812989561354913,1.119423752498548,3.359151151379333E-27
+-1,2,2,2.2680469409444135,2.0028211555469126,2.5683955414993727,2.0028211555469126,2.5683955414993727,4.1499366166089124E-38
+-1,3,3,1.9765900965130236,1.6837496993440852,2.320361756355665,1.6837496993440852,2.320361756355665,8.190487027221431E-17
+-1,4,4,0.71744455675893,0.3613917209080786,1.4242902154195733,0.3613917209080786,1.4242902154195733,0.34257310031602545
+-1,5,5,0.3225598670474666,0.15863015966593144,0.655895877863286,0.15863015966593144,0.655895877863286,0.0017799288204298084
+-1,6,6,0.6795829493584183,0.3583657271125893,1.2887197355052606,0.3583657271125893,1.2887197355052606,0.23677481760182442
+-1,7,7,0.6228423416412205,0.3176992622432128,1.2210685659198646,0.3176992622432128,1.2210685659198646,0.16805893890559945
+-1,8,8,1.4960678965550154,0.5901708741520205,3.7924934101814247,0.5901708741520205,3.7924934101814247,0.39598498404440485
+-1,9,9,0.9999946761071008,0.9999836943419708,1.0000056579928318,0.9999836943419708,1.0000056579928318,0.3420254402860325
+]]></Data>
+			<StringTable contentKey="2ULTDBDDCNSX5DVLZV3WDDARESMFLM7X" size="142" format="CSV" rowCount="10"><![CDATA["CLNO"
+"DEBTINC"
+"DELINQ"
+"DEROG"
+"JOB Mgr vs Self"
+"JOB Office vs Self"
+"JOB Other vs Self"
+"JOB ProfExe vs Self"
+"JOB Sales vs Self"
+"LOAN"
+]]></StringTable>
+		</Result>
+		<Result ref="dd208" type="relational" status="success" dataLevel="baseline" label="Fit Model Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Odds Ratio Summary" ref="bi154" varname="bi154" column="c0"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="510" colname="c0" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="1" contentKey="UDJQD4EKY722LXY7QUDNBE6NRC4I3TL5" size="511" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["The odds ratio plot displays the odds ratio estimates along with their corresponding confidence intervals at the 95% confidence level.   An odds ratio (OR) estimates the change in the odds that BAD = 1.  An OR greater than one indicates the predictor is associated with an increase in the expected odds.  An OR less than one indicates the predictor is associated with a decrease in the expected odds.  An odds ratio equal to one indicates the predictor is not associated with any change in the expected odds."
+]]></Data>
+		</Result>
+		<Result ref="dd201" type="relational" status="success" dataLevel="baseline" label="Selection Info" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Description" ref="bi98" varname="bi98" column="c0"/>
+				<StringVariable label="Value" ref="bi99" varname="bi99" column="c1"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="0" colname="c0" encoding="text"/>
+				<StringColumn maxLength="0" colname="c1" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
+		</Result>
+		<Result ref="dd202" type="relational" status="success" dataLevel="baseline" label="Selection Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Group Value" ref="bi120" varname="bi120" column="c0"/>
+				<StringVariable label="Control" ref="bi101" varname="bi101" column="c1"/>
+				<NumericVariable format="COMMA12.0" usage="quantitative" label="Step" ref="bi102" varname="bi102" column="c2"/>
+				<StringVariable label="Description" ref="bi103" varname="bi103" column="c3"/>
+				<NumericVariable format="COMMA12.0" usage="quantitative" label="Number In Model" ref="bi104" varname="bi104" column="c4"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Lambda" ref="bi105" varname="bi105" column="c5"/>
+				<StringVariable label="Effect Entered" ref="bi106" varname="bi106" column="c6"/>
+				<StringVariable label="Effect Removed" ref="bi107" varname="bi107" column="c7"/>
+				<StringVariable label="Effect" ref="bi108" varname="bi108" column="c8"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Number Of Effects" ref="bi109" varname="bi109" column="c9"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Significance Level" ref="bi110" varname="bi110" column="c10"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Optimal P Value" ref="bi111" varname="bi111" column="c11"/>
+				<NumericVariable format="COMMA20.2" usage="quantitative" label="AIC" ref="bi112" varname="bi112" column="c12"/>
+				<NumericVariable format="COMMA20.2" usage="quantitative" label="AICC" ref="bi114" varname="bi114" column="c13"/>
+				<NumericVariable format="COMMA20.2" usage="quantitative" label="SBC" ref="bi116" varname="bi116" column="c14"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Validation ASE" ref="bi118" varname="bi118" column="c15"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="0" colname="c0" encoding="text"/>
+				<StringColumn maxLength="0" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<StringColumn maxLength="0" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+				<NumericColumn dataType="double" colname="c5" encoding="text"/>
+				<StringColumn maxLength="0" colname="c6" encoding="text"/>
+				<StringColumn maxLength="0" colname="c7" encoding="text"/>
+				<StringColumn maxLength="0" colname="c8" encoding="text"/>
+				<NumericColumn dataType="double" colname="c9" encoding="text"/>
+				<NumericColumn dataType="double" colname="c10" encoding="text"/>
+				<NumericColumn dataType="double" colname="c11" encoding="text"/>
+				<NumericColumn dataType="double" colname="c12" encoding="text"/>
+				<NumericColumn dataType="double" colname="c13" encoding="text"/>
+				<NumericColumn dataType="double" colname="c14" encoding="text"/>
+				<NumericColumn dataType="double" colname="c15" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
+		</Result>
+		<Result ref="dd203" type="relational" status="success" dataLevel="baseline" label="Estimate Effect" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Effect" ref="bi122" varname="bi122" column="c0"/>
+				<StringVariable label="Effect" ref="bi123" varname="bi123" column="c1"/>
+				<NumericVariable format="BEST." usage="quantitative" label="Magnitude" ref="bi125" varname="bi125" column="c2"/>
+				<NumericVariable format="BEST." usage="quantitative" label="Value" ref="bi126" varname="bi126" column="c3"/>
+				<StringVariable label="XRef" ref="bi127" varname="bi127" column="c4"/>
+				<StringVariable label="Data Source Name" ref="bi124" varname="bi124" column="c5"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="2" colname="c0" encoding="text"/>
+				<StringColumn maxLength="2" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<StringColumn maxLength="2" colname="c4" encoding="text"/>
+				<StringColumn maxLength="1" colname="c5" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="11" contentKey="HWCCNFQ3IHK2IKABPGIQAKO5LMTYV6CS" size="509" format="CSV" rowCount="11" grandTotal="false" dataLayout="minimal"><![CDATA[11,11,0.3320596071439118,-0.3320596071439118,10,4
+12,12,1.131466525718506,-1.131466525718506,10,4
+13,13,0.3862759787303857,-0.3862759787303857,10,4
+14,14,0.4734618553967837,-0.4734618553967837,10,4
+15,15,0.4028402639201371,0.4028402639201371,10,4
+16,16,0.0,0.0,10,4
+6,6,0.031951576738677996,-0.031951576738677996,6,0
+7,7,0.09548855089749858,0.09548855089749858,7,1
+8,8,0.8189190827167624,0.8189190827167624,8,2
+9,9,0.6813731865826387,0.6813731865826387,9,3
+17,17,5.32390707119799E-6,-5.32390707119799E-6,17,5
+]]></Data>
+			<StringTable contentKey="3G3BYZWL7AVOWEQCEJ3D53GQ6OUP5FFB" size="161" format="CSV" rowCount="18"><![CDATA["bi10"
+"bi11"
+"bi12"
+"bi13"
+"bi14"
+"bi15"
+"CLNO"
+"DEBTINC"
+"DELINQ"
+"DEROG"
+"JOB"
+"JOB Mgr"
+"JOB Office"
+"JOB Other"
+"JOB ProfExe"
+"JOB Sales"
+"JOB Self"
+"LOAN"
+]]></StringTable>
+		</Result>
+		<Result ref="dd204" type="relational" status="success" dataLevel="baseline" label="Estimate Count" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<NumericVariable format="COMMA12.0" usage="quantitative" label="Count" ref="bi129" varname="bi129" column="c0"/>
+				<NumericVariable format="PERCENT8.2" usage="quantitative" label="Percent" ref="bi130" varname="bi130" column="c1"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Lower Bound" ref="bi131" varname="bi131" column="c2"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Midpoint" ref="bi132" varname="bi132" column="c3"/>
+				<NumericVariable format="BEST8." usage="quantitative" label="Upper Bound" ref="bi133" varname="bi133" column="c4"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="10" contentKey="TTE3HO4M2YOK4OE6PIJNTOKZSQ6ZLAP3" size="742" format="CSV" rowCount="10" grandTotal="false" dataLayout="minimal"><![CDATA[4.0,0.36363636363636365,0.0,0.0565733262859253,0.1131466525718506
+0.0,0.0,0.1131466525718506,0.1697199788577759,0.2262933051437012
+1.0,0.09090909090909091,0.2262933051437012,0.2828666314296265,0.3394399577155518
+2.0,0.18181818181818182,0.3394399577155518,0.39601328400147706,0.4525866102874024
+1.0,0.09090909090909091,0.4525866102874024,0.5091599365733277,0.565733262859253
+0.0,0.0,0.565733262859253,0.6223065891451782,0.6788799154311036
+1.0,0.09090909090909091,0.6788799154311036,0.735453241717029,0.7920265680029542
+1.0,0.09090909090909091,0.7920265680029541,0.8485998942888795,0.9051732205748048
+0.0,0.0,0.9051732205748048,0.96174654686073,1.0183198731466554
+1.0,0.09090909090909091,1.0183198731466554,1.0748931994325805,1.131466525718506
+]]></Data>
+		</Result>
+		<Result ref="dd205" type="relational" status="success" dataLevel="baseline" label="Group Estimates" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Group Value" ref="bi135" varname="bi135" column="c0"/>
+				<StringVariable label="Effect" ref="bi136" varname="bi136" column="c1"/>
+				<StringVariable label="Effect" ref="bi137" varname="bi137" column="c2"/>
+				<NumericVariable format="BEST." usage="quantitative" label="Magnitude" ref="bi138" varname="bi138" column="c3"/>
+				<NumericVariable format="BEST." usage="quantitative" label="Value" ref="bi139" varname="bi139" column="c4"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="0" colname="c0" encoding="text"/>
+				<StringColumn maxLength="0" colname="c1" encoding="text"/>
+				<StringColumn maxLength="0" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
+		</Result>
+		<Result ref="dd206" type="relational" status="success" dataLevel="baseline" label="Estimate Value Range" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<NumericVariable format="BEST." usage="quantitative" label="Lower Bound" ref="bi141" varname="bi141" column="c0"/>
+				<NumericVariable format="BEST." usage="quantitative" label="Upper Bound" ref="bi142" varname="bi142" column="c1"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="1" contentKey="BJ4JEC47GGOFYY3B22HAWLIGLDKWH2QE" size="38" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[-1.131466525718506,0.8189190827167624
+]]></Data>
+		</Result>
+		<Result ref="dd818" type="relational" status="success" dataLevel="baseline" label="Residual, Predicted Probability" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<NumericVariable format="BEST." usage="categorical" label="Predicted Probability" ref="bi824" varname="bi824" column="c0"/>
+				<NumericVariable format="BEST." usage="categorical" label="Predicted Probability (lower)" ref="bi847" varname="bi847" column="c1"/>
+				<NumericVariable format="BEST." usage="categorical" label="Predicted Probability (upper)" ref="bi848" varname="bi848" column="c2"/>
+				<NumericVariable format="BEST." usage="categorical" label="Residual" ref="bi825" varname="bi825" column="c3"/>
+				<NumericVariable format="BEST." usage="categorical" label="Residual (lower)" ref="bi849" varname="bi849" column="c4"/>
+				<NumericVariable format="BEST." usage="categorical" label="Residual (upper)" ref="bi850" varname="bi850" column="c5"/>
+				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="totalCount" label="Frequency" ref="bi846" varname="bi846" column="c6"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+				<NumericColumn dataType="double" colname="c5" encoding="text"/>
+				<NumericColumn dataType="double" colname="c6" encoding="text"/>
+			</Columns>
+			<DataFile contentKey="ZBSQVML5IVKRQMUBTR6ZUFKFMNYAEMTB" size="2402" format="CSV" rowCount="70" grandTotal="false" dataLayout="minimal" file="dd818.csv" isIndexed="false" availableRowCount="70"/>
+		</Result>
+		<Result ref="dd819" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-11-24T12:18:38.442Z">
+			<Variables>
+				<StringVariable label="Variable Name" ref="bi820" varname="bi820" column="c0"/>
+				<NumericVariable format="COMMA20.2" usage="quantitative" label="Bin lower bound" ref="bi821" varname="bi821" column="c1"/>
+				<NumericVariable format="COMMA20.2" usage="quantitative" label="Bin width" ref="bi822" varname="bi822" column="c2"/>
+				<NumericVariable format="COMMA20.2" usage="quantitative" label="Number of Bins" ref="bi823" varname="bi823" column="c3"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="2" contentKey="TTZ54A6BXXYEAZJ5RF2CWFNR53NCOCYK" size="51" format="CSV" rowCount="2" grandTotal="false" dataLayout="minimal"><![CDATA[1,-5.0,10.0,38.0
+0,-0.01,0.020000000000000004,51.0
+]]></Data>
+			<StringTable contentKey="GWUT36QTTOCNWIU5576HOX2FLIVG7JRY" size="16" format="CSV" rowCount="2"><![CDATA["bi824"
+"bi825"
+]]></StringTable>
+		</Result>
+	</Results>
+	<DataDefinitions>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd35">
+			<BusinessItems>
+				<RelationalDataItem name="bi764" base="bi8"/>
+				<RelationalDataItem name="bi783" base="bi10"/>
+				<RelationalDataItem name="bi784" base="bi11"/>
+				<RelationalDataItem name="bi785" base="bi12"/>
+				<RelationalDataItem name="bi786" base="bi13"/>
+				<RelationalDataItem name="bi787" base="bi15"/>
+				<RelationalDataItem name="bi869" base="bi14"/>
+				<SyntheticItems name="si38">
+					<Item purpose="countUsed" name="bi39"/>
+					<Item purpose="largestCountUsed" name="bi40"/>
+					<Item purpose="countUsedLabel" name="bi41"/>
+					<Item purpose="countUnused" name="bi42"/>
+					<Item purpose="countUnusedLabel" name="bi43"/>
+					<Item purpose="countExcluded" name="bi44"/>
+					<Item purpose="dependentVariableLabel" name="bi45"/>
+					<Item purpose="selectedStatisticValue" name="bi46"/>
+					<Item purpose="selectedStatisticLabel" name="bi47"/>
+					<Item purpose="eventLabel" name="bi48"/>
+					<Item purpose="eventString" name="bi49"/>
+					<Item purpose="targetIsBinary" name="bi50"/>
+				</SyntheticItems>
+				<SyntheticItems name="si51">
+					<Item purpose="effect" name="bi52"/>
+					<Item purpose="uniqueEffect" name="bi53"/>
+					<Item purpose="dataSourceName" name="bi54"/>
+					<Item purpose="pValue" name="bi55" format="NLPVALUE10.5"/>
+					<Item purpose="pValueFormatted" name="bi56"/>
+					<Item purpose="negativeLogPValue" name="bi57" format="NILPVALUE10.5"/>
+					<Item purpose="negativeLogPValueFormatted" name="bi58"/>
+				</SyntheticItems>
+				<SyntheticItems name="si59">
+					<Item purpose="count" name="bi60"/>
+					<Item purpose="percent" name="bi61"/>
+					<Item purpose="midpoint" name="bi62" format="NILPVALUE10.5"/>
+				</SyntheticItems>
+				<SyntheticItems name="si74">
+					<Item purpose="purpose" name="bi75"/>
+					<Item purpose="xref" name="bi76"/>
+					<Item purpose="usage" name="bi77"/>
+				</SyntheticItems>
+				<SyntheticItems name="si78">
+					<Item purpose="scoreCode" name="bi79"/>
+					<Item purpose="exportCodePrepend" name="bi80"/>
+					<Item purpose="exportCodeAppend" name="bi81"/>
+					<Item purpose="derivedCodePrepend" name="bi82"/>
+					<Item purpose="derivedCodeAppend" name="bi83"/>
+				</SyntheticItems>
+				<SyntheticItems name="si84">
+					<Item purpose="purpose" name="bi85"/>
+					<Item purpose="xref" name="bi86"/>
+					<Item purpose="usage" name="bi87"/>
+					<Item purpose="stringLength" name="bi88"/>
+					<Item purpose="level" name="bi89"/>
+				</SyntheticItems>
+				<SyntheticItems name="si90">
+					<Item purpose="xref" name="bi91"/>
+				</SyntheticItems>
+				<SyntheticItems name="si92">
+					<Item purpose="orderedValue" name="bi93"/>
+					<Item purpose="count" name="bi94"/>
+					<Item purpose="eventLabel" name="bi95"/>
+					<Item purpose="eventString" name="bi96"/>
+				</SyntheticItems>
+				<SyntheticItems name="si155">
+					<Item purpose="description" name="bi156"/>
+					<Item purpose="valueFormatted" name="bi157"/>
+				</SyntheticItems>
+				<SyntheticItems name="si158">
+					<Item purpose="iteration" name="bi159"/>
+					<Item purpose="evaluations" name="bi160"/>
+					<Item purpose="objective" name="bi161"/>
+					<Item purpose="change" name="bi162"/>
+					<Item purpose="maxGradient" name="bi163"/>
+				</SyntheticItems>
+				<SyntheticItems name="si164">
+					<Item purpose="reason" name="bi165"/>
+					<Item purpose="status" name="bi166"/>
+				</SyntheticItems>
+				<SyntheticItems name="si167">
+					<Item purpose="description" name="bi168"/>
+					<Item purpose="valueFormatted" name="bi169"/>
+				</SyntheticItems>
+				<SyntheticItems name="si170">
+					<Item purpose="effectLabel" name="bi171"/>
+					<Item purpose="numDf" name="bi172"/>
+					<Item purpose="chiSquare" name="bi173"/>
+					<Item purpose="probChiSquare" name="bi174" format="NLPVALUE14.5"/>
+				</SyntheticItems>
+				<SyntheticItems name="si175">
+					<Item purpose="effectLabel" name="bi176"/>
+					<Item purpose="estimate" name="bi177"/>
+					<Item purpose="standardErrorStatistic" name="bi178"/>
+					<Item purpose="chiSquare" name="bi179"/>
+					<Item purpose="probChiSquare" name="bi180" format="NLPVALUE14.5"/>
+				</SyntheticItems>
+				<SyntheticItems name="si181">
+					<Item purpose="description" name="bi182"/>
+					<Item purpose="value" name="bi183"/>
+				</SyntheticItems>
+				<SyntheticItems name="si97">
+					<Item purpose="description" name="bi98"/>
+					<Item purpose="value" name="bi99"/>
+				</SyntheticItems>
+				<SyntheticItems name="si100">
+					<Item purpose="control" name="bi101"/>
+					<Item purpose="step" name="bi102"/>
+					<Item purpose="description" name="bi103"/>
+					<Item purpose="numInModel" name="bi104"/>
+					<Item purpose="lambda" name="bi105"/>
+					<Item purpose="effectEntered" name="bi106"/>
+					<Item purpose="effectRemoved" name="bi107"/>
+					<Item purpose="effect" name="bi108"/>
+					<Item purpose="numberOfEffects" name="bi109"/>
+					<Item purpose="significanceLevel" name="bi110"/>
+					<Item purpose="optimalPValue" name="bi111"/>
+					<Item purpose="aic" name="bi112"/>
+					<Item purpose="optionalAic" name="bi113"/>
+					<Item purpose="aicc" name="bi114"/>
+					<Item purpose="optionalAicc" name="bi115"/>
+					<Item purpose="sbc" name="bi116"/>
+					<Item purpose="optionalSbc" name="bi117"/>
+					<Item purpose="validate" name="bi118"/>
+					<Item purpose="optionalValidate" name="bi119"/>
+					<Item purpose="groupKey" name="bi120"/>
+				</SyntheticItems>
+				<SyntheticItems name="si121">
+					<Item purpose="effect" name="bi122"/>
+					<Item purpose="uniqueEffect" name="bi123"/>
+					<Item purpose="dataSourceName" name="bi124"/>
+					<Item purpose="magnitude" name="bi125"/>
+					<Item purpose="value" name="bi126"/>
+					<Item purpose="xref" name="bi127"/>
+				</SyntheticItems>
+				<SyntheticItems name="si128">
+					<Item purpose="count" name="bi129"/>
+					<Item purpose="percent" name="bi130"/>
+					<Item purpose="lowerBound" name="bi131"/>
+					<Item purpose="midpoint" name="bi132"/>
+					<Item purpose="upperBound" name="bi133"/>
+				</SyntheticItems>
+				<SyntheticItems name="si134">
+					<Item purpose="groupKey" name="bi135"/>
+					<Item purpose="effect" name="bi136"/>
+					<Item purpose="uniqueEffect" name="bi137"/>
+					<Item purpose="magnitude" name="bi138"/>
+					<Item purpose="value" name="bi139"/>
+				</SyntheticItems>
+				<SyntheticItems name="si140">
+					<Item purpose="lowerBound" name="bi141"/>
+					<Item purpose="upperBound" name="bi142"/>
+				</SyntheticItems>
+				<SyntheticItems name="si143">
+					<Item purpose="description" name="bi144"/>
+					<Item purpose="uniqueDescription" name="bi145"/>
+					<Item purpose="estimate" name="bi146"/>
+					<Item purpose="lowerWaldCL" name="bi147"/>
+					<Item purpose="upperWaldCL" name="bi148"/>
+					<Item purpose="lowerWaldCLValue" name="bi149"/>
+					<Item purpose="upperWaldCLValue" name="bi150"/>
+					<Item purpose="waldPVal" name="bi151"/>
+					<Item purpose="groupKey" name="bi152"/>
+				</SyntheticItems>
+				<SyntheticItems name="si153">
+					<Item purpose="oddsRatioSummary" name="bi154"/>
+				</SyntheticItems>
+			</BusinessItems>
+			<DataDefinition dataSource="ds7" type="procedural" name="dd36">
+				<ProceduralQuery type="logisticRegression" scoreCodeNumber="37">
+					<GeneratedResources>
+						<GeneratedData purpose="model" name="ge185"/>
+						<GeneratedTable purpose="scoredTable" name="ge184"/>
+					</GeneratedResources>
+					<Arguments>
+						<Argument purpose="dependentVariable">
+							<ReferenceValue>bi764</ReferenceValue>
+						</Argument>
+						<ListArgument purpose="continuousVariables">
+							<ReferenceValue>bi783</ReferenceValue>
+							<ReferenceValue>bi784</ReferenceValue>
+							<ReferenceValue>bi785</ReferenceValue>
+							<ReferenceValue>bi786</ReferenceValue>
+							<ReferenceValue>bi787</ReferenceValue>
+						</ListArgument>
+						<ListArgument purpose="classificationVariables">
+							<ReferenceValue>bi869</ReferenceValue>
+						</ListArgument>
+						<Argument purpose="selectedStatistic">
+							<StringValue>ks</StringValue>
+						</Argument>
+						<Argument purpose="usesPartition">
+							<BooleanValue>false</BooleanValue>
+						</Argument>
+						<Argument purpose="linkFunction">
+							<StringValue>logit</StringValue>
+						</Argument>
+						<Argument purpose="maximumIterations">
+							<DoubleValue>50.0</DoubleValue>
+						</Argument>
+						<Argument purpose="functionConvergence">
+							<DoubleValue>1.0E-6</DoubleValue>
+						</Argument>
+						<Argument purpose="gradientConvergence">
+							<DoubleValue>1.0E-6</DoubleValue>
+						</Argument>
+						<Argument purpose="event">
+							<StringValue>1</StringValue>
+						</Argument>
+						<Argument purpose="alpha">
+							<DoubleValue>0.050000000000000044</DoubleValue>
+						</Argument>
+						<Argument purpose="cutOff">
+							<DoubleValue>0.5</DoubleValue>
+						</Argument>
+						<Argument purpose="eventDescending">
+							<BooleanValue>true</BooleanValue>
+						</Argument>
+						<Argument purpose="informativeMissingness">
+							<BooleanValue>false</BooleanValue>
+						</Argument>
+						<Argument purpose="pValuePrecision">
+							<DoubleValue>5.0</DoubleValue>
+						</Argument>
+						<Argument purpose="useVariableSelection">
+							<BooleanValue>false</BooleanValue>
+						</Argument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd186" syntheticItems="si38"/>
+					<ResultDefinition purpose="pValueEffect" name="dd187" syntheticItems="si51"/>
+					<ResultDefinition purpose="pValueCount" name="dd188" syntheticItems="si59"/>
+					<ResultDefinition purpose="generatedXrefs" name="dd189" syntheticItems="si74"/>
+					<ResultDefinition purpose="scoreCode" name="dd190" syntheticItems="si78"/>
+					<ResultDefinition purpose="scoreCodeNewColumns" name="dd191" syntheticItems="si84"/>
+					<ResultDefinition purpose="scoreCodeXrefs" name="dd192" syntheticItems="si90"/>
+					<ResultDefinition purpose="responseProfile" name="dd193" syntheticItems="si92"/>
+					<ResultDefinition purpose="dimensions" name="dd194" syntheticItems="si155"/>
+					<ResultDefinition purpose="iterationHistory" name="dd195" syntheticItems="si158"/>
+					<ResultDefinition purpose="convergence" name="dd196" syntheticItems="si164"/>
+					<ResultDefinition purpose="fitStatistics" name="dd197" syntheticItems="si167"/>
+					<ResultDefinition purpose="tests3" name="dd198" syntheticItems="si170"/>
+					<ResultDefinition purpose="parameterEstimates" name="dd199" syntheticItems="si175"/>
+					<ResultDefinition purpose="modelInformation" name="dd200" syntheticItems="si181"/>
+					<ResultDefinition purpose="selectionInfo" name="dd201" syntheticItems="si97"/>
+					<ResultDefinition purpose="selectionSummary" name="dd202" syntheticItems="si100"/>
+					<ResultDefinition purpose="estimateEffect" name="dd203" syntheticItems="si121"/>
+					<ResultDefinition purpose="estimateCount" name="dd204" syntheticItems="si128"/>
+					<ResultDefinition purpose="groupEstimates" name="dd205" syntheticItems="si134"/>
+					<ResultDefinition purpose="estimateValueRange" name="dd206" syntheticItems="si140"/>
+					<ResultDefinition purpose="oddsRatio" name="dd207" syntheticItems="si143"/>
+					<ResultDefinition purpose="fitModelSummary" name="dd208" syntheticItems="si153"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds803" name="dd234">
+			<BusinessItems>
+				<RelationalDataItem name="bi824" base="bi815"/>
+				<RelationalDataItem name="bi825" base="bi807"/>
+				<RelationalDataItem name="bi826" base="bi816"/>
+				<RelationalDataItem name="bi827" base="bi806"/>
+				<RelationalDataItem name="bi829" base="bi809"/>
+				<RelationalDataItem name="bi830" base="bi810"/>
+				<RelationalDataItem name="bi831" base="bi811"/>
+				<RelationalDataItem name="bi832" base="bi808"/>
+				<RelationalDataItem name="bi833" base="bi812"/>
+				<RelationalDataItem name="bi834" base="bi813"/>
+				<RelationalDataItem name="bi835" base="bi814"/>
+				<RelationalDataItem name="bi872" base="bi14"/>
+				<RelationalDataItem name="bi836" base="bi10"/>
+				<RelationalDataItem name="bi837" base="bi11"/>
+				<RelationalDataItem name="bi838" base="bi12"/>
+				<RelationalDataItem name="bi839" base="bi13"/>
+				<RelationalDataItem name="bi840" base="bi15"/>
+				<RelationalFilterItem systemGenerated="true" name="bi845">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+					</EditorProperties>
+					<Expression>ne(${bi826,binned},0)</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi846" base="bi21"/>
+				<SyntheticDataItem name="bi847"/>
+				<SyntheticDataItem name="bi848"/>
+				<SyntheticDataItem name="bi849"/>
+				<SyntheticDataItem name="bi850"/>
+				<SyntheticDataItem name="bi820"/>
+				<SyntheticDataItem name="bi821"/>
+				<SyntheticDataItem name="bi822"/>
+				<SyntheticDataItem name="bi823"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds803" type="procedural" name="dd235">
+				<ProceduralQuery type="heatMap">
+					<Arguments>
+						<Argument purpose="aggregatedMeasure">
+							<ReferenceValue>bi846</ReferenceValue>
+						</Argument>
+						<ArgumentGroup group="column">
+							<Argument purpose="inputVariable">
+								<ReferenceValue>bi824</ReferenceValue>
+							</Argument>
+							<Argument purpose="lowerBound">
+								<ReferenceValue>bi847</ReferenceValue>
+							</Argument>
+							<Argument purpose="upperBound">
+								<ReferenceValue>bi848</ReferenceValue>
+							</Argument>
+						</ArgumentGroup>
+						<ArgumentGroup group="row">
+							<Argument purpose="inputVariable">
+								<ReferenceValue>bi825</ReferenceValue>
+							</Argument>
+							<Argument purpose="lowerBound">
+								<ReferenceValue>bi849</ReferenceValue>
+							</Argument>
+							<Argument purpose="upperBound">
+								<ReferenceValue>bi850</ReferenceValue>
+							</Argument>
+						</ArgumentGroup>
+						<ArgumentGroup group="variableOutputInfo">
+							<Argument purpose="variableName">
+								<ReferenceValue>bi820</ReferenceValue>
+							</Argument>
+							<Argument purpose="lowerBound">
+								<ReferenceValue>bi821</ReferenceValue>
+							</Argument>
+							<Argument purpose="binWidth">
+								<ReferenceValue>bi822</ReferenceValue>
+							</Argument>
+							<Argument purpose="binCount">
+								<ReferenceValue>bi823</ReferenceValue>
+							</Argument>
+						</ArgumentGroup>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd818"/>
+					<ResultDefinition purpose="variableOutputInfo" name="dd819"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi845"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds803" name="dd239">
+			<BusinessItems>
+				<RelationalDataItem name="bi983" base="bi815"/>
+				<RelationalDataItem name="bi982" base="bi8"/>
+				<SyntheticItems name="si248">
+					<Item purpose="percentile" name="bi249"/>
+					<Item purpose="observationCount" name="bi250"/>
+					<Item purpose="eventCount" name="bi251"/>
+					<Item purpose="lift" name="bi252"/>
+					<Item purpose="liftBest" name="bi253"/>
+					<Item purpose="cumulativeLift" name="bi254"/>
+					<Item purpose="cumulativeLiftBest" name="bi255"/>
+					<Item purpose="partition" name="bi256"/>
+				</SyntheticItems>
+				<SyntheticItems name="si257">
+					<Item purpose="response" name="bi258"/>
+					<Item purpose="event" name="bi259"/>
+					<Item purpose="value" name="bi260"/>
+					<Item purpose="frequency" name="bi261"/>
+					<Item purpose="partition" name="bi262"/>
+				</SyntheticItems>
+				<SyntheticItems name="si263">
+					<Item purpose="cutOff" name="bi264"/>
+					<Item purpose="sensitivity" name="bi265"/>
+					<Item purpose="oneMinusSpecificity" name="bi266"/>
+					<Item purpose="trueNegativeRate" name="bi267"/>
+					<Item purpose="falsePositiveRate" name="bi268"/>
+					<Item purpose="falseNegativeRate" name="bi269"/>
+					<Item purpose="ks2" name="bi270"/>
+					<Item purpose="classificationRate" name="bi271"/>
+					<Item purpose="falseDiscoveryRate" name="bi272"/>
+					<Item purpose="f1Score" name="bi273"/>
+					<Item purpose="f05Score" name="bi274"/>
+					<Item purpose="misclassificationEvent" name="bi275"/>
+					<Item purpose="partition" name="bi276"/>
+					<Item purpose="accuracyAtCutoff" name="bi514"/>
+					<Item purpose="partitionNoLabel" name="bi515"/>
+					<Item purpose="ks" name="bi516"/>
+				</SyntheticItems>
+				<SyntheticItems name="si277">
+					<Item purpose="maxSeparation" name="bi278"/>
+					<Item purpose="sensitivity" name="bi279"/>
+					<Item purpose="oneMinusSpecificity" name="bi280"/>
+					<Item purpose="cutOff" name="bi281"/>
+					<Item purpose="partition" name="bi282"/>
+				</SyntheticItems>
+				<SyntheticItems name="si338">
+					<Item purpose="ase" name="bi339"/>
+					<Item purpose="aseLabel" name="bi340"/>
+					<Item purpose="aseFull" name="bi341"/>
+					<Item purpose="ks" name="bi342"/>
+					<Item purpose="ksLabel" name="bi343"/>
+					<Item purpose="misclassification" name="bi344"/>
+					<Item purpose="misclassificationLabel" name="bi345"/>
+					<Item purpose="misclassificationEventless" name="bi346"/>
+					<Item purpose="misclassificationEventlessLabel" name="bi347"/>
+					<Item purpose="validateAse" name="bi348"/>
+					<Item purpose="validateAseLabel" name="bi349"/>
+					<Item purpose="validateAseFull" name="bi350"/>
+					<Item purpose="validateKs" name="bi351"/>
+					<Item purpose="validateKsLabel" name="bi352"/>
+					<Item purpose="validateMisclassification" name="bi353"/>
+					<Item purpose="validateMisclassificationLabel" name="bi354"/>
+					<Item purpose="validateMisclassificationEventless" name="bi355"/>
+					<Item purpose="validateMisclassificationEventlessLabel" name="bi356"/>
+					<Item purpose="testAse" name="bi357"/>
+					<Item purpose="testAseLabel" name="bi358"/>
+					<Item purpose="testAseFull" name="bi359"/>
+					<Item purpose="testKs" name="bi360"/>
+					<Item purpose="testKsLabel" name="bi361"/>
+					<Item purpose="testMisclassification" name="bi362"/>
+					<Item purpose="testMisclassificationLabel" name="bi363"/>
+					<Item purpose="testMisclassificationEventless" name="bi364"/>
+					<Item purpose="testMisclassificationEventlessLabel" name="bi365"/>
+					<Item purpose="dependentVariableLabel" name="bi366"/>
+					<Item purpose="eventString" name="bi367"/>
+					<Item purpose="cutOffAccuracy" name="bi368"/>
+					<Item purpose="validateCutOffAccuracy" name="bi369"/>
+					<Item purpose="testCutOffAccuracy" name="bi370"/>
+					<Item purpose="usedOfTotal" name="bi371"/>
+					<Item purpose="usedPercentOfTotal" name="bi372"/>
+					<Item purpose="usedUnused" name="bi373"/>
+					<Item purpose="usedTotal" name="bi374"/>
+					<Item purpose="eventFormatted" name="bi375"/>
+					<Item purpose="modelType" name="bi376"/>
+					<Item purpose="selectedEventLabel" name="bi377"/>
+					<Item purpose="fitLabel" name="bi378"/>
+					<Item purpose="selectedStatisticLabel" name="bi379"/>
+					<Item purpose="countUsedLabel" name="bi380"/>
+					<Item purpose="usedOfTotalFull" name="bi381"/>
+					<Item purpose="usedPercentOfTotalFull" name="bi382"/>
+					<Item purpose="usedUnusedFull" name="bi383"/>
+					<Item purpose="usedTotalFull" name="bi384"/>
+					<Item purpose="observedAverage" name="bi598"/>
+					<Item purpose="observedAverageLabel" name="bi599"/>
+					<Item purpose="observedAverageFull" name="bi600"/>
+					<Item purpose="predictedAverage" name="bi601"/>
+					<Item purpose="predictedAverageLabel" name="bi602"/>
+					<Item purpose="predictedAverageFull" name="bi603"/>
+					<Item purpose="sse" name="bi604"/>
+					<Item purpose="sseLabel" name="bi605"/>
+					<Item purpose="sseFull" name="bi606"/>
+					<Item purpose="sseWeighted" name="bi607"/>
+					<Item purpose="sseWeightedLabel" name="bi608"/>
+					<Item purpose="cStatistic" name="bi609"/>
+					<Item purpose="cStatisticLabel" name="bi610"/>
+					<Item purpose="fpr" name="bi611"/>
+					<Item purpose="fprLabel" name="bi612"/>
+					<Item purpose="fdr" name="bi613"/>
+					<Item purpose="fdrLabel" name="bi614"/>
+					<Item purpose="f1Score" name="bi615"/>
+					<Item purpose="f1ScoreLabel" name="bi616"/>
+					<Item purpose="lift" name="bi617"/>
+					<Item purpose="liftLabel" name="bi618"/>
+					<Item purpose="cumulativeLift" name="bi619"/>
+					<Item purpose="cumulativeLiftLabel" name="bi620"/>
+					<Item purpose="cumulativePercentResponse" name="bi621"/>
+					<Item purpose="cumulativePercentResponseLabel" name="bi622"/>
+					<Item purpose="cumulativeResponse" name="bi623"/>
+					<Item purpose="cumulativeResponseLabel" name="bi624"/>
+					<Item purpose="gain" name="bi625"/>
+					<Item purpose="gainLabel" name="bi626"/>
+					<Item purpose="gini" name="bi627"/>
+					<Item purpose="giniLabel" name="bi628"/>
+					<Item purpose="gamma" name="bi629"/>
+					<Item purpose="gammaLabel" name="bi630"/>
+					<Item purpose="tau" name="bi631"/>
+					<Item purpose="tauLabel" name="bi632"/>
+					<Item purpose="validateObservedAverage" name="bi649"/>
+					<Item purpose="validateObservedAverageLabel" name="bi650"/>
+					<Item purpose="validateObservedAverageFull" name="bi651"/>
+					<Item purpose="validatePredictedAverage" name="bi652"/>
+					<Item purpose="validatePredictedAverageLabel" name="bi653"/>
+					<Item purpose="validatePredictedAverageFull" name="bi654"/>
+					<Item purpose="validateCStatistic" name="bi655"/>
+					<Item purpose="validateCStatisticLabel" name="bi656"/>
+					<Item purpose="validateFpr" name="bi657"/>
+					<Item purpose="validateFprLabel" name="bi658"/>
+					<Item purpose="validateFdr" name="bi659"/>
+					<Item purpose="validateFdrLabel" name="bi660"/>
+					<Item purpose="validateF1Score" name="bi661"/>
+					<Item purpose="validateF1ScoreLabel" name="bi662"/>
+					<Item purpose="validateLift" name="bi663"/>
+					<Item purpose="validateLiftLabel" name="bi664"/>
+					<Item purpose="validateCumulativeLift" name="bi665"/>
+					<Item purpose="validateCumulativeLiftLabel" name="bi666"/>
+					<Item purpose="validateCumulativePercentResponse" name="bi667"/>
+					<Item purpose="validateCumulativePercentResponseLabel" name="bi668"/>
+					<Item purpose="validateCumulativeResponse" name="bi669"/>
+					<Item purpose="validateCumulativeResponseLabel" name="bi670"/>
+					<Item purpose="validateGain" name="bi671"/>
+					<Item purpose="validateGainLabel" name="bi672"/>
+					<Item purpose="validateGini" name="bi673"/>
+					<Item purpose="validateGiniLabel" name="bi674"/>
+					<Item purpose="validateGamma" name="bi675"/>
+					<Item purpose="validateGammaLabel" name="bi676"/>
+					<Item purpose="validateTau" name="bi677"/>
+					<Item purpose="validateTauLabel" name="bi678"/>
+					<Item purpose="testObservedAverage" name="bi679"/>
+					<Item purpose="testObservedAverageLabel" name="bi680"/>
+					<Item purpose="testObservedAverageFull" name="bi681"/>
+					<Item purpose="testPredictedAverage" name="bi682"/>
+					<Item purpose="testPredictedAverageLabel" name="bi683"/>
+					<Item purpose="testPredictedAverageFull" name="bi684"/>
+					<Item purpose="testCStatistic" name="bi685"/>
+					<Item purpose="testCStatisticLabel" name="bi686"/>
+					<Item purpose="testFpr" name="bi687"/>
+					<Item purpose="testFprLabel" name="bi688"/>
+					<Item purpose="testFdr" name="bi689"/>
+					<Item purpose="testFdrLabel" name="bi690"/>
+					<Item purpose="testF1Score" name="bi691"/>
+					<Item purpose="testF1ScoreLabel" name="bi692"/>
+					<Item purpose="testLift" name="bi693"/>
+					<Item purpose="testLiftLabel" name="bi694"/>
+					<Item purpose="testCumulativeLift" name="bi695"/>
+					<Item purpose="testCumulativeLiftLabel" name="bi696"/>
+					<Item purpose="testCumulativePercentResponse" name="bi697"/>
+					<Item purpose="testCumulativePercentResponseLabel" name="bi698"/>
+					<Item purpose="testCumulativeResponse" name="bi699"/>
+					<Item purpose="testCumulativeResponseLabel" name="bi700"/>
+					<Item purpose="testGain" name="bi701"/>
+					<Item purpose="testGainLabel" name="bi702"/>
+					<Item purpose="testGini" name="bi703"/>
+					<Item purpose="testGiniLabel" name="bi704"/>
+					<Item purpose="testGamma" name="bi705"/>
+					<Item purpose="testGammaLabel" name="bi706"/>
+					<Item purpose="testTau" name="bi707"/>
+					<Item purpose="testTauLabel" name="bi708"/>
+					<Item purpose="neg2LogLikelihood" name="bi709"/>
+					<Item purpose="neg2LogLikelihoodLabel" name="bi710"/>
+					<Item purpose="neg2LogLikelihoodFull" name="bi711"/>
+					<Item purpose="aic" name="bi712"/>
+					<Item purpose="aicLabel" name="bi713"/>
+					<Item purpose="aicFull" name="bi714"/>
+					<Item purpose="aicc" name="bi715"/>
+					<Item purpose="aiccLabel" name="bi716"/>
+					<Item purpose="aiccFull" name="bi717"/>
+					<Item purpose="bic" name="bi718"/>
+					<Item purpose="bicLabel" name="bi719"/>
+					<Item purpose="bicFull" name="bi720"/>
+					<Item purpose="maxRescaledRSquare" name="bi721"/>
+					<Item purpose="maxRescaledRSquareLabel" name="bi722"/>
+					<Item purpose="rSquare" name="bi723"/>
+					<Item purpose="rSquareLabel" name="bi724"/>
+				</SyntheticItems>
+				<SyntheticItems name="si385">
+					<Item purpose="partition" name="bi386"/>
+					<Item purpose="ase" name="bi387"/>
+					<Item purpose="ks" name="bi388"/>
+					<Item purpose="misclassificationEventless" name="bi389"/>
+					<Item purpose="misclassification" name="bi390"/>
+					<Item purpose="countUsed" name="bi391"/>
+					<Item purpose="countUnused" name="bi392"/>
+					<Item purpose="cutOffAccuracy" name="bi393"/>
+					<Item purpose="observedAverage" name="bi633"/>
+					<Item purpose="predictedAverage" name="bi634"/>
+					<Item purpose="sse" name="bi635"/>
+					<Item purpose="sseWeighted" name="bi636"/>
+					<Item purpose="cStatistic" name="bi637"/>
+					<Item purpose="fpr" name="bi638"/>
+					<Item purpose="fdr" name="bi639"/>
+					<Item purpose="f1Score" name="bi640"/>
+					<Item purpose="lift" name="bi641"/>
+					<Item purpose="cumulativeLift" name="bi642"/>
+					<Item purpose="cumulativePercentResponse" name="bi643"/>
+					<Item purpose="cumulativeResponse" name="bi644"/>
+					<Item purpose="gain" name="bi645"/>
+					<Item purpose="gini" name="bi646"/>
+					<Item purpose="gamma" name="bi647"/>
+					<Item purpose="tau" name="bi648"/>
+					<Item purpose="neg2LogLikelihood" name="bi725"/>
+					<Item purpose="aic" name="bi726"/>
+					<Item purpose="aicc" name="bi727"/>
+					<Item purpose="bic" name="bi728"/>
+					<Item purpose="maxRescaledRSquare" name="bi729"/>
+					<Item purpose="rSquare" name="bi730"/>
+				</SyntheticItems>
+				<SyntheticItems name="si283">
+					<Item purpose="predicted" name="bi284"/>
+					<Item purpose="observed" name="bi285"/>
+					<Item purpose="frequency" name="bi286"/>
+					<Item purpose="percentage" name="bi287"/>
+					<Item purpose="outline" name="bi288"/>
+					<Item purpose="partition" name="bi289"/>
+				</SyntheticItems>
+				<SyntheticItems name="si571">
+					<Item purpose="predicted" name="bi572"/>
+					<Item purpose="observed" name="bi573"/>
+					<Item purpose="frequency" name="bi574"/>
+					<Item purpose="percentage" name="bi575"/>
+					<Item purpose="validateConfusionMatrixFrequency" name="bi576"/>
+					<Item purpose="validateConfusionMatrixPercentage" name="bi577"/>
+					<Item purpose="testConfusionMatrixFrequency" name="bi578"/>
+					<Item purpose="testConfusionMatrixPercentage" name="bi579"/>
+				</SyntheticItems>
+				<SyntheticItems name="si731">
+					<Item purpose="eventString" name="bi732"/>
+					<Item purpose="eventFormatted" name="bi733"/>
+					<Item purpose="eventCount" name="bi734"/>
+					<Item purpose="eventPercent" name="bi735"/>
+				</SyntheticItems>
+				<SyntheticItems name="si580">
+					<Item purpose="label" name="bi581"/>
+					<Item purpose="uniqueLabel" name="bi582"/>
+					<Item purpose="dataSourceName" name="bi583"/>
+					<Item purpose="importance" name="bi584"/>
+					<Item purpose="standardDeviation" name="bi585"/>
+				</SyntheticItems>
+				<SyntheticItems name="si594">
+					<Item purpose="label" name="bi595"/>
+					<Item purpose="textSummary" name="bi596"/>
+					<Item purpose="assessmentSummaryConstant" name="bi597"/>
+				</SyntheticItems>
+				<SyntheticItems name="si586">
+					<Item purpose="measureAssessmentSummary" name="bi587"/>
+					<Item purpose="cumulativeLiftAssessmentSummary" name="bi588"/>
+					<Item purpose="liftAssessmentSummary" name="bi589"/>
+					<Item purpose="rocAssessmentSummary" name="bi590"/>
+					<Item purpose="misclassificationAssessmentSummary" name="bi591"/>
+					<Item purpose="confusionMatrixAssessmentSummary" name="bi592"/>
+					<Item purpose="cutoffAssessmentSummary" name="bi593"/>
+				</SyntheticItems>
+			</BusinessItems>
+			<DataDefinition dataSource="ds803" type="procedural" name="dd240">
+				<ProceduralQuery type="assessment" scoreCodeNumber="241">
+					<ReferenceResources>
+						<ReferenceData resource="ge185" generator="dd36" purpose="model"/>
+					</ReferenceResources>
+					<Arguments>
+						<Argument purpose="dependentVariable">
+							<ReferenceValue>bi982</ReferenceValue>
+						</Argument>
+						<Argument purpose="predictedVariable">
+							<ReferenceValue>bi983</ReferenceValue>
+						</Argument>
+						<Argument purpose="usesPartition">
+							<BooleanValue>false</BooleanValue>
+						</Argument>
+						<Argument purpose="binCount">
+							<IntValue>20</IntValue>
+						</Argument>
+						<Argument purpose="maxIterationCount">
+							<IntValue>50</IntValue>
+						</Argument>
+						<Argument purpose="threshold">
+							<DoubleValue>1.0E-10</DoubleValue>
+						</Argument>
+						<Argument purpose="excludeMissing">
+							<BooleanValue>true</BooleanValue>
+						</Argument>
+						<Argument purpose="cutOff">
+							<DoubleValue>0.5</DoubleValue>
+						</Argument>
+						<Argument purpose="fitModelPercentage">
+							<DoubleValue>0.05</DoubleValue>
+						</Argument>
+						<ArgumentGroup group="compactNumber" purpose="compactNumber">
+							<Argument purpose="scale">
+								<IntValue>0</IntValue>
+							</Argument>
+							<Argument purpose="precision">
+								<IntValue>0</IntValue>
+							</Argument>
+						</ArgumentGroup>
+						<Argument purpose="filterModel">
+							<StringValue>fitModel</StringValue>
+						</Argument>
+						<Argument purpose="event">
+							<StringValue>1</StringValue>
+						</Argument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="lift" name="dd736" syntheticItems="si248"/>
+					<ResultDefinition purpose="misclassification" name="dd737" syntheticItems="si257"/>
+					<ResultDefinition purpose="roc" name="dd738" syntheticItems="si263"/>
+					<ResultDefinition purpose="ks" name="dd739" syntheticItems="si277"/>
+					<ResultDefinition purpose="fitStatistics" name="dd740" syntheticItems="si338"/>
+					<ResultDefinition purpose="fitStatisticsTall" name="dd741" syntheticItems="si385"/>
+					<ResultDefinition purpose="confusionMatrix" name="dd742" syntheticItems="si283"/>
+					<ResultDefinition purpose="wideConfusionMatrix" name="dd743" syntheticItems="si571"/>
+					<ResultDefinition purpose="events" name="dd744" syntheticItems="si731"/>
+					<ResultDefinition purpose="relativeImportance" name="dd745" syntheticItems="si580"/>
+					<ResultDefinition purpose="assessmentSummaryDisplay" name="dd746" syntheticItems="si594"/>
+					<ResultDefinition purpose="assessmentSummaryRow" name="dd747" syntheticItems="si586"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+	</DataDefinitions>
+	<DataSources>
+		<DataSource label="HMEQ" type="relational" name="ds7">
+			<CasResource server="cas-shared-default" library="Public" table="HMEQ" locale="en_US"/>
+			<BusinessItemFolder>
+				<DataItem name="bi8" xref="BAD" usage="categorical"/>
+				<DataItem name="bi9" xref="CLAGE" usage="categorical"/>
+				<DataItem name="bi10" xref="CLNO"/>
+				<DataItem name="bi11" xref="DEBTINC"/>
+				<DataItem name="bi12" xref="DELINQ"/>
+				<DataItem name="bi13" xref="DEROG"/>
+				<DataItem name="bi14" xref="JOB"/>
+				<DataItem name="bi15" xref="LOAN"/>
+				<DataItem name="bi16" xref="MORTDUE"/>
+				<DataItem name="bi17" xref="NINQ"/>
+				<DataItem name="bi18" xref="REASON"/>
+				<DataItem name="bi19" xref="VALUE"/>
+				<DataItem name="bi20" xref="YOJ"/>
+				<PredefinedDataItem calculation="totalCount" name="bi21" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi22" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+			</BusinessItemFolder>
+		</DataSource>
+		<DataSource label="HMEQ" type="relational" hidden="true" name="ds803">
+			<GeneratedResource type="inherited" resource="ge184" generator="dd36" source="ds7"/>
+			<BusinessItemFolder>
+				<GeneratedDataItem purpose="predlog" name="bi804" xref="_PREDLOG_" usage="quantitative"/>
+				<GeneratedDataItem purpose="intolog" name="bi805" xref="_INTOLOG_" usage="categorical"/>
+				<GeneratedDataItem purpose="targetlog" name="bi806" xref="_TARGETLOG_" usage="categorical"/>
+				<GeneratedDataItem purpose="resid" name="bi807" xref="_RESID_" usage="quantitative"/>
+				<GeneratedDataItem purpose="likedist" name="bi808" xref="_LIKEDIST_" usage="quantitative"/>
+				<GeneratedDataItem purpose="pearson" name="bi809" xref="_PEARSON_" usage="quantitative"/>
+				<GeneratedDataItem purpose="devresid" name="bi810" xref="_DEVRESID_" usage="quantitative"/>
+				<GeneratedDataItem purpose="stdreschi" name="bi811" xref="_STDRESCHI_" usage="quantitative"/>
+				<GeneratedDataItem purpose="cbar" name="bi812" xref="_CBAR_" usage="quantitative"/>
+				<GeneratedDataItem purpose="difdev" name="bi813" xref="_DIFDEV_" usage="quantitative"/>
+				<GeneratedDataItem purpose="difchisq" name="bi814" xref="_DIFCHISQ_" usage="quantitative"/>
+				<GeneratedDataItem purpose="ilinklog" name="bi815" xref="_ILINKLOG_" usage="quantitative"/>
+				<GeneratedDataItem purpose="fitrole" name="bi816" xref="_FITROLE_" usage="categorical"/>
+			</BusinessItemFolder>
+		</DataSource>
+	</DataSources>
+	<VisualElements>
+		<CompositeContainer composite="ve25" containerType="composite" name="ve26" label="Logistic regression - BAD 1">
+			<EditorProperties>
+				<Property key="visualType">logisticRegressionContainer</Property>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+		</CompositeContainer>
+		<Text resultDefinitions="dd740" name="ve27" data="dd239" label="Header" applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="visualType">INFO_BAR_TEXT_LOGISTIC</Property>
+				<Property key="selectedStatistic">ks</Property>
+			</EditorProperties>
+			<Title></Title>
+			<P><DynamicSpan variable="bi376" class="infoBarTextTitle"></DynamicSpan><Span> </Span><DynamicSpan variable="bi366" class="infoBarTextBold"></DynamicSpan><Span>   </Span><DynamicSpan variable="bi377"></DynamicSpan><Span> </Span><DynamicSpan variable="bi375" class="infoBarTextBold"></DynamicSpan><Span>   </Span><DynamicSpan variable="bi378"></DynamicSpan><Span> </Span><DynamicSpan variable="bi343" class="infoBarTextBold"></DynamicSpan><Span> </Span><DynamicSpan variable="bi342" class="infoBarTextBold"></DynamicSpan><Span>   </Span><DynamicSpan variable="bi380"></DynamicSpan><Span> </Span><DynamicSpan variable="bi371" tooltip="bi381" class="infoBarTextBold"></DynamicSpan><Span>   </Span></P>
+		</Text>
+		<VisualContainer containerType="compositeChild" name="ve29" label="Composite Subcontainer" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="visualType">COMPOSITE_SUBCONTAINER</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<VisualContainer containerType="compositeChild" name="ve31" label="Composite Subcontainer" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="visualType">COMPOSITE_SUBCONTAINER</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<Graph graphType="logisticRegression" resultDefinitions="dd187 dd188" name="ve33" data="dd35" label="Fit Summary" applyDynamicFilters="yes" applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="useAbbreviatedNumberFormat">true</Property>
+				<Property key="abbreviatedNumberScale">scaleAutomatic</Property>
+				<Property key="abbreviatedNumberDigits">digitsAutomatic</Property>
+				<Property key="confidenceLevel">0.95</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.fitSummary.title"></DynamicSpan></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DataNameMap>
+            <Entry model="BarChart" data="dd187"/>
+            <Entry model="HistogramParm" data="dd188"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutLattice rowDataRange="union" columnDataRange="union" rows="2" rowWeights="0.85 0.15">
+        <Cell>
+            <LayoutOverlay>
+                <BarChartParm name="BarChart" selectable="true" _stmt="barchart" orient="horizontal" stat="none" tip="category Role1 Role2" category="dd187#bi53" colorResponse="dd187#bi57" colorResponseAttrVar="attrVar0">
+                    <ResponseVars>
+                        <Value>dd187#bi57</Value>
+                    </ResponseVars>
+                    <Roles>
+                        <Role name="Role1" type="variable">dd187#bi58</Role>
+                        <Role name="Role2" type="variable">dd187#bi56</Role>
+                    </Roles>
+                </BarChartParm>
+                <ReferenceLine name="ReferenceLine" visible="true" tip="Role1 x" x_type="NUMERIC" x="1.30102999566398">
+                    <Roles>
+                        <Role name="Role1" type="numeric">0.0500000000000001</Role>
+                    </Roles>
+                    <TipFormats>
+                        <TipFormat name="Role1">BEST7</TipFormat>
+                        <TipFormat name="x">BEST7</TipFormat>
+                    </TipFormats>
+                    <TipLabels>
+                        <TipLabel name="Role1">alpha</TipLabel>
+                        <TipLabel name="x">-log (alpha)</TipLabel>
+                    </TipLabels>
+                </ReferenceLine>
+            </LayoutOverlay>
+        </Cell>
+        <Cell>
+            <LayoutOverlay>
+                <HistogramParm name="HistogramParm" selectable="false" display="FILL" endLabels="true" xValues="midpoints" tip="Role1" x="dd188#bi62" y="dd188#bi60">
+                    <Roles>
+                        <Role name="Role1" type="variable">dd188#bi61</Role>
+                    </Roles>
+                </HistogramParm>
+                <ReferenceLine name="ReferenceLine_1" visible="true" tip="Role1 x" x_type="NUMERIC" x="1.30102999566398">
+                    <Roles>
+                        <Role name="Role1" type="numeric">0.0500000000000001</Role>
+                    </Roles>
+                    <TipFormats>
+                        <TipFormat name="Role1">BEST7</TipFormat>
+                        <TipFormat name="x">BEST7</TipFormat>
+                    </TipFormats>
+                    <TipLabels>
+                        <TipLabel name="Role1">alpha</TipLabel>
+                        <TipLabel name="x">-log (alpha)</TipLabel>
+                    </TipLabels>
+                </ReferenceLine>
+            </LayoutOverlay>
+        </Cell>
+        <ColumnAxes>
+            <ColumnAxis display="LABEL TICKVALUES" gridDisplay="on" offsetMin="0">
+                <LinearOpts tickValueFormat="data">
+                    <TickValues>
+                        <Value>1</Value>
+                        <Value>2</Value>
+                        <Value>3</Value>
+                        <Value>4</Value>
+                        <Value>5</Value>
+                    </TickValues>
+                </LinearOpts>
+            </ColumnAxis>
+        </ColumnAxes>
+        <RowAxes>
+            <RowAxis display="TICKVALUES" reverse="true">
+                <DiscreteOpts tickValueFitPolicy="truncate" tickSpacing="22px"/>
+            </RowAxis>
+            <RowAxis display="NONE" label="hist"/>
+        </RowAxes>
+    </LayoutLattice>
+    <RangeAttrMap name="attrMap0">
+        <AttrRange minValue="0" minExclude="false" maxValue="1.30103" maxExclude="true" rangeColorModel="TwoColorRampOther"/>
+        <AttrRange minValue="1.30103" minExclude="false" maxValue="5.1" maxExclude="false" rangeColorModel="TwoColorRamp1"/>
+    </RangeAttrMap>
+    <RangeAttrVar attrVar="attrVar0" attrMap="attrMap0"/>
+</StatGraph>]]>
+		</Graph>
+		<Graph graphType="logisticInfluence" resultDefinitions="dd207" name="ve209" data="dd35" label="Odds Ratio" applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="useLogScaleForOddsRatio">true</Property>
+				<Property key="influencePlotType">oddsRatio</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.oddsRatioPlot.title"></DynamicSpan></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="2px"/>
+    <Meta>
+        <DataNameMap>
+            <Entry model="ScatterPlot" data="dd207"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutOverlay>
+        <ScatterPlot name="ScatterPlot" showMissingValuesInTips="false" errorBarCapScale="0.699999988" tip="y x Role1 Role2 Role3" x="dd207#bi146" y="dd207#bi145" xErrorUpper="dd207#bi148" xErrorLower="dd207#bi147">
+            <Roles>
+                <Role name="Role1" type="variable">dd207#bi149</Role>
+                <Role name="Role2" type="variable">dd207#bi150</Role>
+                <Role name="Role3" type="variable">dd207#bi151</Role>
+            </Roles>
+            <ErrorBarAttrs thickness="2px" pattern="0"/>
+        </ScatterPlot>
+        <ReferenceLine name="ReferenceLine_2" x_type="NUMERIC" x="1"/>
+        <XAxisOpts type="logmodulus" display="LABEL TICKVALUES" gridDisplay="on"/>
+        <YAxisOpts display="TICKVALUES" gridDisplay="on" reverse="true">
+            <LinearOpts>
+                <TickValueFormatOpts extractScale="true"/>
+            </LinearOpts>
+        </YAxisOpts>
+    </LayoutOverlay>
+    <LayoutGlobalLegend allowCollapsed="false" visible="off">
+        <DiscreteLegend border="false" opaque="false" hAlign="left" vAlign="bottom">
+            <GraphNames>
+                <Value>ScatterPlot</Value>
+            </GraphNames>
+        </DiscreteLegend>
+    </LayoutGlobalLegend>
+</StatGraph>]]>
+		</Graph>
+		<VisualContainer containerType="compositeChild" name="ve230" label="Composite Subcontainer" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="visualType">COMPOSITE_SUBCONTAINER</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<Graph graphType="logisticResidual" resultDefinitions="dd818 dd819" name="ve232" data="dd234" label="Residual" applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="fitRoleFilter"></Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.residualPlot.title"></DynamicSpan></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DataNameMap>
+            <Entry model="BinMetadata" data="dd819"/>
+            <Entry model="HeatmapParm" data="dd818"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutOverlay>
+        <HeatmapParm name="HeatmapParm" tipListPolicy="append" xBinAxis="false" yBinAxis="false" xBinSize="1" yBinSize="1" xGap="0px" yGap="0px" tipXBinStyle="range" tipYBinStyle="range" x="dd818#bi824" y="dd818#bi825" colorResponse="dd818#bi846" colorResponseAttrVar="attrVar0">
+            <BinMetadata name="BinMetadata" dataField="dd819#bi820" size="dd819#bi822" start="dd819#bi821" count="dd819#bi823"/>
+        </HeatmapParm>
+        <XAxisOpts type="linear" display="LABEL TICKVALUES" gridDisplay="on">
+            <LinearOpts>
+                <TickValueFormatOpts maxWidth="2" extractScale="true"/>
+            </LinearOpts>
+        </XAxisOpts>
+        <YAxisOpts type="linear" display="LABEL TICKVALUES" gridDisplay="on">
+            <LinearOpts centerOn="0">
+                <TickValueFormatOpts maxWidth="2" extractScale="true"/>
+            </LinearOpts>
+        </YAxisOpts>
+    </LayoutOverlay>
+    <LayoutGlobalLegend border="false" hAlign="right" vAlign="center" legendTitlePosition="top" position="right" allowCollapsed="true">
+        <ContinuousLegend border="false" opaque="false" vAlign="bottom" valueStyle="inflections" displayMissing="automatic" type="fillcolor">
+            <PadAttrs top="2px" bottom="2px" left="2px" right="2px"/>
+            <CompactValueFormatOpts scaleType="value" precisionType="auto"/>
+            <GraphNames>
+                <Value>HeatmapParm</Value>
+            </GraphNames>
+        </ContinuousLegend>
+    </LayoutGlobalLegend>
+    <RangeAttrMap name="attrMap0">
+        <AttrRange minValue="min" minExclude="false" maxValue="max" maxExclude="false" rangeColorModel="TwoColorRamp"/>
+    </RangeAttrMap>
+    <RangeAttrVar attrVar="attrVar0" attrMap="attrMap0"/>
+</StatGraph>]]>
+		</Graph>
+		<Graph graphType="logisticAssessment" resultDefinitions="dd742" name="ve237" data="dd239" label="Assessment" applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="assessmentType">confusionMatrix</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.assessment.confusionMatrix.title"></DynamicSpan></P></Title>
+<![CDATA[<StatGraph opaque="false" includeMissingDiscrete="true" selectionMode="none" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DataNameMap>
+            <Entry model="LayoutOverlay_8" data="dd742"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutOverlay name="LayoutOverlay_8">
+        <HeatmapParm name="Heatmap" showMissingValuesInTips="true" compactLabelFormats="true" includeMissingColor="false" xGap="2px" yGap="2px" discreteX="true" discreteY="true" tip="x y dataLabel colorResponse" x="dd742#bi284" y="dd742#bi285" colorResponse="dd742#bi287" colorResponseAttrVar="attrVar0" dataLabel="dd742#bi286">
+            <CompactLabelFormatOpts scaleType="value" precisionType="auto"/>
+        </HeatmapParm>
+        <HeatmapParm name="Diagonal" showMissingValuesInTips="false" compactLabelFormats="true" includeMissingColor="false" display="OUTLINE" xGap="2px" yGap="2px" outlineLocation="inside" discreteX="true" discreteY="true" tip="none" x="dd742#bi284" y="dd742#bi285" group="dd742#bi288">
+            <CompactLabelFormatOpts scaleType="value" precisionType="auto"/>
+            <OutlineAttrs thickness="2px"/>
+        </HeatmapParm>
+        <XAxisOpts type="discrete" display="LABEL TICKVALUES" gridDisplay="off">
+            <DiscreteOpts tickValueFitPolicy="staggertruncate" sortOrder="data"/>
+        </XAxisOpts>
+        <YAxisOpts type="discrete" display="LABEL TICKVALUES" gridDisplay="on" gridLayer="back" reverse="true">
+            <DiscreteOpts sortOrder="data"/>
+            <GridAttrs thickness="2px" pattern="1"/>
+        </YAxisOpts>
+    </LayoutOverlay>
+    <LayoutGlobalLegend allowCollapsed="false" visible="off"/>
+    <RangeAttrMap name="attrMap0">
+        <AttrRange minValue="0" minExclude="false" maxValue="1" maxExclude="false" rangeColorModel="TwoColorRamp1"/>
+    </RangeAttrMap>
+    <RangeAttrVar attrVar="attrVar0" attrMap="attrMap0"/>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd200" name="ve984" data="dd35" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi182"/>
+				<Column variable="bi183"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd194" name="ve985" data="dd35" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi156"/>
+				<Column variable="bi157"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd193" name="ve986" data="dd35" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi93"/>
+				<Column variable="bi94"/>
+				<Column variable="bi95"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd195" name="ve987" data="dd35" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi159"/>
+				<Column variable="bi160"/>
+				<Column variable="bi161"/>
+				<Column variable="bi162"/>
+				<Column variable="bi163"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd196" name="ve988" data="dd35" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi165"/>
+				<Column variable="bi166"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd197" name="ve989" data="dd35" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi168"/>
+				<Column variable="bi169"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd199" name="ve990" data="dd35" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi176"/>
+				<Column variable="bi177"/>
+				<Column variable="bi178"/>
+				<Column variable="bi179"/>
+				<Column variable="bi180"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd198" name="ve991" data="dd35" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi171"/>
+				<Column variable="bi172"/>
+				<Column variable="bi173"/>
+				<Column variable="bi174"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd207" name="ve992" data="dd35" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi144"/>
+				<Column variable="bi146"/>
+				<Column variable="bi149"/>
+				<Column variable="bi150"/>
+				<Column variable="bi151"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd743" name="ve993" data="dd239" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi572"/>
+				<Column variable="bi573"/>
+				<Column variable="bi574"/>
+				<Column variable="bi575"/>
+			</Columns>
+		</Table>
+		<Table presentation="modeTable" columnSizing="autoFill" resultDefinitions="dd736" name="ve994" data="dd239" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi249"/>
+				<Column variable="bi250"/>
+				<Column variable="bi251"/>
+				<Column variable="bi252"/>
+				<Column variable="bi253"/>
+				<Column variable="bi254"/>
+				<Column variable="bi255"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd738" name="ve995" data="dd239" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi264"/>
+				<Column variable="bi265"/>
+				<Column variable="bi266"/>
+				<Column variable="bi516"/>
+			</Columns>
+		</Table>
+		<Table presentation="cutoffStatistics" columnSizing="autoFill" resultDefinitions="dd738" name="ve996" data="dd239" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi264"/>
+				<Column variable="bi271"/>
+				<Column variable="bi265"/>
+				<Column variable="bi267"/>
+				<Column variable="bi268"/>
+				<Column variable="bi269"/>
+				<Column variable="bi270"/>
+				<Column variable="bi272"/>
+				<Column variable="bi274"/>
+				<Column variable="bi273"/>
+				<Column variable="bi275"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd737" name="ve997" data="dd239" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi258"/>
+				<Column variable="bi259"/>
+				<Column variable="bi260"/>
+				<Column variable="bi261"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd741" name="ve998" data="dd239" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi388"/>
+				<Column variable="bi389"/>
+				<Column variable="bi390"/>
+				<Column variable="bi637"/>
+				<Column variable="bi638"/>
+				<Column variable="bi639"/>
+				<Column variable="bi640"/>
+				<Column variable="bi641"/>
+				<Column variable="bi642"/>
+				<Column variable="bi643"/>
+				<Column variable="bi644"/>
+				<Column variable="bi645"/>
+				<Column variable="bi646"/>
+				<Column variable="bi647"/>
+				<Column variable="bi648"/>
+				<Column variable="bi391"/>
+				<Column variable="bi392"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd746" name="ve999" data="dd239" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi595"/>
+				<Column variable="bi596"/>
+			</Columns>
+		</Table>
+		<Text name="ve1001" label="Text 1" selectionDisabled="true" applyDynamicBrushes="no">
+			<P><Span class="span1"><Span>The </Span><Span class="span2">Odds Ratio</Span><Span> plot displays the odds ratio estimates for each variable in the model. It also shows the confidence intervals and </Span><Span class="span3">p</Span><Span>-values - Find out more in the </Span><Span action="ac1005">SAS Documentation</Span><Span>! This report uses the sampsio.hmeq dataset.</Span></Span></P>
+		</Text>
+	</VisualElements>
+	<CompositeVisuals>
+		<CompositeVisual label="Logistic regression - BAD 1" type="logisticRegressionContainer" supplementalVisuals="ve984 ve985 ve986 ve987 ve988 ve989 ve990 ve991 ve992 ve993 ve994 ve995 ve996 ve997 ve998 ve999" name="ve25">
+			<CompositeMember ref="ve27" role="supporting"/>
+			<CompositeMember ref="ve33" role="primary"/>
+			<CompositeMember ref="ve209" role="supporting"/>
+			<CompositeMember ref="ve232" role="supporting"/>
+			<CompositeMember ref="ve237" role="supporting"/>
+		</CompositeVisual>
+	</CompositeVisuals>
+	<View>
+		<Section name="vi6" label="Odds Ration Plot for Logistic Regression">
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve1001" name="vi1000">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+					<Container ref="ve26" name="vi24">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+						<ResponsiveLayout orientation="vertical" overflow="fit">
+							<Weights mediaTarget="mt5" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+							<Weights mediaTarget="mt4" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+							<Weights mediaTarget="mt3" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+						</ResponsiveLayout>
+						<Visual ref="ve27" name="vi28">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+						</Visual>
+						<Container ref="ve29" name="vi30">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="flexible"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="flexible"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+							<ResponsiveLayout orientation="vertical" overflow="grow"/>
+							<Container ref="ve31" name="vi32">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="flexible"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="flexible"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+								<ResponsiveLayout orientation="vertical" overflow="grow">
+									<Weights mediaTarget="mt5" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+									<Weights mediaTarget="mt4" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+									<Weights mediaTarget="mt3" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+								</ResponsiveLayout>
+								<Visual ref="ve33" name="vi34">
+									<ResponsiveConstraint>
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										</HeightConstraint>
+									</ResponsiveConstraint>
+								</Visual>
+								<Visual ref="ve209" name="vi210">
+									<ResponsiveConstraint>
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										</HeightConstraint>
+									</ResponsiveConstraint>
+								</Visual>
+							</Container>
+							<Container ref="ve230" name="vi231">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="flexible"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="flexible"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+								<ResponsiveLayout orientation="vertical" overflow="grow">
+									<Weights mediaTarget="mt5" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+									<Weights mediaTarget="mt4" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+									<Weights mediaTarget="mt3" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+								</ResponsiveLayout>
+								<Visual ref="ve232" name="vi233">
+									<ResponsiveConstraint>
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										</HeightConstraint>
+									</ResponsiveConstraint>
+								</Visual>
+								<Visual ref="ve237" name="vi238">
+									<ResponsiveConstraint>
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										</HeightConstraint>
+									</ResponsiveConstraint>
+								</Visual>
+							</Container>
+						</Container>
+					</Container>
+				</MediaContainer>
+			</Body>
+		</Section>
+	</View>
+	<Actions>
+		<NavigationAction type="url" value="https://go.documentation.sas.com/doc/en/vacdc/default/vaobjvs/n0ylgl07yru7t2n0zw11bsg6jr6r.htm#p0ukq0ms5wrp77n1ax1wgcvb444p" label="SAS Documentation" name="ac1005"/>
+	</Actions>
+	<MediaSchemes>
+		<MediaScheme name="ms1">
+			<BaseStylesheetResource file="basems1.css" theme="opal"/>
+			<StylesheetFile file="ms1.css"/>
+		</MediaScheme>
+	</MediaSchemes>
+	<MediaTargets>
+		<MediaTarget windowSize="default" scheme="ms1" name="mt2"/>
+		<MediaTarget windowSize="small" scheme="ms1" name="mt3"/>
+		<MediaTarget windowSize="medium" scheme="ms1" name="mt4"/>
+		<MediaTarget windowSize="large" scheme="ms1" name="mt5"/>
+	</MediaTargets>
+	<Properties>
+		<Property key="displayDataSource">ds7</Property>
+		<Property key="ReportPackagesServiceVersion">Viya4 2023.11</Property>
+		<Property key="ReportDataServiceVersion">Viya4 2023.11</Property>
+	</Properties>
+	<ExportProperties>
+		<Export destination="pdf">
+			<Property key="showCoverPage" value="true"></Property>
+			<Property key="showPageNumbers" value="true"></Property>
+		</Export>
+	</ExportProperties>
+	<History>
+	<Versions>
+		<Version key="4.35.0" lastDate="2023-11-24T00:00:00Z"/>
+	</Versions>
+	<Editors>
+		<Editor applicationName="VA">
+			<Revision editorVersion="2023.11" lastDate="2023-11-24T12:24:02.315Z"/>
+		</Editor>
+	</Editors>
+</History>
+	<SASReportState>
+		<View/>
+	</SASReportState>
+</SASReport>

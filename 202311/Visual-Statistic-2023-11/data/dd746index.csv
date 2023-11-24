@@ -1,0 +1,27 @@
+"Confusion Matrix"
+"confusionMatrixAssessmentSummary"
+"Cumulative Lift"
+"Cumulative lift measures the ratio of percent captured response to the baseline percent response, up to and including the specified quantile.
+This model has a cumulative lift of 4.1910 in the 10% quantile meaning there are about 4.19 times more events in the first two quantiles than expected by random (10% of the total number of events). Because this value is greater than 1, it is better to use your model to identify responders than no model."
+"cumulativeLiftAssessmentSummary"
+"Cutoff"
+"cutoffAssessmentSummary"
+"Lift"
+"liftAssessmentSummary"
+"Misclassification"
+"misclassificationAssessmentSummary"
+"ROC"
+"rocAssessmentSummary"
+"The confusion matrix plot displays the number of observations predicting each response level. A greater number of observations where the observed level and predicted level are the same indicates a better model. For this data, the percentages of each observed value that are correctly predicted are as follows: 0 - 99.32% and 1 - 20.95%."
+"The cutoff plot shows how different model assessment statistics change as the prediction cutoff value changes. The model assessment statistics are based on the selected event for the model compared to non-events. You can interactively move the cutoff line to represent different prediction cutoff values. As you move the cutoff line, the model assessment statistics are updated. This allows you to choose a cutoff that best represents your particular problem and business objective.
+
+When the accuracy statistic is enabled, its value for the selected cutoff is always displayed."
+"The lift plot measures the ratio of percent captured response to the baseline percent response. This model has a lift of 5.9947 at the 5% quantile meaning there are about 5.99 times more events in that quantile than expected by random (5% of the total number of events)."
+"The misclassification plot is a visual representation of the accuracy of the prediction at the specified cutoff value, 0.50. The plot displays the number of true positives for events that are correctly classified, false positives for NOT events that are classified as events, false negatives for events that are classified as NOT events, and true negatives for NOT events that are classified as NOT events. True negatives include NOT event classifications that predict a different level from observed, as long as both are NOT events.
+
+The predicted response classification is determined by whether the predicted probability of the level 1 for the response BAD is greater than or equal to the cutoff value. When it is greater than or equal to the cutoff value, the predicted classification is an event, otherwise it is a NOT event.
+
+For this data, for the bar corresponding to the event level of BAD, 1, the segment of the bar colored as ""Correct"" corresponds to true positives."
+"The receiver operator characteristic (ROC) is a plot of sensitivity (the true positive rate) against 1-specificity (the false positive rate), which are both measures of classification based on the confusion matrix. These measures are calculated at various cutoff values. To help identify the best cutoff to use when scoring your data, the KS cutoff reference line is drawn at the value of 1-specificity where the greatest difference between sensitivity and 1-specificity is observed. The KS cutoff line is drawn at the cutoff value 0.1 where the 1-specificity value is 0.192 and the sensitivity value is 0.615.
+
+Cutoff values range from 0 to 0.99, inclusive, in increments of 0.01. At each cutoff value, the predicted response classification is determined by whether the predicted probability of the response BAD being 1 is greater than or equal to the cutoff value. When the predicted probability of the event is greater than or equal to the cutoff value, then the predicted classification is 1, otherwise it is NOT 1."

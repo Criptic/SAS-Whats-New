@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadataSupplement>
+    <tables>
+        <table dataLocale="en_US" dataSources="ds7" resourceIdentifier="'cas-shared-default','Public','HMEQ','en_US'" tableModifiedTimeStamp="2023-11-24T12:18:38.442Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="BAD" xref="BAD"/>
+                <column dataType="double" format="BEST12." label="LOAN" xref="LOAN"/>
+                <column dataType="double" format="BEST12." label="MORTDUE" xref="MORTDUE"/>
+                <column dataType="double" format="BEST12." label="VALUE" xref="VALUE"/>
+                <column dataType="string" label="REASON" xref="REASON"/>
+                <column dataType="string" label="JOB" xref="JOB"/>
+                <column dataType="double" format="BEST12." label="YOJ" xref="YOJ"/>
+                <column dataType="double" format="BEST12." label="DEROG" xref="DEROG"/>
+                <column dataType="double" format="BEST12." label="DELINQ" xref="DELINQ"/>
+                <column dataType="double" format="BEST12." label="CLAGE" xref="CLAGE"/>
+                <column dataType="double" format="BEST12." label="NINQ" xref="NINQ"/>
+                <column dataType="double" format="BEST12." label="CLNO" xref="CLNO"/>
+                <column dataType="double" format="BEST12." label="DEBTINC" xref="DEBTINC"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds803" resourceIdentifier="GeneratedResource-ge184" tableModifiedTimeStamp="2023-11-24T12:18:38.442Z">
+            <columns>
+                <column dataType="double" format="BEST." label="Linear Predictor" xref="_PREDLOG_"/>
+                <column dataType="double" format="$." label="Event Predicted" xref="_INTOLOG_"/>
+                <column dataType="double" format="BEST." label="Residual" xref="_RESID_"/>
+                <column dataType="double" format="BEST." label="Likelihood Displacement" xref="_LIKEDIST_"/>
+                <column dataType="double" format="BEST." label="Pearson Residual" xref="_PEARSON_"/>
+                <column dataType="double" format="BEST." label="Deviance Residual" xref="_DEVRESID_"/>
+                <column dataType="double" format="BEST." label="Standardized Pearson Residual" xref="_STDRESCHI_"/>
+                <column dataType="double" format="BEST." label="CBAR" xref="_CBAR_"/>
+                <column dataType="double" format="BEST." label="Deviance Change" xref="_DIFDEV_"/>
+                <column dataType="double" format="BEST." label="Pearson Change" xref="_DIFCHISQ_"/>
+                <column dataType="double" format="BEST." label="Predicted Probability" xref="_ILINKLOG_"/>
+                <column dataType="double" format="COMMA20." label="Model Fit Role column" xref="_FITROLE_"/>
+            </columns>
+        </table>
+    </tables>
+    <version>2</version>
+</metadataSupplement>
