@@ -140,6 +140,14 @@
             <button type="button" class="btn btn-primary" id="downloadData">
                 Download Current Selection
             </button>
+            <input
+                type="text"
+                class="form-control"
+                id="searchInput"
+                placeholder="Search string"
+                aria-label="Search string"
+                style="display: none"
+            />
         </div>
         <br />
         <br />
@@ -149,23 +157,26 @@
             objectName="ve42"
             id="mainTable"
         ></sas-report-object>
-        <div id="tableDiv" class="table-responsive"></div>
+        <div id="tableDiv" class="table-responsive">
+            <table id="dataTable"></table>
+        </div>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"
         ></script>
         <script>
-            function createTable(dataSet) {
-                const tableDiv = document.getElementById('tableDiv');
-                const table = document.createElement('table');
-                table.id = 'dataTable';
-                table.classList = 'table table-striped';
+            const searchInput = document.getElementById('searchInput');
+            const dataTable = document.getElementById('dataTable');
+
+            function createTable(tableElement, dataSet) {
+                tableElement.innerHTML = '';
+                tableElement.classList = 'table table-striped';
 
                 const tableHeader = document.createElement('thead');
                 const headingRow = document.createElement('tr');
                 tableHeader.appendChild(headingRow);
-                table.appendChild(tableHeader);
+                tableElement.appendChild(tableHeader);
 
                 // Processing column names
                 for (const column of dataSet.columns) {
@@ -176,7 +187,7 @@
                 }
 
                 const tableBody = document.createElement('tbody');
-                table.appendChild(tableBody);
+                tableElement.appendChild(tableBody);
 
                 // Processing each row of data
                 for (const dataRow of dataSet.data) {
@@ -190,9 +201,6 @@
                         row.appendChild(cell);
                     }
                 }
-
-                // Place the table in the div
-                tableDiv.appendChild(table);
             }
 
             /**
@@ -243,6 +251,46 @@
                 document.body.removeChild(tmpLink);
             }
 
+            /**
+             * Filters a table by two columns by a user input string
+             *
+             * @param {String} searchInputID - the ID of the HTML element of the text input
+             * @param {HTMLElement} tableElementID - the HTML element of the table that should be filtered
+             * @param {Array of two Integers} searchColumns - Array of the position of the two columns that should be filtered
+             */
+            function filterTableBySearch(
+                e,
+                searchInputID = 'searchInput',
+                tableElementID = 'dataTable',
+                searchColumns = [2, 3]
+            ) {
+                const searchInputElement =
+                    document.getElementById(searchInputID);
+                const filter = searchInputElement.value.toUpperCase();
+                const tableElement = document.getElementById(tableElementID);
+                let tr = tableElement.getElementsByTagName('tr');
+
+                for (let i = 0; i < tr.length; i++) {
+                    const td0 =
+                        tr[i].getElementsByTagName('td')[searchColumns[0]];
+                    const td1 =
+                        tr[i].getElementsByTagName('td')[searchColumns[1]];
+                    if (td0 || td1) {
+                        const txtValue0 = td0.textContent || td0.innerText;
+                        const txtValue1 = td1.textContent || td1.innerText;
+                        if (
+                            txtValue0.toUpperCase().indexOf(filter) > -1 ||
+                            txtValue1.toUpperCase().indexOf(filter) > -1
+                        ) {
+                            tr[i].style.display = '';
+                        } else {
+                            tr[i].style.display = 'none';
+                        }
+                    }
+                }
+            }
+
+            searchInput.addEventListener('input', filterTableBySearch);
             window.addEventListener('vaReportComponents.loaded', async () => {
                 vaReportComponents.setLocale('en_US');
                 vaReportComponents.setFormatterLocale('en_US');
@@ -255,19 +303,15 @@
                         formatData: true,
                     });
 
-                    // Reset the table since the data has changed
-                    const tableDiv = document.getElementById('tableDiv');
-                    tableDiv.innerHTML = '';
-
                     for (const dataSet of selectedData) {
                         // Process the data and display a table of currently selected data
-                        createTable(dataSet);
+                        createTable(dataTable, dataSet);
                     }
 
                     downloadAsFile(
                         'SAS-Whats-New.csv',
                         'text/csv',
-                        convertTableToCSV(document.getElementById('dataTable'))
+                        convertTableToCSV(dataTable)
                     );
                 };
 
