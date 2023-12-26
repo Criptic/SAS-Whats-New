@@ -7,7 +7,7 @@
  https://go.documentation.sas.com/doc/en/pgmsascdc/default/statug/statug_code_svmex2.htm
 
  Find the result of a run here:
- https://github.com/Criptic/SAS-Whats-New/blob/main/202312/DIFFRATIOS-Option-Proc-Surveymeans-result.html
+ https://criptic.github.io/SAS-Whats-New/202312/DIFFRATIOS-Option-Proc-Surveymeans-result.html
 */
 title 'Pairwise Differences between Domain Ratios in Top Companies Profile Study';
 proc surveymeans data=work.Company varmethod=jackknife ratio;

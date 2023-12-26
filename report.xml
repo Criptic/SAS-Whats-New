@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.36.0" label="Releases Notes" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2023-12-26T08:39:39Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2023.12" nextUniqueNameIndex="427">
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.36.0" label="Releases Notes" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2023-12-26T08:47:19Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2023.12" nextUniqueNameIndex="427">
 	<Results>
-		<Result ref="dd21" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-12-26T08:38:43.201Z">
+		<Result ref="dd21" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-12-26T08:46:41.531Z">
 			<Variables>
 				<NumericVariable format="F8." usage="quantitative" definedAggregation="min" label="Release" ref="bi23" varname="bi23" column="c0"/>
 				<NumericVariable format="F8." usage="quantitative" definedAggregation="max" label="Release" ref="bi24" varname="bi24" column="c1"/>
@@ -13,7 +13,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="44GB7XY2TZJGDIRSHOQD6XWTDAIHHHDQ" size="18" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[202304.0,202312.0
 ]]></Data>
 		</Result>
-		<Result ref="dd269" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-12-26T08:38:43.201Z">
+		<Result ref="dd269" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-12-26T08:46:41.531Z">
 			<Variables>
 				<StringVariable label="Category" ref="bi31" varname="bi31" column="c0"/>
 				<NumericVariable format="F8." usage="quantitative" definedAggregation="sum" label="Release" ref="bi426" varname="bi426" column="c1"/>
@@ -25,10 +25,10 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi31" sortDirection="ascending"/>
 			</DefinedSortItems>
-			<DataFile contentKey="BU66FUDW2EHUS5ODEVSQXS2LKXC36DZU" size="6699" format="CSV" rowCount="609" grandTotal="false" dataLayout="detail" file="dd269.csv" isIndexed="true" availableRowCount="609"/>
+			<DataFile contentKey="CTUBUI2GET3HMRCEELXVRB4PV74DYTLF" size="6699" format="CSV" rowCount="609" grandTotal="false" dataLayout="detail" file="dd269.csv" isIndexed="true" availableRowCount="609"/>
 			<StringTableFile contentKey="7AUP7ARW3NU54VHVMF6L4XHD37QYXSAL" size="85" format="CSV" rowCount="6" file="dd269index.csv"/>
 		</Result>
-		<Result ref="dd36" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-12-26T08:38:43.201Z">
+		<Result ref="dd36" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-12-26T08:46:41.531Z">
 			<Variables>
 				<StringVariable label="Product" ref="bi38" varname="bi38" column="c0"/>
 				<NumericVariable format="F8." usage="quantitative" definedAggregation="sum" label="Release" ref="bi422" varname="bi422" column="c1"/>
@@ -42,10 +42,10 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi38" sortDirection="ascending"/>
 			</DefinedSortItems>
-			<DataFile contentKey="TN2CPVVAHEMZG3WV5PCMK2FFCJEM5N4T" size="8510" format="CSV" rowCount="609" grandTotal="false" dataLayout="detail" file="dd36.csv" isIndexed="true" availableRowCount="609"/>
+			<DataFile contentKey="5V7ARUK5QU3PN4WZBBUER3NR5VVNUEMC" size="8510" format="CSV" rowCount="609" grandTotal="false" dataLayout="detail" file="dd36.csv" isIndexed="true" availableRowCount="609"/>
 			<StringTableFile contentKey="REHC2G72RLAS3MIVPHEO5NEPKY4ORYS4" size="1087" format="CSV" rowCount="55" file="dd36index.csv"/>
 		</Result>
-		<Result ref="dd45" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-12-26T08:38:43.201Z">
+		<Result ref="dd45" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-12-26T08:46:41.531Z">
 			<Variables>
 				<NumericVariable format="F8." usage="quantitative" definedAggregation="sum" label="Release" ref="bi52" varname="bi52" column="c0"/>
 				<StringVariable label="Category" ref="bi53" varname="bi53" column="c1"/>
@@ -67,8 +67,8 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi52" sortDirection="descending"/>
 			</DefinedSortItems>
-			<DataFile contentKey="5LLRXXVS7ZLTVTDW7I7RYEX2THO6MPHR" size="21195" format="CSV" rowCount="609" grandTotal="false" dataLayout="detail" file="dd45.csv" isIndexed="true" availableRowCount="609"/>
-			<StringTableFile contentKey="P2KITCMCQCX2GFYMOAZF3GJXK76TWA4I" size="201532" format="CSV" rowCount="1754" file="dd45index.csv"/>
+			<DataFile contentKey="OP3LRSALUNCCCJ7VZPGESCYNKNI3TSR3" size="21195" format="CSV" rowCount="609" grandTotal="false" dataLayout="detail" file="dd45.csv" isIndexed="true" availableRowCount="609"/>
+			<StringTableFile contentKey="6KAK2U7GUNWDTLDCMRHPQ3QSDPZC6YWM" size="201518" format="CSV" rowCount="1754" file="dd45index.csv"/>
 		</Result>
 	</Results>
 	<DataDefinitions>
@@ -1107,7 +1107,7 @@
 			<Revision editorVersion="2023.08" lastDate="2023-08-21T08:52:20.696Z"/>
 			<Revision editorVersion="2023.10" lastDate="2023-10-30T13:13:17.585Z"/>
 			<Revision editorVersion="2023.11" lastDate="2023-11-30T15:11:10.155Z"/>
-			<Revision editorVersion="2023.12" lastDate="2023-12-26T08:39:39.652Z"/>
+			<Revision editorVersion="2023.12" lastDate="2023-12-26T08:47:19.310Z"/>
 		</Editor>
 	</Editors>
 </History>

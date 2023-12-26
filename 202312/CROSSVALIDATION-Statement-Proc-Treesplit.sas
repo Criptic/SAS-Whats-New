@@ -5,7 +5,7 @@
  https://go.documentation.sas.com/doc/en/pgmsascdc/default/casstat/casstat_treesplit_syntax05.htm
 
  Find the result of a run here:
- https://github.com/Criptic/SAS-Whats-New/blob/main/202312/CROSSVALIDATION-Statement-Proc-Treesplit-result.html
+ https://criptic.github.io/SAS-Whats-New/202312/CROSSVALIDATION-Statement-Proc-Treesplit-result.html
 */
 cas mysess;
 data casuser.hmeq;
