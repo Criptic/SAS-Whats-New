@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <title>SAS&reg; Visual Analytics SDK</title>
     <script async src='https://cdn.developer.sas.com/packages/va-report-components/latest/dist/umd/va-report-components.js'></script>
     <!--
     Uncomment the stylesheet link below to access the fonts in the SAS Viya deployment.
@@ -134,7 +136,7 @@
         font-family: Inconsolata;
       }
       .code-green {
-        color: #26883e;
+        color: #227a37;
       }
       .code-blue {
         color: #001aff;
@@ -234,26 +236,32 @@
   </head>
   <body>
     <div class="side-panel">
-    <div>
+    <div role="navigation">
       <ul class="link-pad">
-      <li>Releases Notes</li>
-    <ul>
-      <li class="link" data-type="sas-report-page" data-element="vi6">Releases</li>
+      <li>Releases Notes
       <ul>
-      <li class="link" data-type="sas-report-object" data-element="ve18">Slider - Release 1</li>
-      <li class="link" data-type="sas-report-object" data-element="ve26">Button bar - Category 1</li>
-      <li class="link" data-type="sas-report-object" data-element="ve33">Drop-down list - Product 1</li>
-      <li class="link" data-type="sas-report-object" data-element="ve42">List table - Release 1</li>
+      <li class="link" data-type="sas-report-page" data-element="vi6">Releases
+      <ul>
+      <li class="link" data-type="sas-report-object" data-element="ve18">Slider - Release 1
+      </li>
+      <li class="link" data-type="sas-report-object" data-element="ve26">Button bar - Category 1
+      </li>
+      <li class="link" data-type="sas-report-object" data-element="ve33">Drop-down list - Product 1
+      </li>
+      <li class="link" data-type="sas-report-object" data-element="ve42">List table - Release 1
+      </li>
       </ul>
-    </ul>
+      </li>
+      </ul>
+      </li>
       </ul>
     </div>
-    <div>
+    <div role="navigation">
       <hr>
       <a id="side-panel-status">Status Report</a>
     </div>
     </div>
-    <div id="status" class="main-content">
+    <div id="status" class="main-content" role="main">
       <h1>Status Report</h1>
       <h3>Review the issues found that are impacting your report's performance. Visit SAS&reg;Visual Analytics to resolve</h3>
       <br>
@@ -262,10 +270,10 @@
       <div id="status-page" class="flex-container">
       </div>
     </div>
-    <div id="report-container" class="main-content">
+    <div id="report-container" class="main-content" role="main">
     <h1>Releases Notes</h1>
     <h3>View exported content and code reference to customize your webpage. See the <a target='_blank' href='https://github.com/sassoftware/sas-viya-sdk-js/tree/main/sdk/va-report-components/examples'>examples</a> on GitHub</h3>
-    <h3>Exported from SAS&reg;Visual Analytics on November 24, 2023 at 15:54 PM UTC</h3>
+    <h3>Exported from SAS&reg;Visual Analytics on December 26, 2023 at 08:39 AM UTC</h3>
     <br>
     <hr>
     <h3 id="reportlabel"></h3>
@@ -312,11 +320,11 @@
     const reportStatus = null;
     const liItems = document.querySelectorAll("li[data-type]");
     if (liItems.length) {
-       setView(liItems[0].innerText, liItems[0].getAttribute("data-type"), liItems[0].getAttribute("data-element"));
+       setView(liItems[0].firstChild.textContent.replace(/\s+/g, ' ').trim(), liItems[0].getAttribute("data-type"), liItems[0].getAttribute("data-element"));
     }
     for (let i = 0; i < liItems.length; i++) {
        liItems[i].addEventListener("click", function (e) {
-           setView(e.target.innerText, e.target.dataset.type, e.target.dataset.element);
+           setView(e.target.firstChild.textContent.replace(/\s+/g, ' ').trim(), e.target.dataset.type, e.target.dataset.element);
        }, true)
     }
     const codeContent = document.getElementById('code-content');
