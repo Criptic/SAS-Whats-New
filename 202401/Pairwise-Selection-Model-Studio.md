@@ -1,4 +1,4 @@
-# Pairwise in SAS Model Studio
+# Pairwise Selection in SAS Model Studio
 
 If you want to learn more please refer to the [SAS Documentation](https://go.documentation.sas.com/doc/en/capcdc/default/vdmmlcdc/vdmmlref/n1q1iegd23xbbdn1stmu1ijg9ir6.htm)
 
