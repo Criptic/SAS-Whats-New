@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.40.0" label="Releases Notes" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2024-04-23T12:20:03Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="944">
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.40.0" label="Releases Notes" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2024-04-23T12:24:55Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="944">
 	<Results>
 		<Result ref="dd21" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-04-23T12:17:14.348Z">
 			<Variables>
@@ -1696,7 +1696,7 @@
 	<PromptDefinitions>
 		<PromptDefinition data="dd19" labelVariable="bi433" resultDefinitions="dd21" minVariable="bi433" maxVariable="bi434" name="pr22">
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23436.0"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23467.0" dynamicMax="max"/>
 			</DefaultValue>
 			<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
 		</PromptDefinition>
@@ -2710,7 +2710,7 @@
 			<Revision editorVersion="2024.01" lastDate="2024-01-24T17:54:05.766Z"/>
 			<Revision editorVersion="2024.02" lastDate="2024-03-20T11:52:01.865Z"/>
 			<Revision editorVersion="2024.03" lastDate="2024-04-04T14:03:16.190Z"/>
-			<Revision editorVersion="2024.04" lastDate="2024-04-23T12:20:03.276Z"/>
+			<Revision editorVersion="2024.04" lastDate="2024-04-23T12:24:55.969Z"/>
 		</Editor>
 	</Editors>
 </History>
