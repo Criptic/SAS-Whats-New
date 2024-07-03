@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.41.0" label="Releases Notes" features="promptModelV2" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2024-05-30T15:05:14Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="956">
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.42.0" label="Releases Notes" features="promptModelV2" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2024-07-03T12:00:25Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2024.06" nextUniqueNameIndex="1052">
 	<Results>
-		<Result ref="dd21" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-05-30T15:04:28.235Z">
+		<Result ref="dd21" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-07-03T11:43:19.655Z">
 			<Variables>
 				<NumericVariable format="YYMM8" usage="quantitative" definedAggregation="min" label="Release Data" ref="bi433" varname="bi433" column="c0"/>
 				<NumericVariable format="YYMM8" usage="quantitative" definedAggregation="max" label="Release Data" ref="bi434" varname="bi434" column="c1"/>
@@ -10,13 +10,13 @@
 				<NumericColumn dataType="double" colname="c0" encoding="text"/>
 				<NumericColumn dataType="double" colname="c1" encoding="text"/>
 			</Columns>
-			<Data isIndexed="false" availableRowCount="1" contentKey="4FESUYRVTFGSBWF5P6HLYTNSMEW25GT6" size="16" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[23101.0,23497.0
+			<Data isIndexed="false" availableRowCount="1" contentKey="3PAXPJRAJFOXRBJSSIHVYOAIJ27HDWYK" size="16" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[23101.0,23528.0
 ]]></Data>
 		</Result>
-		<Result ref="dd269" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-05-30T15:04:28.235Z">
+		<Result ref="dd269" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-07-03T11:43:19.655Z">
 			<Variables>
 				<StringVariable label="Category" ref="bi31" varname="bi31" column="c0"/>
-				<NumericVariable format="YYMM8" usage="categorical" label="Release Data" ref="bi954" varname="bi954" column="c1"/>
+				<NumericVariable format="YYMM8" usage="categorical" label="Release Data" ref="bi1050" varname="bi1050" column="c1"/>
 			</Variables>
 			<Columns>
 				<StringColumn maxLength="1" colname="c0" encoding="text"/>
@@ -25,7 +25,7 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi31" sortDirection="ascending"/>
 			</DefinedSortItems>
-			<Data isIndexed="true" availableRowCount="74" contentKey="Y7ZDPDW7JLAPFGRPG5NQYIERVATIT5K5" size="740" format="CSV" rowCount="74" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[0,23101.0
+			<Data isIndexed="true" availableRowCount="79" contentKey="PYKUAZUAIXKMOJVIYW5XWK66XWDT6P3J" size="790" format="CSV" rowCount="79" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[0,23101.0
 0,23131.0
 0,23162.0
 0,23192.0
@@ -39,6 +39,7 @@
 0,23436.0
 0,23467.0
 0,23497.0
+0,23528.0
 1,23101.0
 1,23131.0
 1,23162.0
@@ -53,6 +54,7 @@
 1,23436.0
 1,23467.0
 1,23497.0
+1,23528.0
 2,23101.0
 2,23131.0
 2,23162.0
@@ -67,6 +69,7 @@
 2,23436.0
 2,23467.0
 2,23497.0
+2,23528.0
 3,23101.0
 3,23315.0
 3,23345.0
@@ -85,6 +88,7 @@
 4,23436.0
 4,23467.0
 4,23497.0
+4,23528.0
 5,23101.0
 5,23131.0
 5,23162.0
@@ -99,6 +103,7 @@
 5,23436.0
 5,23467.0
 5,23497.0
+5,23528.0
 ]]></Data>
 			<StringTable contentKey="7AUP7ARW3NU54VHVMF6L4XHD37QYXSAL" size="85" format="CSV" rowCount="6"><![CDATA["Administration"
 "Analytics"
@@ -108,11 +113,11 @@
 "Operations"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd36" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-05-30T15:04:28.235Z">
+		<Result ref="dd36" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-07-03T11:43:19.655Z">
 			<Variables>
 				<StringVariable label="Product/Tool" ref="bi38" varname="bi38" column="c0"/>
-				<NumericVariable format="YYMM8" usage="categorical" label="Release Data" ref="bi950" varname="bi950" column="c1"/>
-				<StringVariable label="Category" ref="bi951" varname="bi951" column="c2"/>
+				<NumericVariable format="YYMM8" usage="categorical" label="Release Data" ref="bi1046" varname="bi1046" column="c1"/>
+				<StringVariable label="Category" ref="bi1047" varname="bi1047" column="c2"/>
 			</Variables>
 			<Columns>
 				<StringColumn maxLength="2" colname="c0" encoding="text"/>
@@ -122,10 +127,10 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi38" sortDirection="ascending"/>
 			</DefinedSortItems>
-			<DataFile contentKey="XBVGAQ35TG42ZSFTUNCJHJLYMNZWGM2Q" size="4612" format="CSV" rowCount="356" grandTotal="false" dataLayout="partiallyAggregated" file="dd36.csv" isIndexed="true" availableRowCount="356"/>
-			<StringTableFile contentKey="WHOGTOR5TKPEA5RLKRZIVOVIE2STCJ7D" size="1115" format="CSV" rowCount="56" file="dd36index.csv"/>
+			<DataFile contentKey="ZXGXQXK3GB7WWZK32AU4TEBJ2D6KSZLZ" size="4936" format="CSV" rowCount="381" grandTotal="false" dataLayout="partiallyAggregated" file="dd36.csv" isIndexed="true" availableRowCount="381"/>
+			<StringTableFile contentKey="UGD3PEFFKG23UHXOHAVQ2UNLWSTBZWUQ" size="1136" format="CSV" rowCount="57" file="dd36index.csv"/>
 		</Result>
-		<Result ref="dd45" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-05-30T15:04:28.235Z">
+		<Result ref="dd45" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-07-03T11:43:19.655Z">
 			<Variables>
 				<NumericVariable format="F8." usage="quantitative" definedAggregation="sum" label="Release" ref="bi52" varname="bi52" column="c0"/>
 				<StringVariable label="Category" ref="bi53" varname="bi53" column="c1"/>
@@ -151,8 +156,8 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi52" sortDirection="descending"/>
 			</DefinedSortItems>
-			<DataFile contentKey="LT6KUSOF3MLL32DOPNECAJPIFVX3EIYG" size="43862" format="CSV" rowCount="990" grandTotal="false" dataLayout="partiallyAggregated" file="dd45.csv" isIndexed="true" availableRowCount="990"/>
-			<StringTableFile contentKey="3UDSIUBUYS2PCWO25EYINJUSTCROYQSL" size="336567" format="CSV" rowCount="2873" file="dd45index.csv"/>
+			<DataFile contentKey="EQWJEOTW7R5R5RHYEHE6LPWVKQQY7HFX" size="46731" format="CSV" rowCount="1051" grandTotal="false" dataLayout="partiallyAggregated" file="dd45.csv" isIndexed="true" availableRowCount="1051"/>
+			<StringTableFile contentKey="PGBG3GOSHRRNPJG4GE56H26BCKGCXHOA" size="356607" format="CSV" rowCount="3054" file="dd45index.csv"/>
 		</Result>
 	</Results>
 	<DataDefinitions>
@@ -178,8 +183,8 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd34">
 			<BusinessItems>
 				<RelationalDataItem name="bi38" base="bi12"/>
-				<RelationalDataItem name="bi950" base="bi432"/>
-				<RelationalDataItem name="bi951" base="bi8"/>
+				<RelationalDataItem name="bi1046" base="bi432"/>
+				<RelationalDataItem name="bi1047" base="bi8"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="relational" name="dd35">
 				<RelationalQuery detail="false">
@@ -272,7 +277,7 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd98">
 			<BusinessItems>
 				<RelationalDataItem name="bi97" base="bi12"/>
-				<RelationalDataItem name="bi952" base="bi8"/>
+				<RelationalDataItem name="bi1048" base="bi8"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="relational" name="dd99">
 				<RelationalQuery detail="false">
@@ -388,7 +393,7 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd267">
 			<BusinessItems>
 				<RelationalDataItem name="bi31" base="bi8"/>
-				<RelationalDataItem name="bi954" base="bi432"/>
+				<RelationalDataItem name="bi1050" base="bi432"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="relational" name="dd268">
 				<RelationalQuery detail="false">
@@ -651,7 +656,7 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd825">
 			<BusinessItems>
 				<RelationalDataItem name="bi829" base="bi12"/>
-				<RelationalDataItem name="bi955" base="bi8"/>
+				<RelationalDataItem name="bi1051" base="bi8"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="relational" name="dd826">
 				<RelationalQuery detail="false">
@@ -707,7 +712,7 @@
 						</Axis>
 					</Axes>
 					<SortItems>
-						<SortItem ref="bi865" sortDirection="descending"/>
+						<SortItem ref="bi865" sortDirection="ascending"/>
 					</SortItems>
 				</RelationalQuery>
 				<ResultDefinitions>
@@ -810,6 +815,145 @@
 				</DetailFilters>
 			</AppliedFilters>
 		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd952">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi950" base="bi432" usage="quantitative" aggregation="min"/>
+				<RelationalDataItem binOption="formatBin" name="bi951" base="bi432" usage="quantitative" aggregation="max"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds7" type="relational" name="dd953">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi950"/>
+							<BusinessItem ref="bi951"/>
+						</Axis>
+					</Axes>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd954"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd960">
+			<BusinessItems>
+				<RelationalDataItem name="bi958" base="bi14"/>
+				<RelationalFilterItem label="FilterForProcUpdates" name="bi959">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="USER_EDIT_REPRESENTATION">Contains(LowerCase(&apos;Short Update&apos;n), &apos;proc&apos;)</Property>
+					</EditorProperties>
+					<Expression>contains(lower(${bi958,binned}),&apos;proc&apos;)</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi988" base="bi8"/>
+				<RelationalFilterItem name="bi990">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>or(in(${bi988,binned},&apos;Analytics&apos;,&apos;Data Management&apos;),ismissing(${bi988,binned}))</Expression>
+				</RelationalFilterItem>
+			</BusinessItems>
+			<DataDefinition dataSource="ds7" type="relational" name="dd961">
+				<RelationalQuery columnTotals="false" detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi958"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi958" sortDirection="descending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="listTable" maxRowsBehavior="truncate" name="dd957"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi959"/>
+					<BusinessItem ref="bi990"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd968">
+			<BusinessItems>
+				<RelationalDataItem name="bi966" base="bi15"/>
+				<RelationalDataItem name="bi965" base="bi14"/>
+				<RelationalFilterItem label="Advanced Filter 1" name="bi967">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="USER_EDIT_REPRESENTATION">Contains(LowerCase(&apos;Short Update&apos;n), &apos;proc&apos;)</Property>
+					</EditorProperties>
+					<Expression>contains(lower(${bi965,binned}),&apos;proc&apos;)</Expression>
+				</RelationalFilterItem>
+			</BusinessItems>
+			<DataDefinition dataSource="ds7" type="multidimensional" name="dd969">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column"/>
+						<Axis type="row">
+							<BusinessItem ref="bi966"/>
+						</Axis>
+					</Axes>
+					<ColumnSortItems>
+						<MeasureSortItem ref="bi966" sortDirection="descending"/>
+					</ColumnSortItems>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="keyValue" maxRowsBehavior="truncate" name="dd964"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi967"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd978">
+			<BusinessItems>
+				<RelationalDataItem name="bi976" base="bi15"/>
+				<RelationalDataItem name="bi975" base="bi8"/>
+				<RelationalDataItem name="bi974" base="bi14"/>
+				<RelationalFilterItem label="Advanced Filter 1" name="bi977">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="USER_EDIT_REPRESENTATION">Contains(LowerCase(&apos;Short Update&apos;n), &apos;proc&apos;)</Property>
+					</EditorProperties>
+					<Expression>contains(lower(${bi974,binned}),&apos;proc&apos;)</Expression>
+				</RelationalFilterItem>
+				<RelationalFilterItem name="bi991">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>or(in(${bi975,binned},&apos;Analytics&apos;,&apos;Data Management&apos;),ismissing(${bi975,binned}))</Expression>
+				</RelationalFilterItem>
+			</BusinessItems>
+			<DataDefinition dataSource="ds7" type="multidimensional" name="dd979">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi975"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi976"/>
+						</Axis>
+					</Axes>
+					<ColumnSortItems>
+						<MeasureSortItem ref="bi976" sortDirection="descending"/>
+					</ColumnSortItems>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="keyValue" maxRowsBehavior="truncate" name="dd973"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi977"/>
+					<BusinessItem ref="bi991"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
 	</DataDefinitions>
 	<DataSources>
 		<DataSource label="REALSE-NOTES" type="relational" name="ds7">
@@ -852,7 +996,7 @@
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23497.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23528.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider minVariable="bi433" maxVariable="bi434">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -862,7 +1006,7 @@
 			<EditorProperties>
 				<Property key="autoChartCategory">CONTROL</Property>
 				<Property key="isAutoLabel">true</Property>
-				<Property key="addedInteractionQueryDataItems">bi950,bi951</Property>
+				<Property key="addedInteractionQueryDataItems">bi1046,bi1047</Property>
 			</EditorProperties>
 			<Title auto="false"><P><Span>Select a Product/Tool:</Span></P></Title>
 			<ComboBox valueVariable="bi38"/>
@@ -928,7 +1072,7 @@
 			<EditorProperties>
 				<Property key="autoChartCategory">CONTROL</Property>
 				<Property key="isAutoLabel">true</Property>
-				<Property key="addedInteractionQueryDataItems">bi952</Property>
+				<Property key="addedInteractionQueryDataItems">bi1048</Property>
 			</EditorProperties>
 			<Title auto="false"><P><Span>Select a Product/Tool:</Span></P></Title>
 			<ComboBox valueVariable="bi97"/>
@@ -1058,7 +1202,7 @@
 				<Column variable="bi207"/>
 			</Columns>
 		</Table>
-		<Graph graphType="pie" supplementalVisuals="ve245" resultDefinitions="dd244" name="ve241" data="dd242" label="Features by Release &amp; Category" applyDynamicBrushes="yes" sourceInteractionVariables="bi246 bi919">
+		<Graph graphType="pie" supplementalVisuals="ve245" resultDefinitions="dd244" name="ve241" data="dd242" label="Features by Release &amp; Category" action="ac1034" applyDynamicBrushes="yes" sourceInteractionVariables="bi246 bi919">
 			<EditorProperties>
 				<Property key="isAutoLabel">false</Property>
 				<Property key="autoFrequencyQueryDataItemName">bi247</Property>
@@ -1137,7 +1281,7 @@
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
 				<Property key="autoChartCategory">CONTROL</Property>
-				<Property key="addedInteractionQueryDataItems">bi954</Property>
+				<Property key="addedInteractionQueryDataItems">bi1050</Property>
 			</EditorProperties>
 			<Title auto="false"><P><Span>Select a Category:</Span></P></Title>
 			<LinkBar valueVariable="bi31"/>
@@ -1559,7 +1703,7 @@
 			<EditorProperties>
 				<Property key="autoChartCategory">CONTROL</Property>
 				<Property key="isAutoLabel">true</Property>
-				<Property key="addedInteractionQueryDataItems">bi955</Property>
+				<Property key="addedInteractionQueryDataItems">bi1051</Property>
 			</EditorProperties>
 			<Title><P><Span>Select Product/Tool</Span></P></Title>
 			<CheckBoxList searchable="false" selectAllEnabled="false" valueVariable="bi829"/>
@@ -1712,6 +1856,146 @@
 			<Columns>
 				<Column variable="bi894"/>
 				<Column variable="bi895"/>
+			</Columns>
+		</Table>
+		<Prompt interactOnAggregateData="false" required="true" resultDefinitions="dd954" name="ve955" data="dd952" label="Slider - Release Data 6 (1)" selectionDisabled="true" applyDynamicBrushes="no" sourceInteractionVariables="bi950">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<DualSlider orientation="horizontal" minVariable="bi950" maxVariable="bi951">
+				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
+			</DualSlider>
+		</Prompt>
+		<VisualContainer containerType="layout" name="ve985" label="Layout Container 4 (1)" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="visualType">LAYOUT_CONTAINER</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<Table columnSizing="autoFill" resultDefinitions="dd957" name="ve962" data="dd960" label="List table - Short Update 2" applyDynamicBrushes="yes" sourceInteractionVariables="bi958">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<Conditions>
+				<Condition ref="rg898">
+					<ConditionParameters>
+						<ConditionParameter parameter="*"/>
+					</ConditionParameters>
+				</Condition>
+			</Conditions>
+			<RowNumbers visible="true" headerVisible="false"/>
+			<Summary>
+				<Total rowVisible="false"/>
+			</Summary>
+			<Columns>
+				<Column variable="bi958" isVisible="true"/>
+			</Columns>
+		</Table>
+		<VisualContainer containerType="layout" name="ve983" label="Layout Container 5 (1)" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="visualType">LAYOUT_CONTAINER</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<Graph graphType="keyValue" supplementalVisuals="ve970" resultDefinitions="dd964" name="ve971" data="dd968" label="Key value - Count 3 (1)" applyDynamicBrushes="yes">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="previousShowMeasureValue">true</Property>
+				<Property key="previousShowMeasureLabel">true</Property>
+				<Property key="previousShowCategoryValue">true</Property>
+				<Property key="previousShowCategoryLabel">true</Property>
+				<Property key="previousShowAggregation">false</Property>
+			</EditorProperties>
+			<Title auto="false"><P class="styleForTitle_paragraph4"><Span class="styleForTitle_span4"># of Step Updates</Span></P></Title>
+			<Conditions>
+				<Condition ref="rg898">
+					<ConditionParameters>
+						<ConditionParameter parameter="*"/>
+					</ConditionParameters>
+				</Condition>
+			</Conditions>
+<![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="numeric" type="numeric">
+                <DefaultValues>
+                    <Value>dd964.bi966</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="false" type="character"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd964.bi966</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+    </Meta>
+    <LayoutDataPanel cellHeightMin="100px" cellWidthMin="100px" rowGutter="4px" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" scroll="true" classVars="CATEGORY">
+        <LayoutPrototypeRegion>
+            <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="left" key="responsevalue" vAlign="center" tip="TIP" category="CATEGORY" response="RESPONSE">
+                <KeyAttrs color="3384319"/>
+            </KeyValue>
+        </LayoutPrototypeRegion>
+    </LayoutDataPanel>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd964" name="ve970" data="dd968" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi966"/>
+			</Columns>
+		</Table>
+		<Graph graphType="keyValue" supplementalVisuals="ve980" resultDefinitions="dd973" name="ve981" data="dd978" label="Key value - Count 4 (1)" applyDynamicBrushes="yes" sourceInteractionVariables="bi975">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="previousShowMeasureValue">true</Property>
+				<Property key="previousShowMeasureLabel">true</Property>
+				<Property key="previousShowCategoryValue">true</Property>
+				<Property key="previousShowCategoryLabel">true</Property>
+				<Property key="previousShowAggregation">false</Property>
+			</EditorProperties>
+			<Title auto="false"><P class="styleForTitle_paragraph5"><Span class="styleForTitle_span5"># of Step Updates by Category</Span></P></Title>
+			<Conditions>
+				<Condition ref="rg898">
+					<ConditionParameters>
+						<ConditionParameter parameter="*"/>
+					</ConditionParameters>
+				</Condition>
+			</Conditions>
+<![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="numeric" type="numeric">
+                <DefaultValues>
+                    <Value>dd973.bi976</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="false" assignedType="character" type="character">
+                <DefaultValues>
+                    <Value>dd973.bi975</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="character" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd973.bi976</Value>
+                    <Value>dd973.bi975</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+    </Meta>
+    <LayoutDataPanel cellHeightMin="100px" cellWidthMin="100px" rowGutter="4px" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" scroll="true" classVars="CATEGORY">
+        <LayoutPrototypeRegion>
+            <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="left" key="responsevalue" vAlign="center" tip="TIP" category="CATEGORY" response="RESPONSE"/>
+        </LayoutPrototypeRegion>
+    </LayoutDataPanel>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd973" name="ve980" data="dd978" applyDynamicBrushes="yes" sourceInteractionVariables="bi975">
+			<Columns>
+				<Column variable="bi976"/>
+				<Column variable="bi975"/>
 			</Columns>
 		</Table>
 	</VisualElements>
@@ -2249,6 +2533,110 @@
 				</MediaContainer>
 			</Body>
 		</Section>
+		<Section name="vi987" label="Proc Updates">
+			<Header location="top">
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve955" name="vi956">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Container ref="ve985" name="vi986">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+						<ResponsiveLayout orientation="vertical" overflow="grow"/>
+						<Visual ref="ve962" name="vi963">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+						</Visual>
+						<Container ref="ve983" name="vi984">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="flexible"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="flexible"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+							<ResponsiveLayout orientation="vertical" overflow="grow">
+								<Weights mediaTarget="mt5" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt4" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt3" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+							</ResponsiveLayout>
+							<Visual ref="ve971" name="vi972">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="25%" flexibility="flexible"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+							</Visual>
+							<Visual ref="ve981" name="vi982">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+							</Visual>
+						</Container>
+					</Container>
+				</MediaContainer>
+			</Body>
+		</Section>
 		<Section name="vi189" label="Summary">
 			<Header>
 				<MediaContainer target="mt2">
@@ -2491,11 +2879,12 @@
 			<NavigationAction type="section" value="vi754" label="Detail Data" name="ac777"/>
 			<NavigationAction type="section" value="vi778" label="Feature Cloud" name="ac833"/>
 		</CompositeAction>
+		<NavigationAction type="section" value="vi754" label="Detail Data" name="ac1034"/>
 	</Actions>
 	<Interactions>
 		<Interaction name="ia124" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve94" variable="bi90"/>
-			<InteractionElementReference purpose="target" ref="ve101" variable="bi952"/>
+			<InteractionElementReference purpose="target" ref="ve101" variable="bi1048"/>
 		</Interaction>
 		<Interaction name="ia125" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve94" variable="bi90"/>
@@ -2515,25 +2904,25 @@
 		</Interaction>
 		<Interaction name="ia297" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve18" variable="bi433"/>
-			<InteractionElementReference purpose="target" ref="ve26" variable="bi954"/>
+			<InteractionElementReference purpose="target" ref="ve26" variable="bi1050"/>
 		</Interaction>
 		<Interaction name="ia298" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve18" variable="bi433"/>
-			<InteractionElementReference purpose="target" ref="ve33" variable="bi950"/>
+			<InteractionElementReference purpose="target" ref="ve33" variable="bi1046"/>
 		</Interaction>
 		<Interaction name="ia299" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve26" variable="bi31"/>
-			<InteractionElementReference purpose="target" ref="ve33" variable="bi951"/>
+			<InteractionElementReference purpose="target" ref="ve33" variable="bi1047"/>
 		</Interaction>
 		<Interaction name="ia830" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve817" variable="bi822"/>
-			<InteractionElementReference purpose="target" ref="ve824" variable="bi955"/>
+			<InteractionElementReference purpose="target" ref="ve824" variable="bi1051"/>
 		</Interaction>
-		<Interaction name="ia949" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia1045" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve132"/>
 			<InteractionElementReference purpose="target" variable="pr75"/>
 		</Interaction>
-		<Interaction name="ia953" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia1049" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr75"/>
 			<InteractionElementReference purpose="target" ref="ve119" variable="pr75"/>
 		</Interaction>
@@ -2634,8 +3023,8 @@
 	</MediaTargets>
 	<Properties>
 		<Property key="displayDataSource">ds7</Property>
-		<Property key="ReportPackagesServiceVersion">Viya4 2024.05</Property>
-		<Property key="ReportDataServiceVersion">Viya4 2024.05</Property>
+		<Property key="ReportPackagesServiceVersion">Viya4 2024.06</Property>
+		<Property key="ReportDataServiceVersion">Viya4 2024.06</Property>
 	</Properties>
 	<ExportProperties>
 		<Export destination="pdf">
@@ -2657,6 +3046,7 @@
 		<Version key="4.39.0" lastDate="2024-04-04T00:00:00Z"/>
 		<Version key="4.40.0" lastDate="2024-04-23T00:00:00Z"/>
 		<Version key="4.41.0" lastDate="2024-05-30T00:00:00Z"/>
+		<Version key="4.42.0" lastDate="2024-07-03T00:00:00Z"/>
 	</Versions>
 	<Conversions>
 		<Conversion startVersion="4.29.0" finalVersion="4.30.0" date="2023-06-16T00:00:00Z"/>
@@ -2670,6 +3060,7 @@
 		<Conversion startVersion="4.38.0" finalVersion="4.39.0" date="2024-04-04T00:00:00Z"/>
 		<Conversion startVersion="4.39.0" finalVersion="4.40.0" date="2024-04-23T00:00:00Z"/>
 		<Conversion startVersion="4.40.0" finalVersion="4.41.0" date="2024-05-30T00:00:00Z"/>
+		<Conversion startVersion="4.41.0" finalVersion="4.42.0" date="2024-07-03T00:00:00Z"/>
 	</Conversions>
 	<Editors>
 		<Editor applicationName="VA">
@@ -2684,7 +3075,8 @@
 			<Revision editorVersion="2024.02" lastDate="2024-03-20T11:52:01.865Z"/>
 			<Revision editorVersion="2024.03" lastDate="2024-04-04T14:03:16.190Z"/>
 			<Revision editorVersion="2024.04" lastDate="2024-04-23T12:24:55.969Z"/>
-			<Revision editorVersion="2024.05" lastDate="2024-05-30T15:05:14.290Z"/>
+			<Revision editorVersion="2024.05" lastDate="2024-05-31T11:25:37.444Z"/>
+			<Revision editorVersion="2024.06" lastDate="2024-07-03T12:00:25.842Z"/>
 		</Editor>
 	</Editors>
 </History>
@@ -2692,22 +3084,22 @@
 		<VisualElements>
 			<PromptState element="ve87">
 				<Selections>
-					<Selection resultDefinition="dd81">between(${bi435,binned},23101,23497)</Selection>
+					<Selection resultDefinition="dd81">between(${bi435,binned},23101,23528)</Selection>
 				</Selections>
 			</PromptState>
 			<PromptState element="ve408">
 				<Selections>
-					<Selection resultDefinition="dd403">between(${bi437,binned},23101,23497)</Selection>
+					<Selection resultDefinition="dd403">between(${bi437,binned},23101,23528)</Selection>
 				</Selections>
 			</PromptState>
 			<PromptState element="ve699">
 				<Selections>
-					<Selection resultDefinition="dd702">between(${bi704,binned},23101,23497)</Selection>
+					<Selection resultDefinition="dd702">between(${bi704,binned},23101,23528)</Selection>
 				</Selections>
 			</PromptState>
 			<PromptState element="ve836">
 				<Selections>
-					<Selection resultDefinition="dd839">between(${bi841,binned},23101,23407)</Selection>
+					<Selection resultDefinition="dd839">between(${bi841,binned},23101,23528)</Selection>
 				</Selections>
 			</PromptState>
 			<PromptState element="ve94"/>
@@ -2719,7 +3111,12 @@
 			<PromptState element="ve824"/>
 			<PromptState element="ve873">
 				<Selections>
-					<Selection resultDefinition="dd867">between(${bi868,binned},23101,23497)</Selection>
+					<Selection resultDefinition="dd867">between(${bi868,binned},23101,23528)</Selection>
+				</Selections>
+			</PromptState>
+			<PromptState element="ve955">
+				<Selections>
+					<Selection resultDefinition="dd954">between(${bi950,binned},23101,23528)</Selection>
 				</Selections>
 			</PromptState>
 		</VisualElements>

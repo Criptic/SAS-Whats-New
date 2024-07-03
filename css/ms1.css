@@ -6,6 +6,10 @@
 #ve878 .styleForTitle_paragraph4 {
   text-align: center;
 }
+#ve971 .styleForTitle_span4 {
+  font-weight: bold;
+  font-size: 28px;
+}
 #ve774 .tableColumnbi54 {
   width: 132px;
 }
@@ -54,6 +58,10 @@
   font-weight: bold;
   font-size: 28px;
 }
+#ve981 .styleForTitle_span5 {
+  font-weight: bold;
+  font-size: 28px;
+}
 #ve878 .styleForTitle_span4 {
   font-weight: bold;
   font-size: 28px;
@@ -82,6 +90,9 @@
 #ve733 .styleForTitle_paragraph2 {
   text-align: center;
 }
+#ve971 .styleForTitle_paragraph4 {
+  text-align: center;
+}
 #ve185 .GridLines {
   line-thickness: 1px;
   line-color: #2A3037;
@@ -104,6 +115,9 @@
 #ve747 .styleForTitle_span3 {
   font-weight: bold;
   font-size: 28px;
+}
+#ve981 .styleForTitle_paragraph5 {
+  text-align: center;
 }
 #ve241 .GraphSkin {
   data-skin: FLAT;
