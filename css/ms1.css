@@ -109,6 +109,7 @@
 }
 #ve42 .Table {
   wrap-text : normal;
+  color : #000000;
 }
 #ve747 .styleForTitle_span3 {
   font-weight : bold;
@@ -125,4 +126,7 @@
 }
 #ve747 .styleForTitle_paragraph3 {
   text-align : center;
+}
+#ve42 .Header {
+  color : #000000;
 }

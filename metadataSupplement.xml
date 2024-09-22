@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <metadataSupplement>
     <tables>
-        <table dataLocale="en_US" dataSources="ds7" resourceIdentifier="'cas-shared-default','Public','REALSE-NOTES','en_US'" tableModifiedTimeStamp="2024-08-16T12:13:48.663Z">
+        <table dataLocale="en_US" dataSources="ds7" resourceIdentifier="'cas-shared-default','Public','REALSE-NOTES','en_US'" tableModifiedTimeStamp="2024-09-22T13:59:40.255Z">
             <columns>
                 <column dataType="double" format="BEST12." label="Release" xref="Release"/>
                 <column dataType="string" label="Category" xref="Category"/>
