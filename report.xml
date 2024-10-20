@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.44.0" label="Releases Notes" features="promptModelV2" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2024-09-05T06:48:19Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="1125">
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.45.0" label="Releases Notes" features="promptModelV2" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2024-10-20T16:17:08Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="1125">
 	<Results>
-		<Result ref="dd21" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-09-22T13:59:40.255Z">
+		<Result ref="dd21" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-10-20T16:17:01.534Z">
 			<Variables>
 				<NumericVariable format="YYMM8" usage="quantitative" definedAggregation="min" label="Release Data" ref="bi433" varname="bi433" column="c0"/>
 				<NumericVariable format="YYMM8" usage="quantitative" definedAggregation="max" label="Release Data" ref="bi434" varname="bi434" column="c1"/>
@@ -10,10 +10,10 @@
 				<NumericColumn dataType="double" colname="c0" encoding="text"/>
 				<NumericColumn dataType="double" colname="c1" encoding="text"/>
 			</Columns>
-			<Data isIndexed="false" availableRowCount="1" contentKey="VW77ZJM2LPWENQQS67SYTOC6K5SAFRJN" size="16" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[23101.0,23620.0
+			<Data isIndexed="false" availableRowCount="1" contentKey="XGRLABRSLVHXUTVN2WRKBBAPIEV5NYSE" size="16" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[23101.0,23650.0
 ]]></Data>
 		</Result>
-		<Result ref="dd269" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-09-22T13:59:40.255Z">
+		<Result ref="dd269" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-10-20T16:17:01.534Z">
 			<Variables>
 				<StringVariable label="Category" ref="bi31" varname="bi31" column="c0"/>
 				<NumericVariable format="YYMM8" usage="categorical" label="Release Data" ref="bi1123" varname="bi1123" column="c1"/>
@@ -25,7 +25,7 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi31" sortDirection="ascending"/>
 			</DefinedSortItems>
-			<Data isIndexed="true" availableRowCount="95" contentKey="7HTFTXBBUCH5KWDD7GKPD7H5KFHCC7EE" size="950" format="CSV" rowCount="95" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[0,23101.0
+			<Data isIndexed="true" availableRowCount="100" contentKey="R6CYS4KXOHWRUBZOXF6IYWZWNRVUF66T" size="1000" format="CSV" rowCount="100" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[0,23101.0
 0,23131.0
 0,23162.0
 0,23192.0
@@ -43,6 +43,7 @@
 0,23558.0
 0,23589.0
 0,23620.0
+0,23650.0
 1,23101.0
 1,23131.0
 1,23162.0
@@ -61,6 +62,7 @@
 1,23558.0
 1,23589.0
 1,23620.0
+1,23650.0
 2,23101.0
 2,23131.0
 2,23162.0
@@ -79,6 +81,7 @@
 2,23558.0
 2,23589.0
 2,23620.0
+2,23650.0
 3,23101.0
 3,23315.0
 3,23345.0
@@ -102,6 +105,7 @@
 4,23558.0
 4,23589.0
 4,23620.0
+4,23650.0
 5,23101.0
 5,23131.0
 5,23162.0
@@ -120,6 +124,7 @@
 5,23558.0
 5,23589.0
 5,23620.0
+5,23650.0
 ]]></Data>
 			<StringTable contentKey="7AUP7ARW3NU54VHVMF6L4XHD37QYXSAL" size="85" format="CSV" rowCount="6"><![CDATA["Administration"
 "Analytics"
@@ -129,7 +134,7 @@
 "Operations"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd36" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-09-22T13:59:40.255Z">
+		<Result ref="dd36" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-10-20T16:17:01.534Z">
 			<Variables>
 				<StringVariable label="Product/Tool" ref="bi38" varname="bi38" column="c0"/>
 				<NumericVariable format="YYMM8" usage="categorical" label="Release Data" ref="bi1119" varname="bi1119" column="c1"/>
@@ -143,10 +148,10 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi38" sortDirection="ascending"/>
 			</DefinedSortItems>
-			<DataFile contentKey="Z2KKLBK2DEHHPDLIIQX3FGWLNGFJ5CS2" size="5851" format="CSV" rowCount="451" grandTotal="false" dataLayout="partiallyAggregated" file="dd36.csv" isIndexed="true" availableRowCount="451"/>
+			<DataFile contentKey="I2QGF5JCHSAFJODI45YEJ2PLBRKZEQGD" size="6163" format="CSV" rowCount="475" grandTotal="false" dataLayout="partiallyAggregated" file="dd36.csv" isIndexed="true" availableRowCount="475"/>
 			<StringTableFile contentKey="KQGWSJE266FTYE6NTNDOXKTLHCYTKBGJ" size="1143" format="CSV" rowCount="58" file="dd36index.csv"/>
 		</Result>
-		<Result ref="dd45" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-09-22T13:59:40.255Z">
+		<Result ref="dd45" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-10-20T16:17:01.534Z">
 			<Variables>
 				<NumericVariable format="F8." usage="quantitative" definedAggregation="sum" label="Release" ref="bi52" varname="bi52" column="c0"/>
 				<StringVariable label="Category" ref="bi53" varname="bi53" column="c1"/>
@@ -172,8 +177,8 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi52" sortDirection="descending"/>
 			</DefinedSortItems>
-			<DataFile contentKey="KBXIFFOL4M6L2IJ2MDLYSGJOLCPJUQC4" size="55879" format="CSV" rowCount="1245" grandTotal="false" dataLayout="partiallyAggregated" file="dd45.csv" isIndexed="true" availableRowCount="1245"/>
-			<StringTableFile contentKey="E5Y2Y5T7OJDPCIPON4B7QQERXT4YBSUT" size="422012" format="CSV" rowCount="3610" file="dd45index.csv"/>
+			<DataFile contentKey="M32JAQI2GVKC4UABL4XZBQYVN6ZY4GGO" size="58905" format="CSV" rowCount="1310" grandTotal="false" dataLayout="partiallyAggregated" file="dd45.csv" isIndexed="true" availableRowCount="1310"/>
+			<StringTableFile contentKey="QZTDJKFCZRMNXDT4D233ZA62O625TVOK" size="443988" format="CSV" rowCount="3791" file="dd45index.csv"/>
 		</Result>
 	</Results>
 	<DataDefinitions>
@@ -972,8 +977,8 @@
 		</ParentDataDefinition>
 	</DataDefinitions>
 	<DataSources>
-		<DataSource label="REALSE-NOTES" type="relational" name="ds7">
-			<CasResource server="cas-shared-default" library="Public" table="REALSE-NOTES" locale="en_US"/>
+		<DataSource label="RELEASE-NOTES" type="relational" name="ds7">
+			<CasResource server="cas-shared-default" library="Public" table="RELEASE-NOTES" locale="en_US"/>
 			<BusinessItemFolder>
 				<DataItem name="bi8" xref="Category"/>
 				<DataItem name="bi9" xref="Document Link"/>
@@ -1012,7 +1017,7 @@
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23620.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23650.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider minVariable="bi433" maxVariable="bi434">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -1063,7 +1068,7 @@
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23620.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23650.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider minVariable="bi435" maxVariable="bi436">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -1213,8 +1218,7 @@
     </LayoutGlobalLegend>
     <Animation keyFrameSortOrder="ascending_unformatted" keyFrame="KEY_FRAME"/>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd227" name="ve229" data="dd225" applyDynamicBrushes="yes" sourceInteractionVariables="bi205">
 			<Columns>
@@ -1289,8 +1293,7 @@
         </AutoLegend>
     </LayoutGlobalLegend>
     <Animation keyframesPerSecond="0.2" repeatEnabled="false" displayKeyframeValue="false" keyFrameSortOrder="ascending_unformatted" keyFrame="KEY_FRAME"/>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<VisualContainer containerType="stacking" name="ve250" label="Stacking container 1" selectionDisabled="true">
 			<EditorProperties>
@@ -1320,7 +1323,7 @@
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23620.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23650.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider minVariable="bi437" maxVariable="bi438">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -1332,7 +1335,7 @@
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23620.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23650.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider orientation="horizontal" minVariable="bi704" maxVariable="bi705">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -1416,8 +1419,7 @@
     </LayoutGlobalLegend>
     <Animation keyFrameSortOrder="ascending_unformatted" keyFrame="KEY_FRAME"/>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd713" name="ve714" data="dd711" applyDynamicBrushes="yes" sourceInteractionVariables="bi715 bi717">
 			<Columns>
@@ -1474,8 +1476,7 @@
             </KeyValue>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd725" name="ve726" data="dd723" applyDynamicBrushes="yes">
 			<Columns>
@@ -1524,8 +1525,7 @@
             </KeyValue>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd728" name="ve732" data="dd730" applyDynamicBrushes="yes">
 			<Columns>
@@ -1589,8 +1589,7 @@
             </KeyValue>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd742" name="ve746" data="dd744" applyDynamicBrushes="yes" sourceInteractionVariables="bi750">
 			<Columns>
@@ -1684,8 +1683,7 @@
             </GraphNames>
         </ContinuousLegend>
     </LayoutGlobalLegend>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd783" name="ve784" data="dd781" applyDynamicBrushes="yes" sourceInteractionVariables="bi785">
 			<Columns>
@@ -1776,7 +1774,7 @@
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23620.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23650.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider orientation="horizontal" minVariable="bi868" maxVariable="bi869">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -1829,8 +1827,7 @@
             </KeyValue>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd881" name="ve882" data="dd879" applyDynamicBrushes="yes">
 			<Columns>
@@ -1887,8 +1884,7 @@
             <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="left" key="responsevalue" vAlign="center" tip="TIP" category="CATEGORY" response="RESPONSE"/>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd892" name="ve893" data="dd890" applyDynamicBrushes="yes" sourceInteractionVariables="bi895">
 			<Columns>
@@ -1896,13 +1892,13 @@
 				<Column variable="bi895"/>
 			</Columns>
 		</Table>
-		<Prompt interactOnAggregateData="false" required="true" resultDefinitions="dd954" name="ve955" data="dd952" label="Slider - Release Data 6 (1)" selectionDisabled="true" applyDynamicBrushes="no" sourceInteractionVariables="bi950">
+		<Prompt interactOnAggregateData="false" required="true" resultDefinitions="dd954" name="ve955" data="dd952" label="Slider - Release Data 7" selectionDisabled="true" applyDynamicBrushes="no" sourceInteractionVariables="bi950">
 			<EditorProperties>
 				<Property key="autoChartCategory">CONTROL</Property>
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23620.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23650.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider orientation="horizontal" minVariable="bi950" maxVariable="bi951">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -1937,7 +1933,7 @@
 				<Property key="visualType">LAYOUT_CONTAINER</Property>
 			</EditorProperties>
 		</VisualContainer>
-		<Graph graphType="keyValue" supplementalVisuals="ve970" resultDefinitions="dd964" name="ve971" data="dd968" label="Key value - Count 3 (1)" applyDynamicBrushes="yes">
+		<Graph graphType="keyValue" supplementalVisuals="ve970" resultDefinitions="dd964" name="ve971" data="dd968" label="Key value - Count 5" applyDynamicBrushes="yes">
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
 				<Property key="previousShowMeasureValue">true</Property>
@@ -1979,15 +1975,14 @@
             </KeyValue>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd964" name="ve970" data="dd968" applyDynamicBrushes="yes">
 			<Columns>
 				<Column variable="bi966"/>
 			</Columns>
 		</Table>
-		<Graph graphType="keyValue" supplementalVisuals="ve980" resultDefinitions="dd973" name="ve981" data="dd978" label="Key value - Count 4 (1)" applyDynamicBrushes="yes" sourceInteractionVariables="bi975">
+		<Graph graphType="keyValue" supplementalVisuals="ve980" resultDefinitions="dd973" name="ve981" data="dd978" label="Key value - Count 6" applyDynamicBrushes="yes" sourceInteractionVariables="bi975">
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
 				<Property key="previousShowMeasureValue">true</Property>
@@ -2032,8 +2027,7 @@
             <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="left" key="responsevalue" vAlign="center" tip="TIP" category="CATEGORY" response="RESPONSE"/>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd973" name="ve980" data="dd978" applyDynamicBrushes="yes" sourceInteractionVariables="bi975">
 			<Columns>
@@ -3066,8 +3060,8 @@
 	</MediaTargets>
 	<Properties>
 		<Property key="displayDataSource">ds7</Property>
-		<Property key="ReportPackagesServiceVersion">Viya4 2024.09</Property>
-		<Property key="ReportDataServiceVersion">Viya4 2024.09</Property>
+		<Property key="ReportPackagesServiceVersion">Viya4 2024.10</Property>
+		<Property key="ReportDataServiceVersion">Viya4 2024.10</Property>
 	</Properties>
 	<ExportProperties>
 		<Export destination="pdf">
@@ -3090,6 +3084,7 @@
 		<Version key="4.40.0" lastDate="2024-04-23T00:00:00Z"/>
 		<Version key="4.41.0" lastDate="2024-05-30T00:00:00Z"/>
 		<Version key="4.42.0" lastDate="2024-07-03T00:00:00Z"/>
+		<Version key="4.45.0" lastDate="2024-10-20T00:00:00Z"/>
 	</Versions>
 	<Conversions>
 		<Conversion startVersion="4.29.0" finalVersion="4.30.0" date="2023-06-16T00:00:00Z"/>
@@ -3104,7 +3099,7 @@
 		<Conversion startVersion="4.39.0" finalVersion="4.40.0" date="2024-04-23T00:00:00Z"/>
 		<Conversion startVersion="4.40.0" finalVersion="4.41.0" date="2024-05-30T00:00:00Z"/>
 		<Conversion startVersion="4.41.0" finalVersion="4.42.0" date="2024-07-03T00:00:00Z"/>
-		<Conversion startVersion="4.42.0" finalVersion="4.44.0" date="2024-09-22T00:00:00Z"/>
+		<Conversion startVersion="4.42.0" finalVersion="4.45.0" date="2024-10-20T00:00:00Z"/>
 	</Conversions>
 	<Editors>
 		<Editor applicationName="VA">
@@ -3122,10 +3117,11 @@
 			<Revision editorVersion="2024.05" lastDate="2024-05-31T11:25:37.444Z"/>
 			<Revision editorVersion="2024.06" lastDate="2024-07-03T12:02:49.207Z"/>
 			<Revision editorVersion="2024.07" lastDate="2024-09-05T06:48:19.102Z"/>
+			<Revision editorVersion="2024.10" lastDate="2024-10-20T16:17:08.615Z"/>
 		</Editor>
 	</Editors>
 </History>
-	<SASReportState date="2024-09-22T14:00:24Z">
+	<SASReportState date="2024-10-20T16:15:53Z">
 		<VisualElements>
 			<PromptState element="ve33"/>
 			<PromptState element="ve94"/>
