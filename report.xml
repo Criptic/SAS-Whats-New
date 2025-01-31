@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.47.0" label="Releases Notes" features="promptModelV2" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2024-12-09T13:30:11Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2024.11" nextUniqueNameIndex="1135">
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.48.0" label="Releases Notes" features="promptModelV2" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2024-12-09T13:30:11Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2024.11" nextUniqueNameIndex="1135">
 	<Results>
-		<Result ref="dd21" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-16T14:43:40.597Z">
+		<Result ref="dd21" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2025-01-31T10:30:28.912Z">
 			<Variables>
 				<NumericVariable format="YYMM8" usage="quantitative" definedAggregation="min" label="Release Data" ref="bi433" varname="bi433" column="c0"/>
 				<NumericVariable format="YYMM8" usage="quantitative" definedAggregation="max" label="Release Data" ref="bi434" varname="bi434" column="c1"/>
@@ -10,10 +10,10 @@
 				<NumericColumn dataType="double" colname="c0" encoding="text"/>
 				<NumericColumn dataType="double" colname="c1" encoding="text"/>
 			</Columns>
-			<Data isIndexed="false" availableRowCount="1" contentKey="2PIILPMASFBNCXRJEQTTZHLUMQE2CWOB" size="16" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[23101.0,23711.0
+			<Data isIndexed="false" availableRowCount="1" contentKey="TO4WPLIBTF4UVJH5FZGBEIWABLRP65HI" size="16" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[23101.0,23742.0
 ]]></Data>
 		</Result>
-		<Result ref="dd269" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-16T14:43:40.597Z">
+		<Result ref="dd269" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2025-01-31T10:30:28.912Z">
 			<Variables>
 				<StringVariable label="Category" ref="bi31" varname="bi31" column="c0"/>
 				<NumericVariable format="YYMM8" usage="categorical" label="Release Data" ref="bi1133" varname="bi1133" column="c1"/>
@@ -25,7 +25,7 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi31" sortDirection="ascending"/>
 			</DefinedSortItems>
-			<Data isIndexed="true" availableRowCount="110" contentKey="LPL365NTJOMJF4SIKDZDIKE672X4V2NH" size="1100" format="CSV" rowCount="110" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[0,23101.0
+			<Data isIndexed="true" availableRowCount="115" contentKey="A27KDMRHSGSGZMQC25EAQSHQSFBQXRMI" size="1150" format="CSV" rowCount="115" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[0,23101.0
 0,23131.0
 0,23162.0
 0,23192.0
@@ -46,6 +46,7 @@
 0,23650.0
 0,23681.0
 0,23711.0
+0,23742.0
 1,23101.0
 1,23131.0
 1,23162.0
@@ -67,6 +68,7 @@
 1,23650.0
 1,23681.0
 1,23711.0
+1,23742.0
 2,23101.0
 2,23131.0
 2,23162.0
@@ -88,6 +90,7 @@
 2,23650.0
 2,23681.0
 2,23711.0
+2,23742.0
 3,23101.0
 3,23315.0
 3,23345.0
@@ -114,6 +117,7 @@
 4,23650.0
 4,23681.0
 4,23711.0
+4,23742.0
 5,23101.0
 5,23131.0
 5,23162.0
@@ -135,6 +139,7 @@
 5,23650.0
 5,23681.0
 5,23711.0
+5,23742.0
 ]]></Data>
 			<StringTable contentKey="7AUP7ARW3NU54VHVMF6L4XHD37QYXSAL" size="85" format="CSV" rowCount="6"><![CDATA["Administration"
 "Analytics"
@@ -144,7 +149,7 @@
 "Operations"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd36" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-16T14:43:40.597Z">
+		<Result ref="dd36" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2025-01-31T10:30:28.912Z">
 			<Variables>
 				<StringVariable label="Product/Tool" ref="bi38" varname="bi38" column="c0"/>
 				<NumericVariable format="YYMM8" usage="categorical" label="Release Data" ref="bi1129" varname="bi1129" column="c1"/>
@@ -158,10 +163,10 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi38" sortDirection="ascending"/>
 			</DefinedSortItems>
-			<DataFile contentKey="IT33ANJ7HV3FXEQ3EKKHGZIOTGO7JO2Y" size="6748" format="CSV" rowCount="520" grandTotal="false" dataLayout="partiallyAggregated" file="dd36.csv" isIndexed="true" availableRowCount="520"/>
-			<StringTableFile contentKey="EF3I7SOVGGZYMU5BVNNEE2GVJVMZRO63" size="1185" format="CSV" rowCount="60" file="dd36index.csv"/>
+			<DataFile contentKey="2YDIWJT2I2B3PP2KZBL5JFYYI6ITY2OQ" size="7008" format="CSV" rowCount="540" grandTotal="false" dataLayout="partiallyAggregated" file="dd36.csv" isIndexed="true" availableRowCount="540"/>
+			<StringTableFile contentKey="EPM5JDD4NNIRFDI3LRBRZ7MKTZHROO52" size="1201" format="CSV" rowCount="61" file="dd36index.csv"/>
 		</Result>
-		<Result ref="dd45" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-16T14:43:40.597Z">
+		<Result ref="dd45" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2025-01-31T10:30:28.912Z">
 			<Variables>
 				<NumericVariable format="F8." usage="quantitative" definedAggregation="sum" label="Release" ref="bi52" varname="bi52" column="c0"/>
 				<StringVariable label="Category" ref="bi53" varname="bi53" column="c1"/>
@@ -187,8 +192,8 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi52" sortDirection="descending"/>
 			</DefinedSortItems>
-			<DataFile contentKey="4RRWGIA3J3IYCDNFQ35UOLCWDIBJVETZ" size="64048" format="CSV" rowCount="1420" grandTotal="false" dataLayout="partiallyAggregated" file="dd45.csv" isIndexed="true" availableRowCount="1420"/>
-			<StringTableFile contentKey="4OU3LPADGS6PH6IR5MQ5FCC7WDLLBW2P" size="484015" format="CSV" rowCount="4107" file="dd45index.csv"/>
+			<DataFile contentKey="2NPXZYDX3VC3H2XJJTWUXZT6HETHXNIC" size="65848" format="CSV" rowCount="1459" grandTotal="false" dataLayout="partiallyAggregated" file="dd45.csv" isIndexed="true" availableRowCount="1459"/>
+			<StringTableFile contentKey="YRHCAF7XPVWZU7562SGMQMP4Y5S7SQOY" size="496783" format="CSV" rowCount="4215" file="dd45index.csv"/>
 		</Result>
 	</Results>
 	<DataDefinitions>
@@ -1027,7 +1032,7 @@
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23711.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23742.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider minVariable="bi433" maxVariable="bi434">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -1078,7 +1083,7 @@
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23711.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23742.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider minVariable="bi435" maxVariable="bi436">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -1333,7 +1338,7 @@
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23711.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23742.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider minVariable="bi437" maxVariable="bi438">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -1345,7 +1350,7 @@
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23711.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23742.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider orientation="horizontal" minVariable="bi704" maxVariable="bi705">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -1784,7 +1789,7 @@
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23711.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23742.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider orientation="horizontal" minVariable="bi868" maxVariable="bi869">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -1908,7 +1913,7 @@
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23711.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23742.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider orientation="horizontal" minVariable="bi950" maxVariable="bi951">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -3070,8 +3075,8 @@
 	</MediaTargets>
 	<Properties>
 		<Property key="displayDataSource">ds7</Property>
-		<Property key="ReportPackagesServiceVersion">Viya4 2024.12</Property>
-		<Property key="ReportDataServiceVersion">Viya4 2024.12</Property>
+		<Property key="ReportPackagesServiceVersion">Viya4 2025.01</Property>
+		<Property key="ReportDataServiceVersion">Viya4 2025.01</Property>
 	</Properties>
 	<ExportProperties>
 		<Export destination="pdf">
@@ -3096,7 +3101,7 @@
 		<Version key="4.42.0" lastDate="2024-07-03T00:00:00Z"/>
 		<Version key="4.45.0" lastDate="2024-10-20T00:00:00Z"/>
 		<Version key="4.46.0" lastDate="2024-12-09T00:00:00Z"/>
-		<Version key="4.47.0" lastDate="2024-12-16T00:00:00Z"/>
+		<Version key="4.48.0" lastDate="2025-01-31T00:00:00Z"/>
 	</Versions>
 	<Conversions>
 		<Conversion startVersion="4.29.0" finalVersion="4.30.0" date="2023-06-16T00:00:00Z"/>
@@ -3113,7 +3118,7 @@
 		<Conversion startVersion="4.41.0" finalVersion="4.42.0" date="2024-07-03T00:00:00Z"/>
 		<Conversion startVersion="4.42.0" finalVersion="4.45.0" date="2024-10-20T00:00:00Z"/>
 		<Conversion startVersion="4.45.0" finalVersion="4.46.0" date="2024-12-09T00:00:00Z"/>
-		<Conversion startVersion="4.46.0" finalVersion="4.47.0" date="2024-12-16T00:00:00Z"/>
+		<Conversion startVersion="4.46.0" finalVersion="4.48.0" date="2025-01-31T00:00:00Z"/>
 	</Conversions>
 	<Editors>
 		<Editor applicationName="VA">
