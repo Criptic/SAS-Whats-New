@@ -1,2 +1,2118 @@
-/*! (c) 2017,, SAS Institute Inc. */
-.brandColorChanges{brandColor:'';neutralColor:#768396;newPrimary:#3c444f;secondaryColor:#3c444f;p:#3c444f}*{color:#2a3037;font-size:12pt;text-decoration:none;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:normal;font-style:normal;wrap-text:normal}:root{--report-data-color-1:#33a3ff;--report-data-color-2:#ffcc32;--report-data-color-3:#9471ff;--report-data-color-4:#ff8224;--report-data-color-5:#2ad1d1;--report-data-color-6:#dd5757;--report-data-color-7:#15b57b;--report-data-color-8:#ff6fbd;--report-background-color:#fff;--report-text-color:#2a3037;--report-primary-color:#3c444f;--report-neutral-color:#768396}.H1{color:#2a3037;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:400;font-size:15pt;text-shadow:none}h1{color:#2a3037;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:400;font-size:15pt;text-shadow:none}.H1alt{color:#3c444f;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:400;font-size:15pt;text-shadow:none}.H2{color:#2a3037;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:400;font-size:13.5pt;text-shadow:none}h2{color:#2a3037;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:400;font-size:13.5pt;text-shadow:none}.H2alt{color:#3c444f;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:400;font-size:13.5pt;text-shadow:none}.H3{color:#2a3037;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:400;font-size:12.75pt;text-shadow:none}h3{color:#2a3037;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:400;font-size:12.75pt;text-shadow:none}.H3alt{color:#3c444f;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:400;font-size:12.75pt;text-shadow:none}.H4{color:#2a3037;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:400;font-size:12pt;text-shadow:none}h4{color:#2a3037;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:400;font-size:12pt;text-shadow:none}.H4alt{color:#3c444f;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:400;font-size:12pt;text-shadow:none}.H5{color:#2a3037;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:400;font-size:10.5pt;text-shadow:none}h5{color:#2a3037;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:400;font-size:10.5pt;text-shadow:none}.H5alt{color:#3c444f;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:400;font-size:10.5pt;text-shadow:none}.H6{color:#2a3037;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:400;font-size:9pt;text-shadow:none}h6{color:#2a3037;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:400;font-size:9pt;text-shadow:none}.H6alt{color:#3c444f;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:400;font-size:9pt;text-shadow:none}.Table{border-color:#ebedef;border-style:none;border-width:1px;alt-row-color:#fff;color:#2a3037;row-color:#fff;line-color:#ebedef;vertical-line-style:solid;horizontal-line-style:solid;font-size:10.5pt;display-opts:plain}Table .Header{color:#2a3037;background-color:#fff;line-color:#ebedef;font-weight:bold;font-size:10.5pt}Table .Totals{color:#2a3037;background-color:#fff;font-weight:normal;font-size:10.5pt}Table .Table{wrap-text:none}Table .ScrollBar{fill-color:#626f80}Crosstab .Table{border-color:#ebedef;border-style:none;border-width:1px;alt-row-color:#fff;color:#2a3037;row-color:#f9fafb;line-color:#ebedef;vertical-line-style:solid;horizontal-line-style:solid;font-size:10.5pt;display-opts:plain}Crosstab .Header{color:#2a3037;background-color:#fff;font-weight:normal;line-color:#626f80;font-size:10.5pt}.RowHeader{color:#2a3037;background-color:#fff;font-weight:bold;font-size:10.5pt}.MeasureHeader{color:#2a3037;background-color:#fff;font-weight:bold;font-size:10.5pt}.ColumnHeader{line-color:#ebedef}Crosstab .ScrollBar{fill-color:#626f80}Crosstab .Totals{background-color:#fff;color:#2a3037;font-weight:bold;font-size:10.5pt}Crosstab .Subtotals{background-color:#fff;color:#2a3037;font-weight:bold;font-size:10.5pt}.Totals{background-color:#fff;color:#2a3037;font-weight:bold;font-size:10.5pt}.Subtotals{background-color:#fff;color:#2a3037;font-weight:bold;font-size:10.5pt}.Graph{attribute-priority:color;data-style-reference:remapped}.GraphDataStyle1{color:#33a3ff;fill-color:#33a3ff;alt-color:#287fc7;line-color:#287fc7;marker-color:#287fc7;fill-pattern-color:#287fc7;text-color:#236fad;line-style:1;line-thickness:3px;marker-size:11px;marker-symbol:circlefilled;fill-pattern:E}.GraphDataStyle2{color:#ffcc32;fill-color:#ffcc32;alt-color:#c79f27;line-color:#c79f27;marker-color:#c79f27;fill-pattern-color:#c79f27;text-color:#ad8b22;line-style:4;line-thickness:3px;marker-size:11px;marker-symbol:squarefilled;fill-pattern:L1}.GraphDataStyle3{color:#9471ff;fill-color:#9471ff;alt-color:#7358c7;line-color:#7358c7;marker-color:#7358c7;fill-pattern-color:#7358c7;text-color:#654dad;line-style:8;line-thickness:3px;marker-size:11px;marker-symbol:trianglefilled;fill-pattern:X1}.GraphDataStyle4{color:#ff8224;fill-color:#ff8224;alt-color:#c7651c;line-color:#c7651c;marker-color:#c7651c;fill-pattern-color:#c7651c;text-color:#ad5818;line-style:5;line-thickness:3px;marker-size:11px;marker-symbol:diamondfilled;fill-pattern:R4}.GraphDataStyle5{color:#2ad1d1;fill-color:#2ad1d1;alt-color:#1f9999;line-color:#1f9999;marker-color:#1f9999;fill-pattern-color:#1f9999;text-color:#1a7f7f;line-style:14;line-thickness:3px;marker-size:11px;marker-symbol:starfilled;fill-pattern:X3}.GraphDataStyle6{color:#dd5757;fill-color:#dd5757;alt-color:#a54141;line-color:#a54141;marker-color:#a54141;fill-pattern-color:#a54141;text-color:#8b3737;line-style:26;line-thickness:3px;marker-size:11px;marker-symbol:triangledownfilled;fill-pattern:R3}.GraphDataStyle7{color:#15b57b;fill-color:#15b57b;alt-color:#0e7d55;line-color:#0e7d55;marker-color:#0e7d55;fill-pattern-color:#0e7d55;text-color:#0c6344;line-style:15;line-thickness:3px;marker-size:11px;marker-symbol:homedownfilled;fill-pattern:L5}.GraphDataStyle8{color:#ff6fbd;fill-color:#ff6fbd;alt-color:#c75793;line-color:#c75793;marker-color:#c75793;fill-pattern-color:#c75793;text-color:#ad4b81;line-style:20;line-thickness:3px;fill-pattern:R1}.GraphDataStyle9{line-style:41;line-thickness:3px;fill-pattern:X5}.GraphDataStyle10{line-style:42;line-thickness:3px;fill-pattern:L4}.GraphDataStyle11{line-style:2;line-thickness:3px;fill-pattern:X4}.GraphDataNode1{color:#addaff;fill-color:#addaff;text-color:#2a3037;alt-color:#287fc7;line-color:#287fc7}.GraphDataNode2{color:#ffebad;fill-color:#ffebad;text-color:#2a3037;alt-color:#c79f27;line-color:#c79f27}.GraphDataNode3{color:#d4c6ff;fill-color:#d4c6ff;text-color:#2a3037;alt-color:#7358c7;line-color:#7358c7}.GraphDataNode4{color:#ffcda7;fill-color:#ffcda7;text-color:#2a3037;alt-color:#c7651c;line-color:#c7651c}.GraphDataNode5{color:#aaeded;fill-color:#aaeded;text-color:#2a3037;alt-color:#1f9999;line-color:#1f9999}.GraphDataNode6{color:#f1bcbc;fill-color:#f1bcbc;text-color:#2a3037;alt-color:#a54141;line-color:#a54141}.GraphDataNode7{color:#a1e1ca;fill-color:#a1e1ca;text-color:#2a3037;alt-color:#0e7d55;line-color:#0e7d55}.GraphDataNode8{color:#ffc5e5;fill-color:#ffc5e5;text-color:#2a3037;alt-color:#c75793;line-color:#c75793}.GraphDataStyleDefault{color:#33a3ff;fill-color:#33a3ff;alt-color:#2b8bd9;line-color:#2b8bd9;marker-color:#2b8bd9;fill-pattern-color:#2b8bd9;text-color:#236fad;fill-gradient-start-color:#33a3ff;fill-gradient-neutral-color:#d7e3d7;fill-gradient-end-color:#ffcc32;line-thickness:3px;line-style:1;marker-size:11px;marker-symbol:circlefilled;fill-pattern:E}.KPIRange1{color:#dd5757;fill-color:#dd5757;alt-color:#a54141;line-color:#a54141;marker-color:#a54141;fill-pattern-color:#a54141;text-color:#8b3737;marker-size:11px;marker-symbol:circlefilled;line-style:1;line-thickness:3px;fill-pattern:R3}.KPIRange2{color:#ee9245;fill-color:#ee9245;alt-color:#b66f34;line-color:#b66f34;marker-color:#b66f34;fill-pattern-color:#b66f34;text-color:#9c602d;marker-size:11px;marker-symbol:circlefilled;line-style:1;line-thickness:3px;fill-pattern:L1}.KPIRange3{color:#ffcc32;fill-color:#ffcc32;alt-color:#c79f27;line-color:#c79f27;marker-color:#c79f27;fill-pattern-color:#c79f27;text-color:#ad8b22;marker-size:11px;marker-symbol:circlefilled;line-style:1;line-thickness:3px;fill-pattern:R4}.KPIRange4{color:#8ac157;fill-color:#8ac157;alt-color:#62883d;line-color:#62883d;marker-color:#62883d;fill-pattern-color:#62883d;text-color:#506f32;marker-size:11px;marker-symbol:circlefilled;line-style:1;line-thickness:3px;fill-pattern:X1}.KPIRange5{color:#15b57b;fill-color:#15b57b;alt-color:#0e7d55;line-color:#0e7d55;marker-color:#0e7d55;fill-pattern-color:#0e7d55;text-color:#0c6344;marker-size:11px;marker-symbol:circlefilled;line-style:1;line-thickness:3px;fill-pattern:X3}.KPIOverflow{color:#0e7d55;fill-color:#0e7d55;alt-color:#08452f;line-color:#08452f;marker-color:#08452f;fill-pattern-color:#08452f;text-color:#052b1d;marker-size:11px;marker-symbol:circlefilled;line-style:1;line-thickness:3px;fill-pattern:R2}.KPIUnderflow{color:#a54141;fill-color:#a54141;alt-color:#6d2b2b;line-color:#6d2b2b;marker-color:#6d2b2b;fill-pattern-color:#6d2b2b;text-color:#532121;marker-size:11px;marker-symbol:circlefilled;line-style:1;line-thickness:3px;fill-pattern:L2}.Overflow{color:#b381f5;fill-color:#b381f5;alt-color:#8a63bd;line-color:#8a63bd;marker-color:#8a63bd;fill-pattern-color:#8a63bd;text-color:#7756a3;line-style:1;line-thickness:3px;marker-size:11px;marker-symbol:triangleupfilled;fill-pattern:R2}.Underflow{color:#71e4da;fill-color:#71e4da;alt-color:#55aca4;line-color:#55aca4;marker-color:#55aca4;fill-pattern-color:#55aca4;text-color:#49928c;line-style:1;line-thickness:3px;marker-size:11px;marker-symbol:triangledownfilled;fill-pattern:L2}.Initial{color:#5a5a5a;fill-color:#5a5a5a;alt-color:#222;line-color:#222;marker-color:#222;fill-pattern-color:#222;text-color:#080808;line-style:1;line-thickness:1px;marker-size:11px;marker-symbol:trianglerightfilled;fill-pattern:E}.Final{color:#5a5a5a;fill-color:#5a5a5a;alt-color:#222;line-color:#222;marker-color:#222;fill-pattern-color:#222;text-color:#080808;line-style:1;line-thickness:1px;marker-size:11px;marker-symbol:squarefilled;fill-pattern:E}.Other{color:#929292;fill-color:#929292;alt-color:#5a5a5a;line-color:#5a5a5a;marker-color:#5a5a5a;fill-pattern-color:#5a5a5a;text-color:#404040;line-style:34;line-thickness:3px;marker-size:11px;marker-symbol:asterisk;fill-pattern:X2}.Outlier{color:#606060;fill-color:#606060;alt-color:#272727;line-color:#272727;marker-color:#272727;text-color:#0e0e0e;fill-gradient-start-color:#efefef;fill-gradient-end-color:#929292;line-style:1;line-thickness:3px;marker-size:11px;marker-symbol:circlefilled}.BoxMedian{alt-color:#606060;line-color:#606060;text-color:#464646;line-style:1;line-thickness:1px}.BoxMean{alt-color:#606060;marker-color:#606060;text-color:#464646;marker-size:11px;marker-symbol:diamondfilled}.BoxWhisker{alt-color:#606060;line-color:#606060;text-color:#464646;line-style:1;line-thickness:1px}.Selection{color:#fff;fill-color:#fff;alt-color:#000;line-color:#000;marker-color:#000;text-color:#000;line-thickness:2px;line-style:1;marker-size:11px;marker-symbol:circlefilled}.Focus{line-color:#000;line-thickness:1px;line-style:34;line-transparency:0;focus-background:false}.FocusBackground{line-color:#fff;line-thickness:5px;line-style:1;line-transparency:1}.Missing{color:#d1d1d1;fill-color:#d1d1d1;alt-color:#999;line-color:#999;marker-color:#999;fill-pattern-color:#999;text-color:#808080;line-style:2;line-thickness:3px;marker-size:11px;marker-symbol:x;fill-pattern:R2}.Box{display-opts:caps median fill;connect:mean;cap-style:serif}.Confidence{color:#efefef;fill-color:#efefef;alt-color:#b7b7b7;line-color:#b7b7b7;marker-color:#b7b7b7;fill-pattern-color:#b7b7b7;text-color:#9e9e9e;line-style:1;line-thickness:3px;marker-size:11px;marker-symbol:circlefilled;fill-pattern:E}.Confidence2{color:#efefef;fill-color:#efefef;alt-color:#b7b7b7;line-color:#b7b7b7;marker-color:#b7b7b7;fill-pattern-color:#b7b7b7;text-color:#9e9e9e;line-style:4;line-thickness:3px;marker-size:11px;marker-symbol:squarefilled;fill-pattern:L1}.PredictionLimits{color:#ededed;fill-color:#ededed;alt-color:#b5b5b5;marker-color:#b5b5b5;line-color:#b5b5b5;fill-pattern-color:#b5b5b5;text-color:#9b9b9b;line-style:34;line-thickness:3px;marker-size:11px;marker-symbol:trianglefilled;fill-pattern:E}.Error{color:#989898;fill-color:#989898;alt-color:#606060;line-color:#606060;marker-color:#606060;text-color:#464646;line-style:5;line-thickness:3px;marker-size:11px;marker-symbol:diamondfilled}.TwoColorRamp{fill-gradient-start-color:#e0f1ff;fill-gradient-end-color:#33a3ff}.TwoColorRamp1{fill-gradient-start-color:#e0f1ff;fill-gradient-end-color:#33a3ff}.TwoColorRamp2{fill-gradient-start-color:#fff7e0;fill-gradient-end-color:#ffcc32}.TwoColorRamp3{fill-gradient-start-color:#efeaff;fill-gradient-end-color:#9471ff}.TwoColorRamp4{fill-gradient-start-color:#ffecde;fill-gradient-end-color:#ff8224}.TwoColorRamp5{fill-gradient-start-color:#dff8f8;fill-gradient-end-color:#2ad1d1}.TwoColorRamp6{fill-gradient-start-color:#fae6e6;fill-gradient-end-color:#dd5757}.TwoColorRamp7{fill-gradient-start-color:#dcf4eb;fill-gradient-end-color:#15b57b}.TwoColorRamp8{fill-gradient-start-color:#ffe9f5;fill-gradient-end-color:#ff6fbd}.TwoColorRampOther{fill-gradient-start-color:#efefef;fill-gradient-end-color:#929292}.TwoColorAltRamp{fill-gradient-start-color:#9fb5c7;fill-gradient-end-color:#287fc7}.TwoColorAltRamp1{fill-gradient-start-color:#9fb5c7;fill-gradient-end-color:#287fc7}.TwoColorAltRamp2{fill-gradient-start-color:#c7bd9f;fill-gradient-end-color:#c79f27}.TwoColorAltRamp3{fill-gradient-start-color:#b2abc7;fill-gradient-end-color:#7358c7}.TwoColorAltRamp4{fill-gradient-start-color:#c7af9c;fill-gradient-end-color:#c7651c}.TwoColorAltRamp5{fill-gradient-start-color:#9bbbbb;fill-gradient-end-color:#1f9999}.TwoColorAltRamp6{fill-gradient-start-color:#bea5a5;fill-gradient-end-color:#a54141}.TwoColorAltRamp7{fill-gradient-start-color:#96b4a9;fill-gradient-end-color:#0e7d55}.TwoColorAltRamp8{fill-gradient-start-color:#c7abba;fill-gradient-end-color:#c75793}.TwoColorAltRampOther{fill-gradient-start-color:#bababa;fill-gradient-end-color:#727272}.ThreeColorRamp{fill-gradient-start-color:#33a3ff;fill-gradient-neutral-color:#d7e3d7;fill-gradient-end-color:#ffcc32}.ThreeColorRamp1{fill-gradient-start-color:#33a3ff;fill-gradient-neutral-color:#d7e3d7;fill-gradient-end-color:#ffcc32}.ThreeColorRamp2{fill-gradient-start-color:#9471ff;fill-gradient-neutral-color:#eacbd4;fill-gradient-end-color:#ff8224}.ThreeColorRamp3{fill-gradient-start-color:#2ad1d1;fill-gradient-neutral-color:#cfd5d5;fill-gradient-end-color:#dd5757}.ThreeColorRamp4{fill-gradient-start-color:#15b57b;fill-gradient-neutral-color:#d1d4d8;fill-gradient-end-color:#ff6fbd}.ThreeColorRampKPI{fill-gradient-start-color:#dd5757;fill-gradient-neutral-color:#ffcc32;fill-gradient-end-color:#15b57b}.ThreeColorAltRamp{fill-gradient-start-color:#287fc7;fill-gradient-neutral-color:#a2aba2;fill-gradient-end-color:#c79f27}.ThreeColorAltRamp1{fill-gradient-start-color:#287fc7;fill-gradient-neutral-color:#a2aba2;fill-gradient-end-color:#c79f27}.ThreeColorAltRamp2{fill-gradient-start-color:#7358c7;fill-gradient-neutral-color:#b29aa1;fill-gradient-end-color:#c7651c}.ThreeColorAltRamp3{fill-gradient-start-color:#1f9999;fill-gradient-neutral-color:#989d9d;fill-gradient-end-color:#a54141}.ThreeColorAltRamp4{fill-gradient-start-color:#0e7d55;fill-gradient-neutral-color:#9b9da0;fill-gradient-end-color:#c75793}.ThreeColorAltRampKPI{fill-gradient-start-color:#a54141;fill-gradient-neutral-color:#c79f27;fill-gradient-end-color:#0e7d55}.AxisLines{line-color:#2a3037;line-thickness:1dpx;line-style:1;tick-display:OUTSIDE}.Reference{alt-color:#2a3037;line-color:#2a3037;text-color:#2a3037;marker-color:#2a3037;line-thickness:1px;line-style:1}.GridLines{line-thickness:1dpx;line-style:34;grid-layer:front;line-transparency:.6;line-color:#2a3037}.Outlines{line-thickness:1px;line-style:1;line-color:#fff}.OutlinesUnfilled{line-thickness:1px;line-style:1;line-color:#606060}.BorderLines{line-thickness:1dpx;line-style:1;line-color:#2a3037}.Fit{color:#989898;fill-color:#989898;alt-color:#606060;line-color:#606060;marker-color:#606060;fill-pattern-color:#606060;text-color:#464646;line-style:1;line-thickness:3px;marker-size:11px;marker-symbol:circlefilled;fill-pattern:E}.Fit2{color:#989898;fill-color:#989898;alt-color:#606060;line-color:#606060;marker-color:#606060;fill-pattern-color:#606060;text-color:#464646;line-style:4;line-thickness:3px;marker-size:11px;marker-symbol:squarefilled;fill-pattern:L1}.Prediction{color:#989898;fill-color:#989898;alt-color:#606060;line-color:#606060;marker-color:#606060;text-color:#464646;line-style:34;line-thickness:3px;marker-size:11px;marker-symbol:squarefilled}.ConnectLine{line-thickness:1px;line-style:1;line-color:#606060}.TitleText{font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-style:normal;text-color:#2a3037;font-weight:bold;font-size:13.5pt}.FootnoteText{text-color:#2a3037;font-size:10.5pt;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:normal;font-style:italic}.DataText{font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-style:normal;font-weight:normal;text-color:#2a3037;font-size:8.25pt}.KeyText{font-family: 'AvenirNext',Helvetica,Arial,sans-serif;text-color:#236fad;font-size:21pt;font-weight:bold;font-style:normal}.KeyOutline{line-thickness:12px;line-color:#33a3ff}.LabelText{font-family: 'AvenirNext',Helvetica,Arial,sans-serif;text-color:#2a3037;font-size:10.5pt;font-weight:bold;font-style:normal}.ValueText{font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-style:normal;font-weight:normal;text-color:#626f80;font-size:9pt}.KPIRangeText{font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-style:normal;font-weight:normal;text-color:#040506;font-size:8.25pt;alt-text-color:#bfd7f9}.KPIValueText{font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-style:normal;font-weight:normal;text-color:#2a3037;font-size:10.5pt;alt-text-color:#99acc8}.BackFill{fill-color:#fff;frame-border:false}.WallFill{line-thickness:1dpx;fill-color:#fff;line-style:1;line-color:#2a3037;frame-border:false;fill-transparency:0;line-transparency:0;display-opts:none}.LegendFill{fill-color:#fff;frame-border:false}.HeaderFill{fill-color:#ebedef}.Block{color:#fff;fill-color:#fff}.AltBlock{color:#ebedef;fill-color:#ebedef}.LayoutGlobalLegend{data-matrix-align:begin;data-matrix-align-to:wall;lattice-align:begin;overlay-align:begin;overlay-align-to:wall;region-align:begin}.GraphSkin{data-skin:Custom;kpi-skin:Basic;blend-start-color:#fff;blend-start-color-factor:0;blend-end-color:#fff;blend-end-color-factor:0;blend-mode:normal;glow-thickness:1px;glow-blur:0;glow-color-factor:-0.78;glow-color:#fff}.ZoomScrollbarThumb{color:#fff}.ZoomScrollbarEndHandle{color:#2a3037;line-color:#2a3037}.OverviewAxis{line-thickness:1dpx;line-color:#2a3037}.OverviewAxisFilter{color:#f3f4f6;fill-color:#f3f4f6;transparency:.7}.Increase{line-style:1;line-thickness:1px;marker-symbol:triangleupfilled;color:#15b57b;fill-color:#15b57b;alt-color:#0e7d55;line-color:#0e7d55;marker-color:#0e7d55;fill-pattern-color:#0e7d55;text-color:#0c6344;fill-pattern:R1}.Decrease{line-style:1;line-thickness:1px;marker-symbol:triangledownfilled;color:#dd5757;fill-color:#dd5757;alt-color:#a54141;line-color:#a54141;marker-color:#a54141;fill-pattern-color:#a54141;text-color:#8b3737;fill-pattern:L1}.GraphDataNodeDefault{color:#d3d3d3;fill-color:#d3d3d3;text-color:#2a3037;alt-color:#727272;line-color:#727272;fill-pattern-color:#727272;line-thickness:1px;fill-pattern:E;fill-gradient-start-color:#33a3ff;fill-gradient-neutral-color:#d7e3d7;fill-gradient-end-color:#ffcc32}.NodeTitle{font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-size:10.5pt;font-style:normal;font-weight:normal;text-color:#2a3037}.NodeLabel{font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-size:10.5pt;font-style:normal;font-weight:bold;text-color:#2a3037}.NodeInputLabel{text-color:#2a3037;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-size:10.5pt;font-style:normal;font-weight:normal}.NodeDetails{font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-size:7.5pt;font-style:normal;font-weight:normal;text-color:#2a3037}.NodeText{text-color:#2a3037;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-size:10.5pt;font-style:normal;font-weight:normal}.NodeGroupOpen{line-color:#3c444f;text-color:#3c444f;fill-color:#fff;transparency:0;line-thickness:1px}.NodeGroupClosed{line-color:#3c444f;text-color:#3c444f;fill-color:#fff;transparency:0;line-thickness:1px}.NodeGroupTitle{text-color:#3c444f;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:normal;font-style:normal;font-size:10.5pt}.NodeWindowGroupContentArea{fill-color:#fff;fill-transparency:.2}.TipText{text-color:#626f80}.TipFill{fill-color:#fff;transparency:0}.NodeLink{color:#b7b7b7;fill-color:#b7b7b7;alt-color:#949494;line-color:#949494;marker-color:#949494;line-style:1;line-thickness:2px}.CrossoverNodeLink{alt-color:#949494;line-color:#949494;line-style:2;line-thickness:2px;line-transparency:0}.OverviewFill{transparency:0.0;fill-color:#fff}.OverviewBorderLines{line-thickness:1dpx;transparency:0.0;line-color:#cdd2d9}.OverviewFilterFill{fill-color:#f3f4f6;transparency:.7}.OverviewViewportBorderLines{line-thickness:1dpx;transparency:0.0;line-color:#3c444f}.Pie{donut:true;gap:1dpx;min-hole-size:.15;ring-size:.3;display-opts:standard}.CalloutLine{line-transparency:.4;line-style:1;line-thickness:1dpx;line-color:#2a3037}.CellSeparatorLines{line-color:#2a3037;line-style:dotted;line-thickness:1dpx}.DiscreteAxis{display-opts:tickvalues ticks line label;grid-display:false}.LinearAxis{display-opts:tickvalues label;grid-display:true}.LogAxis{display-opts:tickvalues label;grid-display:true}.TimeAxis{display-opts:tickvalues label;grid-display:true}.Icicle{gap:1dpx;display-opts:standard}.Mosaic{gap:1dpx;display-opts:standard}.TreeMap{gap:1dpx;display-opts:standard}.LayoutDataMatrix{cell-separator:true;matrix-border:false}.LayoutOverlay{yaxis-label-position:top}.LayoutLattice{confine-tick-values:true}.LayoutDataPanel{confine-tick-values:true}.ContinuousLegend{frame-border:false;title-halign:left;title-position:top;title-separator-top:true}.DiscreteLegend{frame-border:false;title-halign:left;title-position:top;title-separator-top:true}.SizeLegend{frame-border:false;title-halign:left;title-position:top;title-separator-top:true}.DataMatrixBorderLines{line-thickness:1dpx;line-style:1;line-color:#2a3037}.TargetNode{fill-color:#addaff;text-color:#2a3037;line-color:#287fc7;line-thickness:3px;line-style:1}.HyperLink{text-color:#626f80}.Dropzone{fill-color:#7b889a;line-color:#7b889a;line-style:1;line-thickness:1px;transparency:.85}.StatusBackground{fill-color:#fff}.StatusError{text-color:#d80000}.StatusWarning{text-color:#916000}.StatusComplete{text-color:#0a7c12}.StatusInformation{text-color:#016dba}.StatusMediumPriority{text-color:#916000}.StatusProgress{text-color:#016dba}.StatusClustered{text-color:#016dba}.StatusImportant{text-color:#d80000}.StatusIncompleteInProgress{text-color:#016dba}.StatusIncomplete{text-color:#d80000}.StatusLocked{text-color:#2a3037}.StatusNeutral{text-color:#2a3037}.StatusStopped{text-color:#d80000}.StatusStopping{text-color:#d80000}.StatusScheduled{text-color:#016dba}.IconNodeBackground{fill-color:#fff}.IconNodeStart{text-color:#0a7c12}.IconNodeEnd{text-color:#d80000}.IconNodeTimer{text-color:#016dba}.IconNodeGatewayInclusive{text-color:#016dba}.IconNodeGatewayExclusive{text-color:#016dba}.AnimatedProgressIndicator{text-color:#016dba}.Band{display-opts:standard}.AnimationControlPanel{fill-color:#fff;line-color:#cdd2d9;frame-border:true}.GraphSlider{bar-line-color-top:#626f80;bar-fill-color:#f9fafb;bar-line-color-bottom:#ebedef;thumb-fill-color-donut:#fff;thumb-fill-color-center:#626f80;thumb-line-color:#626f80}.GraphMenu{background-color:#fff;background-color-selected:#ebedef;border-color:#b0b8c3;text-color-selected:#626f80}.AnnoLine{alt-color:#2a3037;text-color:#626f80;line-color:#2a3037;line-style:1;line-thickness:1px}.AnnoText{text-color:#626f80;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-style:normal;font-weight:normal;font-size:9pt}.AnnoShape{color:#fff;alt-color:#cdd2d9;fill-color:#fff;text-color:#626f80;line-color:#cdd2d9;line-style:1;line-thickness:1px;marker-color:#626f80;marker-symbol:starfilled;marker-size:11px}.GaugeIndicator{line-color:#fff;line-transparency:.6;fill-color:#181a1e}.ThinLine{line-thickness:1px;line-style:1;line-color:#2b8bd9}.Bar{display-opts:standard}.Bubble{display-opts:standard;bubble-size-min:7px;bubble-size-max:35px}.DecisionTree{display-opts:standard}.Ellipse{display-opts:outline fill}.HeatMap{display-opts:standard}.HighLow{display-opts:standard}.Histogram{display-opts:standard}.LineChart{display-opts:standard}.Polygon{display-opts:standard}.Sankey{display-opts:volumebars volumelabels}.Scatter{marker-size-min:7px;marker-size-max:35px}.Schedule{display-opts:standard}.Series{display-opts:standard;line-thickness-min:2px;line-thickness-max:8px}.TimeSeries{display-opts:standard}.Waterfall{display-opts:standard}.Network{display-opts:standard}.Basemap{tile-set:Light}.Overplotting{min-marker-size-grouped:6px;min-marker-size-ungrouped:4px}.KeyFrameValue{text-color:#2a3037;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-size:28pt;fit-width:42%;font-style:normal;font-weight:bold;text-transparency:0;padding:3%;horizontal-alignment:right;vertical-alignment:bottom}.OutlinesNode{line-color:#cdd2d9}.OutlinesPerimeter{line-color:#626f80;line-style:1;line-thickness:1px;line-transparency:0}.OverlayDataInset{inset-size:60px;inset-aspect-ratio:1;inset-size-min:30px;inset-size-max:100px}.InsetPie{inset-size:60px;inset-aspect-ratio:1;inset-size-min:30px;inset-size-max:100px;other-slice-percent:10;ring-size:.4}.MapRegionLayer{display-opts:standard}.GeoRouteMainPath{line-color:#000;line-thickness:8px;line-style:1;line-transparency:0}.GeoRouteCenterPath{line-color:#fff;line-thickness:2px;line-style:1;line-transparency:0}.GeoRoutePathInnerPerimeter{line-color:#fff;line-thickness:0;line-style:1;line-transparency:1}.GeoRoutePathOuterPerimeter{line-color:#fff;line-thickness:1px;line-style:1;line-transparency:.6}.GeoRoutePathSelection{line-color:#fff;line-thickness:3px;line-style:1;line-transparency:0}.GeoRoutePathHover{line-color:#fff;line-thickness:3px;line-style:1;line-transparency:.4}.GeoRoutePathOuterPerimeterInverse{line-color:#000;line-thickness:1px;line-style:1;line-transparency:.85}.GeoRoutePathFocus{line-color:#000;line-thickness:1px;line-style:34;line-transparency:0}.GeoRoutePathFocusPerimeter{line-color:#000;line-thickness:0;line-style:1;line-transparency:1}.GeoRoutePoint{pin-style:light;pin-color:#000}.GeoRoutePointLabel{text-color:#000;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:bold;font-size:7.5pt;font-style:normal}.GeoPin{pin-style:light;pin-color:#000}.GeoPinLabel{text-color:#fff;font-family: 'AvenirNext',Helvetica,Arial,sans-serif;font-weight:bold;font-size:10.5pt;font-style:normal}.GeoPinIcon{text-color:#fff;font-family:sas-icons;font-weight:normal;font-size:12pt;font-style:normal}.GeoSearchPin{pin-style:light;pin-color:#626f80}.GeoCentroidPoint{pin-style:light;pin-color:#000}.GeoArea{fill-color:#fff;fill-transparency:.8;line-color:#000;line-thickness:1px;line-style:1;line-transparency:0}.GeoAreaOuterPerimeter{line-color:#fff;line-thickness:1px;line-style:1;line-transparency:.6}.GeoAreaOuterHover{line-color:#fff;line-thickness:3px;line-style:1;line-transparency:.4}.GeoAreaOuterPerimeterInverse{line-color:#000;line-thickness:1px;line-style:1;line-transparency:.85}.GeoAreaSelection{line-color:#000;line-thickness:2px;line-style:46;line-transparency:0}.GeoAreaOuterSelection{line-color:#fff;line-thickness:3px;line-style:1;line-transparency:0}.GeoAreaFocus{line-color:#000;line-thickness:1px;line-style:34;line-transparency:0}.GeoAreaFocusPerimeter{line-color:#000;line-thickness:0;line-style:1;line-transparency:1}.GeoAreaInnerPerimeter{line-color:#fff;line-thickness:0;line-style:1;line-transparency:1}.GeoAreaInnerPerimeterThick{line-color:#fff;line-thickness:0;line-style:1;line-transparency:1}.GeoRegionEmpty{fill-color:#fff;fill-transparency:0;fill-pattern:E;line-color:#d1d1d1;line-transparency:0;line-style:1;line-thickness:3px}.Report{background-color:#fff;theme:opal}.TitleStyle{font-size:13.5pt;color:#2a3037}.PromptBar{background-color:#fff}.Container{background-color:#fff;transparency:1;border-color:#fff;border-width:0;border-top-color:#fff;border-top-style:solid;border-top-width:0;border-right-color:#fff;border-right-style:solid;border-right-width:0;border-bottom-color:#fff;border-bottom-style:solid;border-bottom-width:0;border-left-color:#fff;border-left-style:solid;border-left-width:0}.VisualPromptContainer{background-color:rgba(176,184,195,0.1)}.ComboBox{background-color:#fff;color:#2a3037;font-size:10.5pt}.CheckBoxList{background-color:#fff;color:#2a3037;font-size:10.5pt}.SliderUI5{bar-line-color-top:#626f80;bar-fill-color:#3c444f;bar-line-color-bottom:#b0b8c3;thumb-fill-color-donut:#fff;thumb-fill-color-center:#3c444f;thumb-line-color:#626f80}.ButtonBar{color:#2a3037;background-color:#f0f0f0;font-weight:normal;selected-background-color:#ced0d3;selected-color:#3c444f;font-size:10.5pt}.StackContainer{color:#2a3037;background-color:#f0f0f0;font-weight:normal;selected-background-color:#ced0d3;selected-color:#3c444f;border-color:#cdd2d9}.RadioButton{background-color:#fff;color:#2a3037;font-size:10.5pt}.Hover{color:#2a3037;background-color:#fff}.Selected{color:#2a3037;background-color:#f8f9fa}.ReportPagePadding{padding:16px}.ReportElementContainer{padding:16px}.TextInput{color:#2a3037;font-size:10.5pt;background-color:#fff}.TextStyle{font-size:10.5pt}
+.brandColorChanges {
+  brandcolor: '';
+  neutralcolor: #768396;
+  newprimary: #3c444f;
+  secondarycolor: #3c444f;
+  p: #3c444f;
+}
+
+* {
+  color: #2f343d;
+  font-size: 12pt;
+  text-decoration: none;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  wrap-text: normal;
+}
+
+:root {
+  --report-data-color-1: #33a3ff;
+  --report-data-color-2: #ffcc32;
+  --report-data-color-3: #9471ff;
+  --report-data-color-4: #ff8224;
+  --report-data-color-5: #2ad1d1;
+  --report-data-color-6: #dd5757;
+  --report-data-color-7: #15b57b;
+  --report-data-color-8: #ff6fbd;
+  --report-background-color: #ffffff;
+  --report-text-color: #2f343d;
+  --report-primary-color: #3c444f;
+  --report-neutral-color: #768396;
+}
+
+.H1 {
+  color: #2f343d;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15pt;
+  text-shadow: none;
+}
+
+h1 {
+  color: #2f343d;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15pt;
+  text-shadow: none;
+}
+
+.H1alt {
+  color: #3c444f;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15pt;
+  text-shadow: none;
+}
+
+.H2 {
+  color: #2f343d;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 13.5pt;
+  text-shadow: none;
+}
+
+h2 {
+  color: #2f343d;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 13.5pt;
+  text-shadow: none;
+}
+
+.H2alt {
+  color: #3c444f;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 13.5pt;
+  text-shadow: none;
+}
+
+.H3 {
+  color: #2f343d;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12.75pt;
+  text-shadow: none;
+}
+
+h3 {
+  color: #2f343d;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12.75pt;
+  text-shadow: none;
+}
+
+.H3alt {
+  color: #3c444f;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12.75pt;
+  text-shadow: none;
+}
+
+.H4 {
+  color: #2f343d;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12pt;
+  text-shadow: none;
+}
+
+h4 {
+  color: #2f343d;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12pt;
+  text-shadow: none;
+}
+
+.H4alt {
+  color: #3c444f;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12pt;
+  text-shadow: none;
+}
+
+.H5 {
+  color: #2f343d;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10.5pt;
+  text-shadow: none;
+}
+
+h5 {
+  color: #2f343d;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10.5pt;
+  text-shadow: none;
+}
+
+.H5alt {
+  color: #3c444f;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10.5pt;
+  text-shadow: none;
+}
+
+.H6 {
+  color: #2f343d;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 9pt;
+  text-shadow: none;
+}
+
+h6 {
+  color: #2f343d;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 9pt;
+  text-shadow: none;
+}
+
+.H6alt {
+  color: #3c444f;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 9pt;
+  text-shadow: none;
+}
+
+.Table {
+  border-color: #e5e7eb;
+  border-style: none;
+  border-width: 1px;
+  alt-row-color: #ffffff;
+  color: #2f343d;
+  row-color: #ffffff;
+  line-color: #e5e7eb;
+  vertical-line-style: solid;
+  horizontal-line-style: solid;
+  font-size: 10.5pt;
+  display-opts: plain;
+}
+
+Table .Header {
+  color: #2f343d;
+  background-color: #ffffff;
+  font-weight: bold;
+  font-size: 10.5pt;
+  line-color: #e5e7eb;
+}
+
+Table .Totals {
+  color: #2f343d;
+  background-color: #ffffff;
+  font-weight: normal;
+  font-size: 10.5pt;
+}
+
+Table .Table {
+  wrap-text: none;
+}
+
+Table .ScrollBar {
+  fill-color: #626d7f;
+}
+
+Crosstab .Table {
+  border-color: #e5e7eb;
+  border-style: none;
+  border-width: 1px;
+  alt-row-color: #ffffff;
+  color: #2f343d;
+  row-color: #f9fafb;
+  line-color: #e5e7eb;
+  vertical-line-style: solid;
+  horizontal-line-style: solid;
+  font-size: 10.5pt;
+  display-opts: plain;
+}
+
+Crosstab .Header {
+  color: #2f343d;
+  background-color: #ffffff;
+  font-weight: normal;
+  line-color: #626d7f;
+  font-size: 10.5pt;
+}
+
+.RowHeader {
+  color: #2f343d;
+  background-color: #ffffff;
+  font-weight: bold;
+  font-size: 10.5pt;
+}
+
+.MeasureHeader {
+  color: #2f343d;
+  background-color: #ffffff;
+  font-weight: bold;
+  font-size: 10.5pt;
+}
+
+.ColumnHeader {
+  line-color: #e5e7eb;
+}
+
+Crosstab .ScrollBar {
+  fill-color: #626d7f;
+}
+
+Crosstab .Totals {
+  background-color: #ffffff;
+  color: #2f343d;
+  font-weight: bold;
+  font-size: 10.5pt;
+}
+
+Crosstab .Subtotals {
+  background-color: #ffffff;
+  color: #2f343d;
+  font-weight: bold;
+  font-size: 10.5pt;
+}
+
+.Totals {
+  background-color: #ffffff;
+  color: #2f343d;
+  font-weight: bold;
+  font-size: 10.5pt;
+}
+
+.Subtotals {
+  background-color: #ffffff;
+  color: #2f343d;
+  font-weight: bold;
+  font-size: 10.5pt;
+}
+
+.Graph {
+  attribute-priority: color;
+  data-style-reference: remapped;
+}
+
+.GraphDataStyle1 {
+  color: #33a3ff;
+  fill-color: #33a3ff;
+  alt-color: #2880c8;
+  line-color: #2880c8;
+  marker-color: #2880c8;
+  fill-pattern-color: #2880c8;
+  text-color: #246fae;
+  line-style: 1;
+  line-thickness: 3px;
+  marker-size: 11px;
+  marker-symbol: circlefilled;
+  fill-pattern: E;
+}
+
+.GraphDataStyle2 {
+  color: #ffcc32;
+  fill-color: #ffcc32;
+  alt-color: #c8a028;
+  line-color: #c8a028;
+  marker-color: #c8a028;
+  fill-pattern-color: #c8a028;
+  text-color: #ae8b24;
+  line-style: 4;
+  line-thickness: 3px;
+  marker-size: 11px;
+  marker-symbol: squarefilled;
+  fill-pattern: L1;
+}
+
+.GraphDataStyle3 {
+  color: #9471ff;
+  fill-color: #9471ff;
+  alt-color: #7357c7;
+  line-color: #7357c7;
+  marker-color: #7357c7;
+  fill-pattern-color: #7357c7;
+  text-color: #654cae;
+  line-style: 8;
+  line-thickness: 3px;
+  marker-size: 11px;
+  marker-symbol: trianglefilled;
+  fill-pattern: X1;
+}
+
+.GraphDataStyle4 {
+  color: #ff8224;
+  fill-color: #ff8224;
+  alt-color: #c9671d;
+  line-color: #c9671d;
+  marker-color: #c9671d;
+  fill-pattern-color: #c9671d;
+  text-color: #af5918;
+  line-style: 5;
+  line-thickness: 3px;
+  marker-size: 11px;
+  marker-symbol: diamondfilled;
+  fill-pattern: R4;
+}
+
+.GraphDataStyle5 {
+  color: #2ad1d1;
+  fill-color: #2ad1d1;
+  alt-color: #1f9898;
+  line-color: #1f9898;
+  marker-color: #1f9898;
+  fill-pattern-color: #1f9898;
+  text-color: #198080;
+  line-style: 14;
+  line-thickness: 3px;
+  marker-size: 11px;
+  marker-symbol: starfilled;
+  fill-pattern: X3;
+}
+
+.GraphDataStyle6 {
+  color: #dd5757;
+  fill-color: #dd5757;
+  alt-color: #a54040;
+  line-color: #a54040;
+  marker-color: #a54040;
+  fill-pattern-color: #a54040;
+  text-color: #8c3636;
+  line-style: 26;
+  line-thickness: 3px;
+  marker-size: 11px;
+  marker-symbol: triangledownfilled;
+  fill-pattern: R3;
+}
+
+.GraphDataStyle7 {
+  color: #15b57b;
+  fill-color: #15b57b;
+  alt-color: #0f8056;
+  line-color: #0f8056;
+  marker-color: #0f8056;
+  fill-pattern-color: #0f8056;
+  text-color: #0c6444;
+  line-style: 15;
+  line-thickness: 3px;
+  marker-size: 11px;
+  marker-symbol: homedownfilled;
+  fill-pattern: L5;
+}
+
+.GraphDataStyle8 {
+  color: #ff6fbd;
+  fill-color: #ff6fbd;
+  alt-color: #c75793;
+  line-color: #c75793;
+  marker-color: #c75793;
+  fill-pattern-color: #c75793;
+  text-color: #ae4c80;
+  line-style: 20;
+  line-thickness: 3px;
+  fill-pattern: R1;
+}
+
+.GraphDataStyle9 {
+  line-style: 41;
+  line-thickness: 3px;
+  fill-pattern: X5;
+}
+
+.GraphDataStyle10 {
+  line-style: 42;
+  line-thickness: 3px;
+  fill-pattern: L4;
+}
+
+.GraphDataStyle11 {
+  line-style: 2;
+  line-thickness: 3px;
+  fill-pattern: X4;
+}
+
+.GraphDataNode1 {
+  color: #addaff;
+  fill-color: #addaff;
+  alt-color: #2880c8;
+  text-color: #2f343d;
+  line-color: #2880c8;
+}
+
+.GraphDataNode2 {
+  color: #ffebad;
+  fill-color: #ffebad;
+  alt-color: #c8a028;
+  text-color: #2f343d;
+  line-color: #c8a028;
+}
+
+.GraphDataNode3 {
+  color: #d5c7ff;
+  fill-color: #d5c7ff;
+  alt-color: #7357c7;
+  text-color: #2f343d;
+  line-color: #7357c7;
+}
+
+.GraphDataNode4 {
+  color: #ffcea8;
+  fill-color: #ffcea8;
+  alt-color: #c9671d;
+  text-color: #2f343d;
+  line-color: #c9671d;
+}
+
+.GraphDataNode5 {
+  color: #abeded;
+  fill-color: #abeded;
+  alt-color: #1f9898;
+  text-color: #2f343d;
+  line-color: #1f9898;
+}
+
+.GraphDataNode6 {
+  color: #f1bcbc;
+  fill-color: #f1bcbc;
+  alt-color: #a54040;
+  text-color: #2f343d;
+  line-color: #a54040;
+}
+
+.GraphDataNode7 {
+  color: #a2e2ca;
+  fill-color: #a2e2ca;
+  alt-color: #0f8056;
+  text-color: #2f343d;
+  line-color: #0f8056;
+}
+
+.GraphDataNode8 {
+  color: #ffc7e6;
+  fill-color: #ffc7e6;
+  alt-color: #c75793;
+  text-color: #2f343d;
+  line-color: #c75793;
+}
+
+.GraphDataStyleDefault {
+  color: #33a3ff;
+  fill-color: #33a3ff;
+  alt-color: #2b8bda;
+  line-color: #2b8bda;
+  marker-color: #2b8bda;
+  fill-pattern-color: #2b8bda;
+  text-color: #246fae;
+  fill-gradient-start-color: #33a3ff;
+  fill-gradient-neutral-color: #d8e4d8;
+  fill-gradient-end-color: #ffcc32;
+  line-style: 1;
+  line-thickness: 3px;
+  marker-size: 11px;
+  marker-symbol: circlefilled;
+  fill-pattern: E;
+}
+
+.KPIRange1 {
+  color: #dd5757;
+  fill-color: #dd5757;
+  alt-color: #a54040;
+  line-color: #a54040;
+  marker-color: #a54040;
+  fill-pattern-color: #a54040;
+  text-color: #8c3636;
+  marker-size: 11px;
+  marker-symbol: circlefilled;
+  line-style: 1;
+  line-thickness: 3px;
+  fill-pattern: R3;
+}
+
+.KPIRange2 {
+  color: #ee9144;
+  fill-color: #ee9144;
+  alt-color: #b66f35;
+  line-color: #b66f35;
+  marker-color: #b66f35;
+  fill-pattern-color: #b66f35;
+  text-color: #9e602e;
+  marker-size: 11px;
+  marker-symbol: circlefilled;
+  line-style: 1;
+  line-thickness: 3px;
+  fill-pattern: L1;
+}
+
+.KPIRange3 {
+  color: #ffcc32;
+  fill-color: #ffcc32;
+  alt-color: #c8a028;
+  line-color: #c8a028;
+  marker-color: #c8a028;
+  fill-pattern-color: #c8a028;
+  text-color: #af8c23;
+  marker-size: 11px;
+  marker-symbol: circlefilled;
+  line-style: 1;
+  line-thickness: 3px;
+  fill-pattern: R4;
+}
+
+.KPIRange4 {
+  color: #8ac157;
+  fill-color: #8ac157;
+  alt-color: #658d3f;
+  line-color: #658d3f;
+  marker-color: #658d3f;
+  fill-pattern-color: #658d3f;
+  text-color: #537434;
+  marker-size: 11px;
+  marker-symbol: circlefilled;
+  line-style: 1;
+  line-thickness: 3px;
+  fill-pattern: X1;
+}
+
+.KPIRange5 {
+  color: #15b57b;
+  fill-color: #15b57b;
+  alt-color: #108459;
+  line-color: #108459;
+  marker-color: #108459;
+  fill-pattern-color: #108459;
+  text-color: #0d6847;
+  marker-size: 11px;
+  marker-symbol: circlefilled;
+  line-style: 1;
+  line-thickness: 3px;
+  fill-pattern: X3;
+}
+
+.KPIOverflow {
+  color: #10845a;
+  fill-color: #10845a;
+  alt-color: #08442e;
+  line-color: #08442e;
+  marker-color: #08442e;
+  fill-pattern-color: #08442e;
+  text-color: #05291c;
+  marker-size: 11px;
+  marker-symbol: circlefilled;
+  line-style: 1;
+  line-thickness: 3px;
+  fill-pattern: R2;
+}
+
+.KPIUnderflow {
+  color: #a94242;
+  fill-color: #a94242;
+  alt-color: #6a2929;
+  line-color: #6a2929;
+  marker-color: #6a2929;
+  fill-pattern-color: #6a2929;
+  text-color: #582222;
+  marker-size: 11px;
+  marker-symbol: circlefilled;
+  line-style: 1;
+  line-thickness: 3px;
+  fill-pattern: L2;
+}
+
+.Overflow {
+  color: #B381f5;
+  fill-color: #B381f5;
+  alt-color: #8b63bf;
+  line-color: #8b63bf;
+  marker-color: #8b63bf;
+  fill-pattern-color: #8b63bf;
+  text-color: #7a58a7;
+  marker-size: 11px;
+  marker-symbol: triangleupfilled;
+  line-style: 1;
+  line-thickness: 3px;
+  fill-pattern: R2;
+}
+
+.Underflow {
+  color: #71E4DA;
+  fill-color: #71E4DA;
+  alt-color: #58ada5;
+  line-color: #58ada5;
+  marker-color: #58ada5;
+  fill-pattern-color: #58ada5;
+  text-color: #4b958f;
+  marker-size: 11px;
+  marker-symbol: triangledownfilled;
+  line-style: 1;
+  line-thickness: 3px;
+  fill-pattern: L2;
+}
+
+.Initial {
+  color: #595959;
+  fill-color: #595959;
+  alt-color: #212121;
+  line-color: #212121;
+  marker-color: #212121;
+  fill-pattern-color: #212121;
+  text-color: #080808;
+  line-style: 1;
+  line-thickness: 1px;
+  marker-size: 11px;
+  marker-symbol: trianglerightfilled;
+  fill-pattern: E;
+}
+
+.Final {
+  color: #595959;
+  fill-color: #595959;
+  alt-color: #212121;
+  line-color: #212121;
+  marker-color: #212121;
+  fill-pattern-color: #212121;
+  text-color: #080808;
+  line-style: 1;
+  line-thickness: 1px;
+  marker-size: 11px;
+  marker-symbol: squarefilled;
+  fill-pattern: E;
+}
+
+.Other {
+  color: #969696;
+  fill-color: #969696;
+  alt-color: #595959;
+  line-color: #595959;
+  marker-color: #595959;
+  fill-pattern-color: #595959;
+  text-color: #404040;
+  marker-size: 11px;
+  marker-symbol: asterisk;
+  line-style: 34;
+  line-thickness: 3px;
+  fill-pattern: X2;
+}
+
+.Outlier {
+  color: #5e5e5e;
+  fill-color: #5e5e5e;
+  alt-color: #262626;
+  line-color: #262626;
+  marker-color: #262626;
+  text-color: #0f0f0f;
+  fill-gradient-start-color: #ededed;
+  fill-gradient-end-color: #919191;
+  line-style: 1;
+  line-thickness: 3px;
+  marker-size: 11px;
+  marker-symbol: circlefilled;
+}
+
+.BoxMedian {
+  alt-color: #5e5e5e;
+  line-color: #5e5e5e;
+  text-color: #454545;
+  line-style: 1;
+  line-thickness: 1px;
+}
+
+.BoxMean {
+  alt-color: #5e5e5e;
+  marker-color: #5e5e5e;
+  text-color: #454545;
+  marker-size: 11px;
+  marker-symbol: diamondfilled;
+}
+
+.BoxWhisker {
+  alt-color: #5e5e5e;
+  line-color: #5e5e5e;
+  text-color: #454545;
+  line-style: 1;
+  line-thickness: 1px;
+}
+
+.Selection {
+  color: #ffffff;
+  fill-color: #ffffff;
+  alt-color: #000000;
+  line-color: #000000;
+  marker-color: #000000;
+  text-color: #000000;
+  line-thickness: 2px;
+  line-style: 1;
+  marker-size: 11px;
+  marker-symbol: circlefilled;
+}
+
+.Focus {
+  line-color: #000000;
+  line-thickness: 1px;
+  line-style: 34;
+  line-transparency: 0;
+  focus-background: false;
+}
+
+.FocusBackground {
+  line-color: #ffffff;
+  line-thickness: 5px;
+  line-style: 1;
+  line-transparency: 1;
+}
+
+.Missing {
+  color: #e6e6e6;
+  fill-color: #e6e6e6;
+  alt-color: #adadad;
+  line-color: #adadad;
+  marker-color: #adadad;
+  fill-pattern-color: #adadad;
+  text-color: #949494;
+  marker-size: 11px;
+  marker-symbol: x;
+  line-style: 2;
+  line-thickness: 3px;
+  fill-pattern: R2;
+}
+
+.Box {
+  display-opts: caps median fill;
+  connect: mean;
+  cap-style: serif;
+}
+
+.Confidence {
+  color: #ededed;
+  fill-color: #ededed;
+  alt-color: #b8b8b8;
+  line-color: #b8b8b8;
+  marker-color: #b8b8b8;
+  fill-pattern-color: #b8b8b8;
+  text-color: #9e9e9e;
+  line-style: 1;
+  line-thickness: 3px;
+  marker-size: 11px;
+  marker-symbol: circlefilled;
+  fill-pattern: E;
+}
+
+.Confidence2 {
+  color: #ededed;
+  fill-color: #ededed;
+  alt-color: #b8b8b8;
+  line-color: #b8b8b8;
+  marker-color: #b8b8b8;
+  fill-pattern-color: #b8b8b8;
+  text-color: #9e9e9e;
+  line-style: 4;
+  line-thickness: 3px;
+  marker-size: 11px;
+  marker-symbol: squarefilled;
+  fill-pattern: L1;
+}
+
+.PredictionLimits {
+  color: #ededed;
+  fill-color: #ededed;
+  alt-color: #b8b8b8;
+  line-color: #b8b8b8;
+  marker-color: #b8b8b8;
+  fill-pattern-color: #b8b8b8;
+  text-color: #9e9e9e;
+  line-style: 34;
+  line-thickness: 3px;
+  marker-size: 11px;
+  marker-symbol: trianglefilled;
+  fill-pattern: E;
+}
+
+.Error {
+  color: #9c9c9c;
+  fill-color: #9c9c9c;
+  alt-color: #5e5e5e;
+  line-color: #5e5e5e;
+  marker-color: #5e5e5e;
+  text-color: #454545;
+  marker-size: 11px;
+  marker-symbol: diamondfilled;
+  line-style: 5;
+  line-thickness: 3px;
+}
+
+.TwoColorRamp {
+  fill-gradient-start-color: #e0f1ff;
+  fill-gradient-end-color: #33a3ff;
+}
+
+.TwoColorRamp1 {
+  fill-gradient-start-color: #e0f1ff;
+  fill-gradient-end-color: #33a3ff;
+}
+
+.TwoColorRamp2 {
+  fill-gradient-start-color: #fff7e0;
+  fill-gradient-end-color: #ffcc32;
+}
+
+.TwoColorRamp3 {
+  fill-gradient-start-color: #efebff;
+  fill-gradient-end-color: #9471ff;
+}
+
+.TwoColorRamp4 {
+  fill-gradient-start-color: #ffede0;
+  fill-gradient-end-color: #ff8224;
+}
+
+.TwoColorRamp5 {
+  fill-gradient-start-color: #def8f8;
+  fill-gradient-end-color: #2ad1d1;
+}
+
+.TwoColorRamp6 {
+  fill-gradient-start-color: #fae5e5;
+  fill-gradient-end-color: #dd5757;
+}
+
+.TwoColorRamp7 {
+  fill-gradient-start-color: #dcf4eb;
+  fill-gradient-end-color: #15b57b;
+}
+
+.TwoColorRamp8 {
+  fill-gradient-start-color: #ffebf6;
+  fill-gradient-end-color: #ff6fbd;
+}
+
+.TwoColorRampOther {
+  fill-gradient-start-color: #ededed;
+  fill-gradient-end-color: #919191;
+}
+
+.TwoColorAltRamp {
+  fill-gradient-start-color: #9fb4c6;
+  fill-gradient-end-color: #2880c8;
+}
+
+.TwoColorAltRamp1 {
+  fill-gradient-start-color: #9fb4c6;
+  fill-gradient-end-color: #2880c8;
+}
+
+.TwoColorAltRamp2 {
+  fill-gradient-start-color: #c6bc9f;
+  fill-gradient-end-color: #c8a028;
+}
+
+.TwoColorAltRamp3 {
+  fill-gradient-start-color: #b3acc8;
+  fill-gradient-end-color: #7357c7;
+}
+
+.TwoColorAltRamp4 {
+  fill-gradient-start-color: #c6ad9a;
+  fill-gradient-end-color: #c9671d;
+}
+
+.TwoColorAltRamp5 {
+  fill-gradient-start-color: #9abcbc;
+  fill-gradient-end-color: #1f9898;
+}
+
+.TwoColorAltRamp6 {
+  fill-gradient-start-color: #c0a5a5;
+  fill-gradient-end-color: #a54040;
+}
+
+.TwoColorAltRamp7 {
+  fill-gradient-start-color: #97b5aa;
+  fill-gradient-end-color: #0f8056;
+}
+
+.TwoColorAltRamp8 {
+  fill-gradient-start-color: #c8acbb;
+  fill-gradient-end-color: #c75793;
+}
+
+.TwoColorAltRampOther {
+  fill-gradient-start-color: #bababa;
+  fill-gradient-end-color: #737373;
+}
+
+.ThreeColorRamp {
+  fill-gradient-start-color: #33a3ff;
+  fill-gradient-neutral-color: #d8e4d8;
+  fill-gradient-end-color: #ffcc32;
+}
+
+.ThreeColorRamp1 {
+  fill-gradient-start-color: #33a3ff;
+  fill-gradient-neutral-color: #d8e4d8;
+  fill-gradient-end-color: #ffcc32;
+}
+
+.ThreeColorRamp2 {
+  fill-gradient-start-color: #9471ff;
+  fill-gradient-neutral-color: #ebccd4;
+  fill-gradient-end-color: #ff8224;
+}
+
+.ThreeColorRamp3 {
+  fill-gradient-start-color: #2ad1d1;
+  fill-gradient-neutral-color: #ced4d4;
+  fill-gradient-end-color: #dd5757;
+}
+
+.ThreeColorRamp4 {
+  fill-gradient-start-color: #15b57b;
+  fill-gradient-neutral-color: #d3d6d9;
+  fill-gradient-end-color: #ff6fbd;
+}
+
+.ThreeColorRampKPI {
+  fill-gradient-start-color: #dd5757;
+  fill-gradient-neutral-color: #ffcc32;
+  fill-gradient-end-color: #15b57b;
+}
+
+.ThreeColorAltRamp {
+  fill-gradient-start-color: #2880c8;
+  fill-gradient-neutral-color: #a1aaa1;
+  fill-gradient-end-color: #c8a028;
+}
+
+.ThreeColorAltRamp1 {
+  fill-gradient-start-color: #2880c8;
+  fill-gradient-neutral-color: #a1aaa1;
+  fill-gradient-end-color: #c8a028;
+}
+
+.ThreeColorAltRamp2 {
+  fill-gradient-start-color: #7357c7;
+  fill-gradient-neutral-color: #b299a0;
+  fill-gradient-end-color: #c9671d;
+}
+
+.ThreeColorAltRamp3 {
+  fill-gradient-start-color: #1f9898;
+  fill-gradient-neutral-color: #979b9b;
+  fill-gradient-end-color: #a54040;
+}
+
+.ThreeColorAltRamp4 {
+  fill-gradient-start-color: #0f8056;
+  fill-gradient-neutral-color: #9b9ea1;
+  fill-gradient-end-color: #c75793;
+}
+
+.ThreeColorAltRampKPI {
+  fill-gradient-start-color: #a54040;
+  fill-gradient-neutral-color: #c8a028;
+  fill-gradient-end-color: #0f8056;
+}
+
+.AxisLines {
+  line-thickness: 1dpx;
+  line-style: 1;
+  line-color: #2f343d;
+  tick-display: OUTSIDE;
+}
+
+.Reference {
+  alt-color: #2f343d;
+  line-color: #2f343d;
+  text-color: #2f343d;
+  marker-color: #2f343d;
+  line-thickness: 1px;
+  line-style: 1;
+}
+
+.GridLines {
+  line-thickness: 1dpx;
+  line-style: 34;
+  grid-layer: front;
+  line-transparency: 0.6;
+  line-color: #2f343d;
+}
+
+.Outlines {
+  line-thickness: 1px;
+  line-style: 1;
+  line-color: #ffffff;
+}
+
+.OutlinesUnfilled {
+  line-thickness: 1px;
+  line-style: 1;
+  line-color: #5e5e5e;
+}
+
+.BorderLines {
+  line-thickness: 1dpx;
+  line-style: 1;
+  line-color: #2f343d;
+}
+
+.Fit {
+  color: #999999;
+  fill-color: #999999;
+  alt-color: #616161;
+  line-color: #616161;
+  marker-color: #616161;
+  fill-pattern-color: #616161;
+  text-color: #474747;
+  line-style: 1;
+  line-thickness: 3px;
+  marker-size: 11px;
+  marker-symbol: circlefilled;
+  fill-pattern: E;
+}
+
+.Fit2 {
+  color: #999999;
+  fill-color: #999999;
+  alt-color: #616161;
+  line-color: #616161;
+  marker-color: #616161;
+  fill-pattern-color: #616161;
+  text-color: #474747;
+  line-style: 4;
+  line-thickness: 3px;
+  marker-size: 11px;
+  marker-symbol: squarefilled;
+  fill-pattern: L1;
+}
+
+.Prediction {
+  color: #9c9c9c;
+  fill-color: #9c9c9c;
+  alt-color: #5e5e5e;
+  line-color: #5e5e5e;
+  marker-color: #5e5e5e;
+  text-color: #474747;
+  line-style: 34;
+  line-thickness: 3px;
+  marker-size: 11px;
+  marker-symbol: squarefilled;
+}
+
+.ConnectLine {
+  line-thickness: 1px;
+  line-style: 1;
+  line-color: #5e5e5e;
+}
+
+.TitleText {
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  text-color: #2f343d;
+  font-weight: bold;
+  font-size: 13.5pt;
+}
+
+.FootnoteText {
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  text-color: #2f343d;
+  font-weight: normal;
+  font-size: 10.5pt;
+}
+
+.DataText {
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  text-color: #2f343d;
+  font-weight: normal;
+  font-size: 8.25pt;
+}
+
+.KeyText {
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  text-color: #246fae;
+  font-weight: bold;
+  font-size: 21pt;
+}
+
+.KeyOutline {
+  line-thickness: 12px;
+  line-color: #33a3ff;
+}
+
+.LabelText {
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  text-color: #2f343d;
+  font-weight: bold;
+  font-size: 10.5pt;
+}
+
+.ValueText {
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  text-color: #626d7f;
+  font-weight: normal;
+  font-size: 9pt;
+}
+
+.KPIRangeText {
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-color: #070809;
+  font-size: 8.25pt;
+  alt-text-color: #bbd9f7;
+}
+
+.KPIValueText {
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-color: #2f343d;
+  font-size: 10.5pt;
+  alt-text-color: #94a6c2;
+}
+
+.BackFill {
+  fill-color: #ffffff;
+  frame-border: false;
+}
+
+.WallFill {
+  line-thickness: 1dpx;
+  fill-color: #ffffff;
+  line-style: 1;
+  line-color: #2f343d;
+  fill-transparency: 0;
+  line-transparency: 0;
+  display-opts: none;
+}
+
+.LegendFill {
+  fill-color: #ffffff;
+  frame-border: false;
+}
+
+.InsideLegendFill {
+    fill-color: #ffffff;
+    frame-border: true;
+    title-border: true;
+}
+
+.HeaderFill {
+  fill-color: #ebedef;
+}
+
+.Block {
+  color: #ffffff;
+  fill-color: #ffffff;
+}
+
+.AltBlock {
+  color: #ebedef;
+  fill-color: #ebedef;
+}
+
+.LayoutGlobalLegend {
+  data-matrix-align: begin;
+  data-matrix-align-to: wall;
+  lattice-align: begin;
+  overlay-align: begin;
+  overlay-align-to: wall;
+  region-align: begin;
+}
+
+.GraphSkin {
+  data-skin: Custom;
+  kpi-skin: Basic;
+  blend-start-color: #ffffff;
+  blend-start-color-factor: 0;
+  blend-end-color: #ffffff;
+  blend-end-color-factor: 0;
+  blend-mode: normal;
+  glow-thickness: 1px;
+  glow-blur: 0;
+  glow-color-factor: -0.78;
+  glow-color: #ffffff;
+}
+
+.ZoomScrollbarThumb {
+  color: #ffffff;
+}
+
+.ZoomScrollbarEndHandle {
+  color: #2f343d;
+  line-color: #282d33;
+}
+
+.OverviewAxis {
+  line-thickness: 1dpx;
+  line-color: #2f343d;
+}
+
+.OverviewAxisFilter {
+  color: #f1f2f4;
+  fill-color: #f1f2f4;
+  transparency: 0.7;
+}
+
+.Increase {
+  color: #15b57b;
+  fill-color: #15b57b;
+  alt-color: #0f7b53;
+  line-color: #0f7b53;
+  marker-color: #0f7b53;
+  fill-pattern-color: #0f7b53;
+  text-color: #0c6444;
+  marker-symbol: triangleupfilled;
+  line-style: 1;
+  line-thickness: 1px;
+  fill-pattern: R1;
+}
+
+.Decrease {
+  color: #dd5757;
+  fill-color: #dd5757;
+  alt-color: #9e3d3d;
+  line-color: #9e3d3d;
+  marker-color: #9e3d3d;
+  fill-pattern-color: #9e3d3d;
+  text-color: #883535;
+  marker-symbol: triangledownfilled;
+  line-style: 1;
+  line-thickness: 1px;
+  fill-pattern: L1;
+}
+
+.GraphDataNodeDefault {
+  color: #d1d1d1;
+  fill-color: #d1d1d1;
+  alt-color: #6e6e6e;
+  line-color: #6e6e6e;
+  fill-pattern-color: #6e6e6e;
+  text-color: #2f343d;
+  line-thickness: 1px;
+  fill-pattern: E;
+  fill-gradient-start-color: #33a3ff;
+  fill-gradient-neutral-color: #d8e4d8;
+  fill-gradient-end-color: #ffcc32;
+}
+
+.NodeTitle {
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-size: 10.5pt;
+  font-style: normal;
+  font-weight: normal;
+  text-color: #2f343d;
+}
+
+.NodeLabel {
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-size: 10.5pt;
+  font-style: normal;
+  font-weight: bold;
+  text-color: #2f343d;
+}
+
+.NodeInputLabel {
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-size: 10.5pt;
+  font-style: normal;
+  font-weight: normal;
+  text-color: #2f343d;
+}
+
+.NodeDetails {
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-size: 7.5pt;
+  font-style: normal;
+  font-weight: normal;
+  text-color: #2f343d;
+}
+
+.NodeGroupOpen {
+  line-color: #404854;
+  text-color: #404854;
+  fill-color: #ffffff;
+  transparency: 0;
+  line-thickness: 1px;
+}
+
+.NodeGroupClosed {
+  line-color: #404854;
+  text-color: #404854;
+  fill-color: #ffffff;
+  transparency: 0;
+  line-thickness: 1px;
+}
+
+.NodeGroupTitle {
+  text-color: #404854;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 10.5pt;
+}
+
+.NodeWindowGroupContentArea {
+  fill-color: #ffffff;
+  fill-transparency: 0.2;
+}
+
+.TipText {
+  text-color: #626d7f;
+}
+
+.TipFill {
+  fill-color: #ffffff;
+  transparency: 0;
+}
+
+.NodeLink {
+  color: #bababa;
+  fill-color: #bababa;
+  alt-color: #949494;
+  line-color: #949494;
+  marker-color: #949494;
+  line-style: 1;
+  line-thickness: 2px;
+}
+
+.CrossoverNodeLink {
+  alt-color: #949494;
+  line-color: #949494;
+  line-style: 2;
+  line-thickness: 2px;
+  line-transparency: 0;
+}
+
+.OverviewFill {
+  transparency: 0;
+  fill-color: #ffffff;
+}
+
+.OverviewBorderLines {
+  line-thickness: 1dpx;
+  transparency: 0;
+  line-color: #d1d5dc;
+}
+
+.OverviewFilterFill {
+  fill-color: #f1f2f4;
+  transparency: 0.7;
+}
+
+.OverviewViewportBorderLines {
+  line-thickness: 1dpx;
+  transparency: 0;
+  line-color: #3b444e;
+}
+
+.Pie {
+  donut: true;
+  gap: 1dpx;
+  min-hole-size: 0.15;
+  ring-size: 0.3;
+  display-opts: standard;
+}
+
+.CalloutLine {
+  line-transparency: 0.4;
+  line-style: 1;
+  line-thickness: 1dpx;
+  line-color: #2f343d;
+}
+
+.CellSeparatorLines {
+  line-color: #2f343d;
+  line-style: dotted;
+  line-thickness: 1dpx;
+}
+
+.DiscreteAxis {
+  display-opts: tickvalues ticks line label;
+  grid-display: false;
+}
+
+.LinearAxis {
+  display-opts: tickvalues label;
+  grid-display: true;
+}
+
+.LogAxis {
+  display-opts: tickvalues label;
+  grid-display: true;
+}
+
+.TimeAxis {
+  display-opts: tickvalues label;
+  grid-display: true;
+}
+
+.Icicle {
+  gap: 1dpx;
+  display-opts: standard;
+}
+
+.Mosaic {
+  gap: 1dpx;
+  display-opts: standard;
+}
+
+.TreeMap {
+  gap: 1dpx;
+  display-opts: standard;
+}
+
+.LayoutDataMatrix {
+  cell-separator: true;
+  matrix-border: false;
+}
+
+.LayoutLattice {
+  confine-tick-values: true;
+}
+
+.LayoutDataPanel {
+  confine-tick-values: true;
+}
+
+.LayoutOverlay {
+  yaxis-label-position: top;
+}
+
+.ContinuousLegend {
+  frame-border: false;
+  title-halign: left;
+  title-position: top;
+  title-separator-top: true;
+}
+
+.DiscreteLegend {
+  frame-border: false;
+  title-halign: left;
+  title-position: top;
+  title-separator-top: true;
+}
+
+.SizeLegend {
+  frame-border: false;
+  title-halign: left;
+  title-position: top;
+  title-separator-top: true;
+}
+
+.DataMatrixBorderLines {
+  line-thickness: 1dpx;
+  line-style: 1;
+  line-color: #2f343d;
+}
+
+.TargetNode {
+  fill-color: #addaff;
+  text-color: #2f343d;
+  line-color: #2880c8;
+  line-thickness: 3px;
+  line-style: 1;
+}
+
+.HyperLink {
+  text-color: #626d7f;
+}
+
+.Dropzone {
+  fill-color: #768396;
+  line-color: #768396;
+  line-style: 1;
+  line-thickness: 1px;
+  transparency: 0.85;
+}
+
+.StatusBackground {
+  fill-color: #ffffff;
+}
+
+.StatusError {
+  text-color: #d80000;
+}
+
+.StatusWarning {
+  text-color: #916000;
+}
+
+.StatusComplete {
+  text-color: #0a7c12;
+}
+
+.StatusInformation {
+  text-color: #016dba;
+}
+
+.StatusMediumPriority {
+  text-color: #916000;
+}
+
+.StatusProgress {
+  text-color: #016dba;
+}
+
+.StatusClustered {
+  text-color: #016dba;
+}
+
+.StatusImportant {
+  text-color: #d80000;
+}
+
+.StatusIncompleteInProgress {
+  text-color: #016dba;
+}
+
+.StatusIncomplete {
+  text-color: #d80000;
+}
+
+.StatusLocked {
+  text-color: #2f343d;
+}
+
+.StatusNeutral {
+  text-color: #2f343d;
+}
+
+.StatusStopped {
+  text-color: #d80000;
+}
+
+.StatusStopping {
+  text-color: #d80000;
+}
+
+.StatusScheduled {
+  text-color: #016dba;
+}
+
+.IconNodeBackground {
+  fill-color: #ffffff;
+}
+
+.IconNodeStart {
+  text-color: #0a7c12;
+}
+
+.IconNodeEnd {
+  text-color: #d80000;
+}
+
+.IconNodeTimer {
+  text-color: #016dba;
+}
+
+.IconNodeGatewayInclusive {
+  text-color: #016dba;
+}
+
+.IconNodeGatewayExclusive {
+  text-color: #016dba;
+}
+
+.AnimatedProgressIndicator {
+  text-color: #016dba;
+}
+
+.Band {
+  display-opts: standard;
+}
+
+.AnimationControlPanel {
+  fill-color: #ffffff;
+  line-color: #d1d5dc;
+  frame-border: true;
+}
+
+.GraphSlider {
+  bar-line-color-top: #626d7f;
+  bar-fill-color: #ffffff;
+  bar-line-color-bottom: #e5e7eb;
+  thumb-fill-color-donut: #ffffff;
+  thumb-fill-color-center: #626d7f;
+  thumb-line-color: #626d7f;
+}
+
+.GraphMenu {
+  background-color: #ffffff;
+  background-color-selected: #f1f2f4;
+  border-color: #aeb6c1;
+  text-color-selected: #626d7f;
+}
+
+.AnnoLine {
+  alt-color: #2f343d;
+  text-color: #626d7f;
+  line-color: #2f343d;
+  line-style: 1;
+  line-thickness: 1px;
+}
+
+.AnnoText {
+  text-color: #626d7f;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9pt;
+}
+
+.AnnoShape {
+  color: #ffffff;
+  alt-color: #d1d5dc;
+  fill-color: #ffffff;
+  text-color: #626d7f;
+  line-color: #d1d5dc;
+  line-style: 1;
+  line-thickness: 1px;
+  marker-color: #626d7f;
+  marker-symbol: starfilled;
+  marker-size: 11px;
+}
+
+.GaugeIndicator {
+  line-transparency: 0.6;
+  fill-color: #181b20;
+  line-color: #ffffff;
+}
+
+.ThinLine {
+  line-thickness: 1px;
+  line-style: 1;
+  line-color: #2b8bda;
+}
+
+.Bar {
+  display-opts: standard;
+}
+
+.Bubble {
+  bubble-size-min: 7px;
+  bubble-size-max: 35px;
+  display-opts: standard;
+}
+
+.DecisionTree {
+  display-opts: standard;
+}
+
+.Ellipse {
+  display-opts: outline fill;
+}
+
+.HeatMap {
+  display-opts: standard;
+}
+
+.HighLow {
+  display-opts: standard;
+}
+
+.Histogram {
+  display-opts: standard;
+}
+
+.LineChart {
+  display-opts: standard;
+}
+
+.Sankey {
+  display-opts: volumebars volumelabels;
+}
+
+.Scatter {
+  marker-size-min: 7px;
+  marker-size-max: 35px;
+}
+
+.Schedule {
+  display-opts: standard;
+}
+
+.Series {
+  line-thickness-min: 2px;
+  line-thickness-max: 8px;
+  display-opts: standard;
+}
+
+.TimeSeries {
+  display-opts: standard;
+}
+
+.Waterfall {
+  display-opts: standard;
+}
+
+.Network {
+  display-opts: standard;
+}
+
+.Basemap {
+  tile-set: Light;
+}
+
+.Overplotting {
+  min-marker-size-grouped: 6px;
+  min-marker-size-ungrouped: 4px;
+}
+
+.KeyFrameValue {
+  text-color: #2f343d;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-size: 28pt;
+  fit-width: 42%;
+  font-style: normal;
+  font-weight: bold;
+  text-transparency: 0;
+  padding: 3%;
+  horizontal-alignment: right;
+  vertical-alignment: bottom;
+}
+
+.OutlinesNode {
+  line-color: #d1d5dc;
+}
+
+.OutlinesPerimeter {
+  line-color: #626d7f;
+  line-style: 1;
+  line-thickness: 1px;
+  line-transparency: 0;
+}
+
+.OverlayDataInset {
+  inset-size: 60px;
+  inset-aspect-ratio: 1;
+  inset-size-min: 30px;
+  inset-size-max: 100px;
+}
+
+.InsetPie {
+  inset-size: 60px;
+  inset-aspect-ratio: 1;
+  inset-size-min: 30px;
+  inset-size-max: 100px;
+  other-slice-percent: 10;
+  ring-size: 0.4;
+}
+
+.MapRegionLayer {
+  display-opts: standard;
+}
+
+.GeoRouteMainPath {
+  line-color: #000000;
+  line-thickness: 8px;
+  line-style: 1;
+  line-transparency: 0;
+}
+
+.GeoRouteCenterPath {
+  line-color: #ffffff;
+  line-thickness: 2px;
+  line-style: 1;
+  line-transparency: 0;
+}
+
+.GeoRoutePathInnerPerimeter {
+  line-color: #ffffff;
+  line-thickness: 0;
+  line-style: 1;
+  line-transparency: 1;
+}
+
+.GeoRoutePathOuterPerimeter {
+  line-color: #ffffff;
+  line-thickness: 1px;
+  line-style: 1;
+  line-transparency: 0.6;
+}
+
+.GeoRoutePathSelection {
+  line-color: #ffffff;
+  line-thickness: 3px;
+  line-style: 1;
+  line-transparency: 0;
+}
+
+.GeoRoutePathHover {
+  line-color: #ffffff;
+  line-thickness: 3px;
+  line-style: 1;
+  line-transparency: 0.4;
+}
+
+.GeoRoutePathOuterPerimeterInverse {
+  line-color: #000000;
+  line-thickness: 1px;
+  line-style: 1;
+  line-transparency: 0.85;
+}
+
+.GeoRoutePathFocus {
+  line-color: #000000;
+  line-thickness: 1px;
+  line-style: 34;
+  line-transparency: 0;
+}
+
+.GeoRoutePathFocusPerimeter {
+  line-color: #000000;
+  line-thickness: 0;
+  line-style: 1;
+  line-transparency: 1;
+}
+
+.GeoRoutePoint {
+  pin-style: light;
+  pin-color: #000000;
+}
+
+.GeoRoutePointLabel {
+  text-color: #000000;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 7.5pt;
+  font-style: normal;
+}
+
+.GeoPin {
+  pin-style: light;
+  pin-color: #000000;
+}
+
+.GeoPinLabel {
+  text-color: #ffffff;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 10.5pt;
+  font-style: normal;
+}
+
+.GeoPinIcon {
+  text-color: #ffffff;
+  font-family: sas-icons;
+  font-weight: normal;
+  font-size: 12pt;
+  font-style: normal;
+}
+
+.GeoSearchPin {
+  pin-style: light;
+  pin-color: #626d7f;
+}
+
+.GeoCentroidPoint {
+  pin-style: light;
+  pin-color: #000000;
+}
+
+.GeoArea {
+  fill-color: #ffffff;
+  fill-transparency: 0.8;
+  line-color: #000000;
+  line-thickness: 1px;
+  line-style: 1;
+  line-transparency: 0;
+}
+
+.GeoAreaOuterPerimeter {
+  line-color: #ffffff;
+  line-thickness: 1px;
+  line-style: 1;
+  line-transparency: 0.6;
+}
+
+.GeoAreaOuterHover {
+  line-color: #ffffff;
+  line-thickness: 3px;
+  line-style: 1;
+  line-transparency: 0.4;
+}
+
+.GeoAreaOuterPerimeterInverse {
+  line-color: #000000;
+  line-thickness: 1px;
+  line-style: 1;
+  line-transparency: 0.85;
+}
+
+.GeoAreaSelection {
+  line-color: #000000;
+  line-thickness: 2px;
+  line-style: 46;
+  line-transparency: 0;
+}
+
+.GeoAreaOuterSelection {
+  line-color: #ffffff;
+  line-thickness: 3px;
+  line-style: 1;
+  line-transparency: 0;
+}
+
+.GeoAreaFocus {
+  line-color: #000000;
+  line-thickness: 1px;
+  line-style: 34;
+  line-transparency: 0;
+}
+
+.GeoAreaFocusPerimeter {
+  line-color: #000000;
+  line-thickness: 0;
+  line-style: 1;
+  line-transparency: 1;
+}
+
+.GeoAreaInnerPerimeter {
+  line-color: #ffffff;
+  line-thickness: 0;
+  line-style: 1;
+  line-transparency: 1;
+}
+
+.GeoAreaInnerPerimeterThick {
+  line-color: #ffffff;
+  line-thickness: 0;
+  line-style: 1;
+  line-transparency: 1;
+}
+
+.GeoRegionEmpty {
+  fill-color: #ffffff;
+  fill-transparency: 0;
+  fill-pattern: E;
+  line-color: #e6e6e6;
+  line-transparency: 0;
+  line-style: 1;
+  line-thickness: 3px;
+}
+
+.GeoRegionContext {
+  fill-color: #ffffff;
+  fill-transparency: 0;
+  fill-pattern: E;
+  line-color: #e6e6e6;
+  line-transparency: 0;
+  line-style: 1;
+  line-thickness: 3px;
+}
+
+/**
+ * The following are the default styles for the report. These styles are applied
+ * to the report if no other styles are specified.
+ */
+
+.Report { 
+  background-color: #ffffff;
+  theme: opal;
+}
+
+.TitleStyle { 
+  font-size: 13.5pt;
+  color: #2f343d;
+}
+
+.PromptBar {
+  background-color: #ffffff;
+}
+
+.Container {
+  background-color: #ffffff;
+  transparency: 1;
+  border-color: #ffffff;
+  border-width: 0;
+  border-top-color: #ffffff;
+  border-top-style: solid;
+  border-top-width: 0;
+  border-right-color: #ffffff;
+  border-right-style: solid;
+  border-right-width: 0;
+  border-bottom-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-width: 0;
+  border-left-color: #ffffff;
+  border-left-style: solid;
+  border-left-width: 0;
+}
+
+.VisualPromptContainer {
+  background-color: #ffffff;
+}
+
+.ComboBox {
+  background-color: #ffffff;
+  color: #2f343d;
+  font-size: 10.5pt;
+}
+
+.CheckBoxList {
+  background-color: #ffffff;
+  color: #2f343d;
+  font-size: 10.5pt;
+}
+
+.SliderUI5 {
+  bar-line-color-top: #626d7f;
+  bar-fill-color: #3c444f;
+  bar-line-color-bottom: #aeb6c1;
+  thumb-fill-color-donut: #ffffff;
+  thumb-fill-color-center: #3c444f;
+  thumb-line-color: #626d7f;
+}
+
+.ButtonBar {
+  color: #2f343d;
+  background-color: #f1f2f4;
+  font-weight: normal;
+  selected-background-color: #cbd0d7;
+  selected-color: #3c444f;
+  font-size: 10.5pt;
+}
+
+.StackContainer {
+  color: #2f343d;
+  background-color: #f1f2f4;
+  font-weight: normal;
+  selected-background-color: #cbd0d7;
+  selected-color: #3c444f;
+  border-color: #d1d5dc;
+}
+
+.RadioButton {
+  background-color: #ffffff;
+  color: #2f343d;
+  font-size: 10.5pt;
+}
+
+.HyperLink {}
+
+.HyperLinkVisited {}
+
+.Hover {
+  color: #2f343d;
+  background-color: #ffffff;
+}
+
+.Selected {
+  color: #2f343d;
+  background-color: #f3f5f6;
+}
+
+.ReportPagePadding {
+  padding: 16px;
+}
+
+.ReportElementContainer {
+  padding: 16px;
+}
+
+.TextInput {
+  color: #2f343d;
+  font-size: 10.5pt;
+  background-color: #ffffff;
+}
+
+.TextStyle {
+  font-size: 10.5pt;
+}
