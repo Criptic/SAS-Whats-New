@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.53.0" label="Releases Notes" features="promptModelV2" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2024-12-09T13:30:11Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2024.11" nextUniqueNameIndex="1135">
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.53.0" label="Releases Notes" features="promptModelV2" implicitInteractions="reportPrompt sectionPrompt sectionLink" summaryElement="ve1140" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-04-27T15:41:00Z" dateModified="2025-07-07T13:53:07Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2025.06" nextUniqueNameIndex="1151">
 	<Results>
-		<Result ref="dd21" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2025-07-02T13:37:57.845Z">
+		<Result ref="dd21" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2025-07-20T05:58:38.014Z">
 			<Variables>
 				<NumericVariable format="YYMM8" usage="quantitative" definedAggregation="min" label="Release Data" ref="bi433" varname="bi433" column="c0"/>
 				<NumericVariable format="YYMM8" usage="quantitative" definedAggregation="max" label="Release Data" ref="bi434" varname="bi434" column="c1"/>
@@ -10,13 +10,13 @@
 				<NumericColumn dataType="double" colname="c0" encoding="text"/>
 				<NumericColumn dataType="double" colname="c1" encoding="text"/>
 			</Columns>
-			<Data isIndexed="false" availableRowCount="1" contentKey="CMV2XYZWD4IGBFPX2MWY7WRPRZNDYUNY" size="16" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[23101.0,23893.0
+			<Data isIndexed="false" availableRowCount="1" contentKey="T5BVNBW3EITYDM6NCNRSDPIX27KBOMTD" size="16" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[23101.0,23923.0
 ]]></Data>
 		</Result>
-		<Result ref="dd269" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2025-07-02T13:37:57.845Z">
+		<Result ref="dd269" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2025-07-20T05:58:38.014Z">
 			<Variables>
 				<StringVariable label="Category" ref="bi31" varname="bi31" column="c0"/>
-				<NumericVariable format="YYMM8" usage="categorical" label="Release Data" ref="bi1133" varname="bi1133" column="c1"/>
+				<NumericVariable format="YYMM8" usage="categorical" label="Release Data" ref="bi1149" varname="bi1149" column="c1"/>
 			</Variables>
 			<Columns>
 				<StringColumn maxLength="1" colname="c0" encoding="text"/>
@@ -25,7 +25,7 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi31" sortDirection="ascending"/>
 			</DefinedSortItems>
-			<Data isIndexed="true" availableRowCount="140" contentKey="G2QAD6X53QQSI42HN2BNWCDMAQUQYVZZ" size="1400" format="CSV" rowCount="140" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[0,23101.0
+			<Data isIndexed="true" availableRowCount="146" contentKey="UTORNYYSCQRIVARUQ3KQLNZHHTSZCAPP" size="1460" format="CSV" rowCount="146" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[0,23101.0
 0,23131.0
 0,23162.0
 0,23192.0
@@ -52,6 +52,7 @@
 0,23832.0
 0,23862.0
 0,23893.0
+0,23923.0
 1,23101.0
 1,23131.0
 1,23162.0
@@ -79,6 +80,7 @@
 1,23832.0
 1,23862.0
 1,23893.0
+1,23923.0
 2,23101.0
 2,23131.0
 2,23162.0
@@ -106,11 +108,13 @@
 2,23832.0
 2,23862.0
 2,23893.0
+2,23923.0
 3,23101.0
 3,23315.0
 3,23345.0
 3,23376.0
 3,23620.0
+3,23923.0
 4,23101.0
 4,23131.0
 4,23162.0
@@ -138,6 +142,7 @@
 4,23832.0
 4,23862.0
 4,23893.0
+4,23923.0
 5,23101.0
 5,23131.0
 5,23162.0
@@ -165,6 +170,7 @@
 5,23832.0
 5,23862.0
 5,23893.0
+5,23923.0
 ]]></Data>
 			<StringTable contentKey="7AUP7ARW3NU54VHVMF6L4XHD37QYXSAL" size="85" format="CSV" rowCount="6"><![CDATA["Administration"
 "Analytics"
@@ -174,11 +180,11 @@
 "Operations"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd36" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2025-07-02T13:37:57.845Z">
+		<Result ref="dd36" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2025-07-20T05:58:38.014Z">
 			<Variables>
 				<StringVariable label="Product/Tool" ref="bi38" varname="bi38" column="c0"/>
-				<NumericVariable format="YYMM8" usage="categorical" label="Release Data" ref="bi1129" varname="bi1129" column="c1"/>
-				<StringVariable label="Category" ref="bi1130" varname="bi1130" column="c2"/>
+				<NumericVariable format="YYMM8" usage="categorical" label="Release Data" ref="bi1145" varname="bi1145" column="c1"/>
+				<StringVariable label="Category" ref="bi1146" varname="bi1146" column="c2"/>
 			</Variables>
 			<Columns>
 				<StringColumn maxLength="2" colname="c0" encoding="text"/>
@@ -188,10 +194,10 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi38" sortDirection="ascending"/>
 			</DefinedSortItems>
-			<DataFile contentKey="RGRE7C74O3JCRGWXT4IBB5QIFG3HVKYT" size="8898" format="CSV" rowCount="686" grandTotal="false" dataLayout="partiallyAggregated" file="dd36.csv" isIndexed="true" availableRowCount="686"/>
+			<DataFile contentKey="XJYVF3TQED2JQW3VI3JNSLR5R7Y4CL33" size="9132" format="CSV" rowCount="704" grandTotal="false" dataLayout="partiallyAggregated" file="dd36.csv" isIndexed="true" availableRowCount="704"/>
 			<StringTableFile contentKey="LWE35TMYTZZV5KTDRY2IQRR3ZS2D2UVT" size="1208" format="CSV" rowCount="61" file="dd36index.csv"/>
 		</Result>
-		<Result ref="dd45" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2025-07-02T13:37:57.845Z">
+		<Result ref="dd45" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2025-07-20T05:58:38.014Z">
 			<Variables>
 				<NumericVariable format="F8." usage="quantitative" definedAggregation="sum" label="Release" ref="bi52" varname="bi52" column="c0"/>
 				<StringVariable label="Category" ref="bi53" varname="bi53" column="c1"/>
@@ -217,8 +223,8 @@
 			<DefinedSortItems>
 				<DefinedSortItem variable="bi52" sortDirection="descending"/>
 			</DefinedSortItems>
-			<DataFile contentKey="MSFSJWNVKMGR36EJS6DP5557VVZC2F3U" size="84436" format="CSV" rowCount="1857" grandTotal="false" dataLayout="partiallyAggregated" file="dd45.csv" isIndexed="true" availableRowCount="1857"/>
-			<StringTableFile contentKey="M4S2CASV2VU7JGJIRWYA3KK5IMWGEIFT" size="625346" format="CSV" rowCount="5221" file="dd45index.csv"/>
+			<DataFile contentKey="S6TZHDZOFKZQAQDDXTRY3JIWUV7UNUWK" size="86262" format="CSV" rowCount="1896" grandTotal="false" dataLayout="partiallyAggregated" file="dd45.csv" isIndexed="true" availableRowCount="1896"/>
+			<StringTableFile contentKey="WLRACKA7XGWA5325PRHHPBRWVZ5FPRTL" size="637643" format="CSV" rowCount="5325" file="dd45index.csv"/>
 		</Result>
 	</Results>
 	<DataDefinitions>
@@ -244,8 +250,8 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd34">
 			<BusinessItems>
 				<RelationalDataItem name="bi38" base="bi12"/>
-				<RelationalDataItem name="bi1129" base="bi432"/>
-				<RelationalDataItem name="bi1130" base="bi8"/>
+				<RelationalDataItem name="bi1145" base="bi432"/>
+				<RelationalDataItem name="bi1146" base="bi8"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="relational" name="dd35">
 				<RelationalQuery detail="false">
@@ -338,7 +344,7 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd98">
 			<BusinessItems>
 				<RelationalDataItem name="bi97" base="bi12"/>
-				<RelationalDataItem name="bi1131" base="bi8"/>
+				<RelationalDataItem name="bi1147" base="bi8"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="relational" name="dd99">
 				<RelationalQuery detail="false">
@@ -454,7 +460,7 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd267">
 			<BusinessItems>
 				<RelationalDataItem name="bi31" base="bi8"/>
-				<RelationalDataItem name="bi1133" base="bi432"/>
+				<RelationalDataItem name="bi1149" base="bi432"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="relational" name="dd268">
 				<RelationalQuery detail="false">
@@ -717,7 +723,7 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd825">
 			<BusinessItems>
 				<RelationalDataItem name="bi829" base="bi12"/>
-				<RelationalDataItem name="bi1134" base="bi8"/>
+				<RelationalDataItem name="bi1150" base="bi8"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="relational" name="dd826">
 				<RelationalQuery detail="false">
@@ -1057,7 +1063,7 @@
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23893.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23923.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider minVariable="bi433" maxVariable="bi434">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -1067,7 +1073,7 @@
 			<EditorProperties>
 				<Property key="autoChartCategory">CONTROL</Property>
 				<Property key="isAutoLabel">true</Property>
-				<Property key="addedInteractionQueryDataItems">bi1129,bi1130</Property>
+				<Property key="addedInteractionQueryDataItems">bi1145,bi1146</Property>
 			</EditorProperties>
 			<Title auto="false"><P><Span>Select a Product/Tool:</Span></P></Title>
 			<ComboBox valueVariable="bi38"/>
@@ -1108,7 +1114,7 @@
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23893.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23923.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider minVariable="bi435" maxVariable="bi436">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -1136,7 +1142,7 @@
 			<EditorProperties>
 				<Property key="autoChartCategory">CONTROL</Property>
 				<Property key="isAutoLabel">true</Property>
-				<Property key="addedInteractionQueryDataItems">bi1131</Property>
+				<Property key="addedInteractionQueryDataItems">bi1147</Property>
 			</EditorProperties>
 			<Title auto="false"><P><Span>Select a Product/Tool:</Span></P></Title>
 			<ComboBox valueVariable="bi97"/>
@@ -1198,7 +1204,7 @@
 					</ConditionParameters>
 				</Condition>
 			</Conditions>
-<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel">
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
     <Meta>
         <DynVars>
@@ -1230,7 +1236,8 @@
     </Meta>
     <LayoutDataMatrix name="LayoutDataMatrix_18" cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true" rowVars="ROW" columnVars="COLUMN">
         <LayoutPrototypeOverlay2D wallDisplay="NONE">
-            <BarChartParm name="BarChart" tipListPolicy="replace" _stmt="barchart" compactLabelFormats="true" groupDisplay="cluster" orient="horizontal" group100="none" stat="none" segmentLabel="true" tip="TIP" category="CATEGORY" responseVars="RESPONSE" group="GROUP">
+            <BarChartParm name="BarChart" tipListPolicy="replace" _stmt="barchart" compactLabelFormats="true" groupDisplay="cluster" orient="horizontal" clusterBarWidth="0.850000023" group100="none" stat="none" segmentLabel="true" tip="TIP" category="CATEGORY" responseVars="RESPONSE" group="GROUP">
+                <CompactLabelFormatOpts scaleType="value" precisionType="number"/>
                 <SegmentLabelAttrs size="10pt" weight="bold"/>
             </BarChartParm>
             <XAxisOpts name="categoryAxis" display="LABEL TICKVALUES" gridDisplay="on">
@@ -1320,6 +1327,7 @@
         </SupplementalContents>
         <LayoutPrototypeRegion>
             <PieChart name="PieChart" tipListPolicy="replace" _stmt="piechart" compactLabelFormats="true" otherSlice="false" categoryDirection="clockwise" categoryOrder="data" display="NOPIEHEADER" start="90" stat="none" groupOrder="ascending" dataLabelContent="PERCENT" dataLabelLocation="callout" includeMissingGroup="true" groupDisplay="cluster" tip="TIP" category="CATEGORY" responseVars="RESPONSE" group="GROUP">
+                <CompactLabelFormatOpts scaleType="value" precisionType="number"/>
                 <DonutOpts holeContent="VALUE"/>
                 <DataLabelAttrs size="14pt" weight="bold"/>
             </PieChart>
@@ -1345,7 +1353,7 @@
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
 				<Property key="autoChartCategory">CONTROL</Property>
-				<Property key="addedInteractionQueryDataItems">bi1133</Property>
+				<Property key="addedInteractionQueryDataItems">bi1149</Property>
 			</EditorProperties>
 			<Title auto="false"><P><Span>Select a Category:</Span></P></Title>
 			<LinkBar valueVariable="bi31"/>
@@ -1363,7 +1371,7 @@
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23893.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23923.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider minVariable="bi437" maxVariable="bi438">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -1375,7 +1383,7 @@
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23893.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23923.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider orientation="horizontal" minVariable="bi704" maxVariable="bi705">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -1398,7 +1406,7 @@
 					</ConditionParameters>
 				</Condition>
 			</Conditions>
-<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel">
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
     <Meta>
         <DynVars>
@@ -1434,8 +1442,10 @@
         </DataNameMap>
     </Meta>
     <LayoutDataMatrix name="LayoutDataMatrix_21" cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true" rowVars="ROW" columnVars="COLUMN">
-        <LayoutPrototypeOverlay2D>
-            <BarChartParm name="BarChart" tipListPolicy="replace" _stmt="barchart" compactLabelFormats="true" groupDisplay="stack" groupOrder="data" orient="horizontal" barLabel="true" stat="none" tip="TIP" category="CATEGORY" responseVars="RESPONSE" group="GROUP" categoryOrderRole="response"/>
+        <LayoutPrototypeOverlay2D wallDisplay="NONE">
+            <BarChartParm name="BarChart" tipListPolicy="replace" _stmt="barchart" compactLabelFormats="true" groupDisplay="stack" groupOrder="data" orient="horizontal" clusterBarWidth="0.850000023" barLabel="true" stat="none" tip="TIP" category="CATEGORY" responseVars="RESPONSE" group="GROUP" categoryOrderRole="response">
+                <CompactLabelFormatOpts scaleType="value" precisionType="number"/>
+            </BarChartParm>
             <XAxisOpts name="categoryAxis" display="TICKVALUES">
                 <DiscreteOpts sortOrder="data"/>
                 <LinearOpts>
@@ -1490,27 +1500,27 @@
 					</ConditionParameters>
 				</Condition>
 			</Conditions>
-<![CDATA[<StatGraph border="false" missingValueDisplay="autolabel" opaque="false">
-    <PadAttrs bottom="0px" left="0px" right="0px" top="0px"/>
+<![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
     <Meta>
         <DynVars>
-            <DynVar assignedType="numeric" description="MEASURE_VAR" name="RESPONSE" required="true" type="numeric">
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="numeric" type="numeric">
                 <DefaultValues>
                     <Value>dd725.bi727</Value>
                 </DefaultValues>
             </DynVar>
-            <DynVar description="CATEGORY_VAR" name="CATEGORY" required="false" type="character"/>
-            <DynVar assignedType="numeric" description="TIP_VAR" multiplesAllowed="true" name="TIP" required="false" type="any">
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="false" type="character"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
                 <DefaultValues>
                     <Value>dd725.bi727</Value>
                 </DefaultValues>
             </DynVar>
-            <DynVar description="HIDDEN_VAR" multiplesAllowed="true" name="HIDDEN" required="false" type="character"/>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
         </DynVars>
     </Meta>
-    <LayoutDataPanel cellHeightMin="1px" cellWidthMin="1px" classVars="CATEGORY" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" rowGutter="4px" scroll="true">
+    <LayoutDataPanel cellHeightMin="1px" cellWidthMin="1px" rowGutter="4px" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" scroll="true" classVars="CATEGORY">
         <LayoutPrototypeRegion>
-            <KeyValue _stmt="keyValue" category="CATEGORY" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="center" key="responsevalue" name="KeyValue" response="RESPONSE" tip="TIP" tipListPolicy="replace" vAlign="top">
+            <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="center" key="responsevalue" vAlign="top" tip="TIP" category="CATEGORY" response="RESPONSE">
                 <ResponseValueFormatOpts extractScale="false"/>
                 <KeyAttrs color="3384319"/>
             </KeyValue>
@@ -1540,27 +1550,27 @@
 					</ConditionParameters>
 				</Condition>
 			</Conditions>
-<![CDATA[<StatGraph border="false" missingValueDisplay="autolabel" opaque="false">
-    <PadAttrs bottom="0px" left="0px" right="0px" top="0px"/>
+<![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
     <Meta>
         <DynVars>
-            <DynVar assignedType="numeric" description="MEASURE_VAR" name="RESPONSE" required="true" type="numeric">
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="numeric" type="numeric">
                 <DefaultValues>
                     <Value>dd728.bi741</Value>
                 </DefaultValues>
             </DynVar>
-            <DynVar description="CATEGORY_VAR" name="CATEGORY" required="false" type="character"/>
-            <DynVar assignedType="numeric" description="TIP_VAR" multiplesAllowed="true" name="TIP" required="false" type="any">
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="false" type="character"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
                 <DefaultValues>
                     <Value>dd728.bi741</Value>
                 </DefaultValues>
             </DynVar>
-            <DynVar description="HIDDEN_VAR" multiplesAllowed="true" name="HIDDEN" required="false" type="character"/>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
         </DynVars>
     </Meta>
-    <LayoutDataPanel cellHeightMin="1px" cellWidthMin="1px" classVars="CATEGORY" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" rowGutter="4px" scroll="true">
+    <LayoutDataPanel cellHeightMin="1px" cellWidthMin="1px" rowGutter="4px" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" scroll="true" classVars="CATEGORY">
         <LayoutPrototypeRegion>
-            <KeyValue _stmt="keyValue" category="CATEGORY" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="center" key="responsevalue" name="KeyValue" response="RESPONSE" tip="TIP" tipListPolicy="replace" vAlign="top">
+            <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="center" key="responsevalue" vAlign="top" tip="TIP" category="CATEGORY" response="RESPONSE">
                 <KeyAttrs color="3384319"/>
             </KeyValue>
         </LayoutPrototypeRegion>
@@ -1599,32 +1609,32 @@
 					</ConditionParameters>
 				</Condition>
 			</Conditions>
-<![CDATA[<StatGraph border="false" missingValueDisplay="autolabel" opaque="false">
-    <PadAttrs bottom="0px" left="0px" right="0px" top="0px"/>
+<![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
     <Meta>
         <DynVars>
-            <DynVar assignedType="numeric" description="MEASURE_VAR" name="RESPONSE" required="true" type="numeric">
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="numeric" type="numeric">
                 <DefaultValues>
                     <Value>dd742.bi749</Value>
                 </DefaultValues>
             </DynVar>
-            <DynVar assignedType="character" description="CATEGORY_VAR" name="CATEGORY" required="false" type="character">
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="false" assignedType="character" type="character">
                 <DefaultValues>
                     <Value>dd742.bi750</Value>
                 </DefaultValues>
             </DynVar>
-            <DynVar assignedType="character" description="TIP_VAR" multiplesAllowed="true" name="TIP" required="false" type="any">
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="character" type="any" multiplesAllowed="true">
                 <DefaultValues>
                     <Value>dd742.bi749</Value>
                     <Value>dd742.bi750</Value>
                 </DefaultValues>
             </DynVar>
-            <DynVar description="HIDDEN_VAR" multiplesAllowed="true" name="HIDDEN" required="false" type="character"/>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
         </DynVars>
     </Meta>
-    <LayoutDataPanel cellHeightMin="1px" cellWidthMin="1px" classVars="CATEGORY" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" rowGutter="4px" scroll="true">
+    <LayoutDataPanel cellHeightMin="1px" cellWidthMin="1px" rowGutter="4px" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" scroll="true" classVars="CATEGORY">
         <LayoutPrototypeRegion>
-            <KeyValue _stmt="keyValue" category="CATEGORY" display="CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="center" key="responsevalue" name="KeyValue" response="RESPONSE" tip="TIP" tipListPolicy="replace" vAlign="top">
+            <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="center" key="responsevalue" vAlign="top" tip="TIP" category="CATEGORY" response="RESPONSE">
                 <KeyAttrs color="3384319"/>
             </KeyValue>
         </LayoutPrototypeRegion>
@@ -1774,7 +1784,7 @@
 			<EditorProperties>
 				<Property key="autoChartCategory">CONTROL</Property>
 				<Property key="isAutoLabel">true</Property>
-				<Property key="addedInteractionQueryDataItems">bi1134</Property>
+				<Property key="addedInteractionQueryDataItems">bi1150</Property>
 			</EditorProperties>
 			<Title><P><Span>Select Product/Tool</Span></P></Title>
 			<CheckBoxList searchable="false" selectAllEnabled="false" valueVariable="bi829"/>
@@ -1814,7 +1824,7 @@
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23893.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23923.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider orientation="horizontal" minVariable="bi868" maxVariable="bi869">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -1842,27 +1852,27 @@
 					</ConditionParameters>
 				</Condition>
 			</Conditions>
-<![CDATA[<StatGraph border="false" missingValueDisplay="autolabel" opaque="false">
-    <PadAttrs bottom="0px" left="0px" right="0px" top="0px"/>
+<![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
     <Meta>
         <DynVars>
-            <DynVar assignedType="numeric" description="MEASURE_VAR" name="RESPONSE" required="true" type="numeric">
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="numeric" type="numeric">
                 <DefaultValues>
                     <Value>dd881.bi883</Value>
                 </DefaultValues>
             </DynVar>
-            <DynVar description="CATEGORY_VAR" name="CATEGORY" required="false" type="character"/>
-            <DynVar assignedType="numeric" description="TIP_VAR" multiplesAllowed="true" name="TIP" required="false" type="any">
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="false" type="character"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
                 <DefaultValues>
                     <Value>dd881.bi883</Value>
                 </DefaultValues>
             </DynVar>
-            <DynVar description="HIDDEN_VAR" multiplesAllowed="true" name="HIDDEN" required="false" type="character"/>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
         </DynVars>
     </Meta>
-    <LayoutDataPanel cellHeightMin="1px" cellWidthMin="1px" classVars="CATEGORY" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" rowGutter="4px" scroll="true">
+    <LayoutDataPanel cellHeightMin="1px" cellWidthMin="1px" rowGutter="4px" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" scroll="true" classVars="CATEGORY">
         <LayoutPrototypeRegion>
-            <KeyValue _stmt="keyValue" category="CATEGORY" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="left" key="responsevalue" name="KeyValue" response="RESPONSE" tip="TIP" tipListPolicy="replace" vAlign="center">
+            <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="left" key="responsevalue" vAlign="center" tip="TIP" category="CATEGORY" response="RESPONSE">
                 <KeyAttrs color="3384319"/>
             </KeyValue>
         </LayoutPrototypeRegion>
@@ -1896,32 +1906,32 @@
 					</ConditionParameters>
 				</Condition>
 			</Conditions>
-<![CDATA[<StatGraph border="false" missingValueDisplay="autolabel" opaque="false">
-    <PadAttrs bottom="0px" left="0px" right="0px" top="0px"/>
+<![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
     <Meta>
         <DynVars>
-            <DynVar assignedType="numeric" description="MEASURE_VAR" name="RESPONSE" required="true" type="numeric">
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="numeric" type="numeric">
                 <DefaultValues>
                     <Value>dd892.bi894</Value>
                 </DefaultValues>
             </DynVar>
-            <DynVar assignedType="character" description="CATEGORY_VAR" name="CATEGORY" required="false" type="character">
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="false" assignedType="character" type="character">
                 <DefaultValues>
                     <Value>dd892.bi895</Value>
                 </DefaultValues>
             </DynVar>
-            <DynVar assignedType="character" description="TIP_VAR" multiplesAllowed="true" name="TIP" required="false" type="any">
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="character" type="any" multiplesAllowed="true">
                 <DefaultValues>
                     <Value>dd892.bi894</Value>
                     <Value>dd892.bi895</Value>
                 </DefaultValues>
             </DynVar>
-            <DynVar description="HIDDEN_VAR" multiplesAllowed="true" name="HIDDEN" required="false" type="character"/>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
         </DynVars>
     </Meta>
-    <LayoutDataPanel cellHeightMin="1px" cellWidthMin="1px" classVars="CATEGORY" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" rowGutter="4px" scroll="true">
+    <LayoutDataPanel cellHeightMin="1px" cellWidthMin="1px" rowGutter="4px" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" scroll="true" classVars="CATEGORY">
         <LayoutPrototypeRegion>
-            <KeyValue _stmt="keyValue" category="CATEGORY" display="CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="left" key="responsevalue" name="KeyValue" response="RESPONSE" tip="TIP" tipListPolicy="replace" vAlign="center"/>
+            <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="left" key="responsevalue" vAlign="center" tip="TIP" category="CATEGORY" response="RESPONSE"/>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
 </StatGraph>]]>
@@ -1938,7 +1948,7 @@
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
 			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23893.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="23101.0" max="23923.0" dynamicMax="max" minBehavior="auto" maxBehavior="dynamic"/>
 			</DefaultValue>
 			<DualSlider orientation="horizontal" minVariable="bi950" maxVariable="bi951">
 				<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
@@ -1990,27 +2000,27 @@
 					</ConditionParameters>
 				</Condition>
 			</Conditions>
-<![CDATA[<StatGraph border="false" missingValueDisplay="autolabel" opaque="false">
-    <PadAttrs bottom="0px" left="0px" right="0px" top="0px"/>
+<![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
     <Meta>
         <DynVars>
-            <DynVar assignedType="numeric" description="MEASURE_VAR" name="RESPONSE" required="true" type="numeric">
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="numeric" type="numeric">
                 <DefaultValues>
                     <Value>dd964.bi966</Value>
                 </DefaultValues>
             </DynVar>
-            <DynVar description="CATEGORY_VAR" name="CATEGORY" required="false" type="character"/>
-            <DynVar assignedType="numeric" description="TIP_VAR" multiplesAllowed="true" name="TIP" required="false" type="any">
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="false" type="character"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
                 <DefaultValues>
                     <Value>dd964.bi966</Value>
                 </DefaultValues>
             </DynVar>
-            <DynVar description="HIDDEN_VAR" multiplesAllowed="true" name="HIDDEN" required="false" type="character"/>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
         </DynVars>
     </Meta>
-    <LayoutDataPanel cellHeightMin="1px" cellWidthMin="1px" classVars="CATEGORY" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" rowGutter="4px" scroll="true">
+    <LayoutDataPanel cellHeightMin="1px" cellWidthMin="1px" rowGutter="4px" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" scroll="true" classVars="CATEGORY">
         <LayoutPrototypeRegion>
-            <KeyValue _stmt="keyValue" category="CATEGORY" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="left" key="responsevalue" name="KeyValue" response="RESPONSE" tip="TIP" tipListPolicy="replace" vAlign="center">
+            <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="left" key="responsevalue" vAlign="center" tip="TIP" category="CATEGORY" response="RESPONSE">
                 <KeyAttrs color="3384319"/>
             </KeyValue>
         </LayoutPrototypeRegion>
@@ -2039,32 +2049,32 @@
 					</ConditionParameters>
 				</Condition>
 			</Conditions>
-<![CDATA[<StatGraph border="false" missingValueDisplay="autolabel" opaque="false">
-    <PadAttrs bottom="0px" left="0px" right="0px" top="0px"/>
+<![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
     <Meta>
         <DynVars>
-            <DynVar assignedType="numeric" description="MEASURE_VAR" name="RESPONSE" required="true" type="numeric">
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="numeric" type="numeric">
                 <DefaultValues>
                     <Value>dd973.bi976</Value>
                 </DefaultValues>
             </DynVar>
-            <DynVar assignedType="character" description="CATEGORY_VAR" name="CATEGORY" required="false" type="character">
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="false" assignedType="character" type="character">
                 <DefaultValues>
                     <Value>dd973.bi975</Value>
                 </DefaultValues>
             </DynVar>
-            <DynVar assignedType="character" description="TIP_VAR" multiplesAllowed="true" name="TIP" required="false" type="any">
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="character" type="any" multiplesAllowed="true">
                 <DefaultValues>
                     <Value>dd973.bi976</Value>
                     <Value>dd973.bi975</Value>
                 </DefaultValues>
             </DynVar>
-            <DynVar description="HIDDEN_VAR" multiplesAllowed="true" name="HIDDEN" required="false" type="character"/>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
         </DynVars>
     </Meta>
-    <LayoutDataPanel cellHeightMin="1px" cellWidthMin="1px" classVars="CATEGORY" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" rowGutter="4px" scroll="true">
+    <LayoutDataPanel cellHeightMin="1px" cellWidthMin="1px" rowGutter="4px" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" scroll="true" classVars="CATEGORY">
         <LayoutPrototypeRegion>
-            <KeyValue _stmt="keyValue" category="CATEGORY" display="CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="left" key="responsevalue" name="KeyValue" response="RESPONSE" tip="TIP" tipListPolicy="replace" vAlign="center"/>
+            <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="left" key="responsevalue" vAlign="center" tip="TIP" category="CATEGORY" response="RESPONSE"/>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
 </StatGraph>]]>
@@ -2075,6 +2085,10 @@
 				<Column variable="bi975"/>
 			</Columns>
 		</Table>
+		<Text name="ve1140" label="Text 1" selectionDisabled="true" applyDynamicBrushes="no">
+			<P><Span>This report collects information about new releases of SAS Viya dating back to release 2023.04. It is updated along with the monthly stable cadence and convers the core SAS Viya platform products + open source pojects.</Span></P>
+			<P></P>
+		</Text>
 	</VisualElements>
 	<PromptDefinitions>
 		<PromptDefinition label="keyWord" isParameter="true" dataType="string" multiValued="false" name="pr75">
@@ -2881,6 +2895,33 @@
 				</MediaContainer>
 			</Body>
 		</HiddenSection>
+		<HiddenSection purpose="hidden" name="vi1138" label="About">
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve1140" name="vi1139">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</HiddenSection>
 	</View>
 	<Actions>
 		<CompositeAction name="ac63">
@@ -2961,7 +3002,7 @@
 	<Interactions>
 		<Interaction name="ia124" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve94" variable="bi90"/>
-			<InteractionElementReference purpose="target" ref="ve101" variable="bi1131"/>
+			<InteractionElementReference purpose="target" ref="ve101" variable="bi1147"/>
 		</Interaction>
 		<Interaction name="ia125" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve94" variable="bi90"/>
@@ -2981,25 +3022,25 @@
 		</Interaction>
 		<Interaction name="ia297" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve18" variable="bi433"/>
-			<InteractionElementReference purpose="target" ref="ve26" variable="bi1133"/>
+			<InteractionElementReference purpose="target" ref="ve26" variable="bi1149"/>
 		</Interaction>
 		<Interaction name="ia298" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve18" variable="bi433"/>
-			<InteractionElementReference purpose="target" ref="ve33" variable="bi1129"/>
+			<InteractionElementReference purpose="target" ref="ve33" variable="bi1145"/>
 		</Interaction>
 		<Interaction name="ia299" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve26" variable="bi31"/>
-			<InteractionElementReference purpose="target" ref="ve33" variable="bi1130"/>
+			<InteractionElementReference purpose="target" ref="ve33" variable="bi1146"/>
 		</Interaction>
 		<Interaction name="ia830" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve817" variable="bi822"/>
-			<InteractionElementReference purpose="target" ref="ve824" variable="bi1134"/>
+			<InteractionElementReference purpose="target" ref="ve824" variable="bi1150"/>
 		</Interaction>
-		<Interaction name="ia1128" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia1144" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve132"/>
 			<InteractionElementReference purpose="target" variable="pr75"/>
 		</Interaction>
-		<Interaction name="ia1132" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia1148" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr75"/>
 			<InteractionElementReference purpose="target" ref="ve119" variable="pr75"/>
 		</Interaction>
@@ -3126,7 +3167,7 @@
 		<Version key="4.42.0" lastDate="2024-07-03T00:00:00Z"/>
 		<Version key="4.45.0" lastDate="2024-10-20T00:00:00Z"/>
 		<Version key="4.46.0" lastDate="2024-12-09T00:00:00Z"/>
-		<Version key="4.53.0" lastDate="2025-07-02T00:00:00Z"/>
+		<Version key="4.53.0" lastDate="2025-07-07T00:00:00Z"/>
 	</Versions>
 	<Conversions>
 		<Conversion startVersion="4.29.0" finalVersion="4.30.0" date="2023-06-16T00:00:00Z"/>
@@ -3143,7 +3184,7 @@
 		<Conversion startVersion="4.41.0" finalVersion="4.42.0" date="2024-07-03T00:00:00Z"/>
 		<Conversion startVersion="4.42.0" finalVersion="4.45.0" date="2024-10-20T00:00:00Z"/>
 		<Conversion startVersion="4.45.0" finalVersion="4.46.0" date="2024-12-09T00:00:00Z"/>
-		<Conversion startVersion="4.46.0" finalVersion="4.53.0" date="2025-07-02T00:00:00Z"/>
+		<Conversion startVersion="4.46.0" finalVersion="4.53.0" date="2025-07-07T00:00:00Z"/>
 	</Conversions>
 	<Editors>
 		<Editor applicationName="VA">
@@ -3163,6 +3204,7 @@
 			<Revision editorVersion="2024.07" lastDate="2024-09-05T06:48:19.102Z"/>
 			<Revision editorVersion="2024.10" lastDate="2024-10-20T16:17:08.615Z"/>
 			<Revision editorVersion="2024.11" lastDate="2024-12-09T13:30:11.170Z"/>
+			<Revision editorVersion="2025.06" lastDate="2025-07-07T13:53:07.799Z"/>
 		</Editor>
 	</Editors>
 </History>
