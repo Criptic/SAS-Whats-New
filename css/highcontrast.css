@@ -621,7 +621,7 @@ Crosstab .Subtotals {
   fill-pattern-color: #000000;
   text-color: #d4b8f9;
   marker-size: 16px;
-  marker-symbol: triangleupfilled;
+  marker-symbol: trianglefilled;
   line-style: 1;
   line-thickness: 5px;
   fill-pattern: R2;
