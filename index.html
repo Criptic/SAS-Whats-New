@@ -223,24 +223,21 @@
              * @returns Returns a string containing a valid csv
              */
             function convertTableToCSV(htmlTableElement) {
-                let csvData = [];
-
-                // Get all data from the table element
-                let rows = htmlTableElement.getElementsByTagName('tr');
-                for (let row = 0; row < rows.length; row++) {
-                    // Get all cell data
-                    let cells = rows[row].querySelectorAll('td,th');
-                    let csvRowData = [];
-                    for (let cell = 0; cell < cells.length; cell++) {
-                        // Get the text of each cell and add it to the row data
-                        csvRowData.push(cells[cell].innerHTML);
+                const csvData = [];
+                const rows = htmlTableElement.getElementsByTagName('tr');
+                for (let i = 0; i < rows.length; i++) {
+                    const row = rows[i];
+                    const csvRowData = [];
+                    const cells = row.querySelectorAll('td,th');
+                    for (let j = 0; j < cells.length; j++) {
+                        const cell = cells[j];
+                        const cellText = cell.textContent.trim();
+                        const escapedText = cellText.replace(/"/g, '""');
+                        csvRowData.push(`"${escapedText}"`);
                     }
-                    csvData.push(csvRowData);
+                    csvData.push(csvRowData.join(','));
                 }
-
-                // Create csv output
-                csvData = csvData.join('\n');
-                return csvData;
+                return csvData.join('\n');
             }
 
             /**
