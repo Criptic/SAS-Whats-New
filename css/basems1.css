@@ -1353,6 +1353,19 @@ Crosstab .Subtotals {
   fill-transparency: 0.2;
 }
 
+.NodeKeyLabel {
+  fill-color: #ffffff;
+  transparency: 0;
+  line-transparency: 100;
+  line-color: #d1d1d1;
+  line-thickness: 0;
+  line-style: undefined;
+  text-color: #2f343d;
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 7.5pt;
+}
+
 .TipText {
   text-color: #626d7f;
 }
