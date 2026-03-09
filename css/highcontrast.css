@@ -287,6 +287,7 @@ Crosstab .Subtotals {
 .Graph {
   attribute-priority: none;
   data-style-reference: remapped;
+  contrast-enhanced-labels: true;
 }
 
 .GraphDataStyle1 {
