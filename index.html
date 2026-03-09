@@ -5,68 +5,75 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>SAS Whats New</title>
-        <script
-            async
-            src="https://cdn.developer.sas.com/packages/va-report-components/latest/dist/umd/va-report-components.js"
-        ></script>
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
+        <script async src="https://cdn.developer.sas.com/packages/va-report-components/latest/dist/umd/va-report-components.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
         <style>
-            body {
-                margin: 0px;
-                padding: 0px;
-            }
-            sas-report,
-            sas-report-page,
-            sas-report-object {
-                width: 95vw;
-                height: 100vh;
-            }
+            body { margin: 0; padding: 0; background-color: #f8f9fa; font-family: sans-serif; }
+            .main-text { margin: 2% 5% 1.5% 5%; }
+            
+            /* SAS components sizing */
+            sas-report-object { width: 100%; height: 100px; display: block; }
+            #mainTable { height: 0; visibility: hidden; position: absolute; }
 
-            .main-text {
-                align-content: center;
-                margin: 2% 10% 0% 5%;
-            }
+            /* Controls Layout */
+            #controlContainer { display: flex; gap: 15px; margin: 0 5% 15px 5%; align-items: flex-start; flex-wrap: wrap; }
+            .controlItems { flex: 1; }
+            
+            .ctrl-release { flex: 0 0 250px; } 
+            .ctrl-category { flex: 3; min-width: 450px; } 
+            .ctrl-product { flex: 1; min-width: 200px; }
+            .search-group { flex: 1; min-width: 200px; } 
 
-            #controlContainer {
-                display: flex;
-                flex-direction: row;
-            }
+            /* Table Toolbar */
+            .table-toolbar { margin: 0 5% 10px 5%; display: flex; justify-content: space-between; align-items: flex-end; }
 
-            .controlItems {
-                height: 10vh;
+            /* Table Styles */
+            #tableDiv { margin: 0 5% 5% 5%; border: 1px solid #dee2e6; border-radius: 8px; background: white; box-shadow: 0 2px 4px rgba(0,0,0,0.05); overflow-x: auto; min-height: 200px; }
+            table { width: 100%; border-collapse: collapse; table-layout: fixed; min-width: 1000px; }
+            
+            th { 
+                cursor: pointer; background: #e9ecef; position: sticky; top: 0; 
+                padding: 12px; border-bottom: 2px solid #ced4da; text-align: left;
+                user-select: none; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em;
+                transition: background-color 0.2s;
+                white-space: nowrap; 
             }
+            th:hover { background-color: #dee2e6; }
+            
+            /* Column Width Restrictions */
+            .col-release { width: 120px; } 
+            .col-cat { width: 15%; } 
+            .col-prod { width: 15%; }
+            .col-short { width: 25%; } 
+            .col-long { width: auto; } 
+            
+            td { padding: 12px; border-bottom: 1px solid #eee; word-wrap: break-word; vertical-align: top; font-size: 0.9rem; line-height: 1.5; }
 
-            #releaseSlider {
-                width: 40vh;
+            /* Loading Spinner */
+            .spinner {
+                border: 4px solid rgba(0, 0, 0, 0.05);
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                border-left-color: #0d6efd;
+                animation: spin 1s linear infinite;
+                margin: 30px auto 15px auto;
             }
+            @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
-            #categoryButtons {
-                width: 80vh;
+            /* Context Menu */
+            #contextMenu {
+                display: none; position: fixed; z-index: 1000; background: white;
+                border: 1px solid #ccc; box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                list-style: none; padding: 5px 0; margin: 0; border-radius: 4px;
             }
-
-            #productDropDown {
-                width: 30vh;
-            }
-
-            #downloadData {
-                height: 50px;
-                align-self: center;
-            }
-
-            #tableDiv {
-                margin: 0% 5% 0% 5%;
-                display: none;
-            }
+            #contextMenu li { padding: 10px 20px; cursor: pointer; font-size: 14px; }
+            #contextMenu li:hover { background: #007bff; color: white; }
         </style>
     </head>
     <body>
         <div class="main-text">
-            <h1>Unofficial SAS What's New</h1>
+            <h1 class="mb-0">Unofficial SAS What's New</h1>
             <p>
                 This small site tries to make all of the SAS Viya updates easier
                 to search and filter and unite all updates in one place. All
@@ -116,229 +123,256 @@
                 This application was started with SAS Viya 2023.04, it does not
                 contain any information on prior releases.
             </p>
-            <p>
-                You can access <b>examples</b> and <b>documentation</b> deep
-                links by double clicking entries. Please note that not all
-                entries contain links to examples - some just link to the
-                documentation. You can also <b>sort</b> the document by either
-                clicking the column headers or by right clicking the table and
-                selecting sort.
-            </p>
-            <p>
-                Using the <b>Download</b> button you can download your current
-                selection as a <i>csv</i> file.
-            </p>
         </div>
-        <br />
-        <br />
+
         <div id="controlContainer">
-            <sas-report-object
-                packageUri="."
-                objectName="ve18"
-                id="releaseSlider"
-                class="controlItems"
-            ></sas-report-object>
-            <sas-report-object
-                packageUri="."
-                objectName="ve26"
-                id="categoryButtons"
-                class="controlItems"
-            ></sas-report-object>
-            <sas-report-object
-                packageUri="."
-                objectName="ve33"
-                id="productDropDown"
-                class="controlItems"
-            ></sas-report-object>
-            <button type="button" class="btn btn-primary" id="downloadData">
-                Download
-            </button>
-            <input
-                type="text"
-                class="form-control"
-                id="searchInput"
-                placeholder="Search string"
-                aria-label="Search string"
-                style="display: none"
-            />
+            <div class="controlItems ctrl-release">
+                <label class="form-label small fw-bold text-muted">RELEASE CADENCE</label>
+                <sas-report-object packageUri="." objectName="ve18"></sas-report-object>
+            </div>
+            <div class="controlItems ctrl-category">
+                <label class="form-label small fw-bold text-muted">CATEGORY FILTER</label>
+                <sas-report-object packageUri="." objectName="ve26"></sas-report-object>
+            </div>
+            <div class="controlItems ctrl-product">
+                <label class="form-label small fw-bold text-muted">PRODUCT / TOOL</label>
+                <sas-report-object packageUri="." objectName="ve33"></sas-report-object>
+            </div>
+            <div class="search-group">
+                <label for="searchInput" class="form-label small fw-bold text-muted">SEARCH UPDATES</label>
+                <input type="text" class="form-control" id="searchInput" placeholder="Type to filter rows...">
+            </div>
         </div>
-        <br />
-        <br />
-        <!-- Hidden VA table data source - replaced with custom build table -->
-        <sas-report-object
-            packageUri="."
-            objectName="ve42"
-            id="mainTable"
-        ></sas-report-object>
-        <div id="tableDiv" class="table-responsive">
-            <table id="dataTable"></table>
+
+        <div class="table-toolbar">
+            <p class="text-muted mb-0 small">Right-click cells for documentation/example links. Click column headers to sort.</p>
+            <button type="button" class="btn btn-outline-primary btn-sm px-4" id="csvBtn">Export CSV</button>
         </div>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"
-        ></script>
+
+        <sas-report-object packageUri="." objectName="ve42" id="mainTable"></sas-report-object>
+
+        <div id="tableDiv">
+            <table>
+                <thead>
+                    <tr id="headerRow">
+                        <th class="col-release" data-key="Release">Release <span></span></th>
+                        <th class="col-cat" data-key="Category">Category <span></span></th>
+                        <th class="col-prod" data-key="Product/Tool">Product/Tool <span></span></th>
+                        <th class="col-short" data-key="Short Update">Short Update <span></span></th>
+                        <th class="col-long" data-key="Long Update">Long Update <span></span></th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <tr id="loadingRow">
+                        <td colspan="5" class="text-center py-5">
+                            <div class="spinner"></div>
+                            <div class="text-muted fw-bold">Loading updates from SAS...</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <ul id="contextMenu">
+            <li id="menuDoc">Open Documentation</li>
+            <li id="menuEx">Open Example</li>
+        </ul>
+
         <script>
-            const searchInput = document.getElementById('searchInput');
-            const dataTable = document.getElementById('dataTable');
+            let masterData = [];
+            let sortState = { key: 'Release', mode: 'desc' }; 
+            let activeLinks = { doc: '', ex: '' };
+            let lastDataState = null; // Used to track data changes
+            let initialLoad = true;
 
-            function createTable(tableElement, dataSet) {
-                tableElement.innerHTML = '';
-                tableElement.classList = 'table table-striped';
+            const getHashColor = (str) => {
+                if (!str) return '#ffffff';
+                let hash = 0;
+                for (let i = 0; i < str.length; i++) hash = str.charCodeAt(i) + ((hash << 5) - hash);
+                return `hsla(${Math.abs(hash % 360)}, 65%, 95%, 1)`;
+            };
 
-                const tableHeader = document.createElement('thead');
-                const headingRow = document.createElement('tr');
-                tableHeader.appendChild(headingRow);
-                tableElement.appendChild(tableHeader);
+            function renderTable() {
+                const searchEl = document.getElementById('searchInput');
+                const search = searchEl ? searchEl.value.toLowerCase() : '';
+                const tbody = document.getElementById('tableBody');
+                
+                if (!tbody) return [];
 
-                // Processing column names
-                for (const column of dataSet.columns) {
-                    const heading = document.createElement('th');
-                    // Use the column label as the heading
-                    heading.appendChild(document.createTextNode(column.label));
-                    headingRow.appendChild(heading);
+                // Handle Loading State
+                if (initialLoad) {
+                    tbody.innerHTML = `<tr><td colspan="5" class="text-center py-5"><div class="spinner"></div><div class="text-muted fw-bold">Loading updates from SAS...</div></td></tr>`;
+                    return [];
                 }
 
-                const tableBody = document.createElement('tbody');
-                tableElement.appendChild(tableBody);
-
-                // Processing each row of data
-                for (const dataRow of dataSet.data) {
-                    const row = document.createElement('tr');
-                    tableBody.appendChild(row);
-
-                    // Processing each data value in the row
-                    for (const dataValue of dataRow) {
-                        const cell = document.createElement('td');
-                        cell.appendChild(document.createTextNode(dataValue));
-                        row.appendChild(cell);
-                    }
+                // Handle Empty Data State
+                if (masterData.length === 0) {
+                    tbody.innerHTML = `<tr><td colspan="5" class="text-center py-5 text-muted">No updates found for the selected filters.</td></tr>`;
+                    return [];
                 }
-            }
 
-            /**
-             * Take a valid HTML table and return it as a valid csv string
-             *
-             * @param {HTMLElement} htmlTableElement - The root table element which is to be converted
-             * @returns Returns a string containing a valid csv
-             */
-            function convertTableToCSV(htmlTableElement) {
-                const csvData = [];
-                const rows = htmlTableElement.getElementsByTagName('tr');
-                for (let i = 0; i < rows.length; i++) {
-                    const row = rows[i];
-                    const csvRowData = [];
-                    const cells = row.querySelectorAll('td,th');
-                    for (let j = 0; j < cells.length; j++) {
-                        const cell = cells[j];
-                        const cellText = cell.textContent.trim();
-                        const escapedText = cellText.replace(/"/g, '""');
-                        csvRowData.push(`"${escapedText}"`);
-                    }
-                    csvData.push(csvRowData.join(','));
-                }
-                return csvData.join('\n');
-            }
-
-            /**
-             * Download content as a file to the local systen
-             *
-             * @param {String} fileName - Name of the file, including file extension (should match the file type)
-             * @param {String} fileType - MIME File type, e.g. text/csv or text/plain
-             * @param {String} fileContent - The actual content of the file
-             */
-            function downloadAsFile(fileName, fileType, fileContent) {
-                let tmpLink = document.createElement('a');
-                tmpLink.setAttribute(
-                    'href',
-                    `data:${fileType};charset=utf-8, ${encodeURIComponent(
-                        fileContent
-                    )}`
+                let processed = masterData.filter(row => 
+                    Object.values(row).some(v => String(v).toLowerCase().includes(search))
                 );
-                tmpLink.setAttribute('download', fileName);
-                document.body.appendChild(tmpLink);
-                tmpLink.click();
-                document.body.removeChild(tmpLink);
-            }
 
-            /**
-             * Filters a table by two columns by a user input string
-             *
-             * @param {String} searchInputID - the ID of the HTML element of the text input
-             * @param {HTMLElement} tableElementID - the HTML element of the table that should be filtered
-             * @param {Array of two Integers} searchColumns - Array of the position of the two columns that should be filtered
-             */
-            function filterTableBySearch(
-                e,
-                searchInputID = 'searchInput',
-                tableElementID = 'dataTable',
-                searchColumns = [2, 3]
-            ) {
-                const searchInputElement =
-                    document.getElementById(searchInputID);
-                const filter = searchInputElement.value.toUpperCase();
-                const tableElement = document.getElementById(tableElementID);
-                let tr = tableElement.getElementsByTagName('tr');
+                if (sortState.mode) {
+                    processed.sort((a, b) => {
+                        let vA = a[sortState.key], vB = b[sortState.key];
+                        if (vA < vB) return sortState.mode === 'asc' ? -1 : 1;
+                        if (vA > vB) return sortState.mode === 'asc' ? 1 : -1;
+                        return 0;
+                    });
+                }
 
-                for (let i = 0; i < tr.length; i++) {
-                    const td0 =
-                        tr[i].getElementsByTagName('td')[searchColumns[0]];
-                    const td1 =
-                        tr[i].getElementsByTagName('td')[searchColumns[1]];
-                    if (td0 || td1) {
-                        const txtValue0 = td0.textContent || td0.innerText;
-                        const txtValue1 = td1.textContent || td1.innerText;
-                        if (
-                            txtValue0.toUpperCase().indexOf(filter) > -1 ||
-                            txtValue1.toUpperCase().indexOf(filter) > -1
-                        ) {
-                            tr[i].style.display = '';
-                        } else {
-                            tr[i].style.display = 'none';
+                document.querySelectorAll('th').forEach(th => {
+                    const span = th.querySelector('span');
+                    const key = th.getAttribute('data-key');
+                    if (span) {
+                        if (key === sortState.key) {
+                            span.textContent = sortState.mode === 'asc' ? ' ↑' : (sortState.mode === 'desc' ? ' ↓' : '');
+                        } else { 
+                            span.textContent = ''; 
                         }
                     }
+                });
+
+                tbody.innerHTML = '';
+                
+                if (processed.length === 0) {
+                    tbody.innerHTML = `<tr><td colspan="5" class="text-center py-4 text-muted">No results match your search.</td></tr>`;
+                    return [];
                 }
+
+                processed.forEach(row => {
+                    const tr = document.createElement('tr');
+                    tr.style.backgroundColor = getHashColor(row['Category']);
+                    
+                    ['Release', 'Category', 'Product/Tool', 'Short Update', 'Long Update'].forEach(col => {
+                        const td = document.createElement('td');
+                        td.textContent = row[col] || '';
+                        
+                        td.oncontextmenu = (e) => {
+                            e.preventDefault();
+                            activeLinks = { doc: row['Document Link'], ex: row['Example Link'] };
+                            const menu = document.getElementById('contextMenu');
+                            if (menu) {
+                                menu.style.display = 'block';
+                                menu.style.left = e.pageX + 'px';
+                                menu.style.top = e.pageY + 'px';
+                            }
+                        };
+                        tr.appendChild(td);
+                    });
+                    tbody.appendChild(tr);
+                });
+                
+                return processed; 
             }
 
-            searchInput.addEventListener('input', filterTableBySearch);
             window.addEventListener('vaReportComponents.loaded', async () => {
-                vaReportComponents.setLocale('en_US');
-                vaReportComponents.setFormatterLocale('en_US');
+                await customElements.whenDefined('sas-report-object');
                 const reportObject = document.getElementById('mainTable');
-                const objectHandle = await reportObject.getObjectHandle();
 
-                const selectionChangedListener = () => {
-                    // Retrieve the new selected data
-                    const selectedData = objectHandle.getData({
-                        formatData: true,
+                if (!reportObject) return;
+
+                let attempts = 0;
+                while (typeof reportObject.getObjectHandle !== 'function' && attempts < 50) {
+                    await new Promise(r => setTimeout(r, 100));
+                    attempts++;
+                }
+
+                if (typeof reportObject.getObjectHandle !== 'function') return;
+
+                try {
+                    const objectHandle = await reportObject.getObjectHandle();
+
+                    // Continuous Polling System to detect filter changes robustly
+                    setInterval(() => {
+                        const results = objectHandle.getData({ formatData: true });
+                        
+                        if (results && results.length > 0) {
+                            const ds = results[0];
+                            const currentDataString = JSON.stringify(ds.data);
+                            
+                            // Check if the data has actually changed since last poll
+                            if (currentDataString !== lastDataState) {
+                                lastDataState = currentDataString;
+                                initialLoad = false; // Turn off spinner
+                                
+                                if (ds.data && ds.data.length > 0) {
+                                    masterData = ds.data.map(row => {
+                                        let obj = {};
+                                        ds.columns.forEach((c, i) => obj[c.label] = row[i]);
+                                        return obj;
+                                    });
+                                } else {
+                                    masterData = []; // Filters resulted in empty dataset
+                                }
+                                
+                                renderTable();
+                            }
+                        }
+                    }, 500); // Checks for filter changes every half-second
+
+                } catch (error) {
+                    console.error("Error retrieving the object handle:", error);
+                }
+            });
+
+            document.addEventListener('DOMContentLoaded', () => {
+                document.querySelectorAll('th').forEach(th => {
+                    th.addEventListener('click', () => {
+                        const key = th.getAttribute('data-key');
+                        if (sortState.key !== key) {
+                            sortState = { key: key, mode: 'asc' };
+                        } else {
+                            if (sortState.mode === 'asc') sortState.mode = 'desc';
+                            else sortState = { key: 'Release', mode: 'desc' }; 
+                        }
+                        renderTable();
                     });
+                });
 
-                    for (const dataSet of selectedData) {
-                        // Process the data and display a table of currently selected data
-                        createTable(dataTable, dataSet);
-                    }
+                const searchInput = document.getElementById('searchInput');
+                if (searchInput) searchInput.addEventListener('input', renderTable);
 
-                    downloadAsFile(
-                        'SAS-Whats-New.csv',
-                        'text/csv',
-                        convertTableToCSV(dataTable)
-                    );
-                };
+                const contextMenu = document.getElementById('contextMenu');
+                document.addEventListener('click', () => {
+                    if (contextMenu) contextMenu.style.display = 'none';
+                });
 
-                const downloadData = document.getElementById('downloadData');
-                downloadData.addEventListener(
-                    'click',
-                    selectionChangedListener
-                );
+                const menuDoc = document.getElementById('menuDoc');
+                if (menuDoc) menuDoc.onclick = () => { if (activeLinks.doc) window.open(activeLinks.doc, '_blank'); };
 
-                /*
-                // Call the listener when user selections change
-                objectHandle.addEventListener(
-                    'selectionChanged',
-                    selectionChangedListener
-                );
-                setTimeout(selectionChangedListener, 1000);
-                */
+                const menuEx = document.getElementById('menuEx');
+                if (menuEx) menuEx.onclick = () => { if (activeLinks.ex) window.open(activeLinks.ex, '_blank'); };
+
+                const csvBtn = document.getElementById('csvBtn');
+                if (csvBtn) {
+                    csvBtn.onclick = () => {
+                        const dataToExport = renderTable(); 
+                        if (!dataToExport || dataToExport.length === 0) return;
+                        
+                        const headers = ['Release', 'Category', 'Product/Tool', 'Short Update', 'Long Update'];
+                        let csvContent = headers.join(',') + '\n';
+                        
+                        dataToExport.forEach(row => {
+                            let rowString = headers.map(h => {
+                                let val = String(row[h] || '').replace(/"/g, '""'); 
+                                return `"${val}"`;
+                            }).join(',');
+                            csvContent += rowString + '\n';
+                        });
+                        
+                        const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+                        const url = URL.createObjectURL(blob);
+                        const link = document.createElement('a');
+                        link.href = url;
+                        link.download = `SAS_Whats_New_Export.csv`;
+                        link.click();
+                        URL.revokeObjectURL(url);
+                    };
+                }
             });
         </script>
     </body>
