@@ -29,7 +29,7 @@
 
             /* Table Styles */
             #tableDiv { margin: 0 5% 5% 5%; border: 1px solid #dee2e6; border-radius: 8px; background: white; box-shadow: 0 2px 4px rgba(0,0,0,0.05); overflow-x: auto; min-height: 200px; }
-            table { width: 100%; border-collapse: collapse; table-layout: fixed; min-width: 1000px; }
+            table { width: 100%; border-collapse: collapse; table-layout: fixed; min-width: 1050px; }
             
             th { 
                 cursor: pointer; background: #e9ecef; position: sticky; top: 0; 
@@ -39,8 +39,11 @@
                 white-space: nowrap; 
             }
             th:hover { background-color: #dee2e6; }
+            th.no-sort { cursor: default; }
+            th.no-sort:hover { background: #e9ecef; }
             
             /* Column Width Restrictions */
+            .col-row { width: 60px; text-align: center; } 
             .col-release { width: 120px; } 
             .col-cat { width: 15%; } 
             .col-prod { width: 15%; }
@@ -48,6 +51,7 @@
             .col-long { width: auto; } 
             
             td { padding: 12px; border-bottom: 1px solid #eee; word-wrap: break-word; vertical-align: top; font-size: 0.9rem; line-height: 1.5; }
+            td.td-row { text-align: center; font-weight: bold; color: #6c757d; } 
 
             /* Loading Spinner */
             .spinner {
@@ -155,6 +159,7 @@
             <table>
                 <thead>
                     <tr id="headerRow">
+                        <th class="col-row no-sort">#</th>
                         <th class="col-release" data-key="Release">Release <span></span></th>
                         <th class="col-cat" data-key="Category">Category <span></span></th>
                         <th class="col-prod" data-key="Product/Tool">Product/Tool <span></span></th>
@@ -164,7 +169,7 @@
                 </thead>
                 <tbody id="tableBody">
                     <tr id="loadingRow">
-                        <td colspan="5" class="text-center py-5">
+                        <td colspan="6" class="text-center py-5">
                             <div class="spinner"></div>
                             <div class="text-muted fw-bold">Loading updates from SAS...</div>
                         </td>
@@ -182,14 +187,26 @@
             let masterData = [];
             let sortState = { key: 'Release', mode: 'desc' }; 
             let activeLinks = { doc: '', ex: '' };
-            let lastDataState = null; // Used to track data changes
+            let lastDataState = null; 
             let initialLoad = true;
 
-            const getHashColor = (str) => {
+            const getCategoryColor = (str) => {
                 if (!str) return '#ffffff';
-                let hash = 0;
-                for (let i = 0; i < str.length; i++) hash = str.charCodeAt(i) + ((hash << 5) - hash);
-                return `hsla(${Math.abs(hash % 360)}, 65%, 95%, 1)`;
+                const cat = str.trim();
+                switch (cat) {
+                    case 'Administration':
+                    case 'Operations':
+                        return '#FCDD7C'; // Yellow
+                    case 'Analytics':
+                        return '#ACB0FF'; // Purple/Blue
+                    case 'Data Management':
+                        return '#7DC3FC'; // Light Blue
+                    case 'Decisioning':
+                    case 'ModelOps':
+                        return '#43D09D'; // Green
+                    default:
+                        return '#fcfcfc'; // Fallback very light gray for unmapped categories
+                }
             };
 
             function renderTable() {
@@ -199,15 +216,13 @@
                 
                 if (!tbody) return [];
 
-                // Handle Loading State
                 if (initialLoad) {
-                    tbody.innerHTML = `<tr><td colspan="5" class="text-center py-5"><div class="spinner"></div><div class="text-muted fw-bold">Loading updates from SAS...</div></td></tr>`;
+                    tbody.innerHTML = `<tr><td colspan="6" class="text-center py-5"><div class="spinner"></div><div class="text-muted fw-bold">Loading updates from SAS...</div></td></tr>`;
                     return [];
                 }
 
-                // Handle Empty Data State
                 if (masterData.length === 0) {
-                    tbody.innerHTML = `<tr><td colspan="5" class="text-center py-5 text-muted">No updates found for the selected filters.</td></tr>`;
+                    tbody.innerHTML = `<tr><td colspan="6" class="text-center py-5 text-muted">No updates found for the selected filters.</td></tr>`;
                     return [];
                 }
 
@@ -227,7 +242,7 @@
                 document.querySelectorAll('th').forEach(th => {
                     const span = th.querySelector('span');
                     const key = th.getAttribute('data-key');
-                    if (span) {
+                    if (span && key) {
                         if (key === sortState.key) {
                             span.textContent = sortState.mode === 'asc' ? ' ↑' : (sortState.mode === 'desc' ? ' ↓' : '');
                         } else { 
@@ -239,14 +254,21 @@
                 tbody.innerHTML = '';
                 
                 if (processed.length === 0) {
-                    tbody.innerHTML = `<tr><td colspan="5" class="text-center py-4 text-muted">No results match your search.</td></tr>`;
+                    tbody.innerHTML = `<tr><td colspan="6" class="text-center py-4 text-muted">No results match your search.</td></tr>`;
                     return [];
                 }
 
-                processed.forEach(row => {
+                processed.forEach((row, index) => {
                     const tr = document.createElement('tr');
-                    tr.style.backgroundColor = getHashColor(row['Category']);
+                    tr.style.backgroundColor = getCategoryColor(row['Category']);
                     
+                    // Add Row Number Cell
+                    const tdNum = document.createElement('td');
+                    tdNum.className = 'td-row';
+                    tdNum.textContent = index + 1;
+                    tr.appendChild(tdNum);
+
+                    // Add the Rest of the Data Cells
                     ['Release', 'Category', 'Product/Tool', 'Short Update', 'Long Update'].forEach(col => {
                         const td = document.createElement('td');
                         td.textContent = row[col] || '';
@@ -286,7 +308,6 @@
                 try {
                     const objectHandle = await reportObject.getObjectHandle();
 
-                    // Continuous Polling System to detect filter changes robustly
                     setInterval(() => {
                         const results = objectHandle.getData({ formatData: true });
                         
@@ -294,10 +315,9 @@
                             const ds = results[0];
                             const currentDataString = JSON.stringify(ds.data);
                             
-                            // Check if the data has actually changed since last poll
                             if (currentDataString !== lastDataState) {
                                 lastDataState = currentDataString;
-                                initialLoad = false; // Turn off spinner
+                                initialLoad = false; 
                                 
                                 if (ds.data && ds.data.length > 0) {
                                     masterData = ds.data.map(row => {
@@ -306,13 +326,13 @@
                                         return obj;
                                     });
                                 } else {
-                                    masterData = []; // Filters resulted in empty dataset
+                                    masterData = []; 
                                 }
                                 
                                 renderTable();
                             }
                         }
-                    }, 500); // Checks for filter changes every half-second
+                    }, 500); 
 
                 } catch (error) {
                     console.error("Error retrieving the object handle:", error);
@@ -320,7 +340,7 @@
             });
 
             document.addEventListener('DOMContentLoaded', () => {
-                document.querySelectorAll('th').forEach(th => {
+                document.querySelectorAll('th[data-key]').forEach(th => {
                     th.addEventListener('click', () => {
                         const key = th.getAttribute('data-key');
                         if (sortState.key !== key) {
@@ -353,11 +373,12 @@
                         const dataToExport = renderTable(); 
                         if (!dataToExport || dataToExport.length === 0) return;
                         
-                        const headers = ['Release', 'Category', 'Product/Tool', 'Short Update', 'Long Update'];
+                        const headers = ['Row', 'Release', 'Category', 'Product/Tool', 'Short Update', 'Long Update'];
                         let csvContent = headers.join(',') + '\n';
                         
-                        dataToExport.forEach(row => {
+                        dataToExport.forEach((row, index) => {
                             let rowString = headers.map(h => {
+                                if (h === 'Row') return `"${index + 1}"`; 
                                 let val = String(row[h] || '').replace(/"/g, '""'); 
                                 return `"${val}"`;
                             }).join(',');
