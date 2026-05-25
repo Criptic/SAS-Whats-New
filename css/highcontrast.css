@@ -2068,11 +2068,17 @@ Crosstab .Subtotals {
 
 .SliderUI5 {
   bar-line-color-top: #ffffff;
-  bar-fill-color: #abd1fc;
+  bar-fill-color: #ffffff;
   bar-line-color-bottom: #ffffff;
   thumb-fill-color-donut: #000000;
-  thumb-fill-color-center: #abd1fc;
+  thumb-fill-color-center: #ffffff;
   thumb-line-color: #ffffff;
+  missing-checkbox-background-color-selected: #ffffff;
+  missing-checkbox-border-color: #ffffff;
+  missing-checkbox-border-color-selected: #ffffff;
+  missing-checkbox-background-color: #000000;
+  missing-checkbox-color: #000000;
+  bar-fill-color-unselected: #000000;
 }
 
 .ButtonBar {

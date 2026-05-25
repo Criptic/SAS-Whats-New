@@ -1641,7 +1641,7 @@ Crosstab .Subtotals {
 .GraphSlider {
   bar-line-color-top: #626d7f;
   bar-fill-color: #ffffff;
-  bar-line-color-bottom: #e5e7eb;
+  bar-line-color-bottom: #9aa3b1;
   thumb-fill-color-donut: #ffffff;
   thumb-fill-color-center: #626d7f;
   thumb-line-color: #626d7f;
@@ -2073,6 +2073,12 @@ Crosstab .Subtotals {
   thumb-fill-color-donut: #ffffff;
   thumb-fill-color-center: #3c444f;
   thumb-line-color: #626d7f;
+  missing-checkbox-background-color-selected: #3c444f;
+  missing-checkbox-border-color: #23282e;
+  missing-checkbox-border-color-selected: #3c444f;
+  missing-checkbox-background-color: #ffffff;
+  missing-checkbox-color: #ffffff;
+  bar-fill-color-unselected: #ffffff;
 }
 
 .ButtonBar {
