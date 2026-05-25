@@ -279,8 +279,8 @@
                             const menu = document.getElementById('contextMenu');
                             if (menu) {
                                 menu.style.display = 'block';
-                                menu.style.left = e.pageX + 'px';
-                                menu.style.top = e.pageY + 'px';
+                                menu.style.left = e.clientX + 'px';
+                                menu.style.top = e.clientY + 'px';
                             }
                         };
                         tr.appendChild(td);
