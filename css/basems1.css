@@ -1315,6 +1315,8 @@ Crosstab .Subtotals {
   font-style: normal;
   font-weight: normal;
   text-color: #2f343d;
+  contrast-enhanced-labels: true;
+
 }
 
 .NodeDetails {
@@ -1470,6 +1472,8 @@ Crosstab .Subtotals {
 .TreeMap {
   gap: 1dpx;
   display-opts: standard;
+  contrast-enhanced-labels: true;
+
 }
 
 .LayoutDataMatrix {
@@ -1758,6 +1762,8 @@ Crosstab .Subtotals {
 
 .Network {
   display-opts: standard;
+  contrast-enhanced-labels: true;
+
 }
 
 .Basemap {

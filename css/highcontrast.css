@@ -343,7 +343,7 @@ Crosstab .Subtotals {
   marker-color: #ffadd9;
   fill-pattern-color: #000000;
   text-color: #ffadd9;
-  line-style: 5;
+  line-style: 11;
   line-thickness: 5px;
   marker-size: 16px;
   marker-symbol: diamondfilled;
@@ -358,7 +358,7 @@ Crosstab .Subtotals {
   marker-color: #a4d053;
   fill-pattern-color: #000000;
   text-color: #a4d053;
-  line-style: 14;
+  line-style: 9;
   line-thickness: 5px;
   marker-size: 16px;
   marker-symbol: starfilled;
@@ -830,7 +830,7 @@ Crosstab .Subtotals {
   text-color: #cccccc;
   marker-size: 16px;
   marker-symbol: diamondfilled;
-  line-style: 5;
+  line-style: 11;
   line-thickness: 5px;
 }
 
@@ -1315,6 +1315,8 @@ Crosstab .Subtotals {
   font-style: normal;
   font-weight: 400;
   text-color: #ffffff;
+  contrast-enhanced-labels: true;
+
 }
 
 .NodeDetails {
@@ -1470,6 +1472,8 @@ Crosstab .Subtotals {
 .TreeMap {
   gap: 1dpx;
   display-opts: statustext datalabel;
+  contrast-enhanced-labels: true;
+
 }
 
 .LayoutDataMatrix {
@@ -1758,6 +1762,8 @@ Crosstab .Subtotals {
 
 .Network {
   display-opts: nodeoutline nodefill nodefillpattern;
+  contrast-enhanced-labels: true;
+
 }
 
 .Basemap {
