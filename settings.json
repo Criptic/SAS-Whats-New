@@ -8,7 +8,7 @@
     "maxRowsLookup.geoPie" : 25000,
     "maxRowsLookup.timeSeries" : 10000,
     "maxRowsLookup.bubble" : 25000,
-    "iframeSandbox" : "allow-forms allow-presentation allow-same-origin allow-scripts",
+    "iframeSandbox" : "allow-forms allow-presentation allow-same-origin allow-scripts allow-popups",
     "maxRowsLookup.listTable" : 40000,
     "maxRowsLookup.geoBubble" : 25000,
     "maxRowsLookup.keyValue" : 100,
