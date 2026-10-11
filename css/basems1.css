@@ -1105,6 +1105,14 @@ Crosstab .Subtotals {
   font-size: 13.5pt;
 }
 
+.SecondaryTitleText {
+  font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  text-color: #2f343d;
+  font-weight: 400;
+  font-size: 9pt;
+}
+
 .FootnoteText {
   font-family: 'AvenirNext', 'Anova UI', Helvetica, Arial, sans-serif;
   font-style: italic;
